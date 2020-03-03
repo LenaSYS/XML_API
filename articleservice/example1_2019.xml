@@ -107,16 +107,16 @@
 		</story>
 		<comment description="Review" />
 	</article>
+	<article id="1994" time="2018-08-02" description="News">
+		<heading>
+			<text>The death of pinball?</text>
+		</heading>
+		<story>
+			<text>By 1999, the pinball industry was virtually dead and Williams stopped manufacturing pinball machines and focused on gambling devices as WMS Gaming. During the same year, Sega left the pinball industry and sold its pinball division, previously purchased from Data East in 1994, to Gary Stern, the son of Sam Stern. Gary Stern, who had been running Data East/Sega pinball since 1986, founded Stern Pinball, Inc. in Elk Grove Village, Illinois.</text>
+			<text>As of late 2018, Steve Ritchie, Brian Eddy, Keith Elwin, and George Gomez are designing pinball games at Stern Pinball, alongside longtime Data East/Sega Pinball designer John Borg.</text> 
+		</story>
+	</article>		
 </newspaper>
-<article id="1994" time="2018-08-02" description="News">
-  <heading>
-    <text>The death of pinball?</text>
-  </heading>
-  <story>
-		<text>By 1999, the pinball industry was virtually dead and Williams stopped manufacturing pinball machines and focused on gambling devices as WMS Gaming. During the same year, Sega left the pinball industry and sold its pinball division, previously purchased from Data East in 1994, to Gary Stern, the son of Sam Stern. Gary Stern, who had been running Data East/Sega pinball since 1986, founded Stern Pinball, Inc. in Elk Grove Village, Illinois.</text>
-		<text>As of late 2018, Steve Ritchie, Brian Eddy, Keith Elwin, and George Gomez are designing pinball games at Stern Pinball, alongside longtime Data East/Sega Pinball designer John Borg.</text> 
-	</story>
-</article>	
 <newspaper name="The SUN" subscribers="300.000" type="Evening Edition">
 	<article id="1882" time="2011-01-01" description="News">
 		<heading>
@@ -137,7 +137,6 @@
 			<text>The Reliant Robin is a small three-wheeled car produced by the Reliant Motor Company in Tamworth, England. It was offered in several versions (Mk1, Mk2 and Mk3) over a period of 30 years. It is the second-most popular fibreglass car in history, with Reliant being the second-biggest UK-owned car manufacturer for a time.</text>
 		</story>
 	</article>
-</newspaper>
 <article id="1984" time="2018-01-02" description="Review">
   <heading>
     <text>How off roadly is your truck?</text>
@@ -147,4 +146,5 @@
 		<text>KAMAZ trucks have won the Dakar Rally a record sixteen times, most in the truck category by any manufacturer.</text>
   </story>
 </article>
+</newspaper>
 </newspapers>
