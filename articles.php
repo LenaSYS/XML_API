@@ -10,12 +10,20 @@ header("Content-type: text/xml");
 	}else{
 			$paper="UNK";
 	}
+	if(isset($_GET['kind'])){
+			$kind=$_GET['kind'];
+	}else{
+			$kind="All";
+	}	
   
 	$output=false;
+	$articleoutput=false;
 	
 	function startElement($parser, $entityname, $attributes) {
 			global $output;
+			global $articleoutput;
 			global $paper;
+			global $kind;
 			if($entityname=="NEWSPAPER"){
 					$output=false;
 					if($attributes['NAME']==$paper){
@@ -23,16 +31,20 @@ header("Content-type: text/xml");
 					}
 			}else if($entityname=="ARTICLE"){
 					if($output){
-							echo "<ARTICLE ";
-							foreach ($attributes as $attname => $attvalue) {
-									echo $attname."='".$attvalue."' ";
-							}							
-							echo ">";
+							if($kind=="All"||$attributes['DESCRIPTION']==$kind) $articleoutput=true;
+							
+							if($articleoutput){
+									echo "<ARTICLE ";
+									foreach ($attributes as $attname => $attvalue) {
+											echo $attname."='".$attvalue."' ";
+									}							
+									echo ">";
+							}
 					}
 			}else if($entityname=="HEADING"||$entityname=="TEXT"||$entityname=="STORY"){
-					if($output) echo "<".$entityname.">";
+					if($articleoutput) echo "<".$entityname.">";
 			}else if($entityname=="COMMENT"){
-					if($output){
+					if($articleoutput){
 							echo "<COMMENT ";
 							foreach ($attributes as $attname => $attvalue) {
 									echo $attname."='".$attvalue."' ";
@@ -44,18 +56,23 @@ header("Content-type: text/xml");
   
 	function endElement($parser, $entityname) {
 			global $output;
+			global $articleoutput;
 			if($entityname=="NEWSPAPER"){
 					$output=false;
-			}else if($entityname=="ARTICLE"||$entityname=="HEADING"||$entityname=="TEXT"||$entityname=="STORY"||$entityname=="COMMENT"){
-					if($output) echo "</".$entityname.">";
+			}else if($entityname=="ARTICLE"){
+					if($articleoutput) echo "</ARTICLE>";
+					$articleoutput=false;
+			}else if($entityname=="HEADING"||$entityname=="TEXT"||$entityname=="STORY"||$entityname=="COMMENT"){
+					if($articleoutput) echo "</".$entityname.">";
 			}			
 	}
   
    function charData($parser, $chardata) {
 			global $output;
+		 	global $articleoutput;
 		 	$chardata=trim($chardata);
    		if($chardata=="") return;
-		 	if($output) echo $chardata;
+		 	if($articleoutput) echo $chardata;
    }
   
    $parser = xml_parser_create();
