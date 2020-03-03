@@ -1,0 +1,21 @@
+<persons>
+<person ssn="111213-1415" shoesize="52">
+	<name>Greger</name>
+	<address street="12th" />
+	<car lpno="abc123" latitude="58.38" longitude="13.56">
+		<color>Moccasin</color>
+	</car>
+</person>
+<person ssn="222222-5555" shoesize="51" >
+	<name>Sven</name>
+	<address street="12th" />
+	<address street="42nd" />
+	<address street="Mott" />		
+	<car lpno="abc123">
+		<color>Red</color>
+	</car>
+	<car lpno="cde224">
+		<color>Teal</color>
+	</car>	
+</person>	
+</persons>
