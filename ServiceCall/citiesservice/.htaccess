@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^/script$  script.php [R,L,QSA]
