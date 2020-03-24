@@ -2,11 +2,9 @@
 <head>
 <style>
 	.coderow{
-			width:650px;
 			background-color:#fff;
 	}
 	.marked{
-			width:650px;
 			background-color:#def;
 			border:1px dotted red;
 	}
@@ -38,12 +36,20 @@
   	transition: top 0.2s;
 }
 	
-	#codebox{
+	.codebox{
 			margin-left:35px;
 			box-shadow:1px 2px 4px #888;
-			width:640px;
+			width:615px;
+			padding:4px;
 	}
 	
+	#output{
+			position:absolute;
+			left:675px;
+			top:8px;
+			bottom:600px;
+			right:0px;
+	}
 </style>
 <script>
 
@@ -177,7 +183,7 @@ function advanceStep()
 </head>
 <body onload="advanceStep();">                                                                                                                                                
 
-<pre>
+<pre class='codebox'>
 $arr=array(
   array(<span class="data" id='Sweden'>"Sweden"</span>,<span class="data" id='s10'>10</span>,array(
     array(<span class="data" id='Stockholm'>"Stockholm"</span>,<span class="data" id='s962'>962</span>),
@@ -198,7 +204,7 @@ $arr=array(
 );
 </pre>
 	
-<pre id='codebox'>
+<pre id='codebox' class='codebox'>
 
 <span id="row0" class="coderow">echo '&lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;th&gt;Cities&lt;/th&gt;&lt;/tr&gt;';</span>
 <span id="row1" class="coderow">foreach ($arr as $country) {</span>
