@@ -8,6 +8,7 @@
 	.marked{
 			width:650px;
 			background-color:#def;
+			border:1px dotted red;
 	}
 	
 	td {
@@ -32,10 +33,9 @@
 	}
 	
 	#pointer {
-		
 		position:absolute;
 		left:8px;
-  	transition: top 0.5s;
+  	transition: top 0.2s;
 }
 	
 	#codebox{
@@ -59,9 +59,9 @@ var data=[
 ];
 	 
 var rows=[
-		[{statement:"echo",text:"<tr><th>Country</th><th>Population</th><th colspan='4'>Cities</th></tr>"}],
+		[{statement:"echo",text:"<tr><th>Country</th><th>Population</th><th>Cities</th></tr>"}],
 		[{statement:"foreach"}],
-		[{statement:"echo",text:"<tr>"}],	
+		[{statement:"echo",text:"<tr>"}],
 		[
 			{statement:"echo",text:"<td>"},
 			{statement:"echoarr",arr:0,pos:0},
@@ -72,14 +72,17 @@ var rows=[
 			{statement:"echoarr",arr:0,pos:1},
 			{statement:"echo",text:"</td>"}
 		],
-		[{statement:"foreach"}],
 		[{statement:"echo",text:"<td>"}],
 		[{statement:"echo",text:"<table>"}],
-		[{statement:"echo",text:"<tr><td>"},{statement:"echoarr",arr:1,pos:2,pos1:0},{statement:"echo",text:"</tr></td>"}],
-		[{statement:"echo",text:"<tr><td>"},{statement:"echoarr",arr:1,pos:2,pos1:1},{statement:"echo",text:"</tr></td>"}],
+		[{statement:"echo",text:"<tr><th>Name</th><th>Population</th></tr>"}],
+		[{statement:"foreach"}],
+		[{statement:"echo",text:"<tr>"}],	
+		[{statement:"echo",text:"<td>"},{statement:"echoarr",arr:1,pos:2,pos1:0},{statement:"echo",text:"</td>"}],
+		[{statement:"echo",text:"<td>"},{statement:"echoarr",arr:1,pos:2,pos1:1},{statement:"echo",text:"</td>"}],
+		[{statement:"echo",text:"</tr>"}],	
+		[{statement:"foreachret",arr:1,pos:2,row:8}],	
 		[{statement:"echo",text:"</table>"}],
 		[{statement:"echo",text:"</td>"}],
-		[{statement:"foreachret",arr:1,pos:2,row:5}],	
 		[{statement:"echo",text:"</tr>"}],
 		[{statement:"foreachret",arr:0,pos:0,row:1}],		
 ];
@@ -155,7 +158,6 @@ function advanceStep()
 		thepointer.style.top=(box.top-6)+"px";
 	
 		if(lastvar!="UNK"){
-				console.log(lastvar);
 				if(parseInt(lastvar)){
 						document.getElementById("s"+lastvar).classList.add("marked");
 				}else{
@@ -166,7 +168,7 @@ function advanceStep()
 
 		if(step<400){
 				step++;
-				setTimeout(advanceStep,500);
+				setTimeout(advanceStep,300);
 		}
 
 }
@@ -196,22 +198,27 @@ $arr=array(
 );
 </pre>
 	
-<pre id='codebox'>  		
-<span id="row0" class="coderow">echo "&lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;th colspan='4'&gt;Cities&lt;/th&gt;&lt;/tr&gt;";</span>
+<pre id='codebox'>
+
+<span id="row0" class="coderow">echo '&lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;th&gt;Cities&lt;/th&gt;&lt;/tr&gt;';</span>
 <span id="row1" class="coderow">foreach ($arr as $country) {</span>
-<span id="row2" class="coderow">  echo "&lt;tr&gt;";</span>
-<span id="row3" class="coderow">  echo "&lt;td&gt;".$country[0]."&lt;/td&gt;";</span>
-<span id="row4" class="coderow">  echo "&lt;td&gt;".$country[1]."&lt;/td&gt;";</span>
-<span id="row5" class="coderow">  foreach($country[2] as $city){</span>
-<span id="row6" class="coderow">    echo "&lt;td&gt;";</span>
-<span id="row7" class="coderow">    echo "&lt;table&gt;";</span>
-<span id="row8" class="coderow">    echo "&lt;tr&gt;&lt;td&gt;".$city[0]."&lt;/td&gt;&lt;/tr&gt;";</span>	
-<span id="row9" class="coderow">    echo "&lt;tr&gt;&lt;td&gt;".$city[1]."&lt;/td&gt;&lt;/tr&gt;";</span>
-<span id="row10" class="coderow">    echo "&lt;/table&gt;";</span>
-<span id="row11" class="coderow">    echo "&lt;/td&gt;";</span>
-<span id="row12" class="coderow">  }</span>
-<span id="row13" class="coderow">  echo "&lt;/tr&gt;";</span>
-<span id="row14" class="coderow">}</span>
+<span id="row2" class="coderow">    echo '&lt;tr&gt;';</span>
+<span id="row3" class="coderow">    echo '&lt;td&gt;'.$country[0].'&lt;/td&gt;';</span>
+<span id="row4" class="coderow">    echo '&lt;td&gt;'.$country[1].'&lt;/td&gt;';</span>
+<span id="row5" class="coderow">    echo '&lt;td&gt;';</span>
+<span id="row6" class="coderow">    echo '&lt;table&gt;';</span>
+<span id="row7" class="coderow">    echo '&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;/tr&gt;';</span>
+<span id="row8" class="coderow">    foreach($country[2] as $city){</span>
+<span id="row9" class="coderow">       echo '&lt;tr&gt;';</span>
+<span id="row10" class="coderow">       echo '&lt;td&gt;'.$city[0].'&lt;/td&gt;';</span>
+<span id="row11" class="coderow">       echo '&lt;td&gt;'.$city[1].'&lt;/td&gt;';</span>
+<span id="row12" class="coderow">       echo '&lt;/tr&gt;';</span>
+<span id="row13" class="coderow">    }</span>
+<span id="row14" class="coderow">    echo '&lt;/table&gt;';</span>
+<span id="row15" class="coderow">    echo '&lt;/td&gt;';</span>
+<span id="row16" class="coderow">    echo '&lt;/tr&gt;';</span>
+<span id="row17" class="coderow">}</span>
+
 </pre>
 
 <div id='output'>
