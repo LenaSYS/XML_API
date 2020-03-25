@@ -1,0 +1,161 @@
+<html>
+	<head>
+	
+	<style>
+
+		@font-face {
+    	font-family:'RobotoThin';
+    	src: url('roboto-condensed.light-italic.ttf');
+		}	
+		
+	</style>
+		
+	<link href="https://fonts.googleapis.com/css?family=Roboto Condensed&display=swap" rel="stylesheet"> 
+	
+	<script>
+
+	var c;
+
+	var arrpnt=[];
+		
+	var xmax=1200;
+	var ymax=750;
+		
+	var bigsize=90;
+
+	// Rectangle grid parameters
+	var boxcnty=45;
+	var boxcntx=10;
+	var gridsize=Math.ceil(750/boxcnty);
+	var rectsize=Math.ceil(gridsize*0.8);
+
+	var grd=null;
+		
+	function randRand(min,max)
+	{
+			return min+Math.round(max*Math.random());
+	}
+	
+	function setup()
+	{
+			canvas = document.getElementById("myCanvas");
+			c = canvas.getContext("2d");
+
+			for(j=0;j<boxcnty;j++){
+					arrpnt[j]=[];
+					for(i=0;i<boxcntx;i++){
+							col=randRand(0,i+2)+((i/5)*(i/5));
+							col=5.0*(col/boxcntx);
+							arrpnt[j][i]=col;		
+					}
+			}
+		
+			// Create gradient
+			grd = c.createLinearGradient(0, 0, 0, 500);
+			grd.addColorStop(0,"RGB(0,59,85)");
+			grd.addColorStop(1,"RGB(0,45,70)");		
+		
+			setTimeout(dispatch,delay);
+	}
+
+	function easeOutQuad(x) {
+		return 1 - ( 1 - x ) * ( 1 - x );
+	}
+	
+	var sequence=[{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:1.0,fadein:4.0,fadeout:4.0},{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:1.0,fadein:4.0,fadeout:8.0}];
+		
+	colarr=["RGB(0,59,85)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)"];		
+	
+	// Seconds count
+	var dispcnt=0;
+	var fader=1.0;
+	var dispstart=0;
+	var fadeinlen=0;
+	var fadeoutlen=0;
+	var item=0;
+	var delay=30;			
+		
+	function dispatch()
+	{
+			dispcnt++;
+			
+			var showitem=sequence[item];	
+			
+			var stepDuration=Math.round(1000.0/delay);
+			
+			var fadeInStart=dispstart;
+			var fadeInEnd=fadeInStart+(showitem.fadein*stepDuration);
+			var fadeOutStart=fadeInEnd+(showitem.duration*stepDuration);
+			var fadeOutEnd=fadeOutStart+(showitem.fadeout*stepDuration);
+		
+			if(dispcnt<fadeInEnd){
+					fadein=showitem.easein((dispcnt-fadeInStart)/(fadeInEnd-fadeInStart));
+					fadeout=1.0;
+			}else if(dispcnt<fadeOutStart){
+					fadein=1.0;
+					fadeout=1.0;
+			}else{
+					fadein=1.0;
+					fadeout=showitem.easeout(1.0-((dispcnt-fadeOutStart)/(fadeOutEnd-fadeOutStart)));
+			}
+		
+			if(fadein<0.0) fadein=0.0;
+			if(fadein>1.0) fadein=1.0;
+			if(fadeout<0.0) fadeout=0.0;
+			if(fadeout>1.0) fadeout=1.0;
+		
+			showitem.func(fadein,fadeout);
+		
+			if(dispcnt>fadeOutEnd){
+					item++;
+					if(item<sequence.length){
+							dispstart=dispcnt;
+							setTimeout(dispatch,delay);					
+					}else{
+							alert("End of script");
+					}
+			}else{
+					setTimeout(dispatch,delay);			
+			}
+			
+	}
+		
+	function drawit(fadein,fadeout)
+	{
+			c.globalAlpha=1.0;
+			c.clearRect(0,0,1200,750);
+		
+			c.fillStyle = "RGB(0,59,85)";
+			c.fillStyle = grd;		
+			c.fillRect(0,0,1200,750);
+		
+			if(fadeout<1.0){
+					c.globalAlpha=fadeout;			
+			}else if(fadein<1.0){
+					c.globalAlpha=fadein;						
+			}
+		
+			for(j=0;j<boxcnty;j++){
+					for(i=0;i<boxcntx;i++){
+							var col=Math.round(arrpnt[j][i]);
+							if(col>4) col=4;
+							c.fillStyle=colarr[col];
+							c.fillRect(xmax-(boxcntx*gridsize)+(i*gridsize),j*gridsize,rectsize,rectsize);
+					}
+			}
+	
+			c.font = bigsize+"px RobotoThin";		
+			c.fillStyle = "RGB(128,191,183)";		
+			c.beginPath();
+			c.fillText("INTRODUCTION TO PHP",120,200);
+			c.fillText("TABLE LAYOUTS",120,200+bigsize);		
+			c.fill();		
+					
+	}
+
+	</script>
+	</head>
+	<body onload='setup()'>
+			<canvas id='myCanvas' width=1200 height=750 style='border:1px solid red;'></canvas>
+	</body>
+</html>
