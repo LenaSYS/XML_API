@@ -18,8 +18,8 @@
 
 	var arrpnt=[];
 		
-	var xmax=1200;
-	var ymax=750;
+	var xmax=1430;
+	var ymax=780;
 		
 	var bigsize=90;
 
@@ -127,7 +127,7 @@
 		
 			c.fillStyle = "RGB(0,59,85)";
 			c.fillStyle = grd;		
-			c.fillRect(0,0,1200,750);
+			c.fillRect(0,0,xmax,ymax);
 		
 			if(fadeout<1.0){
 					c.globalAlpha=fadeout;			
@@ -156,6 +156,6 @@
 	</script>
 	</head>
 	<body onload='setup()'>
-			<canvas id='myCanvas' width=1200 height=750 style='border:1px solid red;'></canvas>
+			<canvas id='myCanvas' width=1430 height=780 style='border:1px solid red;'></canvas>
 	</body>
 </html>

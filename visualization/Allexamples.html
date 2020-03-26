@@ -1,0 +1,354 @@
+<html>  
+<head>
+<!-- Include css file and VM data -->
+<link rel="stylesheet" type="text/css" href="examples.css">	
+
+<script type="text/javascript" src="vmdata.js"></script>	
+<script type="text/javascript" src="aux.js"></script>	
+	
+<script>
+	
+//------------------------------------=======############==========----------------------------------------
+//                                 Slide content and color scheme
+//------------------------------------=======############==========----------------------------------------
+	
+var sequence=[
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:11.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:'a'},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:1.0,fadein:4.0,fadeout:4.0, startupEvent:setupSlide},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:1.0,fadein:4.0,fadeout:8.0, startupEvent:setupSlide}
+];
+
+colarr=["RGB(0,59,85)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)"];	
+
+//------------------------------------=======############==========----------------------------------------
+//                                 Canvas Slide Constants and Variables
+//------------------------------------=======############==========----------------------------------------
+
+var c;
+var arrpnt=[];
+
+var xmax=1430;
+var ymax=780;
+
+var bigsize=90;
+
+// Rectangle grid parameters
+var boxcnty=45;
+var boxcntx=10;
+var gridsize=Math.ceil(750/boxcnty);
+var rectsize=Math.ceil(gridsize*0.8);
+
+var grd=null;
+	
+// Dispatcher variables
+var dispcnt=0;
+var fader=1.0;
+var dispstart=0;
+var fadeinlen=0;
+var fadeoutlen=0;
+var item=0;
+var delay=30;			
+	
+//------------------------------------=======############==========----------------------------------------
+//                            Code Virtual Machine Constants and Variables
+//------------------------------------=======############==========----------------------------------------
+
+var step=0;
+var row=0;
+var arr=[0,0];
+	
+// Which example do we run
+var stepspeed=500;
+	
+//------------------------------------=======############==========----------------------------------------
+//                                            Functions
+//------------------------------------=======############==========----------------------------------------	
+
+//----------------------------------------------------------------------------------
+// setupSlides - Initialize Slide Dispatcher and setup for Canvas
+//----------------------------------------------------------------------------------
+	
+function setupSlides()
+{
+		console.log("setupSlides");
+		canvas = document.getElementById("mycanvas");
+		c = canvas.getContext("2d");
+
+		for(j=0;j<boxcnty;j++){
+				arrpnt[j]=[];
+				for(i=0;i<boxcntx;i++){
+						col=randRand(0,i+2)+((i/5)*(i/5));
+						col=5.0*(col/boxcntx);
+						arrpnt[j][i]=col;		
+				}
+		}
+
+		// Create gradient
+		grd = c.createLinearGradient(0, 0, 0, 500);
+		grd.addColorStop(0,"RGB(0,59,85)");
+		grd.addColorStop(1,"RGB(0,45,70)");		
+
+		item=0;
+		if(sequence[item].startupEvent!=null) sequence[item].startupEvent();
+		setTimeout(dispatch,delay);
+}
+
+//----------------------------------------------------------------------------------
+// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+//----------------------------------------------------------------------------------
+	
+function setupSlide(slideno)
+{
+		document.getElementById("codecontainer").style.display="none";
+		document.getElementById("slidecontainer").style.display="block";
+}
+	
+//----------------------------------------------------------------------------------
+// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+//----------------------------------------------------------------------------------
+	
+function drawcode(fadein,fadeout)
+{
+		if(fadeout<1.0){
+				document.getElementById("codecontainer").style.opacity=fadeout;			
+		}else if(fadein<1.0){
+				document.getElementById("codecontainer").style.opacity=fadein;			
+		}
+	
+}
+	
+//----------------------------------------------------------------------------------
+// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+//----------------------------------------------------------------------------------
+var timer=null;
+function setupCode()
+{
+		codeno=sequence[item].codeno;
+		itemid=sequence[item].itemid;
+	
+		document.getElementById("codecontainer").style.display="block";
+		document.getElementById("slidecontainer").style.display="none";	
+	
+		// Assign data and code
+		document.getElementById('databox').innerHTML=strings[(codeno*2)];
+		document.getElementById('codebox').innerHTML=strings[(codeno*2)+1];
+	
+		// Reset stepper
+		step=0;
+	
+		timer=new Date();
+	
+		document.getElementById("pointer").style.top=(document.getElementById(itemid+"row0").getBoundingClientRect().top-6)+"px";	
+		document.getElementById("pointer").style.display="none";
+	
+		// Start animation
+		setTimeout(advanceStep,Math.round(sequence[item].fadein*1000));
+}	
+	
+//----------------------------------------------------------------------------------
+// advanceStep - Advances virtual machine one step further
+//----------------------------------------------------------------------------------
+
+function advanceStep()
+{
+		document.getElementById("pointer").style.display="block";
+	
+		// Clear highlights
+		lst=document.getElementsByClassName("data");
+		for(i=0;i<lst.length;i++){	
+				lst[i].classList.remove("marked");
+		}
+		lst=document.getElementsByClassName("coderow");
+		for(i=0;i<lst.length;i++){	
+				lst[i].classList.remove("marked");
+		}	
+	
+		// Clear memory
+		arr=[0,0];
+		row=0;
+	
+		// Run n rows
+		str="<table>";
+		var lastvar="UNK";
+		for(k=0;k<step;k++){
+				if(row<rows[codeno].length){
+						therow=rows[codeno][row];
+						// Run statements
+						lastvar="UNK";
+						for(var i=0;i<therow.length;i++){
+								statement=therow[i];
+								if(statement.statement=="echo"){
+										// Echo statement
+										str+=statement.text;
+								}else if(statement.statement=="echoarr"){
+										// Echo variable
+										if(statement.arr==0){
+												// Echo data at data[i][pos]
+												lastvar=data[codeno][arr[0]][statement.pos];
+												str+=lastvar;
+										}else if(statement.arr==1){
+												// Echo data at data[i][pos][j][pos1]
+												lastvar=data[codeno][arr[0]][statement.pos][arr[1]][statement.pos1];
+												str+=lastvar;
+										}
+								}else if(statement.statement=="foreach"){
+								}else if(statement.statement=="foreachret"){
+										if(statement.arr==0){
+												if(arr[0]<(data[codeno].length-1)){
+														arr[0]++;
+														row=statement.row;
+												}
+										}else if(statement.arr==1){
+												if(arr[1]<(data[codeno][arr[0]][statement.pos].length-1)){
+														arr[1]++;
+														row=statement.row;
+												}else{
+														arr[1]=0;
+												}										
+										}
+								}
+						}
+				}
+				row++;
+		}
+		str+="</table>";
+		document.getElementById('output').innerHTML=str;
+	
+		if(row==0) row=1;
+		var therow=document.getElementById(itemid+"row"+(row-1));
+		var thepointer=document.getElementById("pointer");
+		therow.classList.add("marked");
+		var box=therow.getBoundingClientRect();
+		thepointer.style.top=(box.top-6)+"px";
+	
+		if(lastvar!="UNK"){
+				if(parseInt(lastvar)){
+						document.getElementById(itemid+"s"+lastvar).classList.add("marked");
+				}else{
+						document.getElementById(itemid+lastvar).classList.add("marked");
+				}
+		}
+
+		if(row<rows[codeno].length){
+				step++;
+				setTimeout(advanceStep,stepspeed);
+		}else{
+				var now=new Date();
+				console.log(((now-timer)/1000)-sequence[item].fadein);
+		}
+
+}
+	
+//----------------------------------------------------------------------------------
+// dispatch - Advances slide execution
+//----------------------------------------------------------------------------------
+
+function dispatch()
+{
+		dispcnt++;
+
+		var showitem=sequence[item];	
+
+		var stepDuration=Math.round(1000.0/delay);
+
+		var fadeInStart=dispstart;
+		var fadeInEnd=fadeInStart+(showitem.fadein*stepDuration);
+		var fadeOutStart=fadeInEnd+(showitem.duration*stepDuration);
+		var fadeOutEnd=fadeOutStart+(showitem.fadeout*stepDuration);
+
+		if(dispcnt<fadeInEnd){
+				fadein=showitem.easein((dispcnt-fadeInStart)/(fadeInEnd-fadeInStart));
+				fadeout=1.0;
+		}else if(dispcnt<fadeOutStart){
+				fadein=1.0;
+				fadeout=1.0;
+		}else{
+				fadein=1.0;
+				fadeout=showitem.easeout(1.0-((dispcnt-fadeOutStart)/(fadeOutEnd-fadeOutStart)));
+		}
+
+		if(fadein<0.0) fadein=0.0;
+		if(fadein>1.0) fadein=1.0;
+		if(fadeout<0.0) fadeout=0.0;
+		if(fadeout>1.0) fadeout=1.0;
+
+		showitem.func(fadein,fadeout);
+
+		if(dispcnt>fadeOutEnd){
+				item++;
+				if(item<sequence.length){
+						// Call event
+						if(sequence[item].startupEvent!=null) sequence[item].startupEvent();
+						dispstart=dispcnt;
+						setTimeout(dispatch,delay);					
+				}else{
+						alert("End of script");
+				}
+		}else{
+				setTimeout(dispatch,delay);			
+		}
+
+}
+	
+//----------------------------------------------------------------------------------
+// drawit - Draws title slide
+//----------------------------------------------------------------------------------
+
+function drawit(fadein,fadeout)
+{
+		c.globalAlpha=1.0;
+		c.clearRect(0,0,1200,750);
+
+		c.fillStyle = "RGB(0,59,85)";
+		c.fillStyle = grd;		
+		c.fillRect(0,0,xmax,ymax);
+
+		if(fadeout<1.0){
+				c.globalAlpha=fadeout;			
+		}else if(fadein<1.0){
+				c.globalAlpha=fadein;						
+		}
+
+		for(j=0;j<boxcnty;j++){
+				for(i=0;i<boxcntx;i++){
+						var col=Math.round(arrpnt[j][i]);
+						if(col>4) col=4;
+						c.fillStyle=colarr[col];
+						c.fillRect(xmax-(boxcntx*gridsize)+(i*gridsize),j*gridsize,rectsize,rectsize);
+				}
+		}
+
+		c.font = bigsize+"px RobotoThin";		
+		c.fillStyle = "RGB(128,191,183)";		
+		c.beginPath();
+		c.fillText("INTRODUCTION TO PHP",120,200);
+		c.fillText("TABLE LAYOUTS",120,200+bigsize);		
+		c.fill();		
+
+}
+
+</script>	
+</head>
+<body onload="setupSlides();">
+
+<div id='slidecontainer' style="display:none;">
+<canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;'></canvas>	
+</div>
+	
+<div id='codecontainer' style="display:none;">
+		<pre class='codebox' id='databox'></pre>	
+		<pre id='codebox' class='codebox'></pre>
+		<div id='output'></div>
+		<div id='pointer' style='display:none;'>
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="32px" height="26px" viewBox="0 0 653.2 517.2" enable-background="new 0 0 653.2 517.2" xml:space="preserve">
+					<polygon fill="#010101" points="653.2,258.1 337.9,0 337.9,127.4 115.7,127.4 115.7,127.4 0,127.4 0,388.7 137,388.7 137,388.7 
+			337.9,388.7 337.9,517.2 "/>
+					<polygon fill="#F99C2C" points="615.9,258.1 360.6,44.3 360.6,150.1 138.4,150.1 138.4,366.1 360.6,366.1 360.6,471.9 "/>
+					<rect x="22.7" y="150.1" fill="#F99C2C" width="91.7" height="216"/>
+			</svg>
+		</div>
+</div>
+		
+</body>                                                                                                                                               
+</html>                                                                                                                                               
