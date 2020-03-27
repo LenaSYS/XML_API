@@ -1,0 +1,218 @@
+<html>  
+<head>
+<style>
+
+	pre{
+			font-family:lucida console;
+			font-size:13px;
+	}
+	
+	body{
+			font-family:arial narrow;
+	}	
+	
+	.coderow{
+			background-color:#fff;
+	}
+	.marked{
+			background-color:#def;
+			border:1px dotted red;
+	}
+
+	td {
+			width:115px;
+			padding:4px;
+	}
+	
+	tr:nth-child(odd) {
+			background: #fff;
+	}
+
+	tr:nth-child(even) {
+			background: #ddd;
+	}	
+	
+	th{
+			background:#000;
+			color:#fff;
+	}
+	
+	table{
+			border-collapse: collapse;
+			border:2px solid black;
+	}
+	
+	#pointer {
+		position:absolute;
+		left:8px;
+  	transition: top 0.2s;
+}
+	
+	.codebox{
+			margin-left:35px;
+			box-shadow:1px 2px 4px #888;
+			width:615px;
+			padding:4px;
+	}
+	
+	#output{
+			position:absolute;
+			left:675px;
+			top:8px;
+			bottom:600px;
+			right:0px;
+	}
+	
+</style>
+<script>
+
+var step=0;
+var row=0;
+var arr=[0,0];
+	
+var data=[];
+	 
+var rows=[
+		[{statement:"echo",text:"<div style='padding:8px;border:1px solid red;margin:4px;'>"}],
+		[{statement:"echovar",text:"Hello"}],
+		[{statement:"echo",text:"</div>"}],	
+		[{statement:"echo",text:"<div style='padding:8px;border:1px solid blue;margin:4px;'>"}],	
+		[{statement:"echovar",text:"World"}],		
+		[{statement:"echo",text:"</div>"}],	
+];
+	
+function advanceStep()
+{
+		// Clear highlights
+		lst=document.getElementsByClassName("data");
+		for(i=0;i<lst.length;i++){	
+				lst[i].classList.remove("marked");
+		}
+		lst=document.getElementsByClassName("coderow");
+		for(i=0;i<lst.length;i++){	
+				lst[i].classList.remove("marked");
+		}	
+	
+		// Clear memory
+		arr=[0,0];
+		row=0;
+	
+		// Run n rows
+		str="<table>";
+		var lastvar="UNK";
+		for(k=0;k<step;k++){
+				if(row<rows.length){
+						therow=rows[row];
+						// Run statements
+						lastvar="UNK";
+						for(var i=0;i<therow.length;i++){
+								statement=therow[i];
+								if(statement.statement=="echo"){
+										// Echo statement
+										str+=statement.text;
+								}else if(statement.statement=="echoarr"){
+										// Echo variable
+										if(statement.arr==0){
+												// Echo data at data[i][pos]
+												lastvar=data[arr[0]][statement.pos];
+												str+=lastvar;
+										}else if(statement.arr==1){
+												// Echo data at data[i][pos][j][pos1]
+												lastvar=data[arr[0]][statement.pos][arr[1]][statement.pos1];
+												str+=lastvar;
+										}
+								}else if(statement.statement=="echovar"){
+										// Echo variable
+										lastvar=statement.text;
+										str+=lastvar;
+								}else if(statement.statement=="foreach"){
+								}else if(statement.statement=="foreachret"){
+										if(statement.arr==0){
+												if(arr[0]<(data.length-1)){
+														arr[0]++;
+														row=statement.row;
+												}
+										}else if(statement.arr==1){
+												if(arr[1]<(data[arr[0]][statement.pos].length-1)){
+														arr[1]++;
+														row=statement.row;
+												}else{
+														arr[1]=0;
+												}										
+										}
+								}
+						}
+				}
+				row++;
+		}
+		str+="</table>";
+		document.getElementById('output').innerHTML=str;
+	
+		if(row==0) row=1;
+		var therow=document.getElementById("row"+(row-1));
+		if(therow!=null){
+				var thepointer=document.getElementById("pointer");
+				therow.classList.add("marked");
+				var box=therow.getBoundingClientRect();
+				thepointer.style.top=(box.top-6)+"px";
+		}
+	
+		if(lastvar!="UNK"){
+				console.log(lastvar);
+				if(parseInt(lastvar)){
+						document.getElementById("s"+lastvar).classList.add("marked");
+				}else{
+						document.getElementById(lastvar).classList.add("marked");
+				}
+		}
+
+
+		if(step<400){
+				step++;
+				setTimeout(advanceStep,500);
+		}
+
+}
+
+</script>	
+</head>
+<body onload="advanceStep();">                                                                                                                                                
+
+<pre class='codebox'>
+
+$testvar=<span class="data" id='Hello'>"Hello"</span>;
+
+$arr=array(<span class="data" id='My'>"My"</span>,<span class="data" id='World'>"World")</span>;
+
+</pre>
+	
+<pre id='codebox' class='codebox'> 
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;?php
+<span id="row0" class="coderow">      echo "&lt;div style='padding:8px;border:1px solid red;margin:4px;' &gt;";</span>
+<span id="row1" class="coderow">      echo $testvar;</span>
+<span id="row2" class="coderow">      echo "&lt;/div&gt;"</span>
+<span id="row3" class="coderow">      echo "&lt;div style='padding:8px;border:1px solid blue;margin:4px;' &gt;";</span>
+<span id="row4" class="coderow">      echo $arr[1];</span>
+<span id="row5" class="coderow">      echo "&lt;/div&gt;";</span>		
+    ?&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<div id='output'>
+</div>
+	
+	<div id='pointer'>
+	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="26px" viewBox="0 0 653.2 517.2" enable-background="new 0 0 653.2 517.2" xml:space="preserve">
+<polygon fill="#010101" points="653.2,258.1 337.9,0 337.9,127.4 115.7,127.4 115.7,127.4 0,127.4 0,388.7 137,388.7 137,388.7 
+	337.9,388.7 337.9,517.2 "/>
+<polygon fill="#F99C2C" points="615.9,258.1 360.6,44.3 360.6,150.1 138.4,150.1 138.4,366.1 360.6,366.1 360.6,471.9 "/>
+<rect x="22.7" y="150.1" fill="#F99C2C" width="91.7" height="216"/>
+</svg>
+	</div>
+		
+</body>                                                                                                                                               
+</html>                                                                                                                                               

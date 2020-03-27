@@ -1,0 +1,276 @@
+<html>  
+<head>
+<style>
+
+	pre{
+			font-family:lucida console;
+			font-size:13px;
+	}
+	
+	body{
+			font-family:arial narrow;
+	}	
+	
+	.coderow{
+			background-color:#fff;
+	}
+	.marked{
+			background-color:#def;
+			border:1px dotted red;
+	}
+
+	td {
+			width:115px;
+			padding:4px;
+	}
+	
+	tr:nth-child(odd) {
+			background: #fff;
+	}
+
+	tr:nth-child(even) {
+			background: #ddd;
+	}	
+	
+	th{
+			background:#000;
+			color:#fff;
+	}
+	
+	table{
+			border-collapse: collapse;
+			border:2px solid black;
+	}
+	
+	#pointer {
+		position:absolute;
+		left:8px;
+  	transition: top 0.2s;
+}
+	
+	.codebox{
+			margin-left:35px;
+			box-shadow:1px 2px 4px #888;
+			width:615px;
+			padding:4px;
+	}
+	
+	#output{
+			position:absolute;
+			left:675px;
+			top:8px;
+			bottom:600px;
+			right:0px;
+	}
+	
+</style>
+<script>
+
+var step=0;
+var row=0;
+var arr=[0,0];
+	
+var data=[
+	["Sweden",10,[["Stockholm",962],["Gothenburg",572]]],
+	["France",67,[["Paris",2200],["Lyon",513],["Toulouse",458],["Lille",235]]],
+	["Spain", 46,[["Barcelona",1600],["Seville",690]]],
+	["Norway", 5,[["Oslo",650]]],
+];
+	 
+var rows=[
+		[{statement:"echo",text:"<tr><th>Country</th><th>Population</th><th>Cities</th></tr>"}],
+		[{statement:"foreach"}],
+		[{statement:"ifarr",arr:0,pos:1,row:2,else:4}],
+		[{statement:"echo",text:"<tr style='background:#def;'>"}],
+		[{statement:"else",else:5}],	
+		[{statement:"echo",text:"<tr style='background:#fed;'>"}],	
+		[
+			{statement:"echo",text:"<td style='border-right:2px solid black;' >"},
+			{statement:"echoarr",arr:0,pos:0},
+			{statement:"echo",text:"</td>"}
+		],
+		[
+			{statement:"echo",text:"<td style='border-right:2px solid black;'>"},
+			{statement:"echoarr",arr:0,pos:1},
+			{statement:"echo",text:"</td>"}
+		],
+		[{statement:"echo",text:"<td>"}],
+		[{statement:"echo",text:"<table>"}],
+		[{statement:"echo",text:"<tr><th>Name</th><th>Population</th></tr>"}],
+		[{statement:"foreach"}],
+		[{statement:"echo",text:"<tr>"}],	
+		[{statement:"echo",text:"<td>"},{statement:"echoarr",arr:1,pos:2,pos1:0},{statement:"echo",text:"</td>"}],
+		[{statement:"echo",text:"<td>"},{statement:"echoarr",arr:1,pos:2,pos1:1},{statement:"echo",text:"</td>"}],
+		[{statement:"echo",text:"</tr>"}],	
+		[{statement:"foreachret",arr:1,pos:2,row:8}],	
+		[{statement:"echo",text:"</table>"}],
+		[{statement:"echo",text:"</td>"}],
+		[{statement:"echo",text:"</tr>"}],
+		[{statement:"foreachret",arr:0,pos:0,row:1}],		
+];
+	
+function advanceStep()
+{
+		// Clear highlights
+		lst=document.getElementsByClassName("data");
+		for(i=0;i<lst.length;i++){	
+				lst[i].classList.remove("marked");
+		}
+		lst=document.getElementsByClassName("coderow");
+		for(i=0;i<lst.length;i++){	
+				lst[i].classList.remove("marked");
+		}	
+	
+		// Clear memory
+		arr=[0,0];
+		row=0;
+	
+		// Run n rows
+		str="<table>";
+		var lastvar="UNK";
+		for(k=0;k<step;k++){
+				if(row<rows.length){
+						therow=rows[row];
+						// Run statements
+						lastvar="UNK";
+						for(var i=0;i<therow.length;i++){
+								statement=therow[i];
+								if(statement.statement=="echo"){
+										// Echo statement
+										str+=statement.text;
+								}else if(statement.statement=="echoarr"){
+										// Echo variable
+										if(statement.arr==0){
+												// Echo data at data[i][pos]
+												lastvar=data[arr[0]][statement.pos];
+												str+=lastvar;
+										}else if(statement.arr==1){
+												// Echo data at data[i][pos][j][pos1]
+												lastvar=data[arr[0]][statement.pos][arr[1]][statement.pos1];
+												str+=lastvar;
+										}
+								}else if(statement.statement=="ifarr"){
+										// Compare variable
+										lastvar=data[arr[0]][statement.pos];
+										if(lastvar>15){
+												row=statement.row;
+										}else{
+												row=statement.else
+										}
+								}else if(statement.statement=="else"){
+										// skip if we reach
+										row=statement.else
+								}else if(statement.statement=="foreach"){
+								}else if(statement.statement=="foreachret"){
+										if(statement.arr==0){
+												if(arr[0]<(data.length-1)){
+														arr[0]++;
+														row=statement.row;
+												}
+										}else if(statement.arr==1){
+												if(arr[1]<(data[arr[0]][statement.pos].length-1)){
+														arr[1]++;
+														row=statement.row;
+												}else{
+														arr[1]=0;
+												}										
+										}
+								}
+						}
+				}
+				row++;
+		}
+		str+="</table>";
+		document.getElementById('output').innerHTML=str;
+	
+		if(row==0) row=1;
+		var therow=document.getElementById("row"+(row-1));
+		var thepointer=document.getElementById("pointer");
+		therow.classList.add("marked");
+		var box=therow.getBoundingClientRect();
+		thepointer.style.top=(box.top-6)+"px";
+	
+		if(lastvar!="UNK"){
+				if(parseInt(lastvar)){
+						document.getElementById("s"+lastvar).classList.add("marked");
+				}else{
+						document.getElementById(lastvar).classList.add("marked");
+				}
+		}
+
+
+		if(step<400){
+				step++;
+				setTimeout(advanceStep,300);
+		}
+
+}
+
+</script>	
+</head>
+<body onload="advanceStep();">                                                                                                                                                
+
+<pre class='codebox'>
+$arr=array(
+  array(<span class="data" id='Sweden'>"Sweden"</span>,<span class="data" id='s10'>10</span>,array(
+    array(<span class="data" id='Stockholm'>"Stockholm"</span>,<span class="data" id='s962'>962</span>),
+    array(<span class="data" id='Gothenburg'>"Gothenburg"</span>,<span class="data" id='s572'>572</span>))
+  ),
+  array(<span class="data" id='France'>"France"</span>,<span class="data" id='s67'>67</span>,array(
+    array(<span class="data" id='Paris'>"Paris"</span>,<span class="data" id='s2200'>2200</span>),
+    array(<span class="data" id='Lyon'>"Lyon"</span>,<span class="data" id='s513'>513</span>),
+    array(<span class="data" id='Toulouse'>"Toulouse"</span>,<span class="data" id='s458'>458</span>),
+    array(<span class="data" id='Lille'>"Lille"</span>,<span class="data" id='s235'>235</span>))
+  ),
+  array(<span class="data" id='Spain'>"Spain"</span>,<span class="data" id='s46'>46</span>,array(
+    array(<span class="data" id='Barcelona'>"Barcelona"</span>,<span class="data" id='s1600'>1600</span>),
+    array(<span class="data" id='Seville'>"Seville"</span>,<span class="data" id='s690'>690</span>))
+	),
+  array(<span class="data" id='Norway'>"Norway"</span>,<span class="data" id='s5'>5</span>,array(
+    array(<span class="data" id='Oslo'>"Oslo"</span>,<span class="data" id='s650'>650</span>))
+  )
+);
+</pre>
+	
+<pre id='codebox' class='codebox'>
+
+<span id="row0" class="coderow">echo '&lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;th&gt;Cities&lt;/th&gt;&lt;/tr&gt;';</span>
+<span id="row1" class="coderow">foreach ($arr as $country) {</span>
+<span id="row2" class="coderow">    if($country[1]&gt;30){</span>
+<span id="row3" class="coderow">      echo '&lt;tr style="background:#def;"&gt;';</span>				
+<span id="row4" class="coderow">    }else{</span>
+<span id="row5" class="coderow">      echo '&lt;tr style="background:#fed;"&gt;';</span>
+<span id="row6" class="coderow">    }</span>
+<span id="row7" class="coderow">    echo '&lt;td&gt;'.$country[0].'&lt;/td&gt;';</span>
+<span id="row8" class="coderow">    echo '&lt;td&gt;'.$country[1].'&lt;/td&gt;';</span>
+<span id="row9" class="coderow">    echo '&lt;td&gt;';</span>
+<span id="row10" class="coderow">    echo '&lt;table&gt;';</span>
+<span id="row11" class="coderow">    echo '&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;/tr&gt;';</span>
+<span id="row12" class="coderow">    foreach($country[2] as $city){</span>
+<span id="row13" class="coderow">       echo '&lt;tr&gt;';</span>
+<span id="row14" class="coderow">       echo '&lt;td&gt;'.$city[0].'&lt;/td&gt;';</span>
+<span id="row15" class="coderow">       echo '&lt;td&gt;'.$city[1].'&lt;/td&gt;';</span>
+<span id="row16" class="coderow">       echo '&lt;/tr&gt;';</span>
+<span id="row17" class="coderow">    }</span>
+<span id="row18" class="coderow">    echo '&lt;/table&gt;';</span>
+<span id="row19" class="coderow">    echo '&lt;/td&gt;';</span>
+<span id="row20" class="coderow">    echo '&lt;/tr&gt;';</span>
+<span id="row21" class="coderow">}</span>
+
+</pre>
+
+<div id='output'>
+</div>
+	
+	<div id='pointer'>
+	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="26px" viewBox="0 0 653.2 517.2" enable-background="new 0 0 653.2 517.2" xml:space="preserve">
+<polygon fill="#010101" points="653.2,258.1 337.9,0 337.9,127.4 115.7,127.4 115.7,127.4 0,127.4 0,388.7 137,388.7 137,388.7 
+	337.9,388.7 337.9,517.2 "/>
+<polygon fill="#F99C2C" points="615.9,258.1 360.6,44.3 360.6,150.1 138.4,150.1 138.4,366.1 360.6,366.1 360.6,471.9 "/>
+<rect x="22.7" y="150.1" fill="#F99C2C" width="91.7" height="216"/>
+</svg>
+	</div>
+		
+</body>                                                                                                                                               
+</html>                                                                                                                                               

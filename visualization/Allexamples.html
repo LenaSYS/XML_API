@@ -1,5 +1,6 @@
 <html>  
 <head>
+ <meta charset="UTF-8">
 <!-- Include css file and VM data -->
 <link rel="stylesheet" type="text/css" href="examples.css">	
 
@@ -13,12 +14,43 @@
 //------------------------------------=======############==========----------------------------------------
 	
 var sequence=[
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:11.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:'a'},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:1.0,fadein:4.0,fadeout:4.0, startupEvent:setupSlide},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:1.0,fadein:4.0,fadeout:8.0, startupEvent:setupSlide}
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:0, slidetype:0},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:7.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:1, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:15.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:9, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:15.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:10, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:2, slidetype:0},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:3, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:7.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:6, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:11, slidetype:1},		
+
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:11.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:3, itemid:'d'},	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
+
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:9.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:4, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:12, slidetype:1},	
+
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:'a'},	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
+
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:5, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:7, slidetype:1},
+	
 ];
 
-colarr=["RGB(0,59,85)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)"];	
+/*
+
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:25.0,fadein:2.0,fadeout:2.0, startupEvent:setupSlide, slideno:7, slidetype:1},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:4.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:3, itemid:'d'},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:5.0,fadein:2.0,fadeout:2.0, startupEvent:setupSlide, slideno:1, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:8.0,fadein:4.0,fadeout:4.0, startupEvent:setupSlide, slideno:2, slidetype:1},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:13.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:'a'}
+
+
+*/
+	
+colarr=["RGB(0,59,85)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)","RGB(232,211,87)"];	
 
 //------------------------------------=======############==========----------------------------------------
 //                                 Canvas Slide Constants and Variables
@@ -31,7 +63,9 @@ var xmax=1430;
 var ymax=780;
 
 var bigsize=90;
-
+var midsize=50;
+var midsizeplus=55;
+	
 // Rectangle grid parameters
 var boxcnty=45;
 var boxcntx=10;
@@ -46,7 +80,7 @@ var fader=1.0;
 var dispstart=0;
 var fadeinlen=0;
 var fadeoutlen=0;
-var item=0;
+var item=5;
 var delay=30;			
 	
 //------------------------------------=======############==========----------------------------------------
@@ -58,7 +92,7 @@ var row=0;
 var arr=[0,0];
 	
 // Which example do we run
-var stepspeed=500;
+var stepspeed=700;
 	
 //------------------------------------=======############==========----------------------------------------
 //                                            Functions
@@ -70,7 +104,6 @@ var stepspeed=500;
 	
 function setupSlides()
 {
-		console.log("setupSlides");
 		canvas = document.getElementById("mycanvas");
 		c = canvas.getContext("2d");
 
@@ -88,7 +121,7 @@ function setupSlides()
 		grd.addColorStop(0,"RGB(0,59,85)");
 		grd.addColorStop(1,"RGB(0,45,70)");		
 
-		item=0;
+		item=12;
 		if(sequence[item].startupEvent!=null) sequence[item].startupEvent();
 		setTimeout(dispatch,delay);
 }
@@ -101,6 +134,11 @@ function setupSlide(slideno)
 {
 		document.getElementById("codecontainer").style.display="none";
 		document.getElementById("slidecontainer").style.display="block";
+	
+		document.getElementById('databox').innerHTML="";
+		document.getElementById('codebox').innerHTML="";
+		document.getElementById('output').innerHTML="";
+		document.getElementById("codecontainer").style.opacity=0;			
 }
 	
 //----------------------------------------------------------------------------------
@@ -125,6 +163,8 @@ function setupCode()
 {
 		codeno=sequence[item].codeno;
 		itemid=sequence[item].itemid;
+	
+		document.getElementById("codecontainer").style.opacity=0;	
 	
 		document.getElementById("codecontainer").style.display="block";
 		document.getElementById("slidecontainer").style.display="none";	
@@ -192,6 +232,10 @@ function advanceStep()
 												str+=lastvar;
 										}
 								}else if(statement.statement=="foreach"){
+								}else if(statement.statement=="echovar"){
+										// Echo variable
+										lastvar=statement.text;
+										str+=lastvar;									
 								}else if(statement.statement=="foreachret"){
 										if(statement.arr==0){
 												if(arr[0]<(data[codeno].length-1)){
@@ -234,7 +278,7 @@ function advanceStep()
 				setTimeout(advanceStep,stepspeed);
 		}else{
 				var now=new Date();
-				console.log(((now-timer)/1000)-sequence[item].fadein);
+				// console.log(((now-timer)/1000)-sequence[item].fadein-sequence[item].fadeout);
 		}
 
 }
@@ -282,14 +326,36 @@ function dispatch()
 						dispstart=dispcnt;
 						setTimeout(dispatch,delay);					
 				}else{
-						alert("End of script");
+						console.log("End of script");
 				}
 		}else{
 				setTimeout(dispatch,delay);			
 		}
 
 }
+
+//----------------------------------------------------------------------------------
+// wipe - Draws a wipe
+//----------------------------------------------------------------------------------	
+
+function wipe(fadein,fadeout)
+{
+		c.globalAlpha=1.0;
+		c.clearRect(0,0,xmax,ymax);
+
+		c.fillStyle = "RGB(0,59,85)";
+		c.fillStyle = grd;		
+		
+		var slide=sequence[item];
+		if(slide.kind=="Light"){
+				c.fillRect(0,0,xmax*(1.0-easeOutQuad(fadein)),ymax);		
+		}else if(slide.kind=="Dark"){
+				c.fillRect(0,0,xmax*easeInBounce(fadein),ymax);
+		}
+
 	
+}
+
 //----------------------------------------------------------------------------------
 // drawit - Draws title slide
 //----------------------------------------------------------------------------------
@@ -297,33 +363,113 @@ function dispatch()
 function drawit(fadein,fadeout)
 {
 		c.globalAlpha=1.0;
-		c.clearRect(0,0,1200,750);
+		c.clearRect(0,0,xmax,ymax);
 
 		c.fillStyle = "RGB(0,59,85)";
 		c.fillStyle = grd;		
 		c.fillRect(0,0,xmax,ymax);
+	
+		// console.log(slides[sequence[item].slideno],sequence[item].slideno);
+	
+		var slide=slides[sequence[item].slideno];
+		var slidetype=sequence[item].slidetype;
 
 		if(fadeout<1.0){
 				c.globalAlpha=fadeout;			
 		}else if(fadein<1.0){
 				c.globalAlpha=fadein;						
 		}
-
-		for(j=0;j<boxcnty;j++){
-				for(i=0;i<boxcntx;i++){
-						var col=Math.round(arrpnt[j][i]);
-						if(col>4) col=4;
-						c.fillStyle=colarr[col];
-						c.fillRect(xmax-(boxcntx*gridsize)+(i*gridsize),j*gridsize,rectsize,rectsize);
+	
+		// Right tile border
+		if(slidetype==0){
+				for(j=0;j<boxcnty;j++){
+						for(i=0;i<boxcntx;i++){
+								var col=Math.round(arrpnt[j][i]);
+								if(col>4) col=4;
+								c.fillStyle=colarr[col];
+								c.fillRect(xmax-(boxcntx*gridsize)+(i*gridsize),j*gridsize,rectsize,rectsize);
+						}
 				}
-		}
+			
+				yk=200;
+				for(var i=0;i<slide.length;i++){
+						var slideitem=slide[i];
+						if(slideitem.style="Rubrik"){
+								c.font = bigsize+"px RobotoThin";		
+								c.fillStyle = colarr[3];		
+								c.beginPath();
+								c.fillText(slideitem.text,120,yk);
+								c.fill();		
+								yk+=bigsize;							
+						}
+				}
+		}else if(slidetype==1){
+				yk=100;
+				for(var i=0;i<slide.length;i++){
+				    c.textAlign = 'left';	
+						var slideitem=slide[i];
+						if(slideitem.style=="Bullet"){
+								// Different bullets available on different levels
+								if(slideitem.level==2){
+										c.font = (midsize*0.8)+"px RobotoThin";		
+										base=150;
+										adder=(midsize*1.1);
+										bulletsymbol="\u25A0";
+								}else{
+										c.font = (midsize)+"px RobotoThin";		
+										base=120;
+										adder=(midsize*1.3);
+										bulletsymbol="\u25C6";
+								}
+							
+								if(slideitem.kind=="Plus"){
+										bulletsymbol="+";
+								}else if(slideitem.kind=="Minus"){
+										bulletsymbol="-";
+								}
+							
+								xk=base;
+								c.fillStyle = colarr[5];							
+								c.beginPath();
+								c.fillText(bulletsymbol,base-50,yk-5);
+								c.fill();
 
-		c.font = bigsize+"px RobotoThin";		
-		c.fillStyle = "RGB(128,191,183)";		
-		c.beginPath();
-		c.fillText("INTRODUCTION TO PHP",120,200);
-		c.fillText("TABLE LAYOUTS",120,200+bigsize);		
-		c.fill();		
+								words=slideitem.text.split(" ");
+								c.fillStyle = colarr[3];								
+								c.beginPath();
+								for(var k=0;k<words.length;k++){
+										var textout=words[k]+" ";
+										if((xk+c.measureText(textout).width)>xmax){
+												yk+=adder;
+												xk=base;
+										}
+										c.fillText(textout,xk,yk);
+										xk+=c.measureText(textout).width;
+								}
+								c.fill();		
+								yk+=(midsize*1.3);							
+						}else if(slideitem.style=="Spacer"){
+								yk+=(midsize*0.7);
+						}if(slideitem.style=="Rubrik"){
+								c.font ="bold "+midsizeplus+"px RobotoThin";
+				    		c.textAlign = 'center';								
+								xk=Math.round((xmax-120.0)/2.0);							
+								c.fillStyle = colarr[4];								
+								c.beginPath();
+								c.fillText(slideitem.text,xk,yk);
+								c.fill();
+								yk+=(midsize*1.60);							
+						}if(slideitem.style=="Code"){
+								c.font = "normal "+(midsize*0.8)+"px Lucida Console";		
+								xk=120;							
+								c.fillStyle = colarr[4];								
+								c.beginPath();
+								c.fillText(slideitem.text,xk,yk);
+								c.fill();
+								yk+=(midsize*1.0);							
+						}
+				}		
+		}
 
 }
 
