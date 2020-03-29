@@ -66,10 +66,10 @@ var slides=[
 		 	{style:"Bullet",level:2,kind:"Plus",text:"If the nested data has a very variable numer of elements row layouts adapt well"},
 		 	{style:"Bullet",level:2,kind:"Plus",text:"If nested elements have many columns row layouts are more suitable"},			
 			{style:"Bullet",text:"We want to view as much of the table as possible without scrolling"},
-		 	{style:"Bullet",level:2,kind:"Minus",text:"More screen realestate can be wasted if we use a row layout and have many nested elements"},
+		 	{style:"Bullet",level:2,kind:"Minus",text:"More screen realestate can be wasted if we use a row layout and have many nested arrays"},
 		 	{style:"Bullet",level:2,kind:"Minus",text:"On computer platforms row layouts are less suitable since fewer rows fit on screen"},			
 			{style:"Bullet",level:2,kind:"Plus",text:"Row layouts support arbitrarily large number of nested elements"},
-		 	{style:"Bullet",level:2,kind:"Plus",text:"On mobile platforms row layouts are better as prefer to scroll vertically"},
+		 	{style:"Bullet",level:2,kind:"Plus",text:"On mobile platforms row layouts are better as users prefer to scroll vertically"},
 		],	
 		[	// 9
 		 	{style:"Rubrik",text:"Inlämning 1 1.5HP (U/G)"},
@@ -112,7 +112,27 @@ var slides=[
 		 	{style:"Code",text:"   echo $value;"},
 		 	{style:"Code",text:"}"}
 		],	
-
+		[	// 13
+			{style:"Rubrik",text:"Column Layout"},
+			{style:"Bullet",text:"The number of rows and columns partly dictate which layout is most suitable"},
+		 	{style:"Bullet",level:2,kind:"Plus",text:"If the number of elements of nested arrays are similar column layouts are more suitable"},
+		 	{style:"Bullet",level:2,kind:"Plus",text:"If nested elements have few columns row layouts are more suitable"},			
+			{style:"Bullet",text:"We want to view as much of the table as possible without scrolling"},
+		 	{style:"Bullet",level:2,kind:"Minus",text:"It is more difficult to find a place for the <th> elements for the nested elements"},
+		 	{style:"Bullet",level:2,kind:"Plus",text:"On computer platforms column layouts are more suitable since we use the width of screen well "},			
+		],	
+		[	// 14
+			{style:"Rubrik",text:"Conditionals"},
+		 	{style:"Bullet",text:"By using conditional we can do distinct actions depending on values of the data elements"},
+		 	{style:"Spacer"},
+		 	{style:"Bullet",text:"In this case the we echo red or blue styling on table row"},
+		 	{style:"Code",text:"if($value[0]>15){"},
+		 	{style:"Code",text:"   echo '<tr style=\"background:red\">';"},
+		 	{style:"Code",text:"}else{"},
+		 	{style:"Code",text:"   echo '<tr style=\"background:blue\">';"},
+		 	{style:"Code",text:"}"}
+		
+		],		
 ];
 
 var data=[
@@ -134,7 +154,13 @@ var data=[
 			["Spain", 46,[["Barcelona",1600],["Seville",690]]],
 			["Norway", 5,[["Oslo",650]]],
 		],
-		[]
+		[],
+		[
+			["Sweden",10,[["Stockholm",962],["Gothenburg",572]]],
+			["France",67,[["Paris",2200],["Lyon",513],["Toulouse",458],["Lille",235]]],
+			["Spain", 46,[["Barcelona",1600],["Seville",690]]],
+			["Norway", 5,[["Oslo",650]]],
+		]	
 ];
 	 
 var rows=
@@ -191,7 +217,39 @@ var rows=
 				[{statement:"echo",text:"<div style='padding:8px;border:1px solid blue;margin:4px;'>"}],	
 				[{statement:"echovar",text:"World"}],		
 				[{statement:"echo",text:"</div>"}],	
-		]
+		],
+		[
+				[{statement:"echo",text:"<tr><th>Country</th><th>Population</th><th>Cities</th></tr>"}],
+				[{statement:"foreach"}],
+				[{statement:"ifarr",arr:0,pos:1,row:2,else:5}],
+				[{statement:"echo",text:"<tr style='background:#def;'>"}],
+				[{statement:"else",else:6}],	
+				[{statement:"nop"}],				
+				[{statement:"echo",text:"<tr style='background:#fed;'>"}],	
+				[
+					{statement:"echo",text:"<td style='border-right:2px solid black;' >"},
+					{statement:"echoarr",arr:0,pos:0},
+					{statement:"echo",text:"</td>"}
+				],
+				[
+					{statement:"echo",text:"<td style='border-right:2px solid black;'>"},
+					{statement:"echoarr",arr:0,pos:1},
+					{statement:"echo",text:"</td>"}
+				],
+				[{statement:"echo",text:"<td>"}],
+				[{statement:"echo",text:"<table>"}],
+				[{statement:"echo",text:"<tr><th>Name</th><th>Population</th></tr>"}],
+				[{statement:"foreach"}],
+				[{statement:"echo",text:"<tr>"}],	
+				[{statement:"echo",text:"<td>"},{statement:"echoarr",arr:1,pos:2,pos1:0},{statement:"echo",text:"</td>"}],
+				[{statement:"echo",text:"<td>"},{statement:"echoarr",arr:1,pos:2,pos1:1},{statement:"echo",text:"</td>"}],
+				[{statement:"echo",text:"</tr>"}],	
+				[{statement:"foreachret",arr:1,pos:2,row:12}],	
+				[{statement:"echo",text:"</table>"}],
+				[{statement:"echo",text:"</td>"}],
+				[{statement:"echo",text:"</tr>"}],
+				[{statement:"foreachret",arr:0,pos:0,row:1}],		
+		]	
 ];
 	
 const strings=[
@@ -317,6 +375,52 @@ $arr=array(<span class="data" id='dMy'>"My"</span>,<span class="data" id='dWorld
   &lt;/body&gt;
 &lt;/html&gt;
 `
-
+,
+`
+$arr=array(
+  array(<span class="data" id='eSweden'>"Sweden"</span>,<span class="data" id='es10'>10</span>,array(
+    array(<span class="data" id='eStockholm'>"Stockholm"</span>,<span class="data" id='es962'>962</span>),
+    array(<span class="data" id='eGothenburg'>"Gothenburg"</span>,<span class="data" id='es572'>572</span>))
+  ),
+  array(<span class="data" id='eFrance'>"France"</span>,<span class="data" id='es67'>67</span>,array(
+    array(<span class="data" id='eParis'>"Paris"</span>,<span class="data" id='es2200'>2200</span>),
+    array(<span class="data" id='eLyon'>"Lyon"</span>,<span class="data" id='es513'>513</span>),
+    array(<span class="data" id='eToulouse'>"Toulouse"</span>,<span class="data" id='es458'>458</span>),
+    array(<span class="data" id='eLille'>"Lille"</span>,<span class="data" id='es235'>235</span>))
+  ),
+  array(<span class="data" id='eSpain'>"Spain"</span>,<span class="data" id='es46'>46</span>,array(
+    array(<span class="data" id='eBarcelona'>"Barcelona"</span>,<span class="data" id='es1600'>1600</span>),
+    array(<span class="data" id='eSeville'>"Seville"</span>,<span class="data" id='es690'>690</span>))
+	),
+  array(<span class="data" id='eNorway'>"Norway"</span>,<span class="data" id='es5'>5</span>,array(
+    array(<span class="data" id='eOslo'>"Oslo"</span>,<span class="data" id='es650'>650</span>))
+  )
+);
+`
+,
+`
+<span id="erow0" class="coderow">echo '&lt;tr&gt;&lt;th&gt;Country&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;th&gt;Cities&lt;/th&gt;&lt;/tr&gt;';</span>
+<span id="erow1" class="coderow">foreach ($arr as $country) {</span>
+<span id="erow2" class="coderow">    if($country[1]&gt;30){</span>
+<span id="erow3" class="coderow">      echo '&lt;tr style="background:#def;"&gt;';</span>				
+<span id="erow4" class="coderow">    }else{</span>
+<span id="erow5" class="coderow">      echo '&lt;tr style="background:#fed;"&gt;';</span>
+<span id="erow6" class="coderow">    }</span>
+<span id="erow7" class="coderow">    echo '&lt;td&gt;'.$country[0].'&lt;/td&gt;';</span>
+<span id="erow8" class="coderow">    echo '&lt;td&gt;'.$country[1].'&lt;/td&gt;';</span>
+<span id="erow9" class="coderow">    echo '&lt;td&gt;';</span>
+<span id="erow10" class="coderow">    echo '&lt;table&gt;';</span>
+<span id="erow11" class="coderow">    echo '&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Population&lt;/th&gt;&lt;/tr&gt;';</span>
+<span id="erow12" class="coderow">    foreach($country[2] as $city){</span>
+<span id="erow13" class="coderow">       echo '&lt;tr&gt;';</span>
+<span id="erow14" class="coderow">       echo '&lt;td&gt;'.$city[0].'&lt;/td&gt;';</span>
+<span id="erow15" class="coderow">       echo '&lt;td&gt;'.$city[1].'&lt;/td&gt;';</span>
+<span id="erow16" class="coderow">       echo '&lt;/tr&gt;';</span>
+<span id="erow17" class="coderow">    }</span>
+<span id="erow18" class="coderow">    echo '&lt;/table&gt;';</span>
+<span id="erow19" class="coderow">    echo '&lt;/td&gt;';</span>
+<span id="erow20" class="coderow">    echo '&lt;/tr&gt;';</span>
+<span id="erow21" class="coderow">}</span>
+`	
 ];
 	
