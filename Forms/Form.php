@@ -11,7 +11,8 @@
 						<option value='COpt'>Third Option</option>				
 				</select>
 		</div>
-		<div><button >Skicka!</button></div>
+		<div><button name="Button" value="B1">Button1</button></div>
+		<div><button name="Button" value="B2">Button2</button></div>	
 </form>
   
 </body>

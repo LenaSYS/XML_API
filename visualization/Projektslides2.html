@@ -4,7 +4,7 @@
 <!-- Include css file and VM data -->
 <link rel="stylesheet" type="text/css" href="examples.css">	
 
-<script type="text/javascript" src="vmdata.js"></script>	
+<script type="text/javascript" src="vmdataProjekt2.js"></script>	
 <script type="text/javascript" src="aux.js"></script>	
 	
 <script>
@@ -15,59 +15,42 @@
 	
 var sequence=[
 		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:0, slidetype:0},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:7.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:1, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:15.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:9, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:15.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:10, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:2, slidetype:0},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:1, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:2, slidetype:1},
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step0_Reviews.png", cap:"Reasons for accept/deny according to research"},
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
 		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:3, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:7.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:6, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:11, slidetype:1},		
-
-		// Steps as delays stepgs:{s1:10.0,s2:5.0,s3:8.0} if omitted normal delay
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:4, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:5, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:6, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:7, slidetype:1},	
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:8, slidetype:1},	
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:9, slidetype:1},		
 		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:11.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:3, itemid:'d'},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:9.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:4, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:12, slidetype:1},	
-
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step1_Downl.png", cap:"Download link to repo"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step2_Clone.png", cap:"Clone repo locally"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step3_Label.png", cap:"Issue manager labels issues to group"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step4_Assign.png", cap:"Issue manager assigns issue to dev"},
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},		
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:10, slidetype:1},	
 		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:'a'},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:5, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:7, slidetype:1},
-	  {func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:12.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:8, slidetype:1},
-
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step5_Question.png",cap:"Developer discusses issue on github"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step6_MakeChange.png",cap:"Developer makes changes"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step7_Push.png",cap:"Developer pushes changes to repo"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step8_OpenPull.png",cap:"Developer makes pull request"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step9_LinkIssue.png",cap:"Developer links to issue"},
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},		
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:11, slidetype:1},	
 		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:62.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:1, itemid:'b'},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:13, slidetype:1},
-
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:62.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:2, itemid:'c'},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:14, slidetype:1},
-
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:67.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:4, itemid:'e'},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-	
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step10_Assign.png",cap:"Issue manager assigns reviewer"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step11_Reviewed.png",cap:"Reviewer reviews and confirms"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step12_Merge.png",cap:"Issue manager merges pull request"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step14_Delete.png",cap:"Issue manager deletes branch"},
+		{func:drawimg,easein:easeOutQuad,easeout:easeOutQuad,duration:6.0,fadein:1.0,fadeout:1.0, startupEvent:setupImage, src:"Screens/Step15_Deleted.png",cap:"Issue manager assigns new issue"},
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"}
 ];
 
-/*
-
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:25.0,fadein:2.0,fadeout:2.0, startupEvent:setupSlide, slideno:7, slidetype:1},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:4.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:3, itemid:'d'},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:5.0,fadein:2.0,fadeout:2.0, startupEvent:setupSlide, slideno:1, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:8.0,fadein:4.0,fadeout:4.0, startupEvent:setupSlide, slideno:2, slidetype:1},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:13.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:'a'}
-
-
-*/
-	
 colarr=["RGB(0,59,85)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)","RGB(232,211,87)"];	
 
 //------------------------------------=======############==========----------------------------------------
@@ -145,13 +128,14 @@ function setupSlides()
 }
 
 //----------------------------------------------------------------------------------
-// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+// setupSlide - Setup for ppt-like slides
 //----------------------------------------------------------------------------------
 	
 function setupSlide(slideno)
 {
 		document.getElementById("codecontainer").style.display="none";
 		document.getElementById("slidecontainer").style.display="block";
+		document.getElementById("imagecontainer").style.display="none";	
 	
 		document.getElementById('databox').innerHTML="";
 		document.getElementById('codebox').innerHTML="";
@@ -160,17 +144,22 @@ function setupSlide(slideno)
 }
 	
 //----------------------------------------------------------------------------------
-// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+// setupImage - setup for showing png image
 //----------------------------------------------------------------------------------
-	
-function drawcode(fadein,fadeout)
+
+function setupImage(slideno)
 {
-		if(fadeout<1.0){
-				document.getElementById("codecontainer").style.opacity=fadeout;			
-		}else if(fadein<1.0){
-				document.getElementById("codecontainer").style.opacity=fadein;			
-		}
+		document.getElementById("codecontainer").style.display="none";
+		document.getElementById("imagecontainer").style.display="block";	
+		document.getElementById("slidecontainer").style.display="none";
 	
+		document.getElementById('myimage').src=sequence[item].src;
+		document.getElementById('figcaption').innerHTML=sequence[item].cap;
+	
+		document.getElementById('databox').innerHTML="";
+		document.getElementById('codebox').innerHTML="";
+		document.getElementById('output').innerHTML="";
+		document.getElementById("codecontainer").style.opacity=0;			
 }
 	
 //----------------------------------------------------------------------------------
@@ -185,7 +174,8 @@ function setupCode()
 		document.getElementById("codecontainer").style.opacity=0;	
 	
 		document.getElementById("codecontainer").style.display="block";
-		document.getElementById("slidecontainer").style.display="none";	
+		document.getElementById("slidecontainer").style.display="none";
+		document.getElementById("imagecontainer").style.display="none";	
 	
 		// Assign data and code
 		document.getElementById('databox').innerHTML=strings[(codeno*2)];
@@ -202,6 +192,33 @@ function setupCode()
 		// Start animation
 		setTimeout(advanceStep,Math.round(sequence[item].fadein*1000));
 }	
+
+//----------------------------------------------------------------------------------
+// drawit - Draws title slide
+//----------------------------------------------------------------------------------
+
+function drawimg(fadein,fadeout)
+{
+		if(fadeout<1.0){
+				document.getElementById("imagecontainer").style.opacity=fadeout;			
+		}else if(fadein<1.0){
+				document.getElementById("imagecontainer").style.opacity=fadein;			
+		}
+}
+	
+//----------------------------------------------------------------------------------
+// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+//----------------------------------------------------------------------------------
+	
+function drawcode(fadein,fadeout)
+{
+		if(fadeout<1.0){
+				document.getElementById("codecontainer").style.opacity=fadeout;			
+		}else if(fadein<1.0){
+				document.getElementById("codecontainer").style.opacity=fadein;			
+		}
+	
+}
 	
 //----------------------------------------------------------------------------------
 // advanceStep - Advances virtual machine one step further
@@ -224,13 +241,11 @@ function advanceStep()
 		// Clear memory
 		arr=[0,0];
 		row=0;
-		var oldrow=0;
 	
 		// Run n rows
 		str="<table>";
 		var lastvar="UNK";
 		for(k=0;k<step;k++){
-				oldrow=row;
 				if(row<rows[codeno].length){
 						therow=rows[codeno][row];
 						// Run statements
@@ -289,9 +304,8 @@ function advanceStep()
 		str+="</table>";
 		document.getElementById('output').innerHTML=str;
 	
-		console.log(oldrow);
-	
-		var therow=document.getElementById(itemid+"row"+oldrow);
+		if(row==0) row=1;
+		var therow=document.getElementById(itemid+"row"+(row-1));
 		if(therow!=null){
 				var thepointer=document.getElementById("pointer");
 				therow.classList.add("marked");
@@ -442,15 +456,18 @@ function drawit(fadein,fadeout)
 				for(var i=0;i<slide.length;i++){
 				    c.textAlign = 'left';	
 						var slideitem=slide[i];
-						if(slideitem.style=="Bullet"){
+						if(slideitem.style=="Bullet"||slideitem.style=="Naked"){
+							
+								var currfont="";
+							
 								// Different bullets available on different levels
 								if(slideitem.level==2){
-										c.font = (midsize*0.8)+"px RobotoThin";		
+										currfont = (midsize*0.8)+"px RobotoThin";		
 										base=150;
 										adder=(midsize*1.1);
 										bulletsymbol="\u25A0";
 								}else{
-										c.font = (midsize)+"px RobotoThin";		
+										currfont = (midsize)+"px RobotoThin";		
 										base=120;
 										adder=(midsize*1.3);
 										bulletsymbol="\u25C6";
@@ -463,10 +480,14 @@ function drawit(fadein,fadeout)
 								}
 							
 								xk=base;
-								c.fillStyle = colarr[5];							
-								c.beginPath();
-								c.fillText(bulletsymbol,base-50,yk-5);
-								c.fill();
+								c.font=currfont;
+								
+								if(slideitem.style!="Naked"){
+										c.fillStyle = colarr[5];							
+										c.beginPath();
+										c.fillText(bulletsymbol,base-50,yk-5);
+										c.fill();
+								}							
 
 								words=slideitem.text.split(" ");
 								c.fillStyle = colarr[3];								
@@ -477,7 +498,17 @@ function drawit(fadein,fadeout)
 												yk+=adder;
 												xk=base;
 										}
-										c.fillText(textout,xk,yk);
+										if(((textout.substr(textout.length-2,1)=="*")&&textout.startsWith('*'))){
+												textout=textout.substr(1,textout.length-3)+" ";
+												c.fill();
+												c.beginPath();
+												c.fillText(textout,xk-1,yk);
+												c.fillText(textout,xk+1,yk);
+												c.fill();
+												c.beginPath();
+										}else{									
+												c.fillText(textout,xk,yk);
+										}
 										xk+=c.measureText(textout).width;
 								}
 								c.fill();		
@@ -514,6 +545,11 @@ function drawit(fadein,fadeout)
 <div id='slidecontainer' style="display:none;">
 <canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;'></canvas>	
 </div>
+
+<div id='imagecontainer' style="display:none;">
+	<div id='figcaption'>Moomoo</div> 
+	<img id='myimage' src='Screens/Step0_Reviews.png'>
+</div>	
 	
 <div id='codecontainer' style="display:none;">
 		<pre class='codebox' id='databox'></pre>	

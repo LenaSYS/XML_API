@@ -23,9 +23,9 @@ var sequence=[
 		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:6, slidetype:1},
 		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:7, slidetype:1},	
 		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:8, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:9, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:10, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:11, slidetype:1},		
+//		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:9, slidetype:1},
+//		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:10, slidetype:1},
+//		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:11, slidetype:1},		
 ];
 
 /*
@@ -110,7 +110,7 @@ function setupSlides()
 		grd.addColorStop(0,"RGB(0,59,85)");
 		grd.addColorStop(1,"RGB(0,45,70)");		
 
-		item=5;
+		item=0;
 		if(sequence[item].startupEvent!=null) sequence[item].startupEvent();
 		setTimeout(dispatch,delay);
 }
@@ -497,7 +497,7 @@ function drawit(fadein,fadeout)
 <body onload="setupSlides();">
 
 <div id='slidecontainer' style="display:none;">
-<canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;'></canvas>	
+<canvas id='mycanvas' width=1430 height=730 style='border:1px solid red;'></canvas>	
 </div>
 	
 <div id='codecontainer' style="display:none;">

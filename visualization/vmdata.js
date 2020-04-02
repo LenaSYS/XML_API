@@ -96,6 +96,7 @@ var slides=[
 			{style:"Rubrik",text:"Variables and Making HTML in PHP"},
 			{style:"Bullet",level:2,text:"echo is used to write output which can be html or variables."},
 			{style:"Code",text:"echo '<div>';"},
+			{style:"Code",text:"echo \"<div>\";"},		
 			{style:"Bullet",level:2,text:"Variables start with the $ character and do not need to be declared. This is a blessing and a curse."},
 			{style:"Code",text:"echo $variable;"},
 			{style:"Bullet",level:2,text:"Arrays can be indexed with numbers [0] or strings ['item1']"},

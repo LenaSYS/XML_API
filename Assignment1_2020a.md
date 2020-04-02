@@ -11,7 +11,7 @@ The requirements listed below are the minimum for passing the assignment. You ar
 Code must be mostly correctly indented according to the K&R indentation format (see code example for indentation standard).
 
 1. Present the array data from the code below using html in a table. All data in the array should be shown.
-2. Use a Row Layout for each vehicle
+2. Use a **Row Layout** for each vehicle.
 3. The background color for each vehicle must change depending on the country of the vehicle producer. Any producer in the belarus should have a yellow background, and any other producers should have a light blue background. Any CSS must be defined in the document head. (No external css files, see conditional code example)
 4. Add styling to the rest of the elements to make the table  (use inline or css in head element, no external css files are allowed)
 5. No further styling is necessary, the default browser styling is sufficient.

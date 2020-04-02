@@ -19,10 +19,10 @@
 		echo "<form method='post' action='formRespSelect.php'>";
 		echo "<select name='country'>";
 		foreach ($arr as $country) {
-				echo '<option>'.$country[0].'</option>';
+				echo "<option value='".$country[0]."' >".$country[0]."</option>";
 		}
-		echo "<input type='submit' value='go!'>";
 		echo "</select>";
+		echo "<button>Go!</button>";
 		echo "</form>";
 
 ?>

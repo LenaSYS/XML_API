@@ -1,74 +1,151 @@
-	#codecontainer{
-			position:absolute;
-			left:0px;
-			right:0px;
-			top:0px;
-			bottom:0px;
-	}
-	
-	@font-face {
-			font-family:'RobotoThin';
-			src: url('roboto-condensed.light-italic.ttf');
-	}		
-
-	pre{
-			font-family:lucida console;
-			font-size:13px;
-	}
-	
-	body{
-			font-family:arial narrow;
-	}	
-	
-	.coderow{
-			background-color:#fff;
-	}
-	.marked{
-			background-color:#def;
-			border:1px dotted red;
-	}
-
-	td {
-			width:115px;
-			padding:4px;
-	}
-	
-	tr:nth-child(odd) {
-			background: #fff;
-	}
-
-	tr:nth-child(even) {
-			background: #ddd;
-	}	
-	
-	th{
-			background:#000;
-			color:#fff;
-	}
-	
-	table{
-			border-collapse: collapse;
-			border:2px solid black;
-	}
-	
-	#pointer {
+#codecontainer{
 		position:absolute;
-		left:8px;
-  	transition: top 0.2s;
+		left:0px;
+		right:0px;
+		top:0px;
+		bottom:0px;
 }
-	
-	.codebox{
-			margin-left:35px;
-			box-shadow:1px 2px 4px #888;
-			width:615px;
-			padding:4px;
-	}
-	
-	#output{
-			position:absolute;
-			left:675px;
-			top:8px;
-			bottom:600px;
-			right:0px;
-	}
+
+@font-face {
+		font-family:'RobotoThin';
+		src: url('roboto-condensed.light-italic.ttf');
+}		
+
+#figcaption{
+		text-align:center;
+		overflow:hidden;
+		font-family:'RobotoThin';
+		font-size:45px;
+}
+
+.codehead{
+		text-align:center;
+		overflow:hidden;
+		font-family:'RobotoThin';
+		font-size:45px;
+		width:615px;
+}
+
+#outhead{
+		left:615px;
+		width:615px;
+		top:0px;
+		position:absolute
+}
+
+#imagecontainer{
+		text-align:center;
+}
+
+#myimage{
+		height:650px;
+		height:730;
+		border:1px solid red;
+}
+
+pre{
+		font-family:lucida console;
+		font-size:13px;
+}
+
+body{
+		font-family:arial narrow;
+}	
+
+.coderow{
+		background-color:#fff;
+}
+.marked{
+		background-color:#def;
+		border:1px dotted red;
+}
+
+td {
+		width:115px;
+		padding:4px;
+}
+
+tr:nth-child(odd) {
+		background: #fff;
+}
+
+tr:nth-child(even) {
+		background: #ddd;
+}	
+
+th{
+		background:#000;
+		color:#fff;
+}
+
+table{
+		border-collapse: collapse;
+		border:2px solid black;
+}
+
+#pointer {
+	position:absolute;
+	left:8px;
+	transition: top 0.2s;
+}
+
+.codebox{
+		margin-left:35px;
+		box-shadow:1px 2px 4px #888;
+		width:615px;
+		padding:4px;
+		font-family:lucida console;
+		font-size:12px;
+}
+
+#output{
+		position:absolute;
+		left:675px;
+		top:58px;
+		bottom:600px;
+		right:0px;
+}
+
+.htmltag{
+		color:#de935f;
+}
+
+.htmltagend{
+		color:#de935f;
+}
+
+.divider{
+		color:#c5c8c6;
+}
+
+.string{
+		color:#8f9d6a;
+}
+
+.variable{
+		color:#a968a9;
+}
+
+.comment{
+		color:#bbb;
+}
+
+.name {
+			color:#607392;
+}
+.func{
+		color:#cf8843;
+}				
+
+.numeric {
+			color: #ffcc00;
+}
+
+.hi{
+		background:#480;							
+}
+
+.markdown{
+		color: #999;
+}
 	

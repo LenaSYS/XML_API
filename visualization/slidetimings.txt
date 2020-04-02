@@ -1,0 +1,15 @@
+Slide 0     0..7			   HIS
+Slide 1     7..15			   PHP Basics
+Slide 2     16..19		   PHP Layout w Tables
+Slide 3     20..1.15	   PHP
+Slide 4			1.15..1.49   PHP Code (ingen rubrik)
+Slide 5     1.50..3.14   PHP Variabler (fix av en variabel)
+Slide 6     3.14..       Kodexempel Varaiabler uppstart till 3.44 3.49 steg1 3.53 steg2 3.53 steg 3 3.58 Steg 4 4.13 Steg 5 4.14 Steg 6
+Slide 7     4.23..       Nested Arrays
+Slide 8     4.39         Array Iteration
+Slide 9     6.11				 Kodexempel Iteration 6:40 steg 4 7.04 steg 5 7.16 steg 5
+Slide 10		7.34         Nested Tables
+Slide 11    8.04         Nested Table Layouts
+Slide 12    8.18         Row Layout
+Slide 13    9.18         Kodexempel Row Layout
+Slide 14    
