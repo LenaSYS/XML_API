@@ -71,6 +71,7 @@ header("Content-type: text/xml");
 			global $filename;
 			global $id;
 			global $climatecode;
+			global $climate;
 			if($entityname=="LOCATIONS"){
 			
 			}else{
@@ -82,7 +83,9 @@ header("Content-type: text/xml");
 			if(((strpos(strtoupper($attrs['NAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='LOCATION')){
 					echo $output;
 			}
-
+			if(($climatecode==$climate)&&($entityname=='LOCATION')){
+					echo $output;					
+			}
 	}
   
    function charData($parser, $chardata) {
