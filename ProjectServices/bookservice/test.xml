@@ -1,0 +1,2297 @@
+
+Persist Logs
+Disable cache
+	
+	
+	
+	
+	
+	
+	
+200
+	GET	
+localhost	authors.php	document	xml	119.52 kB	119.28 kB
+404
+	GET	
+localhost	favicon.ico	img	html	cached	10.55 kB
+2 requests
+129.83 kB / 119.52 kB transferred
+Finish: 41 ms
+DOMContentLoaded: 22 ms
+load: 28 ms
+	
+Response payload	
+
+<AUTHORS>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<BIRTHYEAR >1728</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<BIRTHYEAR >1728</BIRTHYEAR>
+<DEATHYEAR >1779</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<BIRTHYEAR >1728</BIRTHYEAR>
+<DEATHYEAR >1779</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/7/76/Captainjamescookportrait.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<BIRTHYEAR >1728</BIRTHYEAR>
+<DEATHYEAR >1779</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/7/76/Captainjamescookportrait.jpg</IMGURL>
+<ABOUT >James Cook FRS was a British explorer, navigator, cartographer, and captain in the British Royal Navy. He made detailed maps of Newfoundland prior to making three voyages to the Pacific Ocean, during which he achieved the first recorded European contact with the eastern coastline of Australia and the Hawaiian Islands, and the first recorded circumnavigation of New Zealand.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<BIRTHYEAR >1728</BIRTHYEAR>
+<DEATHYEAR >1779</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/7/76/Captainjamescookportrait.jpg</IMGURL>
+<ABOUT >James Cook FRS was a British explorer, navigator, cartographer, and captain in the British Royal Navy. He made detailed maps of Newfoundland prior to making three voyages to the Pacific Ocean, during which he achieved the first recorded European contact with the eastern coastline of Australia and the Hawaiian Islands, and the first recorded circumnavigation of New Zealand.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/2/2e/James_Cook_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Cook</LASTNAME>
+<BIRTHYEAR >1728</BIRTHYEAR>
+<DEATHYEAR >1779</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/7/76/Captainjamescookportrait.jpg</IMGURL>
+<ABOUT >James Cook FRS was a British explorer, navigator, cartographer, and captain in the British Royal Navy. He made detailed maps of Newfoundland prior to making three voyages to the Pacific Ocean, during which he achieved the first recorded European contact with the eastern coastline of Australia and the Hawaiian Islands, and the first recorded circumnavigation of New Zealand.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/2/2e/James_Cook_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Tobias</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Tobias</FIRSTNAME>
+<LASTNAME >Furneaux</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Tobias</FIRSTNAME>
+<LASTNAME >Furneaux</LASTNAME>
+<BIRTHYEAR >1735</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Tobias</FIRSTNAME>
+<LASTNAME >Furneaux</LASTNAME>
+<BIRTHYEAR >1735</BIRTHYEAR>
+<DEATHYEAR >1781</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Tobias</FIRSTNAME>
+<LASTNAME >Furneaux</LASTNAME>
+<BIRTHYEAR >1735</BIRTHYEAR>
+<DEATHYEAR >1781</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/d/df/Mark_Twain_Signatures-2.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/d/df/Mark_Twain_Signatures-2.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<BIRTHYEAR >1791</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<BIRTHYEAR >1791</BIRTHYEAR>
+<DEATHYEAR >1871</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<BIRTHYEAR >1791</BIRTHYEAR>
+<DEATHYEAR >1871</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<BIRTHYEAR >1791</BIRTHYEAR>
+<DEATHYEAR >1871</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg</IMGURL>
+<ABOUT >Charles Babbage KH FRS was an English polymath. A mathematician, philosopher, inventor and mechanical engineer, Babbage originated the concept of a digital programmable computer. Considered by some to be a father of the computer. Babbage is credited with inventing the first mechanical computer that eventually led to more complex electronic designs, though all the essential ideas of modern computers are to be found in Babbages Analytical Engine. His varied work in other fields has led him to be described as pre-eminent among the many polymaths of his century.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<BIRTHYEAR >1791</BIRTHYEAR>
+<DEATHYEAR >1871</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg</IMGURL>
+<ABOUT >Charles Babbage KH FRS was an English polymath. A mathematician, philosopher, inventor and mechanical engineer, Babbage originated the concept of a digital programmable computer. Considered by some to be a father of the computer. Babbage is credited with inventing the first mechanical computer that eventually led to more complex electronic designs, though all the essential ideas of modern computers are to be found in Babbages Analytical Engine. His varied work in other fields has led him to be described as pre-eminent among the many polymaths of his century.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/0/09/Charles_Babbage_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Babbage</LASTNAME>
+<BIRTHYEAR >1791</BIRTHYEAR>
+<DEATHYEAR >1871</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/6b/Charles_Babbage_-_1860.jpg</IMGURL>
+<ABOUT >Charles Babbage KH FRS was an English polymath. A mathematician, philosopher, inventor and mechanical engineer, Babbage originated the concept of a digital programmable computer. Considered by some to be a father of the computer. Babbage is credited with inventing the first mechanical computer that eventually led to more complex electronic designs, though all the essential ideas of modern computers are to be found in Babbages Analytical Engine. His varied work in other fields has led him to be described as pre-eminent among the many polymaths of his century.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/0/09/Charles_Babbage_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<BIRTHYEAR >1711</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<BIRTHYEAR >1711</BIRTHYEAR>
+<DEATHYEAR >1776</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<BIRTHYEAR >1711</BIRTHYEAR>
+<DEATHYEAR >1776</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/e/ea/Painting_of_David_Hume.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<BIRTHYEAR >1711</BIRTHYEAR>
+<DEATHYEAR >1776</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/e/ea/Painting_of_David_Hume.jpg</IMGURL>
+<ABOUT >David Hume was a Scottish Enlightenment philosopher, historian, economist, and essayist, who is best known today for his highly influential system of philosophical empiricism, scepticism, and naturalism. Beginning with A Treatise of Human Nature, Hume strove to create a naturalistic science of man that examined the psychological basis of human nature.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<BIRTHYEAR >1711</BIRTHYEAR>
+<DEATHYEAR >1776</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/e/ea/Painting_of_David_Hume.jpg</IMGURL>
+<ABOUT >David Hume was a Scottish Enlightenment philosopher, historian, economist, and essayist, who is best known today for his highly influential system of philosophical empiricism, scepticism, and naturalism. Beginning with A Treatise of Human Nature, Hume strove to create a naturalistic science of man that examined the psychological basis of human nature.</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Hume</LASTNAME>
+<BIRTHYEAR >1711</BIRTHYEAR>
+<DEATHYEAR >1776</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/e/ea/Painting_of_David_Hume.jpg</IMGURL>
+<ABOUT >David Hume was a Scottish Enlightenment philosopher, historian, economist, and essayist, who is best known today for his highly influential system of philosophical empiricism, scepticism, and naturalism. Beginning with A Treatise of Human Nature, Hume strove to create a naturalistic science of man that examined the psychological basis of human nature.</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/4a/Arthur_Conan_Doyle_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/4a/Arthur_Conan_Doyle_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<ABOUT >Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English literature. She also published one book of poetry with her sisters Charlotte and Anne titled Poems by Currer, Ellis and Acton Bell with her own poems finding regard as poetic genius..</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<ABOUT >Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English literature. She also published one book of poetry with her sisters Charlotte and Anne titled Poems by Currer, Ellis and Acton Bell with her own poems finding regard as poetic genius..</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<ABOUT >Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English literature. She also published one book of poetry with her sisters Charlotte and Anne titled Poems by Currer, Ellis and Acton Bell with her own poems finding regard as poetic genius..</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Hannaford</FIRSTNAME>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Hannaford</FIRSTNAME>
+<LASTNAME >Bennett</LASTNAME>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Hannaford</FIRSTNAME>
+<LASTNAME >Bennett</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Lester</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Lester</FIRSTNAME>
+<LASTNAME >Ralph</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Lester</FIRSTNAME>
+<LASTNAME >Ralph</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/9/92/Oscar_Wilde_3g07095u-adjust.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/9/92/Oscar_Wilde_3g07095u-adjust.jpg</IMGURL>
+<ABOUT >Oscar Fingal O'Flahertie Wills Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, the early 1890s saw him become one of the most popular playwrights in London. He is best remembered for his epigrams and plays, his novel The Picture of Dorian Gray, and the circumstances of his criminal conviction for gross indecency, imprisonment, and early death at age 46.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/9/92/Oscar_Wilde_3g07095u-adjust.jpg</IMGURL>
+<ABOUT >Oscar Fingal O'Flahertie Wills Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, the early 1890s saw him become one of the most popular playwrights in London. He is best remembered for his epigrams and plays, his novel The Picture of Dorian Gray, and the circumstances of his criminal conviction for gross indecency, imprisonment, and early death at age 46.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/42/Oscar_Wilde_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Oscar</FIRSTNAME>
+<LASTNAME >Wilde</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/9/92/Oscar_Wilde_3g07095u-adjust.jpg</IMGURL>
+<ABOUT >Oscar Fingal O'Flahertie Wills Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, the early 1890s saw him become one of the most popular playwrights in London. He is best remembered for his epigrams and plays, his novel The Picture of Dorian Gray, and the circumstances of his criminal conviction for gross indecency, imprisonment, and early death at age 46.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/42/Oscar_Wilde_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<BIRTHYEAR >1775</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<BIRTHYEAR >1775</BIRTHYEAR>
+<DEATHYEAR >1817</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<BIRTHYEAR >1775</BIRTHYEAR>
+<DEATHYEAR >1817</DEATHYEAR>
+<IMGURL >https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<BIRTHYEAR >1775</BIRTHYEAR>
+<DEATHYEAR >1817</DEATHYEAR>
+<IMGURL >https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg</IMGURL>
+<ABOUT >Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century. Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security. Her works critique the novels of sensibility of the second half of the 18th century and are part of the transition to 19th-century literary realism. Her use of biting irony, along with her realism, humour, and social commentary, have long earned her acclaim among critics, scholars, and popular audiences alike.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<BIRTHYEAR >1775</BIRTHYEAR>
+<DEATHYEAR >1817</DEATHYEAR>
+<IMGURL >https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg</IMGURL>
+<ABOUT >Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century. Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security. Her works critique the novels of sensibility of the second half of the 18th century and are part of the transition to 19th-century literary realism. Her use of biting irony, along with her realism, humour, and social commentary, have long earned her acclaim among critics, scholars, and popular audiences alike.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/c/c8/Jane_Austen_signature_from_her_will.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jane</FIRSTNAME>
+<LASTNAME >Austen</LASTNAME>
+<BIRTHYEAR >1775</BIRTHYEAR>
+<DEATHYEAR >1817</DEATHYEAR>
+<IMGURL >https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg</IMGURL>
+<ABOUT >Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century. Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security. Her works critique the novels of sensibility of the second half of the 18th century and are part of the transition to 19th-century literary realism. Her use of biting irony, along with her realism, humour, and social commentary, have long earned her acclaim among critics, scholars, and popular audiences alike.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/c/c8/Jane_Austen_signature_from_her_will.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Isabelle de</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Isabelle de</FIRSTNAME>
+<LASTNAME >Montolieu</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Isabelle de</FIRSTNAME>
+<LASTNAME >Montolieu</LASTNAME>
+<BIRTHYEAR >1751</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Isabelle de</FIRSTNAME>
+<LASTNAME >Montolieu</LASTNAME>
+<BIRTHYEAR >1751</BIRTHYEAR>
+<DEATHYEAR >1832</DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Isabelle de</FIRSTNAME>
+<LASTNAME >Montolieu</LASTNAME>
+<BIRTHYEAR >1751</BIRTHYEAR>
+<DEATHYEAR >1832</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<BIRTHYEAR >1832</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<BIRTHYEAR >1832</BIRTHYEAR>
+<DEATHYEAR >1888</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<BIRTHYEAR >1832</BIRTHYEAR>
+<DEATHYEAR >1888</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/82/Louisa_May_Alcott%2C_c._1870_-_Warren%27s_Portraits%2C_Boston.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<BIRTHYEAR >1832</BIRTHYEAR>
+<DEATHYEAR >1888</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/82/Louisa_May_Alcott%2C_c._1870_-_Warren%27s_Portraits%2C_Boston.jpg</IMGURL>
+<ABOUT >Louisa May Alcott was born n Germantown which is now part of Philadelphia, Pennsylvania, on her fathers 33rd birthday. She was the daughter of transcendentalist and educator Amos Bronson Alcott and social worker Abby May and the second of four daughters: Anna Bronson Alcott was the eldest; Elizabeth Sewall Alcott and Abigail May Alcott were the two youngest. As a child, she was a tomboy who preferred boys games. The family moved to Boston in 1834, where Alcotts father established an experimental school and joined the Transcendental Club with Ralph Waldo Emerson and Henry David Thoreau.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<BIRTHYEAR >1832</BIRTHYEAR>
+<DEATHYEAR >1888</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/82/Louisa_May_Alcott%2C_c._1870_-_Warren%27s_Portraits%2C_Boston.jpg</IMGURL>
+<ABOUT >Louisa May Alcott was born n Germantown which is now part of Philadelphia, Pennsylvania, on her fathers 33rd birthday. She was the daughter of transcendentalist and educator Amos Bronson Alcott and social worker Abby May and the second of four daughters: Anna Bronson Alcott was the eldest; Elizabeth Sewall Alcott and Abigail May Alcott were the two youngest. As a child, she was a tomboy who preferred boys games. The family moved to Boston in 1834, where Alcotts father established an experimental school and joined the Transcendental Club with Ralph Waldo Emerson and Henry David Thoreau.</ABOUT>
+<SIGNATURE >https://en.wikipedia.org/wiki/Louisa_May_Alcott#/media/File:Louisa_May_Alcott_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Louisa May</FIRSTNAME>
+<LASTNAME >Alcott</LASTNAME>
+<BIRTHYEAR >1832</BIRTHYEAR>
+<DEATHYEAR >1888</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/82/Louisa_May_Alcott%2C_c._1870_-_Warren%27s_Portraits%2C_Boston.jpg</IMGURL>
+<ABOUT >Louisa May Alcott was born n Germantown which is now part of Philadelphia, Pennsylvania, on her fathers 33rd birthday. She was the daughter of transcendentalist and educator Amos Bronson Alcott and social worker Abby May and the second of four daughters: Anna Bronson Alcott was the eldest; Elizabeth Sewall Alcott and Abigail May Alcott were the two youngest. As a child, she was a tomboy who preferred boys games. The family moved to Boston in 1834, where Alcotts father established an experimental school and joined the Transcendental Club with Ralph Waldo Emerson and Henry David Thoreau.</ABOUT>
+<SIGNATURE >https://en.wikipedia.org/wiki/Louisa_May_Alcott#/media/File:Louisa_May_Alcott_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<BIRTHYEAR >1872</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<BIRTHYEAR >1872</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<BIRTHYEAR >1872</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<BIRTHYEAR >1788</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<BIRTHYEAR >1788</BIRTHYEAR>
+<DEATHYEAR >1860</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<BIRTHYEAR >1788</BIRTHYEAR>
+<DEATHYEAR >1860</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<BIRTHYEAR >1788</BIRTHYEAR>
+<DEATHYEAR >1860</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg</IMGURL>
+<ABOUT >Arthur Schopenhauer was a German philosopher. He is best known for his 1818 work The World as Will and Representation (expanded in 1844), wherein he characterizes the phenomenal world as the product of a blind and insatiable metaphysical will. Building on the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic metaphysical and ethical system that rejected the contemporaneous ideas of German idealism.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<BIRTHYEAR >1788</BIRTHYEAR>
+<DEATHYEAR >1860</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg</IMGURL>
+<ABOUT >Arthur Schopenhauer was a German philosopher. He is best known for his 1818 work The World as Will and Representation (expanded in 1844), wherein he characterizes the phenomenal world as the product of a blind and insatiable metaphysical will. Building on the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic metaphysical and ethical system that rejected the contemporaneous ideas of German idealism.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/b/b3/Arthur_Schopenhauer_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Schopenhauer</LASTNAME>
+<BIRTHYEAR >1788</BIRTHYEAR>
+<DEATHYEAR >1860</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg</IMGURL>
+<ABOUT >Arthur Schopenhauer was a German philosopher. He is best known for his 1818 work The World as Will and Representation (expanded in 1844), wherein he characterizes the phenomenal world as the product of a blind and insatiable metaphysical will. Building on the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic metaphysical and ethical system that rejected the contemporaneous ideas of German idealism.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/b/b3/Arthur_Schopenhauer_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Sara Hay Goddard</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Sara Hay Goddard</FIRSTNAME>
+<LASTNAME >Dircks</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Sara Hay Goddard</FIRSTNAME>
+<LASTNAME >Dircks</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Sidney</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Sidney</FIRSTNAME>
+<LASTNAME >Paget</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Sidney</FIRSTNAME>
+<LASTNAME >Paget</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Sidney</FIRSTNAME>
+<LASTNAME >Paget</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1908</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Sidney</FIRSTNAME>
+<LASTNAME >Paget</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1908</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mary Eleanor Wilkins</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mary Eleanor Wilkins</FIRSTNAME>
+<LASTNAME >Freeman</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mary Eleanor Wilkins</FIRSTNAME>
+<LASTNAME >Freeman</LASTNAME>
+<BIRTHYEAR >1852</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mary Eleanor Wilkins</FIRSTNAME>
+<LASTNAME >Freeman</LASTNAME>
+<BIRTHYEAR >1852</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mary Eleanor Wilkins</FIRSTNAME>
+<LASTNAME >Freeman</LASTNAME>
+<BIRTHYEAR >1852</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edgar Allan</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edgar Allan</FIRSTNAME>
+<LASTNAME >Poe</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edgar Allan</FIRSTNAME>
+<LASTNAME >Poe</LASTNAME>
+<BIRTHYEAR >1809</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edgar Allan</FIRSTNAME>
+<LASTNAME >Poe</LASTNAME>
+<BIRTHYEAR >1809</BIRTHYEAR>
+<DEATHYEAR >1849</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edgar Allan</FIRSTNAME>
+<LASTNAME >Poe</LASTNAME>
+<BIRTHYEAR >1809</BIRTHYEAR>
+<DEATHYEAR >1849</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >G. H.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >G. H.</FIRSTNAME>
+<LASTNAME >Powell</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >G. H.</FIRSTNAME>
+<LASTNAME >Powell</LASTNAME>
+<BIRTHYEAR >1856</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >G. H.</FIRSTNAME>
+<LASTNAME >Powell</LASTNAME>
+<BIRTHYEAR >1856</BIRTHYEAR>
+<DEATHYEAR >1924</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >G. H.</FIRSTNAME>
+<LASTNAME >Powell</LASTNAME>
+<BIRTHYEAR >1856</BIRTHYEAR>
+<DEATHYEAR >1924</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carl</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carl</FIRSTNAME>
+<LASTNAME >Van Vechten</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carl</FIRSTNAME>
+<LASTNAME >Van Vechten</LASTNAME>
+<BIRTHYEAR >1880</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carl</FIRSTNAME>
+<LASTNAME >Van Vechten</LASTNAME>
+<BIRTHYEAR >1880</BIRTHYEAR>
+<DEATHYEAR >1964</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carl</FIRSTNAME>
+<LASTNAME >Van Vechten</LASTNAME>
+<BIRTHYEAR >1880</BIRTHYEAR>
+<DEATHYEAR >1964</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Guy Wetmore</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Guy Wetmore</FIRSTNAME>
+<LASTNAME >Carryl</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Guy Wetmore</FIRSTNAME>
+<LASTNAME >Carryl</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Guy Wetmore</FIRSTNAME>
+<LASTNAME >Carryl</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<DEATHYEAR >1904</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Guy Wetmore</FIRSTNAME>
+<LASTNAME >Carryl</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<DEATHYEAR >1904</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Peggy</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Peggy</FIRSTNAME>
+<LASTNAME >Bacon</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Peggy</FIRSTNAME>
+<LASTNAME >Bacon</LASTNAME>
+<BIRTHYEAR >1895</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Peggy</FIRSTNAME>
+<LASTNAME >Bacon</LASTNAME>
+<BIRTHYEAR >1895</BIRTHYEAR>
+<DEATHYEAR >1987</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Peggy</FIRSTNAME>
+<LASTNAME >Bacon</LASTNAME>
+<BIRTHYEAR >1895</BIRTHYEAR>
+<DEATHYEAR >1987</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Booth</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Booth</FIRSTNAME>
+<LASTNAME >Tarkington</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Booth</FIRSTNAME>
+<LASTNAME >Tarkington</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Booth</FIRSTNAME>
+<LASTNAME >Tarkington</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1946</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Booth</FIRSTNAME>
+<LASTNAME >Tarkington</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1946</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/d/df/Mark_Twain_Signatures-2.svg</SIGNATURE>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/d/df/Mark_Twain_Signatures-2.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. H.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. H.</FIRSTNAME>
+<LASTNAME >Hudson</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. H.</FIRSTNAME>
+<LASTNAME >Hudson</LASTNAME>
+<BIRTHYEAR >1841</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. H.</FIRSTNAME>
+<LASTNAME >Hudson</LASTNAME>
+<BIRTHYEAR >1841</BIRTHYEAR>
+<DEATHYEAR >1922</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. H.</FIRSTNAME>
+<LASTNAME >Hudson</LASTNAME>
+<BIRTHYEAR >1841</BIRTHYEAR>
+<DEATHYEAR >1922</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. L.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. L.</FIRSTNAME>
+<LASTNAME >Alden</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. L.</FIRSTNAME>
+<LASTNAME >Alden</LASTNAME>
+<BIRTHYEAR >1837</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. L.</FIRSTNAME>
+<LASTNAME >Alden</LASTNAME>
+<BIRTHYEAR >1837</BIRTHYEAR>
+<DEATHYEAR >1908</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. L.</FIRSTNAME>
+<LASTNAME >Alden</LASTNAME>
+<BIRTHYEAR >1837</BIRTHYEAR>
+<DEATHYEAR >1908</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas A.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas A.</FIRSTNAME>
+<LASTNAME >Janvier</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas A.</FIRSTNAME>
+<LASTNAME >Janvier</LASTNAME>
+<BIRTHYEAR >1849</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas A.</FIRSTNAME>
+<LASTNAME >Janvier</LASTNAME>
+<BIRTHYEAR >1849</BIRTHYEAR>
+<DEATHYEAR >1913</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas A.</FIRSTNAME>
+<LASTNAME >Janvier</LASTNAME>
+<BIRTHYEAR >1849</BIRTHYEAR>
+<DEATHYEAR >1913</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Honoré de</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Honoré de</FIRSTNAME>
+<LASTNAME >Balzac</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Honoré de</FIRSTNAME>
+<LASTNAME >Balzac</LASTNAME>
+<BIRTHYEAR >1799</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Honoré de</FIRSTNAME>
+<LASTNAME >Balzac</LASTNAME>
+<BIRTHYEAR >1799</BIRTHYEAR>
+<DEATHYEAR >1850</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Honoré de</FIRSTNAME>
+<LASTNAME >Balzac</LASTNAME>
+<BIRTHYEAR >1799</BIRTHYEAR>
+<DEATHYEAR >1850</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Algernon</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Algernon</FIRSTNAME>
+<LASTNAME >Blackwood</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Algernon</FIRSTNAME>
+<LASTNAME >Blackwood</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Algernon</FIRSTNAME>
+<LASTNAME >Blackwood</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1951</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Algernon</FIRSTNAME>
+<LASTNAME >Blackwood</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1951</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/d/df/Mark_Twain_Signatures-2.svg</SIGNATURE>
+<AUTHOR ROLE='' ><FIRSTNAME >Mark</FIRSTNAME>
+<LASTNAME >Twain</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/55/Mark_Twain_DLitt.jpg</IMGURL>
+<ABOUT >Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the greatest humorist the United States has produced, and William Faulkner called him the father of American literature.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/d/df/Mark_Twain_Signatures-2.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Edwin</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Edwin</FIRSTNAME>
+<LASTNAME >Grobe</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Edwin</FIRSTNAME>
+<LASTNAME >Grobe</LASTNAME>
+<BIRTHYEAR >1927</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Edwin</FIRSTNAME>
+<LASTNAME >Grobe</LASTNAME>
+<BIRTHYEAR >1927</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Edwin</FIRSTNAME>
+<LASTNAME >Grobe</LASTNAME>
+<BIRTHYEAR >1927</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Annotator' ><FIRSTNAME >Clara Endicott</FIRSTNAME>
+<AUTHOR ROLE='Annotator' ><FIRSTNAME >Clara Endicott</FIRSTNAME>
+<LASTNAME >Sears</LASTNAME>
+<AUTHOR ROLE='Annotator' ><FIRSTNAME >Clara Endicott</FIRSTNAME>
+<LASTNAME >Sears</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<AUTHOR ROLE='Annotator' ><FIRSTNAME >Clara Endicott</FIRSTNAME>
+<LASTNAME >Sears</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Annotator' ><FIRSTNAME >Clara Endicott</FIRSTNAME>
+<LASTNAME >Sears</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<BIRTHYEAR >1872</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<BIRTHYEAR >1872</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stuart</FIRSTNAME>
+<LASTNAME >Mason</LASTNAME>
+<BIRTHYEAR >1872</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1918</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1918</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >T. Bailey</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >T. Bailey</FIRSTNAME>
+<LASTNAME >Saunders</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >T. Bailey</FIRSTNAME>
+<LASTNAME >Saunders</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >T. Bailey</FIRSTNAME>
+<LASTNAME >Saunders</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >T. Bailey</FIRSTNAME>
+<LASTNAME >Saunders</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >David</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Widger</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Widger</LASTNAME>
+<BIRTHYEAR >1932</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Widger</LASTNAME>
+<BIRTHYEAR >1932</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >David</FIRSTNAME>
+<LASTNAME >Widger</LASTNAME>
+<BIRTHYEAR >1932</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >May Wilson</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >May Wilson</FIRSTNAME>
+<LASTNAME >Preston</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >May Wilson</FIRSTNAME>
+<LASTNAME >Preston</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >May Wilson</FIRSTNAME>
+<LASTNAME >Preston</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<DEATHYEAR >1949</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >May Wilson</FIRSTNAME>
+<LASTNAME >Preston</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<DEATHYEAR >1949</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<BIRTHYEAR >1797</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<BIRTHYEAR >1797</BIRTHYEAR>
+<DEATHYEAR >1851</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<BIRTHYEAR >1797</BIRTHYEAR>
+<DEATHYEAR >1851</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/65/RothwellMaryShelley.jpg</IMGURL>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<BIRTHYEAR >1797</BIRTHYEAR>
+<DEATHYEAR >1851</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/65/RothwellMaryShelley.jpg</IMGURL>
+<ABOUT >Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus. She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and feminist Mary Wollstonecraft.</ABOUT>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<BIRTHYEAR >1797</BIRTHYEAR>
+<DEATHYEAR >1851</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/65/RothwellMaryShelley.jpg</IMGURL>
+<ABOUT >Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus. She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and feminist Mary Wollstonecraft.</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Mary Wollstonecraft</FIRSTNAME>
+<LASTNAME >Shelley</LASTNAME>
+<BIRTHYEAR >1797</BIRTHYEAR>
+<DEATHYEAR >1851</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/6/65/RothwellMaryShelley.jpg</IMGURL>
+<ABOUT >Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus. She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and feminist Mary Wollstonecraft.</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Oliver</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Oliver</FIRSTNAME>
+<LASTNAME >Herford</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Oliver</FIRSTNAME>
+<LASTNAME >Herford</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Oliver</FIRSTNAME>
+<LASTNAME >Herford</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1935</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Oliver</FIRSTNAME>
+<LASTNAME >Herford</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1935</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Juan L.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Juan L.</FIRSTNAME>
+<LASTNAME >Iribas</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Juan L.</FIRSTNAME>
+<LASTNAME >Iribas</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Susan</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Susan</FIRSTNAME>
+<LASTNAME >Coolidge</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Susan</FIRSTNAME>
+<LASTNAME >Coolidge</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Susan</FIRSTNAME>
+<LASTNAME >Coolidge</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1905</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Susan</FIRSTNAME>
+<LASTNAME >Coolidge</LASTNAME>
+<BIRTHYEAR >1835</BIRTHYEAR>
+<DEATHYEAR >1905</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Knud</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Knud</FIRSTNAME>
+<LASTNAME >Salskov</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Knud</FIRSTNAME>
+<LASTNAME >Salskov</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Joh.</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Joh.</FIRSTNAME>
+<LASTNAME >Braakensiek</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Joh.</FIRSTNAME>
+<LASTNAME >Braakensiek</LASTNAME>
+<BIRTHYEAR >1858</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Joh.</FIRSTNAME>
+<LASTNAME >Braakensiek</LASTNAME>
+<BIRTHYEAR >1858</BIRTHYEAR>
+<DEATHYEAR >1940</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Joh.</FIRSTNAME>
+<LASTNAME >Braakensiek</LASTNAME>
+<BIRTHYEAR >1858</BIRTHYEAR>
+<DEATHYEAR >1940</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Albert</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Albert</FIRSTNAME>
+<LASTNAME >Savine</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Albert</FIRSTNAME>
+<LASTNAME >Savine</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Albert</FIRSTNAME>
+<LASTNAME >Savine</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Albert</FIRSTNAME>
+<LASTNAME >Savine</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Mme</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Mme</FIRSTNAME>
+<LASTNAME >Letorsay</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Mme</FIRSTNAME>
+<LASTNAME >Letorsay</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Eugenia</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Eugenia</FIRSTNAME>
+<LASTNAME >Żmijewska</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Eugenia</FIRSTNAME>
+<LASTNAME >Żmijewska</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >P. C.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >P. C.</FIRSTNAME>
+<LASTNAME >Boutens</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >P. C.</FIRSTNAME>
+<LASTNAME >Boutens</LASTNAME>
+<BIRTHYEAR >1870</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >P. C.</FIRSTNAME>
+<LASTNAME >Boutens</LASTNAME>
+<BIRTHYEAR >1870</BIRTHYEAR>
+<DEATHYEAR >1943</DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >P. C.</FIRSTNAME>
+<LASTNAME >Boutens</LASTNAME>
+<BIRTHYEAR >1870</BIRTHYEAR>
+<DEATHYEAR >1943</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >M.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >M.</FIRSTNAME>
+<LASTNAME >Hatzigavriil</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >M.</FIRSTNAME>
+<LASTNAME >Hatzigavriil</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Oliver Wendell</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Oliver Wendell</FIRSTNAME>
+<LASTNAME >Holmes</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Oliver Wendell</FIRSTNAME>
+<LASTNAME >Holmes</LASTNAME>
+<BIRTHYEAR >1809</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Oliver Wendell</FIRSTNAME>
+<LASTNAME >Holmes</LASTNAME>
+<BIRTHYEAR >1809</BIRTHYEAR>
+<DEATHYEAR >1894</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Oliver Wendell</FIRSTNAME>
+<LASTNAME >Holmes</LASTNAME>
+<BIRTHYEAR >1809</BIRTHYEAR>
+<DEATHYEAR >1894</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George William</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George William</FIRSTNAME>
+<LASTNAME >Curtis</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George William</FIRSTNAME>
+<LASTNAME >Curtis</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George William</FIRSTNAME>
+<LASTNAME >Curtis</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<DEATHYEAR >1892</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George William</FIRSTNAME>
+<LASTNAME >Curtis</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<DEATHYEAR >1892</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Eliza</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Eliza</FIRSTNAME>
+<LASTNAME >Leslie</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Eliza</FIRSTNAME>
+<LASTNAME >Leslie</LASTNAME>
+<BIRTHYEAR >1787</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Eliza</FIRSTNAME>
+<LASTNAME >Leslie</LASTNAME>
+<BIRTHYEAR >1787</BIRTHYEAR>
+<DEATHYEAR >1858</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Eliza</FIRSTNAME>
+<LASTNAME >Leslie</LASTNAME>
+<BIRTHYEAR >1787</BIRTHYEAR>
+<DEATHYEAR >1858</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Randolph</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Randolph</FIRSTNAME>
+<LASTNAME >Chester</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Randolph</FIRSTNAME>
+<LASTNAME >Chester</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Randolph</FIRSTNAME>
+<LASTNAME >Chester</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1924</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Randolph</FIRSTNAME>
+<LASTNAME >Chester</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1924</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Richard Malcolm</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Richard Malcolm</FIRSTNAME>
+<LASTNAME >Johnston</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Richard Malcolm</FIRSTNAME>
+<LASTNAME >Johnston</LASTNAME>
+<BIRTHYEAR >1822</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Richard Malcolm</FIRSTNAME>
+<LASTNAME >Johnston</LASTNAME>
+<BIRTHYEAR >1822</BIRTHYEAR>
+<DEATHYEAR >1898</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Richard Malcolm</FIRSTNAME>
+<LASTNAME >Johnston</LASTNAME>
+<BIRTHYEAR >1822</BIRTHYEAR>
+<DEATHYEAR >1898</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Frank Richard</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Frank Richard</FIRSTNAME>
+<LASTNAME >Stockton</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Frank Richard</FIRSTNAME>
+<LASTNAME >Stockton</LASTNAME>
+<BIRTHYEAR >1834</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Frank Richard</FIRSTNAME>
+<LASTNAME >Stockton</LASTNAME>
+<BIRTHYEAR >1834</BIRTHYEAR>
+<DEATHYEAR >1902</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Frank Richard</FIRSTNAME>
+<LASTNAME >Stockton</LASTNAME>
+<BIRTHYEAR >1834</BIRTHYEAR>
+<DEATHYEAR >1902</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >O.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >O.</FIRSTNAME>
+<LASTNAME >Henry</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >O.</FIRSTNAME>
+<LASTNAME >Henry</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >O.</FIRSTNAME>
+<LASTNAME >Henry</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >O.</FIRSTNAME>
+<LASTNAME >Henry</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1910</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Bret</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Bret</FIRSTNAME>
+<LASTNAME >Harte</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Bret</FIRSTNAME>
+<LASTNAME >Harte</LASTNAME>
+<BIRTHYEAR >1836</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Bret</FIRSTNAME>
+<LASTNAME >Harte</LASTNAME>
+<BIRTHYEAR >1836</BIRTHYEAR>
+<DEATHYEAR >1902</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Bret</FIRSTNAME>
+<LASTNAME >Harte</LASTNAME>
+<BIRTHYEAR >1836</BIRTHYEAR>
+<DEATHYEAR >1902</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Caroline M.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Caroline M.</FIRSTNAME>
+<LASTNAME >Kirkland</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Caroline M.</FIRSTNAME>
+<LASTNAME >Kirkland</LASTNAME>
+<BIRTHYEAR >1801</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Caroline M.</FIRSTNAME>
+<LASTNAME >Kirkland</LASTNAME>
+<BIRTHYEAR >1801</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Caroline M.</FIRSTNAME>
+<LASTNAME >Kirkland</LASTNAME>
+<BIRTHYEAR >1801</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Grace MacGowan</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Grace MacGowan</FIRSTNAME>
+<LASTNAME >Cooke</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Grace MacGowan</FIRSTNAME>
+<LASTNAME >Cooke</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Grace MacGowan</FIRSTNAME>
+<LASTNAME >Cooke</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1944</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Grace MacGowan</FIRSTNAME>
+<LASTNAME >Cooke</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1944</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >William James</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >William James</FIRSTNAME>
+<LASTNAME >Lampton</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >William James</FIRSTNAME>
+<LASTNAME >Lampton</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >William James</FIRSTNAME>
+<LASTNAME >Lampton</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1917</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >William James</FIRSTNAME>
+<LASTNAME >Lampton</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1917</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wells</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wells</FIRSTNAME>
+<LASTNAME >Hastings</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wells</FIRSTNAME>
+<LASTNAME >Hastings</LASTNAME>
+<BIRTHYEAR >1879</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wells</FIRSTNAME>
+<LASTNAME >Hastings</LASTNAME>
+<BIRTHYEAR >1879</BIRTHYEAR>
+<DEATHYEAR >1923</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wells</FIRSTNAME>
+<LASTNAME >Hastings</LASTNAME>
+<BIRTHYEAR >1879</BIRTHYEAR>
+<DEATHYEAR >1923</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edward Everett</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edward Everett</FIRSTNAME>
+<LASTNAME >Hale</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edward Everett</FIRSTNAME>
+<LASTNAME >Hale</LASTNAME>
+<BIRTHYEAR >1822</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edward Everett</FIRSTNAME>
+<LASTNAME >Hale</LASTNAME>
+<BIRTHYEAR >1822</BIRTHYEAR>
+<DEATHYEAR >1909</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Edward Everett</FIRSTNAME>
+<LASTNAME >Hale</LASTNAME>
+<BIRTHYEAR >1822</BIRTHYEAR>
+<DEATHYEAR >1909</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Harry Stillwell</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Harry Stillwell</FIRSTNAME>
+<LASTNAME >Edwards</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Harry Stillwell</FIRSTNAME>
+<LASTNAME >Edwards</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Harry Stillwell</FIRSTNAME>
+<LASTNAME >Edwards</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1938</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Harry Stillwell</FIRSTNAME>
+<LASTNAME >Edwards</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1938</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Pope</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Pope</FIRSTNAME>
+<LASTNAME >Morris</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Pope</FIRSTNAME>
+<LASTNAME >Morris</LASTNAME>
+<BIRTHYEAR >1802</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Pope</FIRSTNAME>
+<LASTNAME >Morris</LASTNAME>
+<BIRTHYEAR >1802</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George Pope</FIRSTNAME>
+<LASTNAME >Morris</LASTNAME>
+<BIRTHYEAR >1802</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Alexander</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Alexander</FIRSTNAME>
+<LASTNAME >Jessup</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Alexander</FIRSTNAME>
+<LASTNAME >Jessup</LASTNAME>
+<BIRTHYEAR >1871</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Alexander</FIRSTNAME>
+<LASTNAME >Jessup</LASTNAME>
+<BIRTHYEAR >1871</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Alexander</FIRSTNAME>
+<LASTNAME >Jessup</LASTNAME>
+<BIRTHYEAR >1871</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. C.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. C.</FIRSTNAME>
+<LASTNAME >Bunner</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. C.</FIRSTNAME>
+<LASTNAME >Bunner</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. C.</FIRSTNAME>
+<LASTNAME >Bunner</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1896</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. C.</FIRSTNAME>
+<LASTNAME >Bunner</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1896</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Gayle Porter</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Gayle Porter</FIRSTNAME>
+<LASTNAME >Hoskins</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Gayle Porter</FIRSTNAME>
+<LASTNAME >Hoskins</LASTNAME>
+<BIRTHYEAR >1887</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Gayle Porter</FIRSTNAME>
+<LASTNAME >Hoskins</LASTNAME>
+<BIRTHYEAR >1887</BIRTHYEAR>
+<DEATHYEAR >1962</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Gayle Porter</FIRSTNAME>
+<LASTNAME >Hoskins</LASTNAME>
+<BIRTHYEAR >1887</BIRTHYEAR>
+<DEATHYEAR >1962</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E. W.</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E. W.</FIRSTNAME>
+<LASTNAME >Kemble</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E. W.</FIRSTNAME>
+<LASTNAME >Kemble</LASTNAME>
+<BIRTHYEAR >1861</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E. W.</FIRSTNAME>
+<LASTNAME >Kemble</LASTNAME>
+<BIRTHYEAR >1861</BIRTHYEAR>
+<DEATHYEAR >1933</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E. W.</FIRSTNAME>
+<LASTNAME >Kemble</LASTNAME>
+<BIRTHYEAR >1861</BIRTHYEAR>
+<DEATHYEAR >1933</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Hugh</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Hugh</FIRSTNAME>
+<LASTNAME >Thomson</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Hugh</FIRSTNAME>
+<LASTNAME >Thomson</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Hugh</FIRSTNAME>
+<LASTNAME >Thomson</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1920</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Hugh</FIRSTNAME>
+<LASTNAME >Thomson</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1920</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Austin</FIRSTNAME>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Austin</FIRSTNAME>
+<LASTNAME >Dobson</LASTNAME>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Austin</FIRSTNAME>
+<LASTNAME >Dobson</LASTNAME>
+<BIRTHYEAR >1840</BIRTHYEAR>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Austin</FIRSTNAME>
+<LASTNAME >Dobson</LASTNAME>
+<BIRTHYEAR >1840</BIRTHYEAR>
+<DEATHYEAR >1921</DEATHYEAR>
+<AUTHOR ROLE='Commentator' ><FIRSTNAME >Austin</FIRSTNAME>
+<LASTNAME >Dobson</LASTNAME>
+<BIRTHYEAR >1840</BIRTHYEAR>
+<DEATHYEAR >1921</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Anders</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Anders</FIRSTNAME>
+<LASTNAME >Blixt</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Anders</FIRSTNAME>
+<LASTNAME >Blixt</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jessie Willcox</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jessie Willcox</FIRSTNAME>
+<LASTNAME >Smith</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jessie Willcox</FIRSTNAME>
+<LASTNAME >Smith</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jessie Willcox</FIRSTNAME>
+<LASTNAME >Smith</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1935</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Jessie Willcox</FIRSTNAME>
+<LASTNAME >Smith</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1935</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >--a</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >--a</FIRSTNAME>
+<LASTNAME >--ll</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >--a</FIRSTNAME>
+<LASTNAME >--ll</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Josep</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Josep</FIRSTNAME>
+<LASTNAME >Carner</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Josep</FIRSTNAME>
+<LASTNAME >Carner</LASTNAME>
+<BIRTHYEAR >1884</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Josep</FIRSTNAME>
+<LASTNAME >Carner</LASTNAME>
+<BIRTHYEAR >1884</BIRTHYEAR>
+<DEATHYEAR >1971</DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Josep</FIRSTNAME>
+<LASTNAME >Carner</LASTNAME>
+<BIRTHYEAR >1884</BIRTHYEAR>
+<DEATHYEAR >1971</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >J.-A.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >J.-A.</FIRSTNAME>
+<LASTNAME >Cantacuzène</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >J.-A.</FIRSTNAME>
+<LASTNAME >Cantacuzène</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Charles Dudley</FIRSTNAME>
+<LASTNAME >Warner</LASTNAME>
+<BIRTHYEAR >1829</BIRTHYEAR>
+<DEATHYEAR >1900</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Arthur Broderick</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Arthur Broderick</FIRSTNAME>
+<LASTNAME >Bullock</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Arthur Broderick</FIRSTNAME>
+<LASTNAME >Bullock</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Daniel</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Daniel</FIRSTNAME>
+<LASTNAME >Defoe</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Daniel</FIRSTNAME>
+<LASTNAME >Defoe</LASTNAME>
+<BIRTHYEAR >1661?</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Daniel</FIRSTNAME>
+<LASTNAME >Defoe</LASTNAME>
+<BIRTHYEAR >1661?</BIRTHYEAR>
+<DEATHYEAR >1731</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Daniel</FIRSTNAME>
+<LASTNAME >Defoe</LASTNAME>
+<BIRTHYEAR >1661?</BIRTHYEAR>
+<DEATHYEAR >1731</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >James</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Hogg</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Hogg</LASTNAME>
+<BIRTHYEAR >1770</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Hogg</LASTNAME>
+<BIRTHYEAR >1770</BIRTHYEAR>
+<DEATHYEAR >1835</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >James</FIRSTNAME>
+<LASTNAME >Hogg</LASTNAME>
+<BIRTHYEAR >1770</BIRTHYEAR>
+<DEATHYEAR >1835</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Nathaniel</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Nathaniel</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Nathaniel</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<BIRTHYEAR >1804</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Nathaniel</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<BIRTHYEAR >1804</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Nathaniel</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<BIRTHYEAR >1804</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Washington</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Washington</FIRSTNAME>
+<LASTNAME >Irving</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Washington</FIRSTNAME>
+<LASTNAME >Irving</LASTNAME>
+<BIRTHYEAR >1783</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Washington</FIRSTNAME>
+<LASTNAME >Irving</LASTNAME>
+<BIRTHYEAR >1783</BIRTHYEAR>
+<DEATHYEAR >1859</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Washington</FIRSTNAME>
+<LASTNAME >Irving</LASTNAME>
+<BIRTHYEAR >1783</BIRTHYEAR>
+<DEATHYEAR >1859</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Dickens</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Dickens</LASTNAME>
+<BIRTHYEAR >1812</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Dickens</LASTNAME>
+<BIRTHYEAR >1812</BIRTHYEAR>
+<DEATHYEAR >1870</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Charles</FIRSTNAME>
+<LASTNAME >Dickens</LASTNAME>
+<BIRTHYEAR >1812</BIRTHYEAR>
+<DEATHYEAR >1870</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >John</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Brown</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Brown</LASTNAME>
+<BIRTHYEAR >1810</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Brown</LASTNAME>
+<BIRTHYEAR >1810</BIRTHYEAR>
+<DEATHYEAR >1882</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Brown</LASTNAME>
+<BIRTHYEAR >1810</BIRTHYEAR>
+<DEATHYEAR >1882</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J.</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J.</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J.</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J.</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J.</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<BIRTHYEAR >1854</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Coningsby</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Coningsby</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Coningsby</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<BIRTHYEAR >1883</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Coningsby</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<BIRTHYEAR >1883</BIRTHYEAR>
+<DEATHYEAR >1959</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Coningsby</FIRSTNAME>
+<LASTNAME >Dawson</LASTNAME>
+<BIRTHYEAR >1883</BIRTHYEAR>
+<DEATHYEAR >1959</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas</FIRSTNAME>
+<LASTNAME >Hardy</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas</FIRSTNAME>
+<LASTNAME >Hardy</LASTNAME>
+<BIRTHYEAR >1840</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas</FIRSTNAME>
+<LASTNAME >Hardy</LASTNAME>
+<BIRTHYEAR >1840</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Thomas</FIRSTNAME>
+<LASTNAME >Hardy</LASTNAME>
+<BIRTHYEAR >1840</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Henry</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Henry</FIRSTNAME>
+<LASTNAME >James</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Henry</FIRSTNAME>
+<LASTNAME >James</LASTNAME>
+<BIRTHYEAR >1843</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Henry</FIRSTNAME>
+<LASTNAME >James</LASTNAME>
+<BIRTHYEAR >1843</BIRTHYEAR>
+<DEATHYEAR >1916</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Henry</FIRSTNAME>
+<LASTNAME >James</LASTNAME>
+<BIRTHYEAR >1843</BIRTHYEAR>
+<DEATHYEAR >1916</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Robert Louis</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Robert Louis</FIRSTNAME>
+<LASTNAME >Stevenson</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Robert Louis</FIRSTNAME>
+<LASTNAME >Stevenson</LASTNAME>
+<BIRTHYEAR >1850</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Robert Louis</FIRSTNAME>
+<LASTNAME >Stevenson</LASTNAME>
+<BIRTHYEAR >1850</BIRTHYEAR>
+<DEATHYEAR >1894</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Robert Louis</FIRSTNAME>
+<LASTNAME >Stevenson</LASTNAME>
+<BIRTHYEAR >1850</BIRTHYEAR>
+<DEATHYEAR >1894</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. C.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. C.</FIRSTNAME>
+<LASTNAME >Scully</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. C.</FIRSTNAME>
+<LASTNAME >Scully</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. C.</FIRSTNAME>
+<LASTNAME >Scully</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1943</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >W. C.</FIRSTNAME>
+<LASTNAME >Scully</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1943</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Percy</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Percy</FIRSTNAME>
+<LASTNAME >Addleshaw</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Percy</FIRSTNAME>
+<LASTNAME >Addleshaw</LASTNAME>
+<BIRTHYEAR >1866</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Percy</FIRSTNAME>
+<LASTNAME >Addleshaw</LASTNAME>
+<BIRTHYEAR >1866</BIRTHYEAR>
+<DEATHYEAR >1916</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Percy</FIRSTNAME>
+<LASTNAME >Addleshaw</LASTNAME>
+<BIRTHYEAR >1866</BIRTHYEAR>
+<DEATHYEAR >1916</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/4a/Arthur_Conan_Doyle_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/4a/Arthur_Conan_Doyle_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. Rider</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. Rider</FIRSTNAME>
+<LASTNAME >Haggard</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. Rider</FIRSTNAME>
+<LASTNAME >Haggard</LASTNAME>
+<BIRTHYEAR >1856</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. Rider</FIRSTNAME>
+<LASTNAME >Haggard</LASTNAME>
+<BIRTHYEAR >1856</BIRTHYEAR>
+<DEATHYEAR >1925</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >H. Rider</FIRSTNAME>
+<LASTNAME >Haggard</LASTNAME>
+<BIRTHYEAR >1856</BIRTHYEAR>
+<DEATHYEAR >1925</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >J.</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >J.</FIRSTNAME>
+<LASTNAME >Landers</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >J.</FIRSTNAME>
+<LASTNAME >Landers</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alex.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alex.</FIRSTNAME>
+<LASTNAME >Marpoutzoglou</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alex.</FIRSTNAME>
+<LASTNAME >Marpoutzoglou</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Ednah D.</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Ednah D.</FIRSTNAME>
+<LASTNAME >Cheney</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Ednah D.</FIRSTNAME>
+<LASTNAME >Cheney</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Ednah D.</FIRSTNAME>
+<LASTNAME >Cheney</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<DEATHYEAR >1904</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Ednah D.</FIRSTNAME>
+<LASTNAME >Cheney</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<DEATHYEAR >1904</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emile</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emile</FIRSTNAME>
+<LASTNAME >Blémont</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emile</FIRSTNAME>
+<LASTNAME >Blémont</LASTNAME>
+<BIRTHYEAR >1839</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emile</FIRSTNAME>
+<LASTNAME >Blémont</LASTNAME>
+<BIRTHYEAR >1839</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Emile</FIRSTNAME>
+<LASTNAME >Blémont</LASTNAME>
+<BIRTHYEAR >1839</BIRTHYEAR>
+<DEATHYEAR >1927</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >François de</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >François de</FIRSTNAME>
+<LASTNAME >Gail</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >François de</FIRSTNAME>
+<LASTNAME >Gail</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J. L.</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J. L.</FIRSTNAME>
+<LASTNAME >Wharton</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J. L.</FIRSTNAME>
+<LASTNAME >Wharton</LASTNAME>
+<BIRTHYEAR >1843</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J. L.</FIRSTNAME>
+<LASTNAME >Wharton</LASTNAME>
+<BIRTHYEAR >1843</BIRTHYEAR>
+<DEATHYEAR >1905</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >W. J. L.</FIRSTNAME>
+<LASTNAME >Wharton</LASTNAME>
+<BIRTHYEAR >1843</BIRTHYEAR>
+<DEATHYEAR >1905</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E.</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E.</FIRSTNAME>
+<LASTNAME >Mars</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E.</FIRSTNAME>
+<LASTNAME >Mars</LASTNAME>
+<BIRTHYEAR >1876</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E.</FIRSTNAME>
+<LASTNAME >Mars</LASTNAME>
+<BIRTHYEAR >1876</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >E.</FIRSTNAME>
+<LASTNAME >Mars</LASTNAME>
+<BIRTHYEAR >1876</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Maud Hunt</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Maud Hunt</FIRSTNAME>
+<LASTNAME >Squire</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Maud Hunt</FIRSTNAME>
+<LASTNAME >Squire</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Maud Hunt</FIRSTNAME>
+<LASTNAME >Squire</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Maud Hunt</FIRSTNAME>
+<LASTNAME >Squire</LASTNAME>
+<BIRTHYEAR >1873</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Károly</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Károly</FIRSTNAME>
+<LASTNAME >Szabó</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Károly</FIRSTNAME>
+<LASTNAME >Szabó</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >O. A.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >O. A.</FIRSTNAME>
+<LASTNAME >Joutsen</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >O. A.</FIRSTNAME>
+<LASTNAME >Joutsen</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >H.</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >H.</FIRSTNAME>
+<LASTNAME >Hellwag</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >H.</FIRSTNAME>
+<LASTNAME >Hellwag</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >Edward</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Edward</FIRSTNAME>
+<LASTNAME >Farr</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Edward</FIRSTNAME>
+<LASTNAME >Farr</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >E. H.$q(Edward Henry)</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >E. H.$q(Edward Henry)</FIRSTNAME>
+<LASTNAME >Nolan</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >E. H.$q(Edward Henry)</FIRSTNAME>
+<LASTNAME >Nolan</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >T.</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >T.</FIRSTNAME>
+<LASTNAME >Smollett</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >T.</FIRSTNAME>
+<LASTNAME >Smollett</LASTNAME>
+<BIRTHYEAR >1721</BIRTHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >T.</FIRSTNAME>
+<LASTNAME >Smollett</LASTNAME>
+<BIRTHYEAR >1721</BIRTHYEAR>
+<DEATHYEAR >1771</DEATHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >T.</FIRSTNAME>
+<LASTNAME >Smollett</LASTNAME>
+<BIRTHYEAR >1721</BIRTHYEAR>
+<DEATHYEAR >1771</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >E. V.</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >E. V.</FIRSTNAME>
+<LASTNAME >Lucas</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >E. V.</FIRSTNAME>
+<LASTNAME >Lucas</LASTNAME>
+<BIRTHYEAR >1868</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >E. V.</FIRSTNAME>
+<LASTNAME >Lucas</LASTNAME>
+<BIRTHYEAR >1868</BIRTHYEAR>
+<DEATHYEAR >1938</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >E. V.</FIRSTNAME>
+<LASTNAME >Lucas</LASTNAME>
+<BIRTHYEAR >1868</BIRTHYEAR>
+<DEATHYEAR >1938</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >John</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Leech</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Leech</LASTNAME>
+<BIRTHYEAR >1817</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Leech</LASTNAME>
+<BIRTHYEAR >1817</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >John</FIRSTNAME>
+<LASTNAME >Leech</LASTNAME>
+<BIRTHYEAR >1817</BIRTHYEAR>
+<DEATHYEAR >1864</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Theodore</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Theodore</FIRSTNAME>
+<LASTNAME >Martin</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Theodore</FIRSTNAME>
+<LASTNAME >Martin</LASTNAME>
+<BIRTHYEAR >1816</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Theodore</FIRSTNAME>
+<LASTNAME >Martin</LASTNAME>
+<BIRTHYEAR >1816</BIRTHYEAR>
+<DEATHYEAR >1909</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Theodore</FIRSTNAME>
+<LASTNAME >Martin</LASTNAME>
+<BIRTHYEAR >1816</BIRTHYEAR>
+<DEATHYEAR >1909</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >$eIllustrator</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >$eIllustrator</FIRSTNAME>
+<LASTNAME >Cromquill</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >$eIllustrator</FIRSTNAME>
+<LASTNAME >Cromquill</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/4a/Arthur_Conan_Doyle_Signature.svg</SIGNATURE>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Arthur Conan</FIRSTNAME>
+<LASTNAME >Doyle</LASTNAME>
+<BIRTHYEAR >1859</BIRTHYEAR>
+<DEATHYEAR >1930</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/5/53/Arthur_Conan_Doyle_by_Herbert_Rose_Barraud_1893.jpg</IMGURL>
+<ABOUT >Sir Arthur Ignatius Conan Doyle KStJ DL was a British writer and medical doctor. He created the character Sherlock Holmes in 1887 when he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.</ABOUT>
+<SIGNATURE >https://upload.wikimedia.org/wikipedia/commons/4/4a/Arthur_Conan_Doyle_Signature.svg</SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Richard</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Richard</FIRSTNAME>
+<LASTNAME >Zoozmann</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Richard</FIRSTNAME>
+<LASTNAME >Zoozmann</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Aubrey</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Aubrey</FIRSTNAME>
+<LASTNAME >Beardsley</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Aubrey</FIRSTNAME>
+<LASTNAME >Beardsley</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alfred</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alfred</FIRSTNAME>
+<LASTNAME >Köppen</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alfred</FIRSTNAME>
+<LASTNAME >Köppen</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alfred</FIRSTNAME>
+<LASTNAME >Köppen</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1940</DEATHYEAR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Alfred</FIRSTNAME>
+<LASTNAME >Köppen</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1940</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Lord</FIRSTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Lord</FIRSTNAME>
+<LASTNAME >Douglas</LASTNAME>
+<AUTHOR ROLE='Translator' ><FIRSTNAME >Lord</FIRSTNAME>
+<LASTNAME >Douglas</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Pelagie</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Pelagie</FIRSTNAME>
+<LASTNAME >Doane</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Pelagie</FIRSTNAME>
+<LASTNAME >Doane</LASTNAME>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Frank T.</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Frank T.</FIRSTNAME>
+<LASTNAME >Merrill</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Frank T.</FIRSTNAME>
+<LASTNAME >Merrill</LASTNAME>
+<BIRTHYEAR >1848</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Frank T.</FIRSTNAME>
+<LASTNAME >Merrill</LASTNAME>
+<BIRTHYEAR >1848</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Frank T.</FIRSTNAME>
+<LASTNAME >Merrill</LASTNAME>
+<BIRTHYEAR >1848</BIRTHYEAR>
+<DEATHYEAR ></DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Edward C.</FIRSTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Edward C.</FIRSTNAME>
+<LASTNAME >Caswell</LASTNAME>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Edward C.</FIRSTNAME>
+<LASTNAME >Caswell</LASTNAME>
+<BIRTHYEAR >1879</BIRTHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Edward C.</FIRSTNAME>
+<LASTNAME >Caswell</LASTNAME>
+<BIRTHYEAR >1879</BIRTHYEAR>
+<DEATHYEAR >1963</DEATHYEAR>
+<AUTHOR ROLE='Illustrator' ><FIRSTNAME >Edward C.</FIRSTNAME>
+<LASTNAME >Caswell</LASTNAME>
+<BIRTHYEAR >1879</BIRTHYEAR>
+<DEATHYEAR >1963</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Carolyn</FIRSTNAME>
+<LASTNAME >Wells</LASTNAME>
+<BIRTHYEAR >1862</BIRTHYEAR>
+<DEATHYEAR >1942</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Carolyn_Wells.jpg</IMGURL>
+<ABOUT >Carolyn Wells wrote a total 170 books. During the first ten years of her career, she concentrated on poetry, humor, and childrens books. According to her autobiography, The Rest of My Life (1937), she heard That Affair Next Door (1897), one of Anna Katharine Greens mystery novels, being read aloud and was immediately captivated by the unraveling of the puzzle. From that point onward she devoted herself to the mystery genre. Among the most famous of her mystery novels were the Fleming Stone Detective Stories which—according to Allen J. Hubin's Crime Fiction IV: A Comprehensive Bibliography, 1749–2000 (2003)—number 61 titles. Wells's The Clue (1909) is on the Haycraft-Queen Cornerstone list of essential mysteries. She was also the first to conduct a (brief, in this case) annual series devoted to the best short crime fiction of the previous year in the U.S., beginning with The Best American Mystery Stories of the Year (1931) (though others had begun a similar British series in 1929).</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Albert Bigelow</FIRSTNAME>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Albert Bigelow</FIRSTNAME>
+<LASTNAME >Paine</LASTNAME>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Albert Bigelow</FIRSTNAME>
+<LASTNAME >Paine</LASTNAME>
+<BIRTHYEAR >1861</BIRTHYEAR>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Albert Bigelow</FIRSTNAME>
+<LASTNAME >Paine</LASTNAME>
+<BIRTHYEAR >1861</BIRTHYEAR>
+<DEATHYEAR >1937</DEATHYEAR>
+<AUTHOR ROLE='Compiler' ><FIRSTNAME >Albert Bigelow</FIRSTNAME>
+<LASTNAME >Paine</LASTNAME>
+<BIRTHYEAR >1861</BIRTHYEAR>
+<DEATHYEAR >1937</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wilkie</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wilkie</FIRSTNAME>
+<LASTNAME >Collins</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wilkie</FIRSTNAME>
+<LASTNAME >Collins</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wilkie</FIRSTNAME>
+<LASTNAME >Collins</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<DEATHYEAR >1889</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Wilkie</FIRSTNAME>
+<LASTNAME >Collins</LASTNAME>
+<BIRTHYEAR >1824</BIRTHYEAR>
+<DEATHYEAR >1889</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Egerton</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Egerton</FIRSTNAME>
+<LASTNAME >Castle</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Egerton</FIRSTNAME>
+<LASTNAME >Castle</LASTNAME>
+<BIRTHYEAR >1858</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Egerton</FIRSTNAME>
+<LASTNAME >Castle</LASTNAME>
+<BIRTHYEAR >1858</BIRTHYEAR>
+<DEATHYEAR >1920</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Egerton</FIRSTNAME>
+<LASTNAME >Castle</LASTNAME>
+<BIRTHYEAR >1858</BIRTHYEAR>
+<DEATHYEAR >1920</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Rudyard</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Rudyard</FIRSTNAME>
+<LASTNAME >Kipling</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Rudyard</FIRSTNAME>
+<LASTNAME >Kipling</LASTNAME>
+<BIRTHYEAR >1865</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Rudyard</FIRSTNAME>
+<LASTNAME >Kipling</LASTNAME>
+<BIRTHYEAR >1865</BIRTHYEAR>
+<DEATHYEAR >1936</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Rudyard</FIRSTNAME>
+<LASTNAME >Kipling</LASTNAME>
+<BIRTHYEAR >1865</BIRTHYEAR>
+<DEATHYEAR >1936</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stanley John</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stanley John</FIRSTNAME>
+<LASTNAME >Weyman</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stanley John</FIRSTNAME>
+<LASTNAME >Weyman</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stanley John</FIRSTNAME>
+<LASTNAME >Weyman</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Stanley John</FIRSTNAME>
+<LASTNAME >Weyman</LASTNAME>
+<BIRTHYEAR >1855</BIRTHYEAR>
+<DEATHYEAR >1928</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Julian</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Julian</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Julian</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<BIRTHYEAR >1846</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Julian</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<BIRTHYEAR >1846</BIRTHYEAR>
+<DEATHYEAR >1934</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >Julian</FIRSTNAME>
+<LASTNAME >Hawthorne</LASTNAME>
+<BIRTHYEAR >1846</BIRTHYEAR>
+<DEATHYEAR >1934</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author of introduction' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<AUTHOR ROLE='Author of introduction' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<AUTHOR ROLE='Author of introduction' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<AUTHOR ROLE='Author of introduction' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1918</DEATHYEAR>
+<AUTHOR ROLE='Author of introduction' ><FIRSTNAME >Robert Baldwin</FIRSTNAME>
+<LASTNAME >Ross</LASTNAME>
+<BIRTHYEAR >1869</BIRTHYEAR>
+<DEATHYEAR >1918</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Anne</FIRSTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Anne</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Anne</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1820</BIRTHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Anne</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1820</BIRTHYEAR>
+<DEATHYEAR >1849</DEATHYEAR>
+<AUTHOR ROLE='Author' ><FIRSTNAME >Anne</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1820</BIRTHYEAR>
+<DEATHYEAR >1849</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >Charlotte</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Charlotte</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Charlotte</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1816</BIRTHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Charlotte</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1816</BIRTHYEAR>
+<DEATHYEAR >1855</DEATHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Charlotte</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1816</BIRTHYEAR>
+<DEATHYEAR >1855</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<ABOUT >Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English literature. She also published one book of poetry with her sisters Charlotte and Anne titled Poems by Currer, Ellis and Acton Bell with her own poems finding regard as poetic genius..</ABOUT>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<ABOUT >Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English literature. She also published one book of poetry with her sisters Charlotte and Anne titled Poems by Currer, Ellis and Acton Bell with her own poems finding regard as poetic genius..</ABOUT>
+<SIGNATURE ></SIGNATURE>
+<AUTHOR ROLE='' ><FIRSTNAME >Emily</FIRSTNAME>
+<LASTNAME >Brontë</LASTNAME>
+<BIRTHYEAR >1818</BIRTHYEAR>
+<DEATHYEAR >1848</DEATHYEAR>
+<IMGURL >https://upload.wikimedia.org/wikipedia/commons/f/fc/Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg</IMGURL>
+<ABOUT >Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English literature. She also published one book of poetry with her sisters Charlotte and Anne titled Poems by Currer, Ellis and Acton Bell with her own poems finding regard as poetic genius..</ABOUT>
+<SIGNATURE ></SIGNATURE>
+</AUTHOR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >L. A.</FIRSTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >L. A.</FIRSTNAME>
+<LASTNAME >Selby-Bigge</LASTNAME>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >L. A.</FIRSTNAME>
+<LASTNAME >Selby-Bigge</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >L. A.</FIRSTNAME>
+<LASTNAME >Selby-Bigge</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1951</DEATHYEAR>
+<AUTHOR ROLE='Editor' ><FIRSTNAME >L. A.</FIRSTNAME>
+<LASTNAME >Selby-Bigge</LASTNAME>
+<BIRTHYEAR >1860</BIRTHYEAR>
+<DEATHYEAR >1951</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Morrison</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Morrison</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Morrison</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1945</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Arthur</FIRSTNAME>
+<LASTNAME >Morrison</LASTNAME>
+<BIRTHYEAR >1863</BIRTHYEAR>
+<DEATHYEAR >1945</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George</FIRSTNAME>
+<LASTNAME >Gissing</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George</FIRSTNAME>
+<LASTNAME >Gissing</LASTNAME>
+<BIRTHYEAR >1857</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George</FIRSTNAME>
+<LASTNAME >Gissing</LASTNAME>
+<BIRTHYEAR >1857</BIRTHYEAR>
+<DEATHYEAR >1903</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >George</FIRSTNAME>
+<LASTNAME >Gissing</LASTNAME>
+<BIRTHYEAR >1857</BIRTHYEAR>
+<DEATHYEAR >1903</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Ella</FIRSTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Ella</FIRSTNAME>
+<LASTNAME >D'Arcy</LASTNAME>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Ella</FIRSTNAME>
+<LASTNAME >D'Arcy</LASTNAME>
+<BIRTHYEAR >1851</BIRTHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Ella</FIRSTNAME>
+<LASTNAME >D'Arcy</LASTNAME>
+<BIRTHYEAR >1851</BIRTHYEAR>
+<DEATHYEAR >1939?</DEATHYEAR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Ella</FIRSTNAME>
+<LASTNAME >D'Arcy</LASTNAME>
+<BIRTHYEAR >1851</BIRTHYEAR>
+<DEATHYEAR >1939?</DEATHYEAR>
+</AUTHOR>
+<AUTHOR ROLE='Contributor' ><FIRSTNAME >Ella</FIRSTNAME>
+<LASTNAME >D'Arcy</LASTNAME>
+<BIRTHYEAR >1851</BIRTHYEAR>
+<DEATHYEAR >1939?</DEATHYEAR>
+</AUTHOR>
+</AUTHORS>
+

@@ -1,0 +1,97 @@
+<repos>
+		<repo name='shaker.js' url='https://github.com/HGustavs/Shaker.js' >
+				<file type='file' fullname='LICENSE' name='LICENSE' url='https://raw.githack.com/HGustavs/Shaker.js/master/LICENSE' />
+				<file type='file' fullname='README.md' name='README.md' url='https://raw.githack.com/HGustavs/Shaker.js/master/README.md' />
+				<file type='directory' fullname='gyro_examples' name='gyro_examples' >
+						<file type='file' fullname='gyro_examples/gyro_example_ball1.html' name='gyro_example_ball1.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/gyro_example_ball1.html' />
+						<file type='file' fullname='gyro_examples/gyro_example_ball2.html' name='gyro_example_ball2.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/gyro_example_ball2.html' />
+						<file type='file' fullname='gyro_examples/gyro_example_ball2.html' name='gyro_example_compass.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/gyro_example_compass.html' />
+						<file type='file' fullname='gyro_examples/gyro_example_ball2.html' name='gyro_example_gyro.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/gyro_example_gyro.html' />
+						<file type='file' fullname='gyro_examples/gyro_example_ball2.html' name='gyro_example_supercar.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/gyro_example_supercar.html' />
+						<file type='directory' fullname='gyro_examples/images' orientation_examplesname='images'>
+								<file type='file' fullname='gyro_examples/images/Ballsy.svg' name='Ballsy.svg' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/images/Ballsy.svg' />
+								<file type='file' fullname='gyro_examples/images/gyroc.svg' name='gyroc.svg' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/images/gyroc.svg' />
+								<file type='file' fullname='gyro_examples/images/starz.svg' name='starz.svg' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/images/starz.svg' />
+								<file type='file' fullname='gyro_examples/images/starzc.svg' name='starzc.svg' url='https://raw.githack.com/HGustavs/Shaker.js/master/gyro_examples/images/starzc.svg' />
+						</file>
+					</file>
+					<file type='directory' fullname='orientation_examples' name='orientation_examples' >
+								<file type='file' fullname='orientation_examples/orientation_example1.html' name='orientation_example1.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/orientation_examples/orientation_example1.html' />
+								<file type='file' fullname='orientation_examples/orientation_example2.html' name='orientation_example2.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/orientation_examples/orientation_example2.html' />						
+					</file>
+					<file type='directory' fullname='shake_examples' name='shake_examples' >
+								<file tracked='true' type='file' fullname='shake_examples/shake_example1.html' name='shake_example1.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/shake_examples/shake_example1.html' />
+								<file tracked='true' type='file' fullname='shake_examples/shake_example2.html' name='shake_example2.html' url='https://raw.githack.com/HGustavs/Shaker.js/master/shake_examples/shake_example1.html' />						
+					</file>			
+					<file tracked='true' type='file' fullname='shaker.js' name='shaker.js' url='https://raw.githack.com/HGustavs/Shaker.js/master/shaker.js' />
+		</repo>
+		<repo name='ContextFreeLib' url='https://github.com/HGustavs/ContextFreeLib' >
+				<file type='file' fullname='LICENSE' name='LICENSE' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/LICENSE.md' />
+				<file type='file' fullname='README.md' name='README.md' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/README.md' />
+				<file type='directory' name='js' fullname='js' >
+							<file tracked='true' type='file' fullname='js/contextfreegrammar.js' name='contextfreegrammar.js' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/js/contextfreegrammar.js' />
+							<file type='file' fullname='js/testgrammar.html' name='testgrammar.html' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/js/testgrammar.html' />						
+				</file>
+				<file type='directory' fullname='php' name='php' >
+							<file type='file' fullname='php/orientation_example1.html' name='orientation_example1.html' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/php/ContextFreeGrammar.php' />
+							<file type='file' fullname='php/orientation_example2.html' name='orientation_example2.html' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/php/convertwords.php' />						
+							<file type='file' fullname='php/orientation_example2.html' name='orientation_example2.html' url='https://raw.githack.com/HGustavs/ContextFreeLib/master/php/wordlists.php' />											
+				</file>					
+	</repo>
+	<repo name='SchedSYS' url='https://github.com/HGustavs/SchedSYS' >
+				<file type='file' fullname='README.md' name='README.md' url='https://raw.githack.com/HGustavs/SchedSYS/master/README.md' />
+				<file type='file' fullname='__config.php__' name='__config.php__' url='https://raw.githack.com/HGustavs/SchedSYS/master/__config.php__' />		
+				<file type='file' fullname='admin.php' name='admin.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/admin.php' />
+				<file type='file' fullname='adminlogin.php' name='adminlogin.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/adminlogin.php' />		
+				<file type='file' fullname='canvas.js' name='canvas.js' url='https://raw.githack.com/HGustavs/SchedSYS/master/canvas.js' />	
+				<file type='file' fullname='confsched_service_new.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/confsched_service_new.php' />	
+				<file type='file' fullname='coursedata.js' url='https://raw.githack.com/HGustavs/SchedSYS/master/coursedata.js' />			
+				<file type='file' fullname='gindex.php' name='gindex.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/gindex.php' />		
+				<file type='file' fullname='json_export_ical.php' name='json_export_ical.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/json_export_ical.php' />	
+				<file type='file' fullname='json_export_sign.php' name='json_export_sign.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/json_export_sign.php' />	
+				<file type='file' fullname='json_export_xml.php' name='json_export_xml.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/json_export_xml.php' />			
+				<file type='file' fullname='lineback.svg' name='lineback.svg' url='https://raw.githack.com/HGustavs/SchedSYS/master/lineback.svg' />			
+				<file type='file' fullname='showcourses_demo.js' name='showcourses_demo.js' url='https://raw.githack.com/HGustavs/SchedSYS/master/showcourses_demo.js' />					
+				<file type='file' fullname='showcourses_demo.html' name='showcourses_demo.html' url='https://raw.githack.com/HGustavs/SchedSYS/master/showcourses_demo.html' />			
+				<file type='file' fullname='showsched.js' name='showsched.js' url='https://raw.githack.com/HGustavs/SchedSYS/master/showsched.js' />					
+				<file type='file' fullname='showsched.php' name='showsched.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/showsched.php' />					
+				<file type='file' fullname='showsched_demo.js' name='showsched_demo.js' url='https://raw.githack.com/HGustavs/SchedSYS/master/showsched_demo.js' />					
+				<file type='file' fullname='showsched_demo.php' name='showsched_demo.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/showsched_demo.php' />	
+				<file type='file' fullname='showsched_service_new.php' name='showsched_service_new.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/showsched_service_new.php' />			
+	</repo>	
+	<repo name='SortableTableLibrary' url='https://github.com/HGustavs/SortableTableLibrary' >
+			<file type='file' fullame='Icon_Cross.svg' name='Icon_Cross.svg' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/Icon_Cross.svg' />
+			<file type='file' fullfname='Icon_Tick.svg' name='Icon_Tick.svg' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/Icon_Tick.svg' />
+			<file type='file' fullname='LICENSE' name='LICENSE' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/LICENSE' />
+			<file type='file' fullname='TickAndX.svg' name='TickAndX.svg' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/TickAndX.svg' />
+			<file type='file' fullname='db_service.php' name='db_service.php' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/db_service.php' />
+			<file type='file' fullname='fixedtest.html' name='fixedtest.html'  ame='fixedtest.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/fixedtest.html' />		
+			<file tracked='true' type='file' fullname='sortableTable.js' name='sortableTable.js' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTable.js' />
+			<file type='file' fullname='sortableTableDemo.html' name='sortableTableDemo.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo.html' />
+			<file type='file' fullname='sortableTableDemo_changeColumnOrder.html' name='sortableTableDemo_changeColumnOrder.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_changeColumnOrder.html' />
+			<file type='file' fullname='sortableTableDemo_columnfilter.html' name='sortableTableDemo_columnfilter.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_columnfilter.html' />
+			<file type='file' fullname='sortableTableDemo_edit.html' name='sortableTableDemo_edit.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_edit.html' />
+			<file type='file' fnullame='sortableTableDemo_highlight.html' name='sortableTableDemo_highlight.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_highlight.html' />
+			<file type='file' fullname='sortableTableDemo_highlight_adv.html' name='sortableTableDemo_highlight_adv.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_highlight_adv.html' />	
+			<file type='file' fullname='sortableTableDemo_rowfilter.html' name='sortableTableDemo_rowfilter.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_rowfilter.html' />
+			<file type='file' fullname='sortableTableDemo_rowsum_advanced.html' name='sortableTableDemo_rowsum_advanced.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_rowsum_advanced.html' />
+			<file type='file' fullname='sortableTableDemo_rowsum_multiple.html' name='sortableTableDemo_rowsum_multiple.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_rowsum_multiple.html' />
+			<file type='file' fullname='sortableTableDemo_rowsum_simple.html' name='sortableTableDemo_rowsum_simple.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_rowsum_simple.html' />
+			<file type='file' fullname='sortableTableDemo_rowsum_simple.html' name='sortableTableDemo_rowsum_simple.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_rowsum_simple.html' />
+			<file type='file' fullname='sortableTableDemo_simplest.html' name='sortableTableDemo_simplest.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_simplest.html' />
+			<file type='file' fullname='sortableTableDemo_simplest_w_magich.html' name='sortableTableDemo_simplest_w_magich.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_simplest_w_magich.html' />	
+			<file type='file' fullname='sortableTableDemo_sortadvanced.html' name='sortableTableDemo_sortadvanced.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_sortadvanced.html' />	
+			<file type='file' fullname='sortableTableDemo_sortsimple.html' name='sortableTableDemo_sortsimple.html' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/sortableTableDemo_sortsimple.html' />	
+			<file type='file' fullname='style.css' name='style.css' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/style.css' />	
+			<file type='file' fullname='wingette.png' name='wingette.png' url='https://raw.githack.com/HGustavs/SortableTableLibrary/master/wingette.png' />	
+	</repo>	
+	<repo name='SurveySYS' url='https://github.com/HGustavs/SurveySYS' >
+			<file type='file' fullame='LICENSE' name='LICENSE' url='https://raw.githack.com/HGustavs/SurveySYS/master/LICENSE' />
+			<file type='file' fullame='README.md' name='README.md' url='https://raw.githack.com/HGustavs/SurveySYS/master/README.md' />
+			<file type='file' fullame='createSurvey.php' name='createSurvey.php' url='https://raw.githack.com/HGustavs/SurveySYS/master/createSurvey.php' />
+			<file type='file' fullame='doSurvey.php' name='doSurvey.php' url='https://raw.githack.com/HGustavs/SurveySYS/master/doSurvey.php' />
+			<file type='file' fullame='editSurvey.php' name='editSurvey.php' url='https://raw.githack.com/HGustavs/SurveySYS/master/editSurvey.php' />
+			<file type='file' fullame='fixdb.php' name='fixdb.php' url='https://raw.githack.com/HGustavs/SurveySYS/master/fixdb.php' />
+			<file type='file' fullame='saveSurvey.php' name='saveSurvey.php' url='https://raw.githack.com/HGustavs/SurveySYS/master/saveSurvey.php' />
+	</repo>		
+</repos>

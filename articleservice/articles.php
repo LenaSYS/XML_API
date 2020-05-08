@@ -26,7 +26,13 @@ header("Content-type: text/xml");
 			global $kind;
 			if($entityname=="NEWSPAPER"){
 					$output=false;
-					if($attributes['NAME']==$paper){
+					if($attributes['TYPE']==$paper){
+							echo "<NEWSPAPER ";
+							foreach ($attributes as $attname => $attvalue) {
+									echo $attname."='".$attvalue."' ";
+							}							
+							echo ">";						
+						
 							$output=true;
 					}
 			}else if($entityname=="ARTICLE"){
@@ -58,6 +64,7 @@ header("Content-type: text/xml");
 			global $output;
 			global $articleoutput;
 			if($entityname=="NEWSPAPER"){
+					if($output) echo "</NEWSPAPER>";
 					$output=false;
 			}else if($entityname=="ARTICLE"){
 					if($articleoutput) echo "</ARTICLE>";

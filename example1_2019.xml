@@ -1,0 +1,162 @@
+<newspapers>
+<newspaper name="Times" subscribers="100.000" type="Morning_Edition">
+	<article id="1232" time="2001-01-01" description="News">
+		<heading>
+			<text>The Battle of Hastings</text>
+		</heading>
+		<story>
+			<text>The Battle of Hastings was fought on 14 October 1066 between the Norman-French army of William, the Duke of Normandy, and an English army under the Anglo-Saxon King Harold Godwinson, beginning the Norman conquest of England. It took place approximately 7 miles (11 kilometres) northwest of Hastings, close to the present-day town of Battle, East Sussex, and was a decisive Norman victory. </text>
+		</story>
+	</article>
+	<article id="1237" time="2001-01-01" description="News">
+		<heading>
+			<text>The holy Hand Grenade of Antioch</text>
+		</heading>
+		<story>
+			<text>The Holy Hand Grenade of Antioch is a visual satire of the Sovereigns Orb of the United Kingdom, and may refer to the mythical Holy Spear of Antioch. The Holy Hand Grenade is described as one of the "sacred relics" carried by Brother Maynard (Idle). Despite its ornate appearance and long-winded instructions, it functions much the same as any other hand grenade. At King Arthurs prompting, instructions for its use are read aloud (by Michael Palin) from the fictitious Book of Armaments, Chapter 2, verses 9 to 21</text>
+			<text>Arthur then pulls the pin, holds up the Holy Hand Grenade and cries out "One! Two! Five!" Sir Galahad corrects him: "Three, sir!". Arthur then yells "Three!" and hurls the grenade towards the rabbit. The killer rabbit is defeated, and the hapless knights errant continue on their quest</text>
+		</story>
+	</article>			
+	<article id="1239" time="2011-11-04" description="Review">
+		<heading>
+			<text>Greatest bunny in history of film</text>
+		</heading>
+		<story>
+		<text>The rabbit from the Holy Grail was declared the top movie bunny by David Cheal in The Daily Telegraph. It also ranked high in an Easter 2008 poll to establish Britains best movie rabbit, coming third to Roger Rabbit and Frank Darko</text>
+		</story>
+		<comment description="Review" />
+	</article>
+	<article id="1292" time="2001-01-02" description="News">
+		<heading>
+			<text>Fancy some Pickled Fish Sauce?</text>
+		</heading>
+		<story>
+			<text>In the 17th century, the Chinese mixed a concoction of pickled fish and spices and called it ke-chiap, meaning the brine of pickled fish. By the early 18th century, the table sauce had arrived in the Malay states (present day Malaysia and Singapore), where English colonists first tasted it. The Malaysian-Malay word for the sauce was kicap or kecap (pronounced "kay-chap"). That word evolved into the English word "ketchup".English settlers took ketchup with them to the American colonies.</text>
+			<text>The term Catchup was used in 1690 in the Dictionary of the Canting Crew which was well acclaimed in North America. The spelling "catchup" may have also been used in the past.</text>
+		</story>
+	</article>
+</newspaper>
+<newspaper name="News of The World" subscribers="800.000" type="Evening_Edition">
+	<article id="1832" time="2001-01-01" description="News">
+		<heading>
+			<text>The mother of all demos!</text>
+		</heading>
+		<story>
+			<text>The Mother of All Demos is a name retroactively applied to a landmark computer demonstration, given at the Association for Computing Machinery / Institute of Electrical and Electronics Engineers (ACM/IEEE) Computer Societs Fall Joint Computer Conference in San Francisco, which was presented by Douglas Engelbart on December 9, 1968.</text>
+			<text>The live demonstration featured the introduction of a complete computer hardware and software system called the oN-Line System or, more commonly, NLS. The 90-minute presentation essentially demonstrated almost all the fundamental elements of modern personal computing: windows, hypertext, graphics, efficient navigation and command input, video conferencing, the computer mouse, word processing, dynamic file linking, revision control, and a collaborative real-time editor (collaborative work).</text>
+		</story>
+		<heading>
+			<text>Legacy</text>
+		</heading>		
+		<story>	
+			<text>Engelbarts presentation was the first to publicly demonstrate all of these elements in a single system. The demonstration was highly influential and spawned similar projects at Xerox PARC in the early 1970s. The underlying technologies influenced both the Apple Macintosh and Microsoft Windows graphical user interface operating systems in the 1980s and 1990s. </text>
+		</story>
+	</article>
+	<article id="1895"  time="2004-06-12" description="Review">
+		<heading>
+			<text>Great Expectations</text>
+		</heading>
+		<story>
+			<text>Overall, Great Expectations received near universal acclaim. Not all reviews were favourable, however; Margaret Oliphants review, published May 1862 in Blackwoods Magazine, vilified the novel. Critics in the 19th and 20th centuries hailed it as one of Dickenss greatest successes although often for conflicting reasons: GK Chesterton admired the novels optimism; Edmund Wilson its pessimism; Humphry House in 1941 emphasized its social context. In 1974, Jerome H. Buckley saw it as a bildungsroman</text>
+		</story>
+		<comment description="Review" />
+	</article>
+	<article id="1892" time="2001-01-02" description="News">
+		<heading>
+			<text>Hyatt Regency Disaster</text>
+		</heading>
+		<story>
+			<text>The Hyatt Regency walkway collapse took place at the Hyatt Regency Kansas City hotel in Kansas City, Missouri, on July 17, 1981. Two walkways, one directly above the other, collapsed onto a tea dance being held in the hotels lobby. The falling walkways killed 114 and injured 216. It was the deadliest structural collapse in U.S. history.</text>
+			<text>Water from the hotels ruptured sprinkler system flooded the lobby and put trapped survivors at risk of drowning; Mark Williams, who spent more than nine hours pinned underneath the lower skywalk with both legs dislocated from their sockets, nearly drowned before the water was shut off. Visibility was poor because of dust and because power had been cut to prevent fires</text>
+		</story>
+		<comment description="Review" />				
+	</article>
+	<article id="1412" time="2007-01-22" description="Review">
+		<heading>
+			<text>Plan 9</text>
+		</heading>
+		<story>
+			<text>Plan 9 from Outer Space is a 1959 American independent black-and-white science fiction horror film written, produced, directed and edited by Ed Wood, starring Gregory Walcott, Mona McKinnon, Tor Johnson, and "Vampira" (Maila Nurmi), and is narrated by Criswell. The film also posthumously bills Bela Lugosi as a guest star (silent footage of the actor had actually been shot by Wood for another, unfinished film just prior to Lugosis death in August 1956). Other guest stars are Hollywood veterans Lyle Talbot (who claimed that he never refused any acting job) and former cowboy star Tom Keene.</text>
+			<text>It was released theatrically in 1959 by Distributors Corporation of America (then credited as Valiant Pictures).</text>
+		</story>
+		<heading>
+			<text>Relevance</text>
+		</heading>
+		<story>			
+			<text>The film is considered by some critics, including Michael Medved, to be the worst film in the history of cinema. Other reviews, however, have rated the film more positively.</text>
+		</story>
+		<comment description="Review" />				
+	</article>	
+	<article id="1994" time="2018-08-02" description="News">
+		<heading>
+			<text>The death of pinball?</text>
+		</heading>
+		<story>
+			<text>By 1999, the pinball industry was virtually dead and Williams stopped manufacturing pinball machines and focused on gambling devices as WMS Gaming. During the same year, Sega left the pinball industry and sold its pinball division, previously purchased from Data East in 1994, to Gary Stern, the son of Sam Stern. Gary Stern, who had been running Data East/Sega pinball since 1986, founded Stern Pinball, Inc. in Elk Grove Village, Illinois.</text>
+			<text>As of late 2018, Steve Ritchie, Brian Eddy, Keith Elwin, and George Gomez are designing pinball games at Stern Pinball, alongside longtime Data East/Sega Pinball designer John Borg.</text> 
+		</story>
+	</article>	
+</newspaper>
+<newspaper name="The Evening Chronic" subscribers="40001" type="Morning_Edition">
+	<article id="2832" time="2001-03-01" description="Review">
+		<heading>
+			<text>Turf War</text>
+		</heading>
+		<story>
+			<text>In 2003, at an exhibition called Turf War, held in a London warehouse, Banksy painted on animals. At the time he gave one of his very few interviews, to the BBCs Nigel Wrench. Although the RSPCA declared the conditions suitable, an animal rights activist chained herself to the railings in protest. An example of his subverted paintings is Monets Water Lily Pond, adapted to include urban detritus such as litter and a shopping trolley floating in its reflective waters; another is Edward Hoppers Nighthawks, redrawn to show that the characters are looking at a British football hooligan, dressed only in his Union Flag underpants, who has just thrown an object through the glass window of the cafe. These oil paintings were shown at a twelve-day exhibition in Westbourne Grove, London in 2005.</text>
+		</story>
+		<comment description="Review" />
+	</article>	
+</newspaper>	
+<newspaper name="The Nightly Blade" subscribers="40" type="Morning_Edition">
+	<article id="2832" time="2001-03-01" description="Review">
+		<heading>
+			<text>Little Computer People</text>
+		</heading>
+		<story>
+			<text>Little Computer People earned a Zzap! 64 Gold Medal Award in 1985. Jerry Pournelle of BYTE named it his game of the month for December 1986, stating "Thats not strictly a game, but it sure has consumed all the game time we have around here" and that the Amiga versions graphics were preferable to the Atari STs. Compute! favorably reviewed the Atari ST version in 1987, stating that it had "enormous and subtle educational appeal" to children and others. The magazine concluded that Little Computer People "is a delightful program".</text>
+			<text>The game was voted best original game of the year at the 1986 Golden Joystick Awards.</text>
+		</story>
+		<comment description="Review" />
+	</article>
+	<article id="2837" time="2001-03-01" description="Review">
+		<heading>
+			<text>Three Stooges</text>
+		</heading>
+		<story>
+			<text>Malice in the Palace is one of four Stooge shorts that are currently in public domain (the others being Disorder in the Court, Brideless Groom, and Sing a Song of Six Pants). As such, these four shorts frequently appear on low-budget VHS and DVD compilations and endless television reruns at no cost to the stations. The film was reworked in 1956 as Rumpus in the Harem, using ample stock footage from the original.</text>
+		</story>
+		<comment description="Review" />
+	</article>
+</newspaper>
+<newspaper name="The SUN" subscribers="300.000" type="Evening_Edition">
+	<article id="1882" time="2011-01-01" description="News">
+		<heading>
+			<text>Proboscis monkey</text>
+		</heading>
+		<story>
+			<text>The proboscis monkey (Nasalis larvatus) or long-nosed monkey, known as the bekantan in Indonesia, is a reddish-brown arboreal Old World monkey with an unusually large nose. It is endemic to the southeast Asian island of Borneo.</text>
+			<text>This species co-exists with the Bornean orangutan.</text>
+			<text>It belongs in the monotypic genus Nasalis.</text>
+		</story>
+		<comment description="News" />
+	</article>
+	<article id="1883" time="2011-01-02" description="News">
+		<heading>
+			<text>Reliant Robin</text>
+		</heading>
+		<story>
+			<text>The Reliant Robin is a small three-wheeled car produced by the Reliant Motor Company in Tamworth, England. It was offered in several versions (Mk1, Mk2 and Mk3) over a period of 30 years. It is the second-most popular fibreglass car in history, with Reliant being the second-biggest UK-owned car manufacturer for a time.</text>
+		</story>
+	</article>
+<article id="1984" time="2018-01-02" description="Review">
+  <heading>
+    <text>How off roadly is your truck?</text>
+  </heading>
+  <story>
+		<text>KAMAZ opened in 1976. Today, heavy duty models are exported to many areas of the world including the CIS, Latin America, the Middle East, and Africa. KAMAZ is the largest truck producer in Russia and the CIS with its factory producing 43,000 trucks a year (2014). Reinforced KAMAZ trucks are used by the Russian military.</text>
+		<text>KAMAZ trucks have won the Dakar Rally a record sixteen times, most in the truck category by any manufacturer.</text>
+  </story>
+</article>
+</newspaper>
+</newspapers>

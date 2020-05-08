@@ -7,7 +7,7 @@
 		<xsl:for-each select="//person">
 				<tr>
 				
-				<td><xsl:value-of select="./name"/></td>
+				<td><xsl:value-of select="@name"/></td>
 				<td><xsl:value-of select="@shoesize"/></td>
 			
 				<td>

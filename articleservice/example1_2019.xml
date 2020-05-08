@@ -1,5 +1,5 @@
 <newspapers>
-<newspaper name="Times" subscribers="100.000" type="Morning Edition">
+<newspaper name="Times" subscribers="100.000" type="Morning_Edition">
 	<article id="1232" time="2001-01-01" description="News">
 		<heading>
 			<text>The Battle of Hastings</text>
@@ -17,7 +17,7 @@
 			<text>Arthur then pulls the pin, holds up the Holy Hand Grenade and cries out "One! Two! Five!" Sir Galahad corrects him: "Three, sir!". Arthur then yells "Three!" and hurls the grenade towards the rabbit. The killer rabbit is defeated, and the hapless knights errant continue on their quest</text>
 		</story>
 	</article>			
-	<article id="1239" description="Review">
+	<article id="1239" time="2011-11-04" description="Review">
 		<heading>
 			<text>Greatest bunny in history of film</text>
 		</heading>
@@ -36,7 +36,7 @@
 		</story>
 	</article>
 </newspaper>
-<newspaper name="News of The World" subscribers="800.000" type="Evening Edition">
+<newspaper name="News of The World" subscribers="800.000" type="Evening_Edition">
 	<article id="1832" time="2001-01-01" description="News">
 		<heading>
 			<text>The mother of all demos!</text>
@@ -44,10 +44,15 @@
 		<story>
 			<text>The Mother of All Demos is a name retroactively applied to a landmark computer demonstration, given at the Association for Computing Machinery / Institute of Electrical and Electronics Engineers (ACM/IEEE) Computer Societs Fall Joint Computer Conference in San Francisco, which was presented by Douglas Engelbart on December 9, 1968.</text>
 			<text>The live demonstration featured the introduction of a complete computer hardware and software system called the oN-Line System or, more commonly, NLS. The 90-minute presentation essentially demonstrated almost all the fundamental elements of modern personal computing: windows, hypertext, graphics, efficient navigation and command input, video conferencing, the computer mouse, word processing, dynamic file linking, revision control, and a collaborative real-time editor (collaborative work).</text>
+		</story>
+		<heading>
+			<text>Legacy</text>
+		</heading>		
+		<story>	
 			<text>Engelbarts presentation was the first to publicly demonstrate all of these elements in a single system. The demonstration was highly influential and spawned similar projects at Xerox PARC in the early 1970s. The underlying technologies influenced both the Apple Macintosh and Microsoft Windows graphical user interface operating systems in the 1980s and 1990s. </text>
 		</story>
 	</article>
-	<article id="1895" description="Review">
+	<article id="1895"  time="2004-06-12" description="Review">
 		<heading>
 			<text>Great Expectations</text>
 		</heading>
@@ -73,18 +78,48 @@
 		<story>
 			<text>Plan 9 from Outer Space is a 1959 American independent black-and-white science fiction horror film written, produced, directed and edited by Ed Wood, starring Gregory Walcott, Mona McKinnon, Tor Johnson, and "Vampira" (Maila Nurmi), and is narrated by Criswell. The film also posthumously bills Bela Lugosi as a guest star (silent footage of the actor had actually been shot by Wood for another, unfinished film just prior to Lugosis death in August 1956). Other guest stars are Hollywood veterans Lyle Talbot (who claimed that he never refused any acting job) and former cowboy star Tom Keene.</text>
 			<text>It was released theatrically in 1959 by Distributors Corporation of America (then credited as Valiant Pictures).</text>
+		</story>
+		<heading>
+			<text>Relevance</text>
+		</heading>
+		<story>			
 			<text>The film is considered by some critics, including Michael Medved, to be the worst film in the history of cinema. Other reviews, however, have rated the film more positively.</text>
 		</story>
 		<comment description="Review" />				
-	</article>			
+	</article>	
+	<article id="1994" time="2018-08-02" description="News">
+		<heading>
+			<text>The death of pinball?</text>
+		</heading>
+		<story>
+			<text>By 1999, the pinball industry was virtually dead and Williams stopped manufacturing pinball machines and focused on gambling devices as WMS Gaming. During the same year, Sega left the pinball industry and sold its pinball division, previously purchased from Data East in 1994, to Gary Stern, the son of Sam Stern. Gary Stern, who had been running Data East/Sega pinball since 1986, founded Stern Pinball, Inc. in Elk Grove Village, Illinois.</text>
+			<text>As of late 2018, Steve Ritchie, Brian Eddy, Keith Elwin, and George Gomez are designing pinball games at Stern Pinball, alongside longtime Data East/Sega Pinball designer John Borg.</text> 
+		</story>
+	</article>	
 </newspaper>
-<newspaper name="The Nightly Blade" subscribers="40" type="Lunch Edition">
+<newspaper name="The Evening Chronic" subscribers="40001" type="Morning_Edition">
+	<article id="2832" time="2001-03-01" description="Review">
+		<heading>
+			<text>Turf War</text>
+		</heading>
+		<story>
+			<text>In 2003, at an exhibition called Turf War, held in a London warehouse, Banksy painted on animals. At the time he gave one of his very few interviews, to the BBCs Nigel Wrench. Although the RSPCA declared the conditions suitable, an animal rights activist chained herself to the railings in protest. An example of his subverted paintings is Monets Water Lily Pond, adapted to include urban detritus such as litter and a shopping trolley floating in its reflective waters; another is Edward Hoppers Nighthawks, redrawn to show that the characters are looking at a British football hooligan, dressed only in his Union Flag underpants, who has just thrown an object through the glass window of the cafe. These oil paintings were shown at a twelve-day exhibition in Westbourne Grove, London in 2005.</text>
+		</story>
+		<comment description="Review" />
+	</article>	
+</newspaper>	
+<newspaper name="The Nightly Blade" subscribers="40" type="Morning_Edition">
 	<article id="2832" time="2001-03-01" description="Review">
 		<heading>
 			<text>Little Computer People</text>
 		</heading>
 		<story>
 			<text>Little Computer People earned a Zzap! 64 Gold Medal Award in 1985. Jerry Pournelle of BYTE named it his game of the month for December 1986, stating "Thats not strictly a game, but it sure has consumed all the game time we have around here" and that the Amiga versions graphics were preferable to the Atari STs. Compute! favorably reviewed the Atari ST version in 1987, stating that it had "enormous and subtle educational appeal" to children and others. The magazine concluded that Little Computer People "is a delightful program".</text>
+		</story>
+		<heading>
+			<text>Awards</text>
+		</heading>
+		<story>
 			<text>The game was voted best original game of the year at the 1986 Golden Joystick Awards.</text>
 		</story>
 		<comment description="Review" />
@@ -98,29 +133,11 @@
 		</story>
 		<comment description="Review" />
 	</article>
-	<article id="2832" time="2001-03-01" description="Review">
-		<heading>
-			<text>Turf War</text>
-		</heading>
-		<story>
-			<text>In 2003, at an exhibition called Turf War, held in a London warehouse, Banksy painted on animals. At the time he gave one of his very few interviews, to the BBCs Nigel Wrench. Although the RSPCA declared the conditions suitable, an animal rights activist chained herself to the railings in protest. An example of his subverted paintings is Monets Water Lily Pond, adapted to include urban detritus such as litter and a shopping trolley floating in its reflective waters; another is Edward Hoppers Nighthawks, redrawn to show that the characters are looking at a British football hooligan, dressed only in his Union Flag underpants, who has just thrown an object through the glass window of the cafe. These oil paintings were shown at a twelve-day exhibition in Westbourne Grove, London in 2005.</text>
-		</story>
-		<comment description="Review" />
-	</article>
-	<article id="1994" time="2018-08-02" description="News">
-		<heading>
-			<text>The death of pinball?</text>
-		</heading>
-		<story>
-			<text>By 1999, the pinball industry was virtually dead and Williams stopped manufacturing pinball machines and focused on gambling devices as WMS Gaming. During the same year, Sega left the pinball industry and sold its pinball division, previously purchased from Data East in 1994, to Gary Stern, the son of Sam Stern. Gary Stern, who had been running Data East/Sega pinball since 1986, founded Stern Pinball, Inc. in Elk Grove Village, Illinois.</text>
-			<text>As of late 2018, Steve Ritchie, Brian Eddy, Keith Elwin, and George Gomez are designing pinball games at Stern Pinball, alongside longtime Data East/Sega Pinball designer John Borg.</text> 
-		</story>
-	</article>		
 </newspaper>
-<newspaper name="The SUN" subscribers="300.000" type="Evening Edition">
+<newspaper name="The SUN" subscribers="300.000" type="Evening_Edition">
 	<article id="1882" time="2011-01-01" description="News">
 		<heading>
-			Proboscis monkey
+			<text>Proboscis monkey</text>
 		</heading>
 		<story>
 			<text>The proboscis monkey (Nasalis larvatus) or long-nosed monkey, known as the bekantan in Indonesia, is a reddish-brown arboreal Old World monkey with an unusually large nose. It is endemic to the southeast Asian island of Borneo.</text>
@@ -129,7 +146,7 @@
 		</story>
 		<comment description="News" />
 	</article>
-	<article id="1883" description="News">
+	<article id="1883" time="2011-01-02" description="News">
 		<heading>
 			<text>Reliant Robin</text>
 		</heading>

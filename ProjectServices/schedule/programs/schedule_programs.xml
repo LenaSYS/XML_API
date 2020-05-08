@@ -1,0 +1,898 @@
+<programs>
+    <program id='KONE20' name='Kognitiv neurovetenskap' hp='180' level='Grundnivå' department='Humaniora' studentcount='15' >
+        <period number='1' >
+            <course id='HU796F' hp='15' area='Humaniora' >
+                    <name>Praktisk Bristol Scale</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='HU643G' hp='7.5' area='Humaniora' >
+                    <name>Filosofi</name>
+            </course>
+            <course id='HU688A' hp='7.5' area='Humaniora' >
+                    <name>Grunder i Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='HU286A' hp='7.5' area='Humaniora' >
+                    <name>Klinisk Bristol Scale</name>
+            </course>
+            <course id='HU378G' hp='7.5' area='Humaniora' >
+                    <name>Hur man undviker Kognition</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='HU558G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Neuropsykologi</name>
+            </course>
+            <course id='HU596F' hp='7.5' area='Humaniora' >
+                    <name>Introduktion till Neuropsykologi</name>
+            </course>
+        </period>
+    </program>
+    <program id='SOPS20' name='Socialpsykologiskt program' hp='180' level='Grundnivå' department='Humaniora' studentcount='26' >
+        <period number='1' >
+            <course id='HU105G' hp='7.5' area='Humaniora' >
+                    <name>Design av Kognition</name>
+            </course>
+            <course id='HU596G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='HU972G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Bristol Scale</name>
+            </course>
+            <course id='HU688A' hp='7.5' area='Humaniora' >
+                    <name>Grunder i Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='HU810A' hp='7.5' area='Humaniora' >
+                    <name>Neuropsykologi</name>
+            </course>
+            <course id='HU306G' hp='7.5' area='Humaniora' >
+                    <name>Filosofi och Vetenskapsteori</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='HU596F' hp='7.5' area='Humaniora' >
+                    <name>Introduktion till Neuropsykologi</name>
+            </course>
+        </period>
+    </program>
+    <program id='DASC20' name='Data Science - magisterprogram' hp='60' level='Avancerad nivå' department='IT' studentcount='14' >
+        <period number='1' >
+            <course id='IT147A' hp='7.5' area='IT' >
+                    <name>Speldesign</name>
+            </course>
+            <course id='IT259G' hp='7.5' area='IT' >
+                    <name>Extrem Spelprogrammering</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT197F' hp='7.5' area='IT' >
+                    <name>Algoritmer</name>
+            </course>
+            <course id='IT161G' hp='7.5' area='IT' >
+                    <name>Introduktion till Informationssäkerhet</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT289G' hp='7.5' area='IT' >
+                    <name>Grunder i Algoritmer</name>
+            </course>
+            <course id='IT159F' hp='7.5' area='IT' >
+                    <name>Examensarbete i Speldesign</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT842G' hp='7.5' area='IT' >
+                    <name>Virtualisering</name>
+            </course>
+            <course id='IT638G' hp='7.5' area='IT' >
+                    <name>Ohållbar Virtualisering</name>
+            </course>
+        </period>
+    </program>
+    <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' hp='180' level='Grundnivå' department='Humaniora' studentcount='22' >
+        <period number='1' >
+            <course id='HU796F' hp='15' area='Humaniora' >
+                    <name>Praktisk Bristol Scale</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='HU972G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Bristol Scale</name>
+            </course>
+            <course id='HU959F' hp='7.5' area='Humaniora' >
+                    <name>Teoretisk Neuropsykologi</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='HU879F' hp='7.5' area='Humaniora' >
+                    <name>Praktisk Medvetandestudier</name>
+            </course>
+            <course id='HU306G' hp='7.5' area='Humaniora' >
+                    <name>Filosofi och Vetenskapsteori</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='HU596F' hp='7.5' area='Humaniora' >
+                    <name>Introduktion till Neuropsykologi</name>
+            </course>
+            <course id='HU558G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Neuropsykologi</name>
+            </course>
+        </period>
+    </program>
+    <program id='SYVE20' name='Systemvetenskap' hp='180' level='Grundnivå' department='IT' studentcount='12' >
+        <period number='1' >
+            <course id='IT259G' hp='7.5' area='IT' >
+                    <name>Extrem Spelprogrammering</name>
+            </course>
+            <course id='IT501G' hp='7.5' area='IT' >
+                    <name>Systemvetenskap och Databassystem</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT371G' hp='7.5' area='IT' >
+                    <name>Projekt i Databassystem</name>
+            </course>
+            <course id='IT812G' hp='7.5' area='IT' >
+                    <name>Grunder i Speldesign</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT102G' hp='7.5' area='IT' >
+                    <name>Algoritmer och Spelprogrammering</name>
+            </course>
+            <course id='IT706G' hp='7.5' area='IT' >
+                    <name>Teoretisk Virtualisering</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT934A' hp='7.5' area='IT' >
+                    <name>Introduktion till Speldesign</name>
+            </course>
+            <course id='IT196G' hp='7.5' area='IT' >
+                    <name>Praktisk Speldesign</name>
+            </course>
+        </period>
+    </program>
+    <program id='DSDE20' name='Dataspelsutveckling - design' hp='180' level='Grundnivå' department='IT' studentcount='25' >
+        <period number='1' >
+            <course id='IT623A' hp='7.5' area='IT' >
+                    <name>Hur man undviker Cybernetik</name>
+            </course>
+            <course id='IT828A' hp='7.5' area='IT' >
+                    <name>Teoretisk Informationssäkerhet</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT842G' hp='7.5' area='IT' >
+                    <name>Extrem Virtualisering</name>
+            </course>
+            <course id='IT100F' hp='7.5' area='IT' >
+                    <name>Datorgrafik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT846G' hp='15' area='IT' >
+                    <name>Projekt i Spelprogrammering</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT545F' hp='7.5' area='IT' >
+                    <name>Praktisk Datorgrafik</name>
+            </course>
+            <course id='IT647F' hp='7.5' area='IT' >
+                    <name>Projekt i Datorgrafik</name>
+            </course>
+        </period>
+    </program>
+    <program id='MAIN20' name='Maskiningenjör' hp='180' level='Grundnivå' department='Teknik' studentcount='25' >
+        <period number='1' >
+            <course id='TE644G' hp='7.5' area='Teknik' >
+                    <name>Klinisk Reglerteknik</name>
+            </course>
+            <course id='TE776G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE556G' hp='7.5' area='Teknik' >
+                    <name>Grunder i Reglerteknik</name>
+            </course>
+            <course id='TE750G' hp='7.5' area='Teknik' >
+                    <name>Styrteknik och Styrteknik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE566G' hp='15' area='Teknik' >
+                    <name>Hur man undviker Reglerteknik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE516G' hp='7.5' area='Teknik' >
+                    <name>Introduktion till Computer Aided Design</name>
+            </course>
+            <course id='TE745F' hp='7.5' area='Teknik' >
+                    <name>Maskinteknik</name>
+            </course>
+        </period>
+    </program>
+    <program id='PEOR20' name='Personal, organisation och ledarskap' hp='180' level='Grundnivå' department='Ekonomi' studentcount='17' >
+        <period number='1' >
+            <course id='EK858G' hp='15' area='Ekonomi' >
+                    <name>Aktuella Trender i Logistik</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK861F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning</name>
+            </course>
+            <course id='EK158G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap och Statistik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK690G' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Logistik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK870G' hp='15' area='Ekonomi' >
+                    <name>Logistik och Logistik</name>
+            </course>
+        </period>
+    </program>
+    <program id='IFBI20' name='Informationsteknologi - Business Intelligence' hp='180' level='Grundnivå' department='IT' studentcount='12' >
+        <period number='1' >
+            <course id='IT704G' hp='7.5' area='IT' >
+                    <name>Introduktion till Algoritmer</name>
+            </course>
+            <course id='IT856G' hp='7.5' area='IT' >
+                    <name>Databassystem och Systemvetenskap</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT196G' hp='7.5' area='IT' >
+                    <name>Praktisk Speldesign</name>
+            </course>
+            <course id='IT703F' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Algoritmer</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT661G' hp='7.5' area='IT' >
+                    <name>Design av Cybernetik</name>
+            </course>
+            <course id='IT289G' hp='7.5' area='IT' >
+                    <name>Grunder i Algoritmer</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT300G' hp='7.5' area='IT' >
+                    <name>Klinisk Spelprogrammering</name>
+            </course>
+            <course id='IT638G' hp='7.5' area='IT' >
+                    <name>Ohållbar Virtualisering</name>
+            </course>
+        </period>
+    </program>
+    <program id='NASY20' name='Nätverk och systemadministration' hp='180' level='Grundnivå' department='IT' studentcount='21' >
+        <period number='1' >
+            <course id='IT736F' hp='15' area='IT' >
+                    <name>Hur man undviker Speldesign</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT161G' hp='7.5' area='IT' >
+                    <name>Introduktion till Informationssäkerhet</name>
+            </course>
+            <course id='IT197F' hp='7.5' area='IT' >
+                    <name>Algoritmer</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT234A' hp='15' area='IT' >
+                    <name>Spelprogrammering och Systemvetenskap</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT196G' hp='7.5' area='IT' >
+                    <name>Praktisk Speldesign</name>
+            </course>
+            <course id='IT249F' hp='7.5' area='IT' >
+                    <name>Extrem Algoritmer</name>
+            </course>
+        </period>
+    </program>
+    <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' hp='60' level='Avancerad nivå' department='Ekonomi' studentcount='17' >
+        <period number='1' >
+            <course id='EK991F' hp='7.5' area='Ekonomi' >
+                    <name>Grunder i Redovisning</name>
+            </course>
+            <course id='EK770F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Redovisning</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK861F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning</name>
+            </course>
+            <course id='EK148A' hp='7.5' area='Ekonomi' >
+                    <name>Nationalekonomi</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK690G' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Logistik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK870G' hp='15' area='Ekonomi' >
+                    <name>Logistik och Logistik</name>
+            </course>
+        </period>
+    </program>
+    <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' hp='60' level='Avancerad nivå' department='Teknik' studentcount='29' >
+        <period number='1' >
+            <course id='TE290G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer  och Utveckling för Ingenjörer</name>
+            </course>
+            <course id='TE776G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE249G' hp='7.5' area='Teknik' >
+                    <name>Klinisk Tillverkning</name>
+            </course>
+            <course id='TE193F' hp='7.5' area='Teknik' >
+                    <name>Introduktion till Styrteknik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE683F' hp='15' area='Teknik' >
+                    <name>Reglerteknik och Produktionsflöden</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE792F' hp='7.5' area='Teknik' >
+                    <name>Ohållbar Computer Aided Design</name>
+            </course>
+            <course id='TE745F' hp='7.5' area='Teknik' >
+                    <name>Maskinteknik</name>
+            </course>
+        </period>
+    </program>
+    <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' hp='120' level='Avancerad nivå' department='Teknik' studentcount='38' >
+        <period number='1' >
+            <course id='TE752F' hp='7.5' area='Teknik' >
+                    <name>Produktionsflöden</name>
+            </course>
+            <course id='TE290G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer  och Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE287G' hp='7.5' area='Teknik' >
+                    <name>Aktuella Trender i Computer Aided Design</name>
+            </course>
+            <course id='TE388F' hp='7.5' area='Teknik' >
+                    <name>Tillverkning och Tillverkning</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE566G' hp='15' area='Teknik' >
+                    <name>Hur man undviker Reglerteknik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE560A' hp='7.5' area='Teknik' >
+                    <name>Tillverkning</name>
+            </course>
+            <course id='TE792F' hp='7.5' area='Teknik' >
+                    <name>Ohållbar Computer Aided Design</name>
+            </course>
+        </period>
+    </program>
+    <program id='PRIN20' name='Produktionsingenjör' hp='180' level='Grundnivå' department='Teknik' studentcount='36' >
+        <period number='1' >
+            <course id='TE644G' hp='7.5' area='Teknik' >
+                    <name>Klinisk Reglerteknik</name>
+            </course>
+            <course id='TE477F' hp='7.5' area='Teknik' >
+                    <name>Extrem Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE126G' hp='7.5' area='Teknik' >
+                    <name>Grunder i Konstruktionsteknik</name>
+            </course>
+            <course id='TE287G' hp='7.5' area='Teknik' >
+                    <name>Aktuella Trender i Computer Aided Design</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE566G' hp='15' area='Teknik' >
+                    <name>Hur man undviker Reglerteknik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE560A' hp='7.5' area='Teknik' >
+                    <name>Tillverkning</name>
+            </course>
+            <course id='TE745F' hp='7.5' area='Teknik' >
+                    <name>Maskinteknik</name>
+            </course>
+        </period>
+    </program>
+    <program id='USEX20' name='User Experience Design' hp='180' level='Grundnivå' department='IT' studentcount='13' >
+        <period number='1' >
+            <course id='IT505G' hp='7.5' area='IT' >
+                    <name>Klinisk Algoritmer</name>
+            </course>
+            <course id='IT698F' hp='7.5' area='IT' >
+                    <name>Examensarbete i Systemvetenskap</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT703F' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Algoritmer</name>
+            </course>
+            <course id='IT161G' hp='7.5' area='IT' >
+                    <name>Introduktion till Informationssäkerhet</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT890G' hp='7.5' area='IT' >
+                    <name>Design av Algoritmer</name>
+            </course>
+            <course id='IT950G' hp='7.5' area='IT' >
+                    <name>Hållbar Speldesign</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT394G' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Informationssäkerhet</name>
+            </course>
+            <course id='IT647F' hp='7.5' area='IT' >
+                    <name>Projekt i Datorgrafik</name>
+            </course>
+        </period>
+    </program>
+    <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' hp='60' level='Avancerad nivå' department='Humaniora' studentcount='25' >
+        <period number='1' >
+            <course id='HU105G' hp='7.5' area='Humaniora' >
+                    <name>Design av Kognition</name>
+            </course>
+            <course id='HU879F' hp='7.5' area='Humaniora' >
+                    <name>Praktisk Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='HU959F' hp='7.5' area='Humaniora' >
+                    <name>Teoretisk Neuropsykologi</name>
+            </course>
+            <course id='HU688A' hp='7.5' area='Humaniora' >
+                    <name>Grunder i Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='HU378G' hp='7.5' area='Humaniora' >
+                    <name>Hur man undviker Kognition</name>
+            </course>
+            <course id='HU286A' hp='7.5' area='Humaniora' >
+                    <name>Klinisk Bristol Scale</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='HU146G' hp='15' area='Humaniora' >
+                    <name>Avancerad Stencilkopiering</name>
+            </course>
+        </period>
+    </program>
+    <program id='DEIN20' name='Designingenjör' hp='180' level='Grundnivå' department='Teknik' studentcount='13' >
+        <period number='1' >
+            <course id='TE776G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer</name>
+            </course>
+            <course id='TE477F' hp='7.5' area='Teknik' >
+                    <name>Extrem Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE904G' hp='7.5' area='Teknik' >
+                    <name>Teoretisk Computer Aided Design</name>
+            </course>
+            <course id='TE265G' hp='7.5' area='Teknik' >
+                    <name>Styrteknik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE276G' hp='15' area='Teknik' >
+                    <name>Grunder i Computer Aided Design</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE745F' hp='7.5' area='Teknik' >
+                    <name>Maskinteknik</name>
+            </course>
+            <course id='TE792F' hp='7.5' area='Teknik' >
+                    <name>Ohållbar Computer Aided Design</name>
+            </course>
+        </period>
+    </program>
+    <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' hp='180' level='Grundnivå' department='Ekonomi' studentcount='16' >
+        <period number='1' >
+            <course id='EK789F' hp='7.5' area='Ekonomi' >
+                    <name>Extrem Redovisning</name>
+            </course>
+            <course id='EK770F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Redovisning</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK148A' hp='7.5' area='Ekonomi' >
+                    <name>Nationalekonomi</name>
+            </course>
+            <course id='EK158G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap och Statistik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK657F' hp='15' area='Ekonomi' >
+                    <name>Praktisk Management</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK265F' hp='7.5' area='Ekonomi' >
+                    <name>Statistik</name>
+            </course>
+            <course id='EK184G' hp='7.5' area='Ekonomi' >
+                    <name>Design av Nationalekonomi</name>
+            </course>
+        </period>
+    </program>
+    <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' hp='60' level='Avancerad nivå' department='IT' studentcount='23' >
+        <period number='1' >
+            <course id='IT736F' hp='15' area='IT' >
+                    <name>Hur man undviker Speldesign</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT842G' hp='7.5' area='IT' >
+                    <name>Extrem Virtualisering</name>
+            </course>
+            <course id='IT703F' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Algoritmer</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT280G' hp='7.5' area='IT' >
+                    <name>Praktisk Informationssäkerhet</name>
+            </course>
+            <course id='IT208G' hp='7.5' area='IT' >
+                    <name>Spelprogrammering</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT790F' hp='7.5' area='IT' >
+                    <name>Hållbar Datorgrafik</name>
+            </course>
+            <course id='IT595F' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Datorgrafik</name>
+            </course>
+        </period>
+    </program>
+    <program id='DSPR20' name='Dataspelsutveckling - programmering' hp='180' level='Grundnivå' department='IT' studentcount='20' >
+        <period number='1' >
+            <course id='IT379F' hp='7.5' area='IT' >
+                    <name>Hur man undviker Virtualisering</name>
+            </course>
+            <course id='IT653G' hp='7.5' area='IT' >
+                    <name>Datorgrafik och Spelprogrammering</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT161G' hp='7.5' area='IT' >
+                    <name>Introduktion till Informationssäkerhet</name>
+            </course>
+            <course id='IT812G' hp='7.5' area='IT' >
+                    <name>Grunder i Speldesign</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT846G' hp='15' area='IT' >
+                    <name>Projekt i Spelprogrammering</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT670G' hp='7.5' area='IT' >
+                    <name>Grunder i Cybernetik</name>
+            </course>
+            <course id='IT140G' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Speldesign</name>
+            </course>
+        </period>
+    </program>
+    <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' hp='180' level='Grundnivå' department='IT' studentcount='18' >
+        <period number='1' >
+            <course id='IT653G' hp='7.5' area='IT' >
+                    <name>Datorgrafik och Spelprogrammering</name>
+            </course>
+            <course id='IT325G' hp='7.5' area='IT' >
+                    <name>Aktuella Trender i Virtualisering</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='IT595A' hp='7.5' area='IT' >
+                    <name>Informationssäkerhet</name>
+            </course>
+            <course id='IT197F' hp='7.5' area='IT' >
+                    <name>Algoritmer</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='IT159F' hp='7.5' area='IT' >
+                    <name>Examensarbete i Speldesign</name>
+            </course>
+            <course id='IT309A' hp='7.5' area='IT' >
+                    <name>Projekt i Algoritmer</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='IT115G' hp='7.5' area='IT' >
+                    <name>Virtualisering och Systemvetenskap</name>
+            </course>
+            <course id='IT647F' hp='7.5' area='IT' >
+                    <name>Projekt i Datorgrafik</name>
+            </course>
+        </period>
+    </program>
+    <program id='HAEK20' name='Handelsekonomiprogrammet' hp='180' level='Grundnivå' department='Ekonomi' studentcount='10' >
+        <period number='1' >
+            <course id='EK991F' hp='7.5' area='Ekonomi' >
+                    <name>Grunder i Redovisning</name>
+            </course>
+            <course id='EK269G' hp='7.5' area='Ekonomi' >
+                    <name>Företagsekonomi</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK861F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning</name>
+            </course>
+            <course id='EK158G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap och Statistik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK643G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap</name>
+            </course>
+            <course id='EK690G' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Logistik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK870G' hp='15' area='Ekonomi' >
+                    <name>Logistik och Logistik</name>
+            </course>
+        </period>
+    </program>
+    <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' hp='180' level='Grundnivå' department='Ekonomi' studentcount='24' >
+        <period number='1' >
+            <course id='EK420G' hp='7.5' area='Ekonomi' >
+                    <name>Ohållbar Företagsekonomi</name>
+            </course>
+            <course id='EK991F' hp='7.5' area='Ekonomi' >
+                    <name>Grunder i Redovisning</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK158G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap och Statistik</name>
+            </course>
+            <course id='EK861F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK690G' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Logistik</name>
+            </course>
+            <course id='EK643G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK377G' hp='7.5' area='Ekonomi' >
+                    <name>Grunder i Logistik</name>
+            </course>
+            <course id='EK184G' hp='7.5' area='Ekonomi' >
+                    <name>Design av Nationalekonomi</name>
+            </course>
+        </period>
+    </program>
+    <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' hp='180' level='Grundnivå' department='Ekonomi' studentcount='10' >
+        <period number='1' >
+            <course id='EK858G' hp='15' area='Ekonomi' >
+                    <name>Aktuella Trender i Logistik</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK861F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning</name>
+            </course>
+            <course id='EK148A' hp='7.5' area='Ekonomi' >
+                    <name>Nationalekonomi</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK329G' hp='15' area='Ekonomi' >
+                    <name>Klinisk Statistik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK184G' hp='7.5' area='Ekonomi' >
+                    <name>Design av Nationalekonomi</name>
+            </course>
+            <course id='EK265F' hp='7.5' area='Ekonomi' >
+                    <name>Statistik</name>
+            </course>
+        </period>
+    </program>
+    <program id='INAU20' name='Intelligent automation - masterprogram' hp='120' level='Avancerad nivå' department='Teknik' studentcount='38' >
+        <period number='1' >
+            <course id='TE477F' hp='7.5' area='Teknik' >
+                    <name>Extrem Utveckling för Ingenjörer</name>
+            </course>
+            <course id='TE776G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE556G' hp='7.5' area='Teknik' >
+                    <name>Grunder i Reglerteknik</name>
+            </course>
+            <course id='TE899G' hp='7.5' area='Teknik' >
+                    <name>Styrteknik och Tillverkning</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE566G' hp='15' area='Teknik' >
+                    <name>Hur man undviker Reglerteknik</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE304G' hp='7.5' area='Teknik' >
+                    <name>Hållbar Computer Aided Design</name>
+            </course>
+            <course id='TE560A' hp='7.5' area='Teknik' >
+                    <name>Tillverkning</name>
+            </course>
+        </period>
+    </program>
+    <program id='EKPR20' name='Ekonomprogrammet' hp='180' level='Grundnivå' department='Ekonomi' studentcount='12' >
+        <period number='1' >
+            <course id='EK858G' hp='15' area='Ekonomi' >
+                    <name>Aktuella Trender i Logistik</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='EK861F' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning</name>
+            </course>
+            <course id='EK158G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap och Statistik</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='EK690G' hp='7.5' area='Ekonomi' >
+                    <name>Redovisning och Logistik</name>
+            </course>
+            <course id='EK643G' hp='7.5' area='Ekonomi' >
+                    <name>Ledarskap</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='EK377G' hp='7.5' area='Ekonomi' >
+                    <name>Grunder i Logistik</name>
+            </course>
+            <course id='EK265F' hp='7.5' area='Ekonomi' >
+                    <name>Statistik</name>
+            </course>
+        </period>
+    </program>
+    <program id='AUTE20' name='Automatiseringstekniker' hp='120' level='Grundnivå' department='Teknik' studentcount='39' >
+        <period number='1' >
+            <course id='TE644G' hp='7.5' area='Teknik' >
+                    <name>Klinisk Reglerteknik</name>
+            </course>
+            <course id='TE776G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='TE683F' hp='15' area='Teknik' >
+                    <name>Reglerteknik och Produktionsflöden</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='TE290G' hp='7.5' area='Teknik' >
+                    <name>Utveckling för Ingenjörer  och Utveckling för Ingenjörer</name>
+            </course>
+            <course id='TE605F' hp='7.5' area='Teknik' >
+                    <name>Tillverkning och Utveckling för Ingenjörer</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='TE792F' hp='7.5' area='Teknik' >
+                    <name>Ohållbar Computer Aided Design</name>
+            </course>
+            <course id='TE363F' hp='7.5' area='Teknik' >
+                    <name>Praktisk Reglerteknik</name>
+            </course>
+        </period>
+    </program>
+    <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' hp='180' level='Grundnivå' department='Humaniora' studentcount='25' >
+        <period number='1' >
+            <course id='HU596F' hp='7.5' area='Humaniora' >
+                    <name>Introduktion till Neuropsykologi</name>
+            </course>
+            <course id='HU879F' hp='7.5' area='Humaniora' >
+                    <name>Praktisk Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='HU972G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Bristol Scale</name>
+            </course>
+            <course id='HU688A' hp='7.5' area='Humaniora' >
+                    <name>Grunder i Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='HU796F' hp='15' area='Humaniora' >
+                    <name>Praktisk Bristol Scale</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='HU146G' hp='15' area='Humaniora' >
+                    <name>Avancerad Stencilkopiering</name>
+            </course>
+        </period>
+    </program>
+    <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' hp='180' level='Grundnivå' department='Humaniora' studentcount='25' >
+        <period number='1' >
+            <course id='HU596F' hp='7.5' area='Humaniora' >
+                    <name>Introduktion till Neuropsykologi</name>
+            </course>
+            <course id='HU879F' hp='7.5' area='Humaniora' >
+                    <name>Praktisk Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='2' >
+            <course id='HU972G' hp='7.5' area='Humaniora' >
+                    <name>Vetenskapsteori och Bristol Scale</name>
+            </course>
+            <course id='HU688A' hp='7.5' area='Humaniora' >
+                    <name>Grunder i Medvetandestudier</name>
+            </course>
+        </period>
+        <period number='4' >
+            <course id='HU796F' hp='15' area='Humaniora' >
+                    <name>Praktisk Bristol Scale</name>
+            </course>
+        </period>
+        <period number='5' >
+            <course id='HU146G' hp='15' area='Humaniora' >
+                    <name>Avancerad Stencilkopiering</name>
+            </course>
+        </period>
+    </program>
+</programs>

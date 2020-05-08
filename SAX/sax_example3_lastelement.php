@@ -11,35 +11,22 @@
 			if($entityname=="PERSONS"){
 			}else if($entityname=="PERSON"){
 					echo "<tr>";
-					foreach ($attributes as $attname => $attvalue) {
-							echo "<td>";
-							echo $attvalue;
-							echo "</td>";
-					}				
-			}else if($entityname=="NAME"||$entityname=="COLOR"){
-					echo "<td>";
-			}else{
-					echo "<tr>";
-					foreach ($attributes as $attname => $attvalue) {
-							echo "<td>";
-							echo $attvalue;
-							echo "</td>";
-					}				
+					echo "<td>".$attributes['SSN']."</td>";
+			}else if($entityname=="BICYCLE"){
+					echo "<td>";				
+			}else if($entityname=="CAR"){
+					echo "<td>".$attributes['LPNO']."</td>";
 					echo "<td>";
 			}
 			
-			$lastelement=$entityname;
+			if($entityname!="COLOR") $lastelement=$entityname;
 	}
   
 	function endElement($parser, $entityname) {
 			if($entityname=="PERSON"){
-					echo "</table></td>";
-					echo "</tr>";
-			}else if($entityname=="NAME"){
-					// After name element we start new table for rest of elements
-					echo "</td><td><table>";				
-			}else{
 					echo "</td></tr>";
+			}else if($entityname=="CAR"||$entityname=="BICYCLE"){
+					echo "</td>";
 			}
 	}
   
@@ -47,7 +34,7 @@
 		 	global $lastelement;
    		$chardata=trim($chardata);
    		if($chardata=="") return;
-		 	if($lastelement=="NAME"){
+		 	if($lastelement=="CAR"){
 					echo	"<span style='color:red;background:#fed;'>".$chardata."</span>";
 			}else{
 					echo $chardata;
@@ -58,7 +45,7 @@
    xml_set_element_handler($parser, "startElement", "endElement");
    xml_set_character_data_handler($parser, "charData");
   
-   $file = 'example1.xml';
+   $file = 'example1b.xml';
    $data = file_get_contents($file);
   
    if(!xml_parse($parser, $data, true)){

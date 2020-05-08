@@ -1,0 +1,16 @@
+http://localhost/XML_API/ProjectServices/githubservice/commits/?time=2017-11-23
+http://localhost/XML_API/ProjectServices/githubservice/commits/?login=a97marbr
+http://localhost/XML_API/ProjectServices/githubservice/commits/?login=ALL
+
+http://localhost/XML_API/ProjectServices/bookservice/category/?categorysearch=ALL
+http://localhost/XML_API/ProjectServices/bookservice/category/?categorysearch=Myst
+
+http://localhost/XML_API/ProjectServices/bookservice/books/?id=ALL
+http://localhost/XML_API/ProjectServices/bookservice/books/?id=7243
+
+http://localhost/XML_API/ProjectServices/bookservice/books/?titlesearch=Times
+http://localhost/XML_API/ProjectServices/bookservice/authors/?about=Philosopher
+
+http://localhost/XML_API/ProjectServices/bookservice/authors/?role=Author
+http://localhost/XML_API/ProjectServices/bookservice/authors/?role=ALL
+

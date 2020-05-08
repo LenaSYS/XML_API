@@ -15,9 +15,9 @@
 </form>
 
 <?php
-	echo "<div>In textbox: ";
-	if(isset($_POST['textbox'])){
-			echo $_POST['textbox'];
+	echo "<div>In selectbox: ";
+	if(isset($_POST['selectbox'])){
+			echo $_POST['selectbox'];
 	}
 	echo "</div>";
 	print_r($_POST);

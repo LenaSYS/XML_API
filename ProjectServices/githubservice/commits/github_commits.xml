@@ -1,0 +1,3535 @@
+<repos>
+<commits repo='sortabletable' >
+    <commit id='d4f918da' space='0' time='0' timestamp='2017-11-23 13:09:35' >
+         <message>Initial commit</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+         </parents>
+    </commit>
+    <commit id='1b17f724' space='0' time='1' timestamp='2017-11-23 13:12:16' >
+         <message>Seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d4f918da' space='0 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='923892b8' space='0' time='2' timestamp='2017-11-23 14:32:39' >
+         <message>Column filter seed and row filter seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='1b17f724' space='1 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7f057afe' space='0' time='3' timestamp='2017-11-23 15:46:52' >
+         <message>Object Oriented Refactoring</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='923892b8' space='2 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8adaefb4' space='0' time='4' timestamp='2017-11-23 18:37:01' >
+         <message>More Better Fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7f057afe' space='3 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a5bb2542' space='1' time='5' timestamp='2017-11-23 19:52:07' >
+         <message>Sorting connected up</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8adaefb4' space='4 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e8797f9b' space='0' time='6' timestamp='2017-11-23 20:02:14' >
+         <message>Fixed renderCell</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8adaefb4' space='4 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7d8adcee' space='0' time='7' timestamp='2017-11-23 20:11:02' >
+         <message>Merge remote-tracking branch 'origin/master'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e8797f9b' space='6 ' time='0' />
+            <parent id='a5bb2542' space='5 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='c7e3716e' space='0' time='8' timestamp='2017-11-23 20:50:07' >
+         <message>simple sort added</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7d8adcee' space='7 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6241f4e4' space='0' time='9' timestamp='2017-11-23 21:26:19' >
+         <message>First / Last Name Demo Support</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c7e3716e' space='8 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='53593ef1' space='0' time='10' timestamp='2017-11-24 00:18:59' >
+         <message>Added parameterized compare function as a callback</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6241f4e4' space='9 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='1bbc48bb' space='0' time='11' timestamp='2017-11-26 20:07:20' >
+         <message>Introducing global comparing function</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='53593ef1' space='10 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2c6c5b3f' space='0' time='12' timestamp='2017-11-27 09:39:04' >
+         <message>resolved conflict</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='1bbc48bb' space='11 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='baf4b960' space='0' time='13' timestamp='2017-11-27 12:26:46' >
+         <message>A new compare function ...</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2c6c5b3f' space='12 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4f99c58a' space='0' time='14' timestamp='2017-11-27 12:32:13' >
+         <message>duh!</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='baf4b960' space='13 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='760d1330' space='0' time='15' timestamp='2017-11-27 13:31:45' >
+         <message>Split sortstatus into sortkind and ascending (direction)</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4f99c58a' space='14 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='dd98b1a9' space='0' time='16' timestamp='2017-11-27 22:02:45' >
+         <message>Default is to show all columns</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='760d1330' space='15 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d74e61a6' space='0' time='17' timestamp='2017-11-27 22:06:47' >
+         <message>All table cells will have an id</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='dd98b1a9' space='16 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4f9d7d01' space='0' time='18' timestamp='2017-11-28 20:23:06' >
+         <message>Summing footer first step</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d74e61a6' space='17 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e50aef6a' space='0' time='19' timestamp='2017-11-28 21:10:32' >
+         <message>Finalized sum callbacks</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4f9d7d01' space='18 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8f3ee638' space='0' time='20' timestamp='2017-11-29 00:29:11' >
+         <message>Row sums</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e50aef6a' space='19 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7de18195' space='0' time='21' timestamp='2017-11-29 10:44:50' >
+         <message>Added column heading for row sum column</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8f3ee638' space='20 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9897010b' space='0' time='22' timestamp='2017-11-29 10:54:14' >
+         <message>Moved row sum heading into its own variable</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7de18195' space='21 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2ae9af3f' space='0' time='23' timestamp='2017-11-29 12:27:21' >
+         <message>Filtered columns is now reflected in footer as well</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9897010b' space='22 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='168d999f' space='0' time='24' timestamp='2017-12-07 13:17:27' >
+         <message>Starting magic headings</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2ae9af3f' space='23 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f9770547' space='0' time='25' timestamp='2017-12-07 15:05:12' >
+         <message>Magic Headings almost in place</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='168d999f' space='24 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9c8c0292' space='0' time='26' timestamp='2017-12-07 16:22:18' >
+         <message>Bug fix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f9770547' space='25 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5e5451fa' space='0' time='27' timestamp='2017-12-07 17:17:18' >
+         <message>Made all variables private in the SortableTables object and moved the magic heading into each object.</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9c8c0292' space='26 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='03bcaf2d' space='0' time='28' timestamp='2017-12-08 14:09:16' >
+         <message>Freeze panes inspired by https://pappubahry.com/misc/js_freeze_panes/</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5e5451fa' space='27 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='74eff0f1' space='1' time='29' timestamp='2017-12-08 14:14:51' >
+         <message>Added freeze pane as parameter to the SortableTable object</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='03bcaf2d' space='28 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='667201cb' space='0' time='30' timestamp='2017-12-08 14:23:03' >
+         <message>Test table</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='03bcaf2d' space='28 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a531c12f' space='0' time='31' timestamp='2017-12-08 14:23:13' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SortableTableLibrary</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='667201cb' space='30 ' time='0' />
+            <parent id='74eff0f1' space='29 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='df676b23' space='0' time='32' timestamp='2017-12-08 14:45:04' >
+         <message>Test data generator</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a531c12f' space='31 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6d7d475e' space='1' time='33' timestamp='2017-12-08 15:24:44' >
+         <message>Bugfix for freeze pane mytable2</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='df676b23' space='32 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e97655ca' space='1' time='34' timestamp='2017-12-08 15:35:34' >
+         <message>Zebra-style table</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6d7d475e' space='33 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='38710494' space='0' time='35' timestamp='2017-12-08 18:39:53' >
+         <message>Test Data Functions</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='df676b23' space='32 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='75d1cf40' space='0' time='36' timestamp='2017-12-08 18:39:56' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SortableTableLibrary</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='38710494' space='35 ' time='0' />
+            <parent id='e97655ca' space='34 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='5263f0e2' space='0' time='37' timestamp='2017-12-09 00:53:33' >
+         <message>Test file for non-scroll-dependent magic heading.</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='75d1cf40' space='36 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d33bd6a5' space='0' time='38' timestamp='2017-12-09 01:15:12' >
+         <message>Test code for copying of table contents and width</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5263f0e2' space='37 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8c0807e9' space='0' time='39' timestamp='2017-12-12 10:50:37' >
+         <message>Use update-loop instead of scroll handler</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d33bd6a5' space='38 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='83a20d15' space='0' time='40' timestamp='2017-12-15 10:53:39' >
+         <message>Updated test data generator to fit previous static test data format</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8c0807e9' space='39 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7fc896b2' space='0' time='41' timestamp='2017-12-15 12:00:38' >
+         <message>Changed to same sized sort order arrows</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='83a20d15' space='40 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3880fb3c' space='0' time='42' timestamp='2017-12-17 19:06:27' >
+         <message>Horizontal Magic Headings</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7fc896b2' space='41 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7bed241b' space='0' time='43' timestamp='2017-12-17 21:36:46' >
+         <message>Final vertical only fixed-based magic headings</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3880fb3c' space='42 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2e616a89' space='0' time='44' timestamp='2017-12-19 20:59:45' >
+         <message>Vertical magic headings</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7bed241b' space='43 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4c63a05c' space='0' time='45' timestamp='2017-12-20 14:23:30' >
+         <message>Both MH visible</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2e616a89' space='44 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='65687a14' space='0' time='46' timestamp='2017-12-21 11:25:00' >
+         <message>Vertical and Horizontal Independent MH</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4c63a05c' space='45 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3c2a037a' space='0' time='47' timestamp='2017-12-25 12:20:17' >
+         <message>Now we handle table heading cells with padding.</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='65687a14' space='46 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6346f4ca' space='0' time='48' timestamp='2017-12-25 21:56:12' >
+         <message>First release with row highlight. Does not align rows if scrolled to the right</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3c2a037a' space='47 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='70d282c7' space='0' time='49' timestamp='2017-12-25 22:05:18' >
+         <message>I think this version fixes the alignment problem with the highlight row</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6346f4ca' space='48 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6e1a66b0' space='0' time='50' timestamp='2018-01-31 15:49:18' >
+         <message>Callback functionality improved.</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='70d282c7' space='49 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ed620e51' space='0' time='51' timestamp='2018-02-02 11:43:18' >
+         <message>Row AND column highlighting</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6e1a66b0' space='50 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='97a120ce' space='0' time='52' timestamp='2018-02-05 13:37:27' >
+         <message>Updated row clicking functionality</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ed620e51' space='51 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6fe3d074' space='0' time='53' timestamp='2018-02-07 14:59:02' >
+         <message>Initial editing support</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='97a120ce' space='52 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b9d14780' space='0' time='54' timestamp='2018-02-07 15:32:39' >
+         <message>Styled the popover input to fit the cell. Controls for the input will be put outside of the cell in focus.</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6fe3d074' space='53 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e5858fbc' space='0' time='55' timestamp='2018-02-07 20:46:41' >
+         <message>Added simple update of celldata</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b9d14780' space='54 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='51f1b477' space='0' time='56' timestamp='2018-02-07 21:17:40' >
+         <message>Added callback functionallity for update of cell</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e5858fbc' space='55 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5beb1469' space='0' time='57' timestamp='2018-02-08 11:03:34' >
+         <message>Improved callback solution for updating cell value</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='51f1b477' space='56 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='21033931' space='0' time='58' timestamp='2018-02-08 20:22:13' >
+         <message>Changing internal structure of API</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5beb1469' space='57 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3a96b66b' space='0' time='59' timestamp='2018-02-09 01:07:10' >
+         <message>Added an AJAX example and an initial update cell version using the new API</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='21033931' space='58 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='369b7fed' space='0' time='60' timestamp='2018-02-09 09:06:31' >
+         <message>Added support for multiple data tables in db</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3a96b66b' space='59 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='21605115' space='0' time='61' timestamp='2018-02-09 10:37:54' >
+         <message>Bug fixes</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='369b7fed' space='60 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='832e1351' space='0' time='62' timestamp='2018-04-04 16:42:18' >
+         <message>Minimal example and checks for null callbacks</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='21605115' space='61 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e2ccd9e1' space='0' time='63' timestamp='2018-04-04 16:56:19' >
+         <message>Embettered magic heading support</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='832e1351' space='62 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7877f29a' space='0' time='64' timestamp='2018-04-04 17:23:20' >
+         <message>Two-Thirds-working row filter example</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e2ccd9e1' space='63 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='44332f3b' space='0' time='65' timestamp='2018-04-04 17:53:45' >
+         <message>Added column filter demo</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7877f29a' space='64 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a435133a' space='0' time='66' timestamp='2018-04-04 18:27:00' >
+         <message>Seeded simple column sorting example and more advanced column sorting</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='44332f3b' space='65 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='da5f48dc' space='0' time='67' timestamp='2018-04-05 12:26:38' >
+         <message>Highlighting example w borders</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a435133a' space='66 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='be575d08' space='0' time='68' timestamp='2018-04-05 13:30:25' >
+         <message>Editing demo</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='da5f48dc' space='67 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='30378491' space='1' time='69' timestamp='2018-05-29 11:19:54' >
+         <message>Merging students code</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='be575d08' space='68 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8a2a3505' space='1' time='70' timestamp='2018-05-29 12:57:33' >
+         <message>Now the database example shows rows and have working sorting.</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='30378491' space='69 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='f82a5708' space='1' time='71' timestamp='2018-05-29 15:39:31' >
+         <message>Fixed icon links</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8a2a3505' space='70 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='00751f27' space='1' time='72' timestamp='2018-06-01 10:07:44' >
+         <message>partly working db store</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f82a5708' space='71 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='93544150' space='1' time='73' timestamp='2018-06-04 10:10:20' >
+         <message>Fix currentTable and backward compataible sqlite update statement</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='00751f27' space='72 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='b2dc8afa' space='1' time='74' timestamp='2018-06-05 10:14:11' >
+         <message>Now all examples use the new associative array definition</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='93544150' space='73 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='17aa32d4' space='1' time='75' timestamp='2018-06-05 10:14:42' >
+         <message>Bug fix for storing JSON in DB as text</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b2dc8afa' space='74 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='4875d579' space='1' time='76' timestamp='2018-06-08 23:37:55' >
+         <message>Corrected example data to adhere to the associative array format</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='17aa32d4' space='75 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='9bbd38bb' space='1' time='77' timestamp='2018-06-09 00:07:48' >
+         <message>CRLF->LF and correcting sortorder</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4875d579' space='76 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='bb780c64' space='1' time='78' timestamp='2018-06-09 00:15:11' >
+         <message>fixing code that suffered from refactoring</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9bbd38bb' space='77 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='fd532245' space='1' time='79' timestamp='2018-06-11 11:27:15' >
+         <message>fixed bug in filter rendering</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='bb780c64' space='78 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='31e02d1a' space='0' time='80' timestamp='2018-06-11 14:14:03' >
+         <message>Merge pull request #4 from HGustavs/speedball</message>
+         <author>Marcus Brohede (his)</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='be575d08' space='68 ' time='0' />
+            <parent id='fd532245' space='79 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='5e9d8d83' space='0' time='81' timestamp='2018-06-11 14:16:32' >
+         <message>Auto stash before merge of "master" and "origin/master"</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='31e02d1a' space='80 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='1b9cd209' space='1' time='82' timestamp='2018-06-11 16:18:56' >
+         <message>Refactored ... the big NO NO</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5e9d8d83' space='81 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='16f43722' space='1' time='83' timestamp='2018-06-12 00:36:14' >
+         <message>First try : remake column filter render and a deterministic column rendering using parameter columnOrder</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='1b9cd209' space='82 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='3b022ace' space='1' time='84' timestamp='2018-06-12 11:32:32' >
+         <message>Good taste</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='16f43722' space='83 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='ca5cb233' space='1' time='85' timestamp='2018-06-12 13:23:31' >
+         <message>No works resonable well</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3b022ace' space='84 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='62b418a5' space='0' time='86' timestamp='2018-06-12 13:24:22' >
+         <message>Merge pull request #5 from HGustavs/collitas</message>
+         <author>Marcus Brohede (his)</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5e9d8d83' space='81 ' time='0' />
+            <parent id='ca5cb233' space='85 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='33ddc8fb' space='0' time='87' timestamp='2018-06-13 00:02:57' >
+         <message>added working row filter example</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='62b418a5' space='86 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='77aeac5c' space='0' time='88' timestamp='2018-06-14 14:19:25' >
+         <message>Now we handle column names with '_' and we put the cell value in the  sortableTable.edit_ structure</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='33ddc8fb' space='87 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='61f8fdcf' space='0' time='89' timestamp='2018-06-14 14:56:47' >
+         <message>*facepalm*</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='77aeac5c' space='88 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5d053c52' space='0' time='90' timestamp='2018-06-19 11:36:43' >
+         <message>row filter in large example</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='61f8fdcf' space='89 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5cd5653d' space='0' time='91' timestamp='2018-06-19 13:41:59' >
+         <message>Column filter now render correct names</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5d053c52' space='90 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f02b1627' space='0' time='92' timestamp='2018-06-19 17:02:42' >
+         <message>Added row sums</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5cd5653d' space='91 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='bcfa312e' space='0' time='93' timestamp='2018-06-19 19:06:55' >
+         <message>Bug fix + Added examples for row sums</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f02b1627' space='92 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9bee696d' space='0' time='94' timestamp='2018-06-19 19:12:19' >
+         <message>clean up</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='bcfa312e' space='93 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='581de3ce' space='0' time='95' timestamp='2018-06-19 22:22:57' >
+         <message>More clean up</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9bee696d' space='94 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7af6c5e4' space='0' time='96' timestamp='2018-06-19 23:04:36' >
+         <message>Now column sums works</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='581de3ce' space='95 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3a451591' space='0' time='97' timestamp='2018-06-20 09:54:17' >
+         <message>Clean up and bug fix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7af6c5e4' space='96 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='29cc755a' space='0' time='98' timestamp='2018-06-20 10:33:32' >
+         <message>Bug fix, now col sum works for row sum columns</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3a451591' space='97 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='27325a9b' space='0' time='99' timestamp='2018-06-20 13:28:44' >
+         <message>clean up</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='29cc755a' space='98 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='0bc89c12' space='0' time='100' timestamp='2018-06-20 13:43:40' >
+         <message>Added an option to rearrange the columns, including an example</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='27325a9b' space='99 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8d43477f' space='0' time='101' timestamp='2018-06-20 16:24:46' >
+         <message>clean up</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='0bc89c12' space='100 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9573e04d' space='0' time='102' timestamp='2018-07-04 08:22:52' >
+         <message>Freeze pane enabled</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8d43477f' space='101 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9d25dffe' space='0' time='103' timestamp='2018-07-04 11:52:31' >
+         <message>Bug fix freeze pane</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9573e04d' space='102 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='062980ef' space='0' time='104' timestamp='2018-07-04 12:38:11' >
+         <message>Rewrote highlight code</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9d25dffe' space='103 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f15da7d0' space='0' time='105' timestamp='2018-07-04 13:00:38' >
+         <message>Duh!</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='062980ef' space='104 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='120241cf' space='0' time='106' timestamp='2018-07-04 17:09:44' >
+         <message>Added default rowhighlight functions to sortabletable</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f15da7d0' space='105 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='25621922' space='0' time='107' timestamp='2018-07-04 17:10:33' >
+         <message>Clean up of dead code</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='120241cf' space='106 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a33b5073' space='0' time='108' timestamp='2018-07-05 11:59:46' >
+         <message>Added a delimiter</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='25621922' space='107 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2ca3e09a' space='0' time='109' timestamp='2018-07-05 12:02:26' >
+         <message>Removed unused code</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a33b5073' space='108 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fa5041dd' space='0' time='110' timestamp='2018-07-05 12:03:27' >
+         <message>More cleanup</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2ca3e09a' space='109 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='be83861b' space='0' time='111' timestamp='2018-07-05 17:34:37' >
+         <message>More delimiter updates</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='fa5041dd' space='110 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='13b0c580' space='0' time='112' timestamp='2018-07-05 20:42:48' >
+         <message>bug fix db example</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='be83861b' space='111 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4ed91629' space='0' time='113' timestamp='2018-07-19 11:16:54' >
+         <message>Simplified and made defaults code more readable</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='13b0c580' space='112 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6fb160f0' space='0' time='114' timestamp='2018-07-19 15:21:19' >
+         <message>Cleaner byString implementation</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4ed91629' space='113 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e5ec3c4e' space='0' time='115' timestamp='2018-07-19 15:23:07' >
+         <message>Even more secure implementation</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6fb160f0' space='114 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4e3c5111' space='0' time='116' timestamp='2018-07-21 19:58:53' >
+         <message>Cleanup of byString</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e5ec3c4e' space='115 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c593e014' space='0' time='117' timestamp='2018-07-23 10:33:27' >
+         <message>CSS background based highlighting for default row and column highlight</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4e3c5111' space='116 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2dc7390d' space='0' time='118' timestamp='2018-07-23 11:18:57' >
+         <message>Orange you happy to see me?</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c593e014' space='117 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4254f9c0' space='0' time='119' timestamp='2018-08-01 14:11:40' >
+         <message>Now uses the default highlight</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2dc7390d' space='118 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='97719409' space='0' time='120' timestamp='2018-08-01 15:45:01' >
+         <message>Fixed MH column width issue and showing MH from top 0px</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4254f9c0' space='119 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ba9242db' space='0' time='121' timestamp='2018-08-07 09:30:10' >
+         <message>removed external styling for demo page</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='97719409' space='120 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9eae9166' space='0' time='122' timestamp='2018-08-07 09:31:20' >
+         <message>magic heading now will include footer when scrolling horizontally</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ba9242db' space='121 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c7f89d45' space='0' time='123' timestamp='2018-08-07 09:56:35' >
+         <message>Added internal styling to demo</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9eae9166' space='122 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4d594058' space='0' time='124' timestamp='2018-08-07 09:57:26' >
+         <message>Fixed highlighting when magic heading is in play</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c7f89d45' space='123 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d0552a74' space='0' time='125' timestamp='2018-08-07 10:04:26' >
+         <message>Replaced complex external css with simplified internal css</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4d594058' space='124 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3982d034' space='0' time='126' timestamp='2018-08-07 13:03:00' >
+         <message>Made the examples for row summing simpler</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d0552a74' space='125 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ef4cf705' space='0' time='127' timestamp='2018-08-07 13:06:53' >
+         <message>Showing the JSON in the table. Better?</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3982d034' space='126 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fc4fd2db' space='0' time='128' timestamp='2018-08-07 13:52:11' >
+         <message>Bugfix, now highlight works regardless of if we have magic headings or not</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ef4cf705' space='127 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4ce73f4d' space='0' time='129' timestamp='2018-08-07 13:52:41' >
+         <message>Fixed adv highlight example</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='fc4fd2db' space='128 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c7c1f0cd' space='0' time='130' timestamp='2018-08-15 06:30:37' >
+         <message>Added support for readOnlyColumns</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4ce73f4d' space='129 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e973fc30' space='0' time='131' timestamp='2018-08-22 10:12:45' >
+         <message>Bugfix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c7c1f0cd' space='130 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8ec3c13d' space='0' time='132' timestamp='2018-09-04 20:11:28' >
+         <message>Changed how read-only cells are implemented</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e973fc30' space='131 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6cf2819d' space='0' time='133' timestamp='2018-09-04 21:00:13' >
+         <message>Deprecated readOnlyColumns config </message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8ec3c13d' space='132 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ff162add' space='0' time='134' timestamp='2018-10-16 13:04:32' >
+         <message>Sorting fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6cf2819d' space='133 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='793603b2' space='0' time='135' timestamp='2018-10-23 19:48:45' >
+         <message>Updated with col highlight ...</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ff162add' space='134 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e07b702d' space='0' time='136' timestamp='2018-10-23 20:05:02' >
+         <message>Embettering handling of magic headings</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='793603b2' space='135 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a16baf8d' space='0' time='137' timestamp='2018-10-23 23:10:36' >
+         <message>Changed to css classes for additional speed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e07b702d' space='136 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3c3a2ed4' space='0' time='138' timestamp='2018-10-23 23:19:16' >
+         <message>Easy reading demo and tooltips on headings</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a16baf8d' space='137 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='46176820' space='0' time='139' timestamp='2018-10-23 23:31:47' >
+         <message>Readability of gnarly delimiter code</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3c3a2ed4' space='138 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f8042993' space='0' time='140' timestamp='2018-10-23 23:35:06' >
+         <message>Minor adjustment of unused func</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='46176820' space='139 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='608a094a' space='0' time='141' timestamp='2018-10-23 23:54:47' >
+         <message>Removed some un-necessary code</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f8042993' space='140 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a14daa50' space='0' time='142' timestamp='2018-10-24 00:11:03' >
+         <message>LeFunc</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='608a094a' space='141 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='dff4e870' space='0' time='143' timestamp='2018-10-24 00:19:07' >
+         <message>Color change</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a14daa50' space='142 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5857ae27' space='0' time='144' timestamp='2018-10-24 13:18:04' >
+         <message>Update sortableTable.js</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='dff4e870' space='143 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c7c92346' space='0' time='145' timestamp='2018-10-25 08:21:59' >
+         <message>Improved magic headings</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5857ae27' space='144 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='880b1545' space='0' time='146' timestamp='2018-10-28 10:04:47' >
+         <message>Typo fix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c7c92346' space='145 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7ec088b2' space='1' time='147' timestamp='2018-11-07 12:16:19' >
+         <message>gah</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='880b1545' space='146 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f7d0b844' space='0' time='148' timestamp='2018-11-09 17:59:57' >
+         <message>Added export feature</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='880b1545' space='146 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ed5529f5' space='1' time='149' timestamp='2019-01-11 17:04:11' >
+         <message>more readable</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7ec088b2' space='147 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='085d469a' space='1' time='150' timestamp='2019-01-11 17:04:20' >
+         <message>Merge remote-tracking branch 'origin/master'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ed5529f5' space='149 ' time='1' />
+            <parent id='f7d0b844' space='148 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='1864ceb8' space='0' time='151' timestamp='2019-02-05 10:22:37' >
+         <message>Embettered icons</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f7d0b844' space='148 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='0d154a35' space='0' time='152' timestamp='2019-02-05 10:22:41' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SortableTableLibrary</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='1864ceb8' space='151 ' time='0' />
+            <parent id='085d469a' space='150 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='9da2e98e' space='0' time='153' timestamp='2019-02-05 11:40:08' >
+         <message>Fixed regex match bug and added in-place svg icons</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='0d154a35' space='152 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e8624cd2' space='0' time='154' timestamp='2019-02-05 11:59:05' >
+         <message>Fix of demo and remaining icons</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9da2e98e' space='153 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7c844f5f' space='1' time='155' timestamp='2019-08-21 10:13:02' >
+         <message>Added simple pagination and pre/post render callbacks</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e8624cd2' space='154 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='cedf945a' space='1' time='156' timestamp='2019-08-21 10:17:42' >
+         <message>missed some css</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7c844f5f' space='155 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='b3bba246' space='0' time='157' timestamp='2019-08-21 10:18:16' >
+         <message>Merge branch 'add-simple-pagination'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e8624cd2' space='154 ' time='0' />
+            <parent id='cedf945a' space='156 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='6e242373' space='0' time='158' timestamp='2019-08-29 11:02:46' >
+         <message>Nearly finished email function</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b3bba246' space='157 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a5dff894' space='0' time='159' timestamp='2019-08-29 12:04:19' >
+         <message>Completed visible email functionality.</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6e242373' space='158 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d39107dc' space='0' time='160' timestamp='2019-08-29 12:12:04' >
+         <message>Fixing postFiltering callback</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a5dff894' space='159 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='bc406bae' space='0' time='161' timestamp='2019-08-29 12:57:44' >
+         <message>Fixed refactoring problem...</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d39107dc' space='160 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='0ccba180' space='0' time='162' timestamp='2019-12-10 21:43:12' >
+         <message>Prevents adding multiple copies of the same tableid</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='bc406bae' space='161 ' time='0' />
+         </parents>
+    </commit>
+</commits>
+<commits repo='SchedSYS' >
+    <commit id='5409d46d' space='0' time='0' timestamp='2018-12-17 14:31:18' >
+         <message>Initial commit</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+         </parents>
+    </commit>
+    <commit id='b9ae5c75' space='0' time='1' timestamp='2018-12-17 14:32:39' >
+         <message>Seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5409d46d' space='0 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fda6ae11' space='0' time='2' timestamp='2018-12-17 22:49:04' >
+         <message>Better date / time handling and adding lunch field</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b9ae5c75' space='1 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6a44817e' space='0' time='3' timestamp='2018-12-17 23:01:08' >
+         <message>Styling</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='fda6ae11' space='2 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a36ce2d1' space='0' time='4' timestamp='2018-12-20 10:29:46' >
+         <message>Create synchhistory.php</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6a44817e' space='3 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8f3fe28c' space='0' time='5' timestamp='2018-12-20 12:37:47' >
+         <message>Christmas Seasonal JS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a36ce2d1' space='4 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='39b9d6d1' space='0' time='6' timestamp='2019-02-03 11:21:02' >
+         <message>Update showsched.php</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8f3fe28c' space='5 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='0b98fdba' space='0' time='7' timestamp='2019-02-10 20:16:18' >
+         <message>Admin interface seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='39b9d6d1' space='6 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='111718a4' space='0' time='8' timestamp='2019-02-11 19:00:16' >
+         <message>Partial bug fix for swedish characters in item title</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='0b98fdba' space='7 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a77f4901' space='0' time='9' timestamp='2019-02-11 19:12:40' >
+         <message>Moved editing interface to better location</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='111718a4' space='8 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e9215167' space='0' time='10' timestamp='2019-02-11 19:35:01' >
+         <message>Urldecode fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a77f4901' space='9 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='eda21934' space='0' time='11' timestamp='2019-03-07 13:03:12' >
+         <message>Doctype</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e9215167' space='10 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ee6c7dcd' space='0' time='12' timestamp='2019-03-13 12:43:34' >
+         <message>Added index and fixed same day update bug.</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='eda21934' space='11 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5110abea' space='0' time='13' timestamp='2019-03-19 01:51:32' >
+         <message>Benämning coloring added</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ee6c7dcd' space='12 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f6fe7bca' space='0' time='14' timestamp='2019-03-19 02:22:21' >
+         <message>de alerting</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5110abea' space='13 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ed1dff95' space='1' time='15' timestamp='2019-03-19 15:37:22' >
+         <message>Bugfix. Comments and activity is now written to DB from admin form.</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f6fe7bca' space='14 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='80e1f119' space='1' time='16' timestamp='2019-03-19 15:38:41' >
+         <message>Added comment to calender printout</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ed1dff95' space='15 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='9dc01742' space='1' time='17' timestamp='2019-03-19 15:56:33' >
+         <message>Improved table with current data</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='80e1f119' space='16 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='4faf06f3' space='0' time='18' timestamp='2019-03-20 20:01:25' >
+         <message>color fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f6fe7bca' space='14 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4c15dc28' space='0' time='19' timestamp='2019-03-20 20:01:29' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4faf06f3' space='18 ' time='0' />
+            <parent id='9dc01742' space='17 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='b1c652ea' space='0' time='20' timestamp='2019-11-20 15:19:51' >
+         <message>Includes unique identifier for bookings</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4c15dc28' space='19 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='25e20a60' space='0' time='21' timestamp='2019-11-20 16:44:18' >
+         <message>Will merge with a google calendar over secrete ical link</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b1c652ea' space='20 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='16e6171a' space='0' time='22' timestamp='2019-11-21 11:47:53' >
+         <message>Added config file</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='25e20a60' space='21 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9bd2a682' space='0' time='23' timestamp='2019-11-21 13:21:08' >
+         <message>Made SchedSYS use a service paradigm</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='16e6171a' space='22 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5d083d73' space='0' time='24' timestamp='2019-11-21 13:47:11' >
+         <message>Prettier date output</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9bd2a682' space='23 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='745ab1b0' space='0' time='25' timestamp='2019-11-22 13:18:21' >
+         <message>A first take on new sync ... has (at least) issues with moving bookings to past</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5d083d73' space='24 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a792eda1' space='0' time='26' timestamp='2019-11-27 15:40:20' >
+         <message>Fixed broken file</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='745ab1b0' space='25 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f3869863' space='0' time='27' timestamp='2020-02-12 11:46:47' >
+         <message>Seed of new xml export from time-edit.</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a792eda1' space='26 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f3f0bed3' space='0' time='28' timestamp='2020-02-12 11:53:43' >
+         <message>Update json_export_xml.php</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f3869863' space='27 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='898c4a6c' space='0' time='29' timestamp='2020-02-12 22:21:11' >
+         <message>Update showsched.js</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f3f0bed3' space='28 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4352c006' space='0' time='30' timestamp='2020-02-13 16:46:19' >
+         <message>Seed of new services</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='898c4a6c' space='29 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='563b73d3' space='1' time='31' timestamp='2020-02-13 20:50:26' >
+         <message>Update showsched.js</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4352c006' space='30 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='85b7cf55' space='0' time='32' timestamp='2020-02-13 21:10:05' >
+         <message>When finding a new entry, we start by adding a blank entry that we fill out with what we parse</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4352c006' space='30 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='eeb84b25' space='0' time='33' timestamp='2020-02-13 21:10:13' >
+         <message>Merge remote-tracking branch 'origin/master'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='85b7cf55' space='32 ' time='0' />
+            <parent id='563b73d3' space='31 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='08757fb8' space='0' time='34' timestamp='2020-02-13 21:24:52' >
+         <message>Update json_export_ical.php</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='eeb84b25' space='33 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='15173d85' space='0' time='35' timestamp='2020-02-13 21:38:37' >
+         <message>Removed datadump and added showsched_demo</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='08757fb8' space='34 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='af6423ac' space='0' time='36' timestamp='2020-02-13 21:39:59' >
+         <message>duuuh</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='15173d85' space='35 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8562f24d' space='1' time='37' timestamp='2020-02-13 21:41:48' >
+         <message>Added FAB</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='08757fb8' space='34 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ae1db520' space='1' time='38' timestamp='2020-02-13 21:41:54' >
+         <message>Merge remote-tracking branch 'origin/master'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8562f24d' space='37 ' time='1' />
+            <parent id='af6423ac' space='36 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b83f7e2d' space='1' time='39' timestamp='2020-02-13 21:42:44' >
+         <message>Added FAB button</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ae1db520' space='38 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='60b06df3' space='1' time='40' timestamp='2020-02-13 21:46:06' >
+         <message>Moved FAB to demo</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b83f7e2d' space='39 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='7a62d0e6' space='0' time='41' timestamp='2020-02-13 21:56:49' >
+         <message>initial click handling</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='af6423ac' space='36 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a8f71c63' space='1' time='42' timestamp='2020-02-13 21:59:01' >
+         <message>Forgot to move CSS for FAB</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='60b06df3' space='40 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='bcc3805e' space='0' time='43' timestamp='2020-02-13 22:01:35' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7a62d0e6' space='41 ' time='0' />
+            <parent id='60b06df3' space='40 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='92b40567' space='0' time='44' timestamp='2020-02-13 22:02:07' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='bcc3805e' space='43 ' time='0' />
+            <parent id='a8f71c63' space='42 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='a5f2dc1f' space='0' time='45' timestamp='2020-02-13 22:10:16' >
+         <message>fab 5</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='92b40567' space='44 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='975f29e4' space='0' time='46' timestamp='2020-02-13 22:18:58' >
+         <message>drag and drop i Y</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a5f2dc1f' space='45 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4170bb34' space='0' time='47' timestamp='2020-02-13 22:25:37' >
+         <message>mousemove</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='975f29e4' space='46 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b7338679' space='0' time='48' timestamp='2020-02-13 22:28:02' >
+         <message>30 min grid Y</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4170bb34' space='47 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c39d1e65' space='0' time='49' timestamp='2020-02-13 22:41:17' >
+         <message>X movement also</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b7338679' space='48 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c1f7f6d9' space='0' time='50' timestamp='2020-02-13 22:48:43' >
+         <message>added id and immovable ical</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c39d1e65' space='49 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4b025b51' space='1' time='51' timestamp='2020-02-13 22:50:14' >
+         <message>Added options pane connected to the FAB</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c1f7f6d9' space='50 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5f42ae0d' space='0' time='52' timestamp='2020-02-13 22:52:11' >
+         <message>classing of ical element</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c1f7f6d9' space='50 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='487ba3a9' space='0' time='53' timestamp='2020-02-13 22:54:38' >
+         <message>both</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5f42ae0d' space='52 ' time='0' />
+            <parent id='4b025b51' space='51 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='f1e38ee3' space='0' time='54' timestamp='2020-02-13 23:16:03' >
+         <message>Highlight when moving reservation and diff between ical and timeedit reseravations</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='487ba3a9' space='53 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f828080f' space='0' time='55' timestamp='2020-02-13 23:36:24' >
+         <message>Hide ical now works in options dialog</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f1e38ee3' space='54 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b26a47e1' space='0' time='56' timestamp='2020-02-14 07:54:51' >
+         <message>Updated slide-in-pane</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f828080f' space='55 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='781ce7d8' space='0' time='57' timestamp='2020-02-16 20:47:45' >
+         <message>Seed of showcourses with zoom</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b26a47e1' space='56 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e86a609f' space='0' time='58' timestamp='2020-02-17 10:25:14' >
+         <message>Data and fixes</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='781ce7d8' space='57 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e8b50dbb' space='0' time='59' timestamp='2020-02-17 10:41:50' >
+         <message>minor change</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e86a609f' space='58 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3f2ca884' space='2' time='60' timestamp='2020-02-18 23:30:04' >
+         <message>Added use of config file</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b26a47e1' space='56 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='87381586' space='1' time='61' timestamp='2020-02-19 00:27:18' >
+         <message>Added some WEBUG data and a simple console logger for the requirements</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e8b50dbb' space='59 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='cd1c5a61' space='1' time='62' timestamp='2020-02-19 10:12:58' >
+         <message>Added highlighting for course requirements</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='87381586' space='61 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='235a2b98' space='1' time='63' timestamp='2020-02-19 11:45:28' >
+         <message>All courses for WEBUG have been added. Minor CSS changes to courses</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='cd1c5a61' space='62 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='87b3a7de' space='0' time='64' timestamp='2020-02-19 22:20:12' >
+         <message>Canvas seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e8b50dbb' space='59 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f6fd0a96' space='0' time='65' timestamp='2020-02-19 22:22:40' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='87b3a7de' space='64 ' time='0' />
+            <parent id='235a2b98' space='63 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='119e33b0' space='0' time='66' timestamp='2020-02-19 23:04:17' >
+         <message>Seed of recursive progression</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f6fd0a96' space='65 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f6672198' space='0' time='67' timestamp='2020-02-20 08:50:20' >
+         <message>added requirements log</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='119e33b0' space='66 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='226f1f5c' space='0' time='68' timestamp='2020-02-20 09:11:40' >
+         <message>recursive highlighting</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f6672198' space='67 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f64468c9' space='0' time='69' timestamp='2020-02-20 09:27:35' >
+         <message>modified highlight</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='226f1f5c' space='68 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='42018758' space='1' time='70' timestamp='2020-02-20 09:35:23' >
+         <message>Fix data error</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f64468c9' space='69 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='da9c20ef' space='0' time='71' timestamp='2020-02-20 10:04:16' >
+         <message>drawing arrows</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f64468c9' space='69 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='77bff0cf' space='0' time='72' timestamp='2020-02-20 10:04:19' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='da9c20ef' space='71 ' time='0' />
+            <parent id='42018758' space='70 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='2400af20' space='0' time='73' timestamp='2020-02-21 10:10:04' >
+         <message>optimized recursion</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='77bff0cf' space='72 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f1dfbd8d' space='0' time='74' timestamp='2020-02-21 10:11:37' >
+         <message>split data to separate file</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2400af20' space='73 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='875ead0a' space='0' time='75' timestamp='2020-02-21 10:17:48' >
+         <message>moved data to separate file for simpler reading of code</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f1dfbd8d' space='74 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2904732a' space='0' time='76' timestamp='2020-02-21 10:18:36' >
+         <message>embetterified zooming</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='875ead0a' space='75 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a119875f' space='0' time='77' timestamp='2020-02-21 10:20:36' >
+         <message>spring cleaning</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2904732a' space='76 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='555525aa' space='0' time='78' timestamp='2020-02-21 21:22:18' >
+         <message>clarification</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a119875f' space='77 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='bfc3872a' space='0' time='79' timestamp='2020-02-21 21:45:00' >
+         <message>clear drawing buckets</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='555525aa' space='78 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='310a99e9' space='0' time='80' timestamp='2020-02-21 23:43:00' >
+         <message>adding minor</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='bfc3872a' space='79 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4941fe4a' space='0' time='81' timestamp='2020-02-22 13:57:01' >
+         <message>vertical and horizontal arrows (unsorted)</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='310a99e9' space='80 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='0be2b59b' space='0' time='82' timestamp='2020-02-22 22:05:32' >
+         <message>Side assignment for arrows</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4941fe4a' space='81 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fb0e0e8b' space='0' time='83' timestamp='2020-02-22 22:11:55' >
+         <message>removed console logs</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='0be2b59b' space='82 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5360db9e' space='0' time='84' timestamp='2020-02-22 22:26:58' >
+         <message>fixed recursion crash</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='fb0e0e8b' space='83 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b60a457c' space='0' time='85' timestamp='2020-02-22 23:17:31' >
+         <message>Connector sorting for top only</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5360db9e' space='84 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f6d40f10' space='0' time='86' timestamp='2020-02-22 23:42:32' >
+         <message>Fixed sorting criteria for endpoints</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b60a457c' space='85 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='11ec6da3' space='0' time='87' timestamp='2020-02-23 00:20:27' >
+         <message>fixed sort and removed cruft</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f6d40f10' space='86 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='62228f3a' space='0' time='88' timestamp='2020-02-23 22:59:14' >
+         <message>Better arrow sorting</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='11ec6da3' space='87 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c296f108' space='0' time='89' timestamp='2020-02-24 01:48:27' >
+         <message>block duplicate arrows and simpler sorting</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='62228f3a' space='88 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='50cd33b0' space='1' time='90' timestamp='2020-02-24 08:58:49' >
+         <message>Clear selected/highlighted courses when clicking a new course</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c296f108' space='89 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a2bf1983' space='0' time='91' timestamp='2020-02-24 09:51:21' >
+         <message>minor cleanup</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c296f108' space='89 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='19c84434' space='0' time='92' timestamp='2020-02-24 09:56:52' >
+         <message>Added scrolling for arrows</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a2bf1983' space='91 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3a33c99d' space='0' time='93' timestamp='2020-02-24 10:03:34' >
+         <message>Merged course clearing</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='19c84434' space='92 ' time='0' />
+            <parent id='50cd33b0' space='90 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='a445a6f0' space='0' time='94' timestamp='2020-02-24 10:04:37' >
+         <message>Minor highlighting fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3a33c99d' space='93 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5d73c15e' space='0' time='95' timestamp='2020-02-24 13:54:58' >
+         <message>Added link to ical/xml converter.</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a445a6f0' space='94 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5fbf965f' space='1' time='96' timestamp='2020-02-24 14:20:43' >
+         <message>Opt for showing full req recursion or not</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a445a6f0' space='94 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='086b85ff' space='1' time='97' timestamp='2020-02-24 14:22:55' >
+         <message>minor usability fix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5fbf965f' space='96 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='cbd3eec7' space='0' time='98' timestamp='2020-02-24 21:48:01' >
+         <message>seed of config service</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5d73c15e' space='95 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='cd80b610' space='0' time='99' timestamp='2020-02-24 22:55:29' >
+         <message>read data for schedule config</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='cbd3eec7' space='98 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5671c257' space='0' time='100' timestamp='2020-02-24 22:55:37' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='cd80b610' space='99 ' time='0' />
+            <parent id='086b85ff' space='97 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='77f02730' space='0' time='101' timestamp='2020-02-24 23:17:53' >
+         <message>Pane hiding icon</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5671c257' space='100 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='72f00bfc' space='0' time='102' timestamp='2020-02-24 23:25:45' >
+         <message>Styling fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='77f02730' space='101 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3c698ef4' space='0' time='103' timestamp='2020-02-25 11:49:38' >
+         <message>Schedule conf seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='72f00bfc' space='102 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='6c6f313c' space='0' time='104' timestamp='2020-02-25 13:05:48' >
+         <message>Conf synch seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3c698ef4' space='103 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d1427c3c' space='0' time='105' timestamp='2020-02-25 21:26:33' >
+         <message>Seed of config</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='6c6f313c' space='104 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='226d3154' space='0' time='106' timestamp='2020-02-25 22:03:50' >
+         <message>Service call</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d1427c3c' space='105 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='47441696' space='1' time='107' timestamp='2020-02-26 13:10:04' >
+         <message>mofo</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='226d3154' space='106 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='dabbd770' space='0' time='108' timestamp='2020-02-26 13:13:18' >
+         <message>hulk</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='226d3154' space='106 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='bdee0329' space='0' time='109' timestamp='2020-02-26 14:24:00' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SchedSYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='dabbd770' space='108 ' time='0' />
+            <parent id='47441696' space='107 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='57f7c7e0' space='0' time='110' timestamp='2020-02-26 14:24:13' >
+         <message>Table design for config</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='bdee0329' space='109 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c709cdf1' space='0' time='111' timestamp='2020-02-26 14:42:01' >
+         <message>Service architecture for config</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='57f7c7e0' space='110 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d0fb9081' space='0' time='112' timestamp='2020-02-26 16:58:06' >
+         <message>Update services added</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c709cdf1' space='111 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='264939ec' space='0' time='113' timestamp='2020-02-27 13:24:25' >
+         <message>Synchronization of calendars and schedules</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d0fb9081' space='112 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2b1a66f2' space='0' time='114' timestamp='2020-02-27 15:29:01' >
+         <message>Login fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='264939ec' space='113 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c21f7799' space='0' time='115' timestamp='2020-02-27 15:33:09' >
+         <message>minor fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2b1a66f2' space='114 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='946d7e56' space='0' time='116' timestamp='2020-02-27 15:34:18' >
+         <message>Update adminlogin.php</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c21f7799' space='115 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ce73f2b0' space='0' time='117' timestamp='2020-02-28 12:44:22' >
+         <message>Booking functionality seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='946d7e56' space='116 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3f57844d' space='0' time='118' timestamp='2020-02-28 12:49:11' >
+         <message>Click event seed for booking</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ce73f2b0' space='117 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='04c45de5' space='0' time='119' timestamp='2020-02-28 13:14:55' >
+         <message>Booking interface</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3f57844d' space='118 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='27dcd610' space='0' time='120' timestamp='2020-02-28 14:45:07' >
+         <message>Booking interface and service</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='04c45de5' space='119 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='799a24e8' space='0' time='121' timestamp='2020-02-28 14:59:31' >
+         <message>Fix of service</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='27dcd610' space='120 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='24d8599c' space='0' time='122' timestamp='2020-03-02 17:46:00' >
+         <message>A crude fix to avoid overwriting if comment changed by SchedSYS ... we should aim higher</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='799a24e8' space='121 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='305ac6aa' space='0' time='123' timestamp='2020-03-02 22:41:11' >
+         <message>Revert "A crude fix to avoid overwriting if comment changed by SchedSYS ... we should aim higher"</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='24d8599c' space='122 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='62ef5932' space='0' time='124' timestamp='2020-03-02 22:46:21' >
+         <message>Booking support through comment changing</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='305ac6aa' space='123 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9351d4f3' space='0' time='125' timestamp='2020-03-04 15:37:49' >
+         <message>Styling fix for Exjobbshandledning</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='62ef5932' space='124 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2eae0e67' space='0' time='126' timestamp='2020-03-05 12:34:20' >
+         <message>Added a name to sign service</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9351d4f3' space='125 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='28036efa' space='0' time='127' timestamp='2020-03-05 12:36:56' >
+         <message>Minor bugfix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2eae0e67' space='126 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9c2c603c' space='0' time='128' timestamp='2020-03-05 14:49:02' >
+         <message>Names or signatures debacle</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='28036efa' space='127 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4aa1d537' space='0' time='129' timestamp='2020-03-05 17:05:05' >
+         <message>Timeedit bug fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9c2c603c' space='128 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='55bfab02' space='0' time='130' timestamp='2020-03-05 17:29:12' >
+         <message>embettering data contents</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4aa1d537' space='129 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='356e6fdd' space='0' time='131' timestamp='2020-03-09 09:05:45' >
+         <message>Making it work ... when not admin</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='55bfab02' space='130 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7c40dc0e' space='0' time='132' timestamp='2020-03-09 13:10:34' >
+         <message>A draft for controlling how to update a booking ... admin can override user can cancel meeting from same device as booking was made</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='356e6fdd' space='131 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='953c08d4' space='0' time='133' timestamp='2020-03-09 16:29:19' >
+         <message>Added booking label to show which time slot is being booked</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7c40dc0e' space='132 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a640ab03' space='0' time='134' timestamp='2020-03-17 15:50:41' >
+         <message>Fix for signatures</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='953c08d4' space='133 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='75002a90' space='0' time='135' timestamp='2020-03-19 12:47:48' >
+         <message>Smarter sync and new styling</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a640ab03' space='134 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fc38e151' space='0' time='136' timestamp='2020-03-20 09:12:11' >
+         <message>Removed signature bug in history data</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='75002a90' space='135 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='010c366e' space='0' time='137' timestamp='2020-03-25 17:17:07' >
+         <message>Now supports deleted future events</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='fc38e151' space='136 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='4dee5e88' space='0' time='138' timestamp='2020-03-25 17:27:05' >
+         <message>Forgot to remove debug...</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='010c366e' space='137 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c257b2f2' space='0' time='139' timestamp='2020-03-25 17:37:57' >
+         <message>Supports activity "Distans" and adds space between items in "Kommentar"</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='4dee5e88' space='138 ' time='0' />
+         </parents>
+    </commit>
+</commits>
+<commits repo='shaker.js' >
+    <commit id='da63c144' space='0' time='0' timestamp='2015-04-27 11:09:02' >
+         <message>Initial commit</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+         </parents>
+    </commit>er
+    <commit id='e94ee00a' space='0' time='1' timestamp='2015-04-27 11:09:16' >
+         <message>Create README.md</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='da63c144' space='0 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='40f8698c' space='0' time='2' timestamp='2015-04-27 11:09:46' >
+         <message>Create shaker.js</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e94ee00a' space='1 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='90a07757' space='0' time='3' timestamp='2015-04-27 11:10:51' >
+         <message>Update LICENSE</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='40f8698c' space='2 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='72db4a67' space='0' time='4' timestamp='2015-04-27 12:42:05' >
+         <message>Updated example with tilt Events</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='90a07757' space='3 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='53253c82' space='0' time='5' timestamp='2015-04-27 20:45:05' >
+         <message>Orientation events update. Car Example added.</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='72db4a67' space='4 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7f975ed9' space='0' time='6' timestamp='2015-04-27 20:51:07' >
+         <message>Mini-fix.</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='53253c82' space='5 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='eb1225f5' space='0' time='7' timestamp='2015-04-27 21:40:57' >
+         <message>shaker fix and ball example.</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7f975ed9' space='6 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8640dc51' space='0' time='8' timestamp='2015-04-27 22:48:07' >
+         <message>Removed cruft from examples</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='eb1225f5' space='7 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e7c504b6' space='0' time='9' timestamp='2015-04-27 22:48:48' >
+         <message>Further cruft removal.</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8640dc51' space='8 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5af7cc6d' space='0' time='10' timestamp='2015-04-27 23:04:37' >
+         <message>Orientation and example bug fixes.</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e7c504b6' space='9 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a866a606' space='0' time='11' timestamp='2015-04-28 11:59:36' >
+         <message>Text printing example and shaker fix.</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5af7cc6d' space='10 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='1188d735' space='0' time='12' timestamp='2015-04-28 13:09:25' >
+         <message>Compass Example</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='a866a606' space='11 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2a8362fe' space='0' time='13' timestamp='2015-04-29 23:33:56' >
+         <message>Gyro example</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='1188d735' space='12 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='93b3e26b' space='0' time='14' timestamp='2015-04-29 23:49:24' >
+         <message>Bouncy Ball with Friction</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2a8362fe' space='13 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='38e9a53b' space='0' time='15' timestamp='2015-05-02 00:07:20' >
+         <message>Bug fixes and Orientation Event Support</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='93b3e26b' space='14 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3d242626' space='0' time='16' timestamp='2015-05-02 11:26:34' >
+         <message>Cruft-removal and New example</message>
+         <author>HGustavs</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='38e9a53b' space='15 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='74dc3a11' space='2' time='17' timestamp='2015-05-05 15:32:27' >
+         <message>Moved orientation examples into a suitable folder.</message>
+         <author>a97marbr</author>
+         <login>mbrohede</login>
+         <avatar>https://avatars1.githubusercontent.com/u/7021013?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3d242626' space='16 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c5d9f809' space='2' time='18' timestamp='2015-05-05 15:34:28' >
+         <message>Moved SVG-images to follow suit ...</message>
+         <author>a97marbr</author>
+         <login>mbrohede</login>
+         <avatar>https://avatars1.githubusercontent.com/u/7021013?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='74dc3a11' space='17 ' time='2' />
+         </parents>
+    </commit>
+    <commit id='1682ef7c' space='2' time='19' timestamp='2015-05-05 16:06:20' >
+         <message>Reindented and added comments.</message>
+         <author>a97marbr</author>
+         <login>mbrohede</login>
+         <avatar>https://avatars1.githubusercontent.com/u/7021013?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c5d9f809' space='18 ' time='2' />
+         </parents>
+    </commit>
+    <commit id='8ac5bb7a' space='2' time='20' timestamp='2015-05-05 16:15:46' >
+         <message>Reindented and added usage information.</message>
+         <author>a97marbr</author>
+         <login>mbrohede</login>
+         <avatar>https://avatars1.githubusercontent.com/u/7021013?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='1682ef7c' space='19 ' time='2' />
+         </parents>
+    </commit>
+    <commit id='5a928cf2' space='2' time='21' timestamp='2015-05-05 17:07:54' >
+         <message>Moved the various examples to the correct folders.</message>
+         <author>a97marbr</author>
+         <login>mbrohede</login>
+         <avatar>https://avatars1.githubusercontent.com/u/7021013?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8ac5bb7a' space='20 ' time='2' />
+         </parents>
+    </commit>
+    <commit id='ee25bd7c' space='0' time='22' timestamp='2015-05-06 12:41:17' >
+         <message>Merge pull request #3 from HGustavs/mb-refactor-order</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3d242626' space='16 ' time='0' />
+            <parent id='5a928cf2' space='21 ' time='2' />
+         </parents>
+    </commit>
+    <commit id='109f751e' space='1' time='23' timestamp='2015-05-06 15:01:57' >
+         <message>Added two examples where shake is used.</message>
+         <author>a97marbr</author>
+         <login>mbrohede</login>
+         <avatar>https://avatars1.githubusercontent.com/u/7021013?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ee25bd7c' space='22 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='098d18f3' space='0' time='24' timestamp='2015-05-06 17:43:55' >
+         <message>Merge pull request #4 from HGustavs/mb-add-shake-examples</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ee25bd7c' space='22 ' time='0' />
+            <parent id='109f751e' space='23 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='24dad0e5' space='2' time='25' timestamp='2015-05-06 22:52:33' >
+         <message>Changed properties to camelCase</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='098d18f3' space='24 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='efabbaf7' space='0' time='26' timestamp='2020-02-27 15:28:40' >
+         <message>Updated?</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='098d18f3' space='24 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f9a4081a' space='0' time='27' timestamp='2020-03-03 08:07:56' >
+         <message>Shows a button that if pressed activates motion sensor and device orientation sensor on iPhone ios 13+</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='efabbaf7' space='26 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='32f9ee79' space='0' time='28' timestamp='2020-03-03 08:09:26' >
+         <message>Revert "Shows a button that if pressed activates motion sensor and device orientation sensor on iPhone ios 13+"</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f9a4081a' space='27 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9fc72018' space='0' time='29' timestamp='2020-03-03 08:13:04' >
+         <message>Shows a button that if pressed enables motion sensor and orientation sensor on IOS 13+</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='32f9ee79' space='28 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='12bdcde6' space='0' time='30' timestamp='2020-03-03 16:02:42' >
+         <message>Bug fix and a more obtrusive "turn on sensors" button</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9fc72018' space='29 ' time='0' />
+         </parents>
+    </commit>
+</commits>
+<commits repo='surveySYS' >
+    <commit id='009f16bc' space='0' time='0' timestamp='2019-02-19 18:30:17' >
+         <message>Initial commit</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+         </parents>
+    </commit>
+    <commit id='e09d81f2' space='0' time='1' timestamp='2019-02-19 18:55:38' >
+         <message>Seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='009f16bc' space='0 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d56b7e83' space='0' time='2' timestamp='2019-02-19 19:16:12' >
+         <message>Basic survey creation</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e09d81f2' space='1 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7fa99949' space='0' time='3' timestamp='2019-02-19 19:39:34' >
+         <message>Initial forms</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d56b7e83' space='2 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b113ba01' space='0' time='4' timestamp='2019-02-19 19:42:14' >
+         <message>Create .gitignore</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7fa99949' space='3 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='115cb599' space='1' time='5' timestamp='2019-02-19 19:44:12' >
+         <message>Delete surveydata.db</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b113ba01' space='4 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fd02dbdf' space='1' time='6' timestamp='2019-02-19 19:44:25' >
+         <message>Delete scheduledata.db</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='115cb599' space='5 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='adb7a647' space='0' time='7' timestamp='2019-02-19 19:48:49' >
+         <message>Survey admin new survey</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b113ba01' space='4 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='e7ab4676' space='0' time='8' timestamp='2019-02-19 19:49:53' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SurveySYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='adb7a647' space='7 ' time='0' />
+            <parent id='fd02dbdf' space='6 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='87a146d5' space='0' time='9' timestamp='2019-02-19 19:52:46' >
+         <message>New survey start</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='e7ab4676' space='8 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d7540739' space='0' time='10' timestamp='2019-02-19 20:32:08' >
+         <message>Basic survey creation code</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='87a146d5' space='9 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8e787ece' space='0' time='11' timestamp='2019-02-19 22:34:51' >
+         <message>Editsurvey session seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d7540739' space='10 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='5715a134' space='0' time='12' timestamp='2019-02-19 22:37:41' >
+         <message>Edit survey moved to separate file</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8e787ece' space='11 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8d312d87' space='0' time='13' timestamp='2019-02-19 23:46:46' >
+         <message>Edit survey login code</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='5715a134' space='12 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='062d601a' space='0' time='14' timestamp='2019-02-20 11:11:15' >
+         <message>Login and Survey table definintions</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8d312d87' space='13 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d5e7cfc6' space='0' time='15' timestamp='2019-02-20 18:53:18' >
+         <message>Forms for working with items incl item creation interface</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='062d601a' space='14 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3195bc36' space='0' time='16' timestamp='2019-02-20 19:32:28' >
+         <message>Creation of new survey items</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d5e7cfc6' space='15 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='fac6696a' space='0' time='17' timestamp='2019-02-20 20:14:47' >
+         <message>Type editing</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3195bc36' space='16 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='0f37bc3f' space='0' time='18' timestamp='2019-02-20 22:44:21' >
+         <message>More editing and styling fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='fac6696a' space='17 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b942741b' space='0' time='19' timestamp='2019-02-20 23:57:33' >
+         <message>Prepared editing and added survey preview</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='0f37bc3f' space='18 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7933949a' space='0' time='20' timestamp='2019-02-21 22:22:40' >
+         <message>doSurvey and saveSurvey seed</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b942741b' space='19 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9f847dff' space='0' time='21' timestamp='2019-02-22 22:46:41' >
+         <message>ID exploding and saving of surveys</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7933949a' space='20 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='30568509' space='0' time='22' timestamp='2019-02-23 13:23:52' >
+         <message>Basic swapping of survey items</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9f847dff' space='21 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='307e9296' space='0' time='23' timestamp='2019-02-24 21:59:28' >
+         <message>Swapping and deleting implementation</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='30568509' space='22 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d2d495c4' space='0' time='24' timestamp='2019-02-25 09:38:27' >
+         <message>Update editSurvey.php</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='307e9296' space='23 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3430b4c6' space='1' time='25' timestamp='2019-02-25 10:34:08' >
+         <message>Edit survey fields</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d2d495c4' space='24 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c53c20c5' space='1' time='26' timestamp='2019-02-25 10:38:13' >
+         <message>Better error message</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3430b4c6' space='25 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='dbf57028' space='1' time='27' timestamp='2019-02-25 11:34:16' >
+         <message>Changed save survey tbl</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c53c20c5' space='26 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='557b4d03' space='0' time='28' timestamp='2019-02-25 12:16:54' >
+         <message>Random user hash for detecting multiple posts</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d2d495c4' space='24 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d7e8c4ac' space='0' time='29' timestamp='2019-02-25 12:16:57' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SurveySYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='557b4d03' space='28 ' time='0' />
+            <parent id='dbf57028' space='27 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='54f2a4b0' space='0' time='30' timestamp='2019-02-25 13:35:12' >
+         <message>minor ui fixes</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d7e8c4ac' space='29 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='9ff8ce34' space='0' time='31' timestamp='2019-02-25 15:41:32' >
+         <message>csv export is too legit to quit</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='54f2a4b0' space='30 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d54aa216' space='1' time='32' timestamp='2019-02-25 15:42:11' >
+         <message>Survey styling</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='54f2a4b0' space='30 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='f8089291' space='1' time='33' timestamp='2019-02-25 15:42:22' >
+         <message>Merge remote-tracking branch 'origin/master'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d54aa216' space='32 ' time='1' />
+            <parent id='9ff8ce34' space='31 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='2a54dd99' space='0' time='34' timestamp='2019-02-25 15:56:38' >
+         <message>csv headings fix</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='9ff8ce34' space='31 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b695d166' space='0' time='35' timestamp='2019-02-25 15:57:30' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SurveySYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='2a54dd99' space='34 ' time='0' />
+            <parent id='f8089291' space='33 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='c27e6766' space='2' time='36' timestamp='2019-02-26 10:54:04' >
+         <message>Correct # labels depending on item type</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b695d166' space='35 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='3f8bcd1b' space='0' time='37' timestamp='2019-02-26 12:51:51' >
+         <message>svg chart export initial functionality</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b695d166' space='35 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='7a553fbd' space='0' time='38' timestamp='2019-02-26 12:51:54' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SurveySYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='3f8bcd1b' space='37 ' time='0' />
+            <parent id='c27e6766' space='36 ' time='2' />
+         </parents>
+    </commit>
+    <commit id='7b04c83c' space='0' time='39' timestamp='2019-02-28 11:05:26' >
+         <message>Untested standard deviation code...</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7a553fbd' space='38 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='b7f2ace5' space='1' time='40' timestamp='2019-03-01 13:03:52' >
+         <message>Code for updating survey description + bugfix</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7a553fbd' space='38 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='a801c7d1' space='1' time='41' timestamp='2019-03-01 14:45:54' >
+         <message>Bugfixar</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='b7f2ace5' space='40 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='20cdda41' space='0' time='42' timestamp='2019-03-01 14:58:09' >
+         <message>Merge branch 'Update-survey-description'</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='7b04c83c' space='39 ' time='0' />
+            <parent id='a801c7d1' space='41 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='d3662278' space='0' time='43' timestamp='2019-03-02 02:08:49' >
+         <message>Fixxes for svf export</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='20cdda41' space='42 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='adbee6a2' space='0' time='44' timestamp='2019-03-02 20:11:11' >
+         <message>Added logoff button</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='d3662278' space='43 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='8fc3eeea' space='0' time='45' timestamp='2019-03-04 15:04:11' >
+         <message>Changed coloring and bugfixed qoutes in questions</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='adbee6a2' space='44 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='af0a694b' space='0' time='46' timestamp='2019-03-07 20:30:38' >
+         <message>Better response joining through use of item identifiers</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='8fc3eeea' space='45 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='c3870318' space='0' time='47' timestamp='2019-03-07 21:23:13' >
+         <message>Per device csv</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='af0a694b' space='46 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='34e3a862' space='0' time='48' timestamp='2019-03-07 21:54:20' >
+         <message>Scatter plot option</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='c3870318' space='47 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='58ffbff4' space='0' time='49' timestamp='2019-03-07 23:05:59' >
+         <message>Resphash for response tracking added</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='34e3a862' space='48 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='38096db5' space='1' time='50' timestamp='2019-03-08 12:31:45' >
+         <message>Added seamless adding of response hash + bugfix for csv values</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='58ffbff4' space='49 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='d2d71b7e' space='1' time='51' timestamp='2019-03-08 12:44:34' >
+         <message>fixed scatter column one column off bugg</message>
+         <author>Marcus Brohede</author>
+         <login>a97marbr</login>
+         <avatar>https://avatars0.githubusercontent.com/u/4948661?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='38096db5' space='50 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='f6d77c48' space='0' time='52' timestamp='2019-03-08 12:51:18' >
+         <message>Fix for login problems if database is deleted</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='58ffbff4' space='49 ' time='0' />
+         </parents>
+    </commit>
+    <commit id='ddc0f684' space='0' time='53' timestamp='2019-03-08 12:52:38' >
+         <message>Merge branch 'master' of https://github.com/HGustavs/SurveySYS</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='f6d77c48' space='52 ' time='0' />
+            <parent id='d2d71b7e' space='51 ' time='1' />
+         </parents>
+    </commit>
+    <commit id='905bd2fb' space='0' time='54' timestamp='2019-03-08 13:10:53' >
+         <message>Removed alter table code to fixdb</message>
+         <author>Henrik Gustavsson</author>
+         <login>HGustavs</login>
+         <avatar>https://avatars1.githubusercontent.com/u/6978801?s=64&amp;amp;v=4</avatar>
+         <parents>
+            <parent id='ddc0f684' space='53 ' time='0' />
+         </parents>
+    </commit>
+</commits>
+</repos>

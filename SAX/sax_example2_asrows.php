@@ -4,11 +4,11 @@
 <?php
   
 	function startElement($parser, $entityname, $attributes) {
-			if($entityname=="PERSONS"){
-			}else if($entityname=="PERSON"){
+			if($entityname=="PERSON"){
 					echo "<tr>";
+					echo "<td>".$attributes['NAME']."</td>";
 					echo "<td><table>";
-			}else if($entityname=="NAME"||$entityname=="CAR"){
+			}else if($entityname=="CAR"){
 					echo "<tr><td>";			
 			}
 	}
@@ -16,8 +16,8 @@
 	function endElement($parser, $entityname) {
 			if($entityname=="PERSON"){
 					echo "</table></td>";
-					echo "<tr>";
-			}else if($entityname=="NAME"||$entityname=="CAR"){
+					echo "</tr>";
+			}else if($entityname=="CAR"){
 					echo "</td></tr>";
 			}
 	}

@@ -1,0 +1,32 @@
+<climatecodes>
+		<code code='Af'	name='Tropical rainforest climate	Tropical	Rainforest' color='#960000' />
+		<code code='Am'	name='Tropical monsoon climate	Tropical	Monsoon' color='#FF0000' />	
+		<code code='As'	name='Tropical dry savanna climate	Tropical	Savanna, Dry' color='#FF6E6E' />	
+		<code code='Aw'	name='Tropical savanna, wet	Tropical	Savanna, Wet' color='#FFCCCC' />	
+		<code code='BSh'	name='Hot semi-arid (steppe) climate	Arid	Steppe	Hot' color='#CC8D14' />
+		<code code='BSk'	name='Cold semi-arid (steppe) climate	Arid	Steppe	Cold' color='#CCAA54' />
+		<code code='BWh'	name='Hot deserts climate	Arid	Desert	Hot' color='#FFCC00' />
+		<code code='BWk'	name='Cold desert climate	Arid	Desert	Cold' color='#FFFF64' />
+		<code code='Cfa'	name='Humid subtropical climate	Temperate	Without dry season	Hot summer' color='#007800' />
+		<code code='Cfb'	name='Temperate oceanic climate	Temperate	Without dry season	Warm summer' color='#005000' />
+		<code code='Cfc'	name='Subpolar oceanic climate	Temperate	Without dry season	Cold summer' color='#002000' />
+		<code code='Csa'	name='Hot-summer Mediterranean climate	Temperate	Dry summer	Hot summer' color='#96FF00' />
+		<code code='Csb'	name='Warm-summer Mediterranean climate	Temperate	Dry summer	Warm summer' color='#00FF00' />
+		<code code='Csc'	name='Cool-summer Mediterranean climate	Temperate	Dry summer	Cold summer' color='#00AA00' />
+		<code code='Cwa'	name='Monsoon-influenced humid subtropical climate	Temperate	Dry winter	Hot summer' color='#BEBE00' />
+		<code code='Cwb'	name='Subtropical highland climate or temperate oceanic climate with dry winters	Temperate	Dry winter	Warm summer' color='#8c8c00' />
+		<code code='Cwc'	name='Cold subtropical highland climate or subpolar oceanic climate with dry winters	Temperate	Dry winter	Cold summer' color='#5a5a00' />
+		<code code='Dfa'	name='Hot-summer humid continental climate	Cold (continental)	Without dry season	Hot summer' color='#550055' />
+		<code code='Dfb'	name='Warm-summer humid continental climate	Cold (continental)	Without dry season	Warm summer' color='#850085' />
+		<code code='Dfc'	name='Subarctic climate	Cold (continental)	Without dry season	Cold summer' color='#c500c5' />
+		<code code='Dfd'	name='Extremely cold subarctic climate	Cold (continental)	Without dry season	Very cold winter' color='#FF6EFF' />
+		<code code='Dsa'	name='Hot, dry-summer continental climate	Cold (continental)	Dry summer	Hot summer' color='#646464' />
+		<code code='Dsb'	name='Warm, dry-summer continental climate	Cold (continental)	Dry summer	Warm summer' color='#8c8c8c' />
+		<code code='Dsc'	name='Dry-summer subarctic climate	Cold (continental)	Dry summer	Cold summer' color='#BEBEBE' />
+		<code code='Dwa'	name='Monsoon-influenced hot-summer humid continental climate	Cold (continental)	Dry winter	Hot summer' color='#6E28B4' />
+		<code code='Dwb'	name='Monsoon-influenced warm-summer humid continental climate	Cold (continental)	Dry winter	Warm summer' color='#B464FA' />
+		<code code='Dwc'	name='Monsoon-influenced subarctic climate	Cold (continental)	Dry winter	Cold summer' color='#C89BFA' />
+		<code code='Dwd'	name='Monsoon-influenced extremely cold subarctic climate	Cold (continental)	Dry winter	Very cold winter' color='#C8C8FF' />
+		<code code='EF'	name='Ice cap climate	Polar	Ice cap' color='#6496FF' />	
+		<code code='ET'	name='Tundra	Polar	Tundra' color='#64FFFF' />	
+</climatecodes>

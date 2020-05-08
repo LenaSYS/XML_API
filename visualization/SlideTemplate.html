@@ -1,0 +1,1100 @@
+<html>  
+<head>
+ <meta charset="UTF-8">
+<!-- Include css file and VM data -->
+<link rel="stylesheet" type="text/css" href="examples.css">	
+
+<script type="text/javascript" src="vmdata.js"></script>	
+<script type="text/javascript" src="aux.js"></script>	
+	
+<script>
+	
+colarr=[[0,39,65],[1,89,127],[11,136,161],[128,191,183],[211,236,213],[235,255,245],[235,255,245],[211,236,213],[128,191,183],[11,136,161],[1,89,127],[0,39,65]];	
+colars=["RGB(0,39,65)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)","RGB(235,255,245)","RGB(235,255,245)","RGB(211,236,213)","RGB(128,191,183)","RGB(11,136,161)","RGB(1,89,127)","RGB(0,39,65)"];	
+//------------------------------------=======############==========----------------------------------------
+//                                 Canvas Slide Constants and Variables
+//------------------------------------=======############==========----------------------------------------
+
+var c;
+var arrpnt=[];
+
+var xmax=1430;
+var ymax=780;
+
+var bigsize=90;
+var midsize=50;
+var midsizeplus=55;
+	
+// Rectangle grid parameters
+var boxcnty=45;
+var boxcntx=10;
+var gridsize=Math.ceil(750/boxcnty);
+var rectsize=Math.ceil(gridsize*0.8);
+
+var grd=null;
+	
+// Dispatcher variables
+var dispcnt=0;
+var fader=1.0;
+var dispstart=0;
+var fadeinlen=0;
+var fadeoutlen=0;
+var item=0;
+var delay=30;			
+	
+//------------------------------------=======############==========----------------------------------------
+//                            Code Virtual Machine Constants and Variables
+//------------------------------------=======############==========----------------------------------------
+
+var step=0;
+var row=0;
+var arr=[0,0];
+	
+// Which example do we run
+var stepspeed=700;
+	
+//------------------------------------=======############==========----------------------------------------
+//                                            Functions
+//------------------------------------=======############==========----------------------------------------	
+
+//----------------------------------------------------------------------------------
+// setupSlides - Initialize Slide Dispatcher and setup for Canvas
+//----------------------------------------------------------------------------------
+	
+function setupSlides()
+{
+		canvas = document.getElementById("mycanvas");
+		c = canvas.getContext("2d");
+
+		for(j=0;j<boxcnty;j++){
+				arrpnt[j]=[];
+				for(i=0;i<boxcntx;i++){
+						col=randRand(0,i+2)+((i/5)*(i/5));
+						col=5.0*(col/boxcntx);
+						arrpnt[j][i]=col;		
+				}
+		}
+
+		setTimeout(drawHead,delay);
+}
+
+//----------------------------------------------------------------------------------
+// setupCode - Setup for virtual machine - assign code, reset PC and start execution
+//----------------------------------------------------------------------------------
+	
+//----------------------------------------------------------------------------------
+// drawit - Draws title slide
+//----------------------------------------------------------------------------------
+
+var offs=5;
+	
+var mx=100,my=100;
+function mousemove(e){
+		var rect = e.target.getBoundingClientRect();
+		mx = e.clientX - rect.left; //x position within the element.
+		my = e.clientY - rect.top;  //y position within the element.				
+
+} 		
+	
+function diamond(x,y,w,h)
+{
+
+		c.beginPath();
+		c.moveTo(x,y-h);
+		c.lineTo(x+w,y);
+		c.lineTo(x,y+h);
+		c.lineTo(x-w,y);
+		c.lineTo(x,y-h);
+
+		c.strokeStyle="#fff";
+		c.fill();
+	
+}
+	
+function sideL(x,y,w,h,yh)
+{
+		c.beginPath();
+		c.moveTo(x-w,y);
+		c.lineTo(x-w,y+yh);
+		c.lineTo(x,y+h+yh);
+		c.lineTo(x,y+h);
+		c.lineTo(x-w,y);	
+		c.fill();
+}
+
+function sideR(x,y,w,h,yh)
+{
+		c.beginPath();
+		c.moveTo(x,y+h);
+		c.lineTo(x,y+yh+h);
+		c.lineTo(x+w,y+yh);
+		c.lineTo(x+w,y);
+		c.lineTo(x,y+h);	
+		c.fill();
+}
+	
+function drawCirc(x,y,r,fill)
+{
+	c.beginPath();
+	c.arc(x, y, r, 0, 2 * 3.1415, false);
+	if(fill==true){
+			c.fill();	
+	}else{
+			c.stroke();	
+	}
+
+}
+	
+function drawLine(x1,y1,x2,y2)
+{
+		c.beginPath();
+		c.moveTo(x1,y1);
+		c.lineTo(x2,y2);
+		c.stroke();
+}
+	
+function drawDotted(x1,y1,x2,y2)
+{
+		c.setLineDash([3,3]);	
+		c.beginPath();
+		c.moveTo(x1,y1);
+		c.lineTo(x2,y2);
+		c.stroke();
+		c.setLineDash([]);	
+}
+
+function intersect(x1, y1, x2, y2, x3, y3, x4, y4) {
+
+	let denominator = ((y4 - y3) * (x2 - x1) - (x4 - x3) * (y2 - y1))
+
+	let ua = ((x4 - x3) * (y1 - y3) - (y4 - y3) * (x1 - x3)) / denominator
+	let ub = ((x2 - x1) * (y1 - y3) - (y2 - y1) * (x1 - x3)) / denominator
+
+  // Return a object with the x and y coordinates of the intersection
+	let x = x1 + ua * (x2 - x1)
+	let y = y1 + ua * (y2 - y1)
+
+	return {x, y}
+}
+	
+function displacePolySimple(x1,y1,x2,y2,x3,y3,x4,y4,disp)
+{
+		drawLine(x1,y1,x2,y2);
+		drawLine(x2,y2,x3,y3);
+		drawLine(x3,y3,x4,y4);
+		drawLine(x4,y4,x1,y1);
+	
+		p1=displace(x1,y1,x4,y4,x2,y2,10);
+		p2=displace(x2,y2,x1,y1,x3,y3,10);
+		p3=displace(x3,y3,x2,y2,x4,y4,10);
+		p4=displace(x4,y4,x3,y3,x1,y1,10);	
+}
+	
+// Perpendicular vector with length len
+function vecperp(x1,y1,x2,y2,disp)
+{
+		var dx1=x2-x1;
+		var dy1=y2-y1;
+		var len1=Math.sqrt((dx1*dx1)+(dy1*dy1));
+		var ox=(dy1/len1)*disp;
+		var oy=(-dx1/len1)*disp;
+	
+		return {x:ox,y:oy}
+}
+
+function displacePoly(x1,y1,x2,y2,x3,y3,x4,y4,disp)
+{
+		c.strokeStyle=colarr[3];
+	
+		drawLine(x1,y1,x2,y2);
+		drawLine(x2,y2,x3,y3);
+		drawLine(x3,y3,x4,y4);
+		drawLine(x4,y4,x1,y1);
+	
+		var o1=vecperp(x1,y1,x2,y2,disp);
+		var o2=vecperp(x1,y1,x4,y4,disp);
+		var o3=vecperp(x2,y2,x3,y3,disp);
+		var o4=vecperp(x3,y3,x4,y4,disp);	
+	
+
+	
+		drawDotted(x1+o1.x,y1+o1.y,x2+o1.x,y2+o1.y);
+		drawDotted(x1-o2.x,y1-o2.y,x4-o2.x,y4-o2.y);
+		drawDotted(x2+o3.x,y2+o3.y,x3+o3.x,y3+o3.y);
+		drawDotted(x3+o4.x,y3+o4.y,x4+o4.x,y4+o4.y);	
+	
+		let p1=intersect(x1+o1.x,y1+o1.y,x2+o1.x,y2+o1.y,x1-o2.x,y1-o2.y,x4-o2.x,y4-o2.y);
+		let p2=intersect(x1+o1.x,y1+o1.y,x2+o1.x,y2+o1.y,x2+o3.x,y2+o3.y,x3+o3.x,y3+o3.y);
+		let p3=intersect(x2+o3.x,y2+o3.y,x3+o3.x,y3+o3.y,x3+o4.x,y3+o4.y,x4+o4.x,y4+o4.y);	
+		let p4=intersect(x1-o2.x,y1-o2.y,x4-o2.x,y4-o2.y,x3+o4.x,y3+o4.y,x4+o4.x,y4+o4.y);
+	
+		drawCirc(p1.x,p1.y,3);
+		drawCirc(p2.x,p2.y,3);	
+		drawCirc(p3.x,p3.y,3);
+		drawCirc(p4.x,p4.y,3);	
+	
+}	
+	
+function displacePolyFill(x1,y1,x2,y2,x3,y3,x4,y4,disp)
+{
+		var o1=vecperp(x1,y1,x2,y2,disp);
+		var o2=vecperp(x1,y1,x4,y4,disp);
+		var o3=vecperp(x2,y2,x3,y3,disp);
+		var o4=vecperp(x3,y3,x4,y4,disp);	
+	
+		let p1=intersect(x1+o1.x,y1+o1.y,x2+o1.x,y2+o1.y,x1-o2.x,y1-o2.y,x4-o2.x,y4-o2.y);
+		let p2=intersect(x1+o1.x,y1+o1.y,x2+o1.x,y2+o1.y,x2+o3.x,y2+o3.y,x3+o3.x,y3+o3.y);
+		let p3=intersect(x2+o3.x,y2+o3.y,x3+o3.x,y3+o3.y,x3+o4.x,y3+o4.y,x4+o4.x,y4+o4.y);	
+		let p4=intersect(x1-o2.x,y1-o2.y,x4-o2.x,y4-o2.y,x3+o4.x,y3+o4.y,x4+o4.x,y4+o4.y);
+
+		c.beginPath();
+		c.moveTo(p1.x,p1.y);
+		c.lineTo(p2.x,p2.y);	
+		c.lineTo(p3.x,p3.y);
+		c.lineTo(p4.x,p4.y);
+		c.lineTo(p1.x,p1.y);	
+		c.fill();
+	
+}		
+	
+function boxes(xstart,ystart,xend,yend,size)
+{
+		var tileheight=size;
+		var tilewidth=size*2;
+		var tiledeep=size*1.5;
+		var tiledisp=2;
+	
+		var yk=200;
+		for(yk=ystart;yk<yend;yk+=((tiledeep*2)+(tileheight*2))){
+				for(var xk=xstart;xk<xend;xk+=(tilewidth*2)){
+
+						// Top diamond
+						c.fillStyle=colarr[3+Math.floor(Math.random()*2)];
+						displacePolyFill(xk,yk-tileheight,xk+tilewidth,yk,xk,yk+tileheight,xk-tilewidth,yk,-tiledisp);
+						c.fillStyle=colarr[3+Math.floor(Math.random()*2)];
+						displacePolyFill(xk+tilewidth,yk+tiledeep,xk+(tilewidth*2),yk+tiledeep+tileheight,xk+tilewidth,yk+(tileheight*2)+tiledeep,xk,yk+tiledeep+tileheight,-tiledisp);			
+
+						// SideL
+						c.fillStyle=colarr[1+Math.floor(Math.random()*2)];					
+						displacePolyFill(xk-tilewidth,yk,xk-tilewidth,yk+tiledeep,xk,yk+tileheight+tiledeep,xk,yk+tileheight,tiledisp);
+						c.fillStyle=colarr[1+Math.floor(Math.random()*2)];
+						displacePolyFill(xk,yk+tileheight+tiledeep,xk,yk+tileheight+(tiledeep*2),xk+tilewidth,yk+(tileheight*2)+(tiledeep*2),xk+tilewidth,yk+(tileheight*2)+tiledeep,tiledisp);
+
+						// Side R
+						c.fillStyle=colarr[0+Math.floor(Math.random()*2)];
+						displacePolyFill(xk,yk+tileheight,xk,yk+tileheight+tiledeep,xk+tilewidth,yk+tiledeep,xk+tilewidth,yk,tiledisp);
+						c.fillStyle=colarr[0+Math.floor(Math.random()*2)];
+						displacePolyFill(xk+tilewidth,yk+(tileheight*2)+tiledeep,xk+tilewidth,yk+(tileheight*2)+(tiledeep*2),xk+(tilewidth*2),yk+(tiledeep*2)+tileheight,xk+(tilewidth*2),yk+tiledeep+tileheight,tiledisp);	
+
+				}
+		}
+}
+	
+function tunnel(cx,cy,start,fact,segs,no,spin)
+{
+		r=start;
+		rd=12;
+		oldr=90;
+	
+		segarr=[];
+		oldsegarr=[];
+	
+		c.strokeStyle=colarr[2];
+	
+		for(var ant=0;ant<no;ant++){
+				oldr=r;
+				r+=rd;
+				rd*=fact;
+			
+				// Copy
+				for(var cnt=0;cnt<segs;cnt++){
+						oldsegarr[cnt]=segarr[cnt];
+				}
+			
+				// Make New
+				for(var cnt=0;cnt<segs;cnt++){
+						ang=6.28*(cnt/segs);
+						x=cx+(Math.cos(ang+(spin*ant))*r);
+						y=cy+(Math.sin(ang+(spin*ant))*r);
+						segarr[cnt]={x:x,y:y};
+				}
+				
+				// Draw
+				if(ant>0){
+						for(var cnt=0;cnt<segs;cnt++){
+								if((ant%2)==0){
+										if((cnt%2)==0){
+												c.fillStyle=colarr[1];
+										}else{
+												c.fillStyle=colarr[3];
+										}
+								}else{
+										if((cnt%2)==0){
+												c.fillStyle=colarr[3];
+										}else{
+											c.fillStyle=colarr[1];
+										}
+								}
+							
+								c.beginPath();
+								if(cnt<segs-1){
+										c.moveTo(segarr[cnt].x,segarr[cnt].y);
+										c.lineTo(segarr[cnt+1].x,segarr[cnt+1].y);
+										c.lineTo(oldsegarr[cnt+1].x,oldsegarr[cnt+1].y);
+										c.lineTo(oldsegarr[cnt].x,oldsegarr[cnt].y);
+										c.moveTo(segarr[cnt].x,segarr[cnt].y);									
+								}else{
+										c.moveTo(segarr[cnt].x,segarr[cnt].y);
+										c.lineTo(segarr[0].x,segarr[0].y);
+										c.lineTo(oldsegarr[0].x,oldsegarr[0].y);
+										c.lineTo(oldsegarr[cnt].x,oldsegarr[cnt].y);
+										c.moveTo(segarr[cnt].x,segarr[cnt].y);									
+								}
+								c.fill();
+						}
+				}
+		}
+}
+	
+function colrgba(colno,target,mix)
+{
+		return "RGB("+Math.round(colarr[colno][0]*mix)+","+Math.round(colarr[colno][1]*mix)+","+Math.round(colarr[colno][2]*mix)+")";
+}
+	
+function triangle(x1,y1,x2,y2,x3,y3,colindex,mix)
+{
+		c.fillStyle=colars[0];
+		c.strokeStyle=colars[3];
+	
+		c.beginPath();
+		c.moveTo(x1,y1);
+		c.lineTo(x2,y2);
+		c.lineTo(x3,y3);
+		c.closePath();
+		c.fill();
+		c.stroke();
+
+}
+
+function peaks(cx,cy,start,fact,segs,no,spin)
+{
+		r=start;
+		rd=12;
+		oldr=90;
+	
+		segarr=[];
+		segcarr=[];
+		oldsegarr=[];
+	
+		c.strokeStyle=colarr[2];
+	
+		for(var ant=0;ant<no;ant++){
+				oldr=r;
+				r+=rd;
+				rd*=fact;
+			
+				// Copy
+				for(var cnt=0;cnt<segs;cnt++){
+						oldsegarr[cnt]=segarr[cnt];
+				}
+			
+				// Make New
+				for(var cnt=0;cnt<segs;cnt++){
+						ang=6.28*(cnt/segs);
+						anh=6.28*((cnt+0.5)/segs)
+						x=cx+(Math.cos(ang)*r);
+						y=cy+(Math.sin(ang)*r);
+					
+						dx=cx+(Math.cos(anh)*(r-(rd*0.9)));
+						dy=cy+(Math.sin(anh)*(r-(rd*0.9)));					
+						segarr[cnt]={x:x,y:y,dx:dx,dy:dy};
+				}
+				
+				// Draw
+				if(ant>0){
+						for(var cnt=0;cnt<segs;cnt++){
+								if((ant%2)==0){
+										if((cnt%2)==0){
+												col=1;
+										}else{
+												col=3
+										}
+								}else{
+										if((cnt%2)==0){
+												col=3;
+										}else{
+												col=1
+										}
+								}
+
+							if(cnt<segs-1){
+										triangle(segarr[cnt].x,segarr[cnt].y,segarr[cnt+1].x,segarr[cnt+1].y,segarr[cnt].dx,segarr[cnt].dy,col,ant/no);
+										triangle(segarr[cnt].x,segarr[cnt].y,oldsegarr[cnt].x,oldsegarr[cnt].y,segarr[cnt].dx,segarr[cnt].dy,col-1,ant/no);
+										triangle(segarr[cnt+1].x,segarr[cnt+1].y,oldsegarr[cnt+1].x,oldsegarr[cnt+1].y,segarr[cnt].dx,segarr[cnt].dy,col+1,ant/no);	
+								}else{
+										triangle(segarr[cnt].x,segarr[cnt].y,oldsegarr[cnt].x,oldsegarr[cnt].y,segarr[cnt].dx,segarr[cnt].dy,col,ant/no);	
+										triangle(segarr[0].x,segarr[0].y,oldsegarr[0].x,oldsegarr[0].y,segarr[cnt].dx,segarr[cnt].dy,col,ant/no);									
+								}
+						}
+				}
+		}
+}	
+	
+function findclosest(arr,xk,yk)
+{
+		len=5000;
+		foundpos=-1;
+		for(var i=0;i<arr.length;i++){
+				var dx=arr[i].x-xk;
+				var dy=arr[i].y-yk;
+				flen=Math.sqrt((dx*dx)+(dy*dy));
+				if(flen<len){
+						len=flen;
+						foundpos=i;
+				}
+		}
+		return foundpos;
+}
+	
+var pointarr=[];
+function addpoint(pnt)
+{
+		var dst=5000;
+		var ind=-1;
+		for(var i=0;i<pointarr.length;i++){
+				var dx=pnt.x-pointarr[i].x;
+				var dy=pnt.y-pointarr[i].y;
+				var len=Math.sqrt((dx*dx)+(dy*dy));
+				if(len<dst){
+						dst=len;
+						ind=i;
+				}
+		}
+		if(len==-1||dst>1.44){
+				pointarr.push(pnt);
+				return pointarr.length-1;
+		}else{
+				return ind;
+		}
+}
+	
+var triangles=[];
+var quads=[];
+var tribuff=[];
+	
+function createpoly(polyarr)
+{
+		currarr=[];
+		for(var i=0;i<polyarr.length;i++){
+				var ind=addpoint(polyarr[i]);
+				if(currarr.indexOf(ind)==-1){
+						currarr.push(ind);
+				}
+		}
+		if(currarr.length==3){
+				currarr.col=polyarr[0].col;
+				triangles.push(currarr);
+		}else if(currarr.length==4){
+				currarr.col=polyarr[0].col;
+				maxcnt=0;
+				maxind=-1;
+			  for(var i=0;i<quads.length;i++){
+						var cnt=0;
+						for(var j=0;j<currarr.length;j++){
+								if(quads[i].indexOf(currarr[j])!=-1) cnt++;
+						}
+						if(cnt>maxcnt){
+								maxcnt=cnt;
+								maxind=i;
+						}
+				}
+				if(maxcnt<3){
+						quads.push(currarr);
+				}else{
+						currarr.slice(0);
+						triangles.push(currarr);
+				}
+		}
+}
+	
+function drawObjects()
+{
+		for(var i=0;i<triangles.length;i++){
+				var tri=triangles[i];
+				c.fillStyle=colars[tri.col];
+				c.beginPath();
+				c.moveTo(pointarr[tri[0]].x,pointarr[tri[0]].y);
+				c.lineTo(pointarr[tri[1]].x,pointarr[tri[1]].y);
+				c.lineTo(pointarr[tri[2]].x,pointarr[tri[2]].y);
+				c.closePath();
+				c.fill();
+		}
+	
+		for(var i=0;i<quads.length;i++){
+				var quad=quads[i];
+				c.fillStyle=colars[quad.col];
+				c.beginPath();
+				c.moveTo(pointarr[quad[0]].x,pointarr[quad[0]].y);
+				c.lineTo(pointarr[quad[1]].x,pointarr[quad[1]].y);
+				c.lineTo(pointarr[quad[2]].x,pointarr[quad[2]].y);
+				c.lineTo(pointarr[quad[3]].x,pointarr[quad[3]].y);			
+				c.closePath();
+				c.fill();
+		}	
+	
+}
+	
+function jitterPoints(amt,cen)
+{
+		for(var i=0;i<pointarr.length;i++){
+				pointarr[i].x+=(Math.random()*amt)-cen;
+				pointarr[i].y+=(Math.random()*amt)-cen;			
+		}
+}
+
+function spiral()
+{
+		c.strokeStyle=colars[4];
+		c.fillStyle=colars[1];	
+	
+		var drad=36;
+	
+		var cx=700;
+		var cy=350;
+
+		// Segment starts for all segments
+		segarr=[];
+		tegarr=[];
+		oldsegarr=[];
+		oldtegarr=[];
+	
+		rowcnt=0;
+		var spiralcnt=0;
+		
+		for(rad=40;rad<250;rad+=drad){
+				var dst=2.0*3.1415*rad;
+				var cnt=Math.round(dst/50);
+				var offs=(2.0*3.1415)/cnt;
+			
+				for(var seg=0;seg<segarr.length;seg++){
+						oldsegarr[seg]=segarr[seg];
+				}
+			
+				for(var seg=0;seg<cnt;seg++){
+						ang=(seg/cnt)*2.0*3.1415;
+
+						xk1=cx+Math.cos(ang)*(rad);
+						yk1=cy+Math.sin(ang)*(rad);
+					
+						xk2=cx+Math.cos(ang+offs)*(rad);
+						yk2=cy+Math.sin(ang+offs)*(rad);
+
+						//xk1=cx+Math.cos(ang)*(rad+((seg/cnt)*drad));
+						//yk1=cy+Math.sin(ang)*(rad+((seg/cnt)*drad));
+					
+						//xk2=cx+Math.cos(ang+offs)*(rad+(((seg+1)/cnt)*drad));
+						//yk2=cy+Math.sin(ang+offs)*(rad+(((seg+1)/cnt)*drad));
+
+					
+						var col=4;
+						if(rowcnt>0){
+								pos=findclosest(oldsegarr,xk2,yk2);
+								xk4=oldsegarr[pos].x;
+								yk4=oldsegarr[pos].y;
+								if(pos>0){
+										xk3=oldsegarr[pos-1].x;
+										yk3=oldsegarr[pos-1].y;
+								}else{
+										xk3=oldsegarr[oldsegarr.length-1].x;
+										yk3=oldsegarr[oldsegarr.length-1].y;
+								}
+							
+								col=Math.round(Math.random()*4);
+								col=oldsegarr[pos].col;
+								col=spiralcnt%5;
+								col=(seg+rowcnt)%5;
+							
+								if(quads.length<200) createpoly([{x:xk1,y:yk1,col:col},{x:xk2,y:yk2,col:col},{x:xk4,y:yk4,col:col},{x:xk3,y:yk3,col:col}]);
+								
+						}else{
+								if((seg%2)==0){
+										col=0;
+								}else{
+										col=2;							
+								}								
+						}
+						segarr[seg]={x:xk1,y:yk1,col:col};
+						spiralcnt++;
+					
+				}
+				rowcnt++;
+		}
+	
+		jitterPoints(12,6);
+		drawObjects();
+	
+}		
+	
+function spiralD()
+{
+		c.strokeStyle=colars[4];
+		c.fillStyle=colars[1];	
+	
+		var drad=24;
+	
+		var cx=700;
+		var cy=350;
+		var param=document.getElementById("param").value;
+		var ccol=0;
+	
+		// Segment starts for all segments
+		segarr=[];
+		for(segcnt=0;segcnt<15;segcnt++){
+				segarr[segcnt]=[];
+			
+				var rad=28+(segcnt*drad);
+				var dst=2.0*3.1415*rad;
+				var cnt=Math.round(dst/param);
+				// cnt=16;
+			  // var offs=(3.1415*param)/cnt;
+				var offs=(3.1415*0.5)/cnt;
+			
+				for(var seg=0;seg<cnt;seg++){
+						ang=(seg/cnt)*2.0*3.1415;
+
+						if((segcnt%2)==0){
+								xk1=cx+Math.cos(ang)*(rad);
+								yk1=cy+Math.sin(ang)*(rad);
+						}else{
+								xk1=cx+Math.cos(ang+offs)*(rad);
+								yk1=cy+Math.sin(ang+offs)*(rad);
+						}
+
+						segarr[segcnt][seg]={x:xk1,y:yk1};
+				}
+		}
+	
+		// Find inner points
+		for(var segcnt=1;segcnt<(segarr.length);segcnt++){
+				for(var seg=0;seg<segarr[segcnt].length;seg++){
+						var oseg=segarr[segcnt-1];
+						var citem=segarr[segcnt][seg];
+						var innerind=findclosest(oseg,citem.x,citem.y);
+						citem.inner=innerind;
+						drawCirc(citem.x,citem.y,5,false);					
+				}
+		}
+
+		var drawnseg=[];
+		var oldseg=[];
+		for(var segcnt=(segarr.length-1);segcnt>1;segcnt--){
+				var theseg=segarr[segcnt];
+				oldseg=[];
+				for(var i=0;i<drawnseg.length;i++){
+						oldseg.push(drawnseg[i]);
+				}
+				drawnseg=[];
+				
+				// Start out!
+				i=0;
+				if((segcnt%2)==0){
+						c.fillStyle=colars[4];				
+				}else{
+						c.fillStyle=colars[2];									 
+				}
+					
+				conf=1;
+				for(var i=0;i<oldseg.length;i++){
+						// Assign current segment, next sgment or first segment
+						oseg=oldseg[i];
+						if(i<(oldseg.length-1)){
+								nseg=oldseg[i+1];						
+						}else{
+								nseg=oldseg[0];							
+						}
+						
+						// Normal situation vs Shrinked Situation
+						dst=nseg.s-oseg.s;					
+						if(dst<0) dst+=segarr[segcnt].length;
+						// console.log("compare:",dst,nseg.s,oseg.s);
+					
+						if(dst==2){
+						
+						}else{
+								// Shrinked situation
+								// console.log("shrink:",dst,nseg.e,oseg.e);
+						}
+					
+						// First
+						s1=segarr[segcnt][oseg.s];
+						// Scond
+						s2=segarr[segcnt][nseg.s];					
+						// Bottom
+						s4=segarr[segcnt+1][oseg.e];
+						innerpos = oseg.s+1;
+						if(innerpos>=segarr[segcnt].length) innerpos=0;
+						var inner=segarr[segcnt][innerpos].inner;
+						s3=segarr[segcnt-1][inner];
+					
+						drawnseg.push({s:inner,e:nseg.s});
+
+						if(conf==0){
+								if((segcnt%2)==0){
+										c.fillStyle=colars[2];	
+								}else{
+										c.fillStyle=colars[5];							
+								}
+								c.beginPath();
+								c.moveTo(s1.x,s1.y);
+								c.lineTo(s3.x,s3.y);
+								c.lineTo(s2.x,s2.y);
+								c.fill();
+								if((segcnt%2)==0){
+										c.fillStyle=colars[1];
+									
+								}else{
+										c.fillStyle=colars[3];							
+								}							
+								c.beginPath();
+								c.moveTo(s1.x,s1.y);							
+								c.lineTo(s4.x,s4.y);
+								c.lineTo(s2.x,s2.y);							
+								c.fill();						
+						}else if(conf==1){
+								ccol++;
+								
+								c.fillStyle=colars[ccol%5];
+								//c.fillStyle=colars[Math.round(Math.random()*5)];				
+								c.beginPath();
+								c.moveTo(s1.x,s1.y);
+								c.lineTo(s3.x,s3.y);
+								c.lineTo(s2.x,s2.y);
+								c.fill();
+							
+								c.fillStyle=colars[ccol%5];			
+								//c.fillStyle=colars[Math.round(Math.random()*5)];						
+								c.beginPath();
+								c.moveTo(s1.x,s1.y);							
+								c.lineTo(s4.x,s4.y);
+								c.lineTo(s2.x,s2.y);							
+								c.fill();									
+						}else{
+								if((segcnt%2)==0){
+										c.fillStyle=colars[2];	
+								}else{
+										c.fillStyle=colars[5];							
+								}
+								c.beginPath();
+								c.moveTo(s1.x,s1.y);
+								c.lineTo(s3.x,s3.y);
+								c.lineTo(s2.x,s2.y);
+								c.lineTo(s4.x,s4.y);						
+								c.fill();
+						}
+				}
+			
+				if(segcnt==(segarr.length-1)){
+						for(var seg=0;seg<theseg.length-1;seg++){
+						//drawCirc(theseg[seg].x,theseg[seg].y,4);
+						
+
+								c.strokeStyle=colars[5];
+								c.beginPath();	
+								spt=seg+2;
+								if(spt>=theseg.length){
+										spt=spt-theseg.length;
+								}
+								if((seg%2)==0&&((seg+2)<theseg.length)){
+										drawnseg.push({s:theseg[seg+1].inner,e:spt});
+										c.moveTo(theseg[seg].x,theseg[seg].y);
+										inneritem=segarr[segcnt-1][theseg[seg+1].inner];
+										c.lineTo(inneritem.x,inneritem.y);										
+										c.lineTo(theseg[spt].x,theseg[spt].y);
+										c.closePath();
+										c.stroke();								
+								}else if((seg+2)>=theseg.length){
+										drawnseg.push({s:theseg[seg].inner+1,e:spt});								
+								}
+						}
+						// console.log(drawnseg,theseg.length);
+				}
+		}
+}
+
+//												c.lineTo(theseg[seg+1].ox,theseg[seg+1].oy);
+//												c.lineTo(theseg[seg+1].ix,theseg[seg+1].iy);
+
+function drawpointquad(p1,p2,p3,p4,col,fillstate)
+{
+		if(col>5) col=5;
+		if(col<0) col=0;
+		c.fillStyle=colars[col];
+		c.beginPath();
+		c.moveTo(p1.x,p1.y);
+		c.lineTo(p2.x,p2.y);
+		c.lineTo(p3.x,p3.y);	
+		c.lineTo(p4.x,p4.y);
+		c.closePath();
+		c.fill();
+}
+	
+function drawHex(xk,yk,r,col,p1push,inner)
+{
+		xk+=200;
+		yk+=200;
+		var r1=1.7*r;
+		var r2=2.0*r;
+	
+		p2push=p1push;
+		p3push=p1push;
+		p4push=p1push;
+		p5push=p1push;
+		p6push=p1push;
+	
+		p1={x:xk-r,y:yk-r1};
+		p2={x:xk+r,y:yk-r1};
+		p3={x:xk+r2,y:yk};
+		p4={x:xk+r,y:yk+r1};
+		p5={x:xk-r,y:yk+r1};
+		p6={x:xk-r2,y:yk};	
+		q1={x:(p1.x+p1push),y:(p1.y+(p1push*1.7))}
+		q2={x:(p2.x-p2push),y:(p2.y+(p2push*1.7))}
+		q3={x:(p3.x-(p3push*2.0)),y:p3.y}
+		q4={x:p4.x-p4push,y:p4.y-(p4push*1.7)}	
+		q5={x:p5.x+p5push,y:p5.y-(p5push*1.7)}		
+		q6={x:p6.x+(p6push*2.0),y:p6.y};	
+		
+	  if(inner){
+
+				drawpointquad(p1,p2,q2,q1,col,true);
+				drawpointquad(p2,p3,q3,q2,col-1,true);
+				drawpointquad(p3,p4,q4,q3,col-2,true);
+				drawpointquad(p4,p5,q5,q4,col-1,true);
+				drawpointquad(p5,p6,q6,q5,col,true);
+				drawpointquad(p6,p1,q1,q6,col+1,true);
+		
+		}
+
+		//col--;
+		if(col<0)col=0;
+		c.beginPath();
+		c.fillStyle=colars[col];
+		c.moveTo(q1.x,q1.y);
+		c.lineTo(q2.x,q2.y);	
+		c.lineTo(q3.x,q3.y);
+		c.lineTo(q4.x,q4.y);
+		c.lineTo(q5.x,q5.y);
+		c.lineTo(q6.x,q6.y);
+		c.closePath();
+		c.fill();	
+	
+			  /*
+				c.beginPath();
+				c.fillStyle=colars[col];
+				c.moveTo(p1.x,p1.y);
+				c.lineTo(p2.x,p2.y);	
+				c.lineTo(p3.x,p3.y);
+				c.lineTo(p4.x,p4.y);
+				c.lineTo(p5.x,p5.y);
+				c.lineTo(p6.x,p6.y);
+				c.closePath();
+				c.fill();
+				*/		
+}
+
+function Hexo()
+{
+			arr=[];
+			for(i=0;i<10;i++){
+					arr[i]=[];
+					for(j=0;j<10;j++){
+							arr[i][j]=Math.round(Math.random()*5.0);
+					}
+			}
+			console.log(arr);
+	
+			xk=400;
+			yk=400;
+	
+			// Go through hex
+			level=1;
+			for(var level=1;level<6;level++){
+					// Draw objects
+					for(i=0;i<10;i++){
+							for(j=0;j<10;j++){
+									var currcol=arr[i][j];
+									if(currcol==level){
+											if((i%2)==0){
+													drawHex(i*44,j*51,15,currcol,1.0,true);								
+											}else{
+													drawHex((i*44),(j*51)+26,15,currcol,1.0,true);							
+											}
+
+									}
+
+							}
+					}
+					// Draw shadows
+					for(i=0;i<10;i++){
+							for(j=0;j<10;j++){
+									var currcol=arr[i][j];
+									if(currcol>level){
+											offs=-((currcol-level)*1);
+											if(offs==-4) c.globalAlpha=0.5;											
+											if(offs==-3) c.globalAlpha=0.3;										
+											if(offs==-2) c.globalAlpha=0.2;
+											if(offs==-1) c.globalAlpha=0.1;
+										
+											if((i%2)==0){
+													drawHex((i*44)-offs,(j*51)-offs,15,0,offs*2,false);								
+											}else{
+													drawHex((i*44)-offs,(j*51)+26-offs,15,0,offs*2,false);							
+											}
+											c.globalAlpha=1.0;
+									}
+
+							}
+					}
+		}
+	
+			
+}
+	
+function drawHead()
+{
+		c.globalAlpha=1.0;
+		c.clearRect(0,0,xmax,ymax);
+
+		c.fillStyle = "RGB(0,59,85)";
+		c.fillStyle = grd;		
+		c.fillRect(0,0,xmax,ymax);
+	
+		spiralD();
+	
+//		boxes(xmax-300,0,xmax,ymax,50);
+//		peaks(600,400,80,1.5,10,7,0);
+//		Hexo();
+		//setTimeout(drawHead,300);
+}
+	
+	
+	/*
+	
+										//drawHex(i*44,j*51,15,arr[i][j],4.0,4.0,4.0,4.0,4.0,4.0,arr[i][j]-arr[i-1][j-1],arr[i][j]-arr[i][j-1],arr[i][j]-arr[i+1][j-1]);
+								//drawHex((i*44),(j*51)+26,15,arr[i][j],4.0,4.0,4.0,4.0,4.0,4.0,arr[i][j]-arr[i-1][j-1],arr[i][j]-arr[i][j-1],arr[i][j]-arr[i+1][j-1]);															
+
+	
+var canvas = document.querySelector('canvas');
+var video = document.querySelector('video');
+
+// Optional frames per second argument.
+var stream = canvas.captureStream(25);
+// Set the source of the <video> element to be the stream from the <canvas>.
+video.srcObject = stream;
+
+
+
+
+var canvas = document.querySelector("canvas");
+
+// Optional frames per second argument.
+var stream = canvas.captureStream(25);
+var recordedChunks = [];
+
+console.log(stream);
+var options = { mimeType: "video/webm; codecs=vp9" };
+mediaRecorder = new MediaRecorder(stream, options);
+
+mediaRecorder.ondataavailable = handleDataAvailable;
+mediaRecorder.start();
+
+function handleDataAvailable(event) {
+  console.log("data-available");
+  if (event.data.size > 0) {
+    recordedChunks.push(event.data);
+    console.log(recordedChunks);
+    download();
+  } else {
+    // ...
+  }
+}
+function download() {
+  var blob = new Blob(recordedChunks, {
+    type: "video/webm"
+  });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  document.body.appendChild(a);
+  a.style = "display: none";
+  a.href = url;
+  a.download = "test.webm";
+  a.click();
+  window.URL.revokeObjectURL(url);
+}
+
+// demo: to download after 9sec
+setTimeout(event => {
+  console.log("stopping");
+  mediaRecorder.stop();
+}, 9000);
+
+
+				  if(segcnt>4&&segcnt<8){
+								if((segcnt%2)==0){				
+										c.strokeStyle=colars[3];									
+										//c.fillStyle=colars[Math.round(Math.random()*4)];
+										c.fillStyle=colars[(seg+segcnt)%5];							
+										c.beginPath();
+										c.moveTo(innerseg[innerind].x,innerseg[innerind].y);					
+										c.lineTo(theseg[seg].x,theseg[seg].y);
+										c.lineTo(outerseg[outerind].x,outerseg[outerind].y);					
+										c.lineTo(theseg[seg+1].x,theseg[seg+1].y);
+										c.lineTo(innerseg[innerind].x,innerseg[innerind].y);									
+										c.stroke();
+
+										c.beginPath();
+										c.lineTo(theseg[seg+1].x,theseg[seg+1].y);
+										c.lineTo(theseg[seg].x,theseg[seg].y);
+										c.stroke();
+									
+								}else{
+										c.strokeStyle=colars[4];
+										c.globalAlpha=0.2;
+									
+
+										c.beginPath();
+										if((innerind+1)>=innerseg.length) innerind=0;
+										if((outerind+1)>=outerseg.length) outerind=0;							
+										c.moveTo(innerseg[innerind+1].x,innerseg[innerind+1].y);					
+										c.lineTo(theseg[seg].x,theseg[seg].y);
+										c.lineTo(outerseg[outerind+1].x,outerseg[outerind+1].y);							
+										c.lineTo(theseg[seg+1].x,theseg[seg+1].y);
+										c.lineTo(innerseg[innerind+1].x,innerseg[innerind+1].y);									
+										c.stroke();
+									
+										c.beginPath();
+										c.lineTo(theseg[seg+1].x,theseg[seg+1].y);
+										c.lineTo(theseg[seg].x,theseg[seg].y);
+										c.stroke();
+
+									c.globalAlpha=1.0;
+								}
+							
+	
+	*/
+	
+
+</script>	
+</head>
+<body onload="setupSlides();">
+	
+<div style="position:absolute;left:0px;top:0px;">
+<input type="range" id="param" min="10" max="100" value="20" step="0.1">	
+</div>
+
+<div id='slidecontainer' style="display:block;">
+<canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;' onmousemove='mousemove(event);' ></canvas>	
+</div>
+		
+</body>                                                                                                                                               
+</html>                                                                                                                                               

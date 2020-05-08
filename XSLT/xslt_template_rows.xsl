@@ -10,7 +10,10 @@
 	
 	<xsl:template match="person">
 		<tr>
+		<td><xsl:value-of select="@name"/></td>
+		<td>
     <xsl:apply-templates/>
+		</td>
 		</tr>
 	</xsl:template>
 
@@ -19,10 +22,6 @@
 		<td><xsl:value-of select="@lpno"/></td>		
 		<td><xsl:value-of select="./color"/></td>
 		</tr>
-  </xsl:template>
- 
-  <xsl:template match="name">
-		<td><xsl:value-of select="."/></td>
   </xsl:template>
  
   <xsl:template match="address">

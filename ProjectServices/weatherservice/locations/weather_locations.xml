@@ -1,0 +1,745 @@
+<locations>
+<location name='Arjeplog'>
+    <name>Arjeplog</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="426" latitude="66.05173" longitude="17.88606" geobase="geonames" geobaseid="2725372" />
+		<about>
+				Arjeplog is a locality and the seat of Arjeplog Municipality in Norrbotten County, province of Lapland, Sweden with 1,977 inhabitants in 2010.
+				<break/>It is a popular winter test site for the Asian and European car industries and featured on an episode of the UK TV show Top Gear.
+				<break/>Arjeplog has in the past offered families 100,000 kronor, or individuals 25,000 kronor to move to the town.		
+		</about>
+    <climate code='Dfc' system='Köppen climate classification' >
+	      Arjeplog has a subarctic climate typical of northern Sweden. Its winters are somewhat moderated by the mild maritime North Atlantic air to the west, although they are still very cold, long and snowy. Summers are short but can occasionally be warm and they also very bright due to Arjeplog's position close to the Arctic Circle. Daylight is sparse in winter, but during summer midnight sun is present for three weeks.[5] For an even longer period than that it does not get dark in Arjeplog. The presence of the midnight sun is in spite of Arjeplog being below the Arctic Circle, and is caused by the sun's trajectory not quite dropping below 0° in angle. As it is below the line Arjeplog does not experience complete lack of daylight during the winter solstice, but it is limited to less than three hours.
+			  <break/>Arjeplog is located on the lake of Hornavan, that freezes over every winter due to the cold temperatures, whereas the lake temperatures remain cool also in summer. 			
+		</climate>
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Arjeplog_kyrka-2006-07-2006.JPG/640px-Arjeplog_kyrka-2006-07-2006.JPG</imgurl>
+		<province>Lapland</province>
+		<county>Norrbotten County</county>
+		<municipality>Arjeplog Municipality</municipality>
+		<area>2.29 km2</area>
+		<population>1,977</population>
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='287' />
+ 		<density>863/km2</density>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Arjeplog</hyperlink>
+  </location>
+	<location name='Barcelona'>
+    <name>Barcelona</name>
+    <type>Regional capital</type>
+    <country>Spain</country>
+    <timezone id="Europe/Madrid" utcoffsetMinutes="120" />
+    <golocation altitude="15" latitude="41.38879" longitude="2.15899" geobase="geonames" geobaseid="3128760" />
+ 		<about>
+    Barcelona is a city on the coast of northeastern Spain. It is the capital and largest city of the autonomous community of Catalonia, as well as the second most populous municipality of Spain. 
+		<break/>With a population of 1.6 million within city limits, its urban area extends to numerous neighbouring municipalities within the Province of Barcelona and is home to around 4.8 million people, making it the fifth most populous urban area in the European Union after Paris, the Ruhr area, Madrid, and Milan		
+		</about>
+		<climate code='Csa' system='Köppen climate classification' >
+    According to the Köppen climate classification, Barcelona has a maritime Mediterranean climate (Csa), with mild winters and warm to hot summers, while the rainiest seasons are autumn and spring. 
+		<break/>The rainfall pattern is characterised by a short (3 months) dry season in summer, as well as less winter rainfall than in a typical Mediterranean climate. 
+		<break/>This subtype, labelled as "Portuguese" by the French geographer George Viers after the climate classification of Emmanuel de Martonne and found in the NW Mediterranean area (e.g. Marseille), can be seen as transitional to the humid subtropical climate (Cfa) found in inland areas such as the Po Valley (e.g. Milan), whose rainfall is greater in summer, a feature of continental climates. 		
+		</climate>
+		<province>Catalonia</province>
+    <county>Barcelona</county>
+    <municipality>Barcelona</municipality>
+		<charter>343</charter>
+		<area city='101.4 km2' metro='3,694.86 km2' />
+		<elevation>12 m</elevation>
+		<population city='1,620,343' urban='4,840,000' metro='5,474,482' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='-' max='290' />
+		<postalcode>080xx</postalcode>	
+		<areacode>(+34) 93</areacode>
+		<url>www.barcelona.cat</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/14-08-06-barcelona-RalfR-314.jpg/640px-14-08-06-barcelona-RalfR-314.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Barcelona</hyperlink>				
+	</location>
+	<location name='Grums'>
+    <name>Grums</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="55" latitude="59.3466" longitude="13.10906" geobase="geonames" geobaseid="2710343" />
+		<about>
+		The dominating employer in Grums is the paper mill called Gruvöns Bruk which is the largest private employer in Värmland. There is also a lumber mill owned by Stora Enso.
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Consistently horrible weather combined with a thick frothy smell from the paper mill.
+		</climate>
+		<province>Värmlands Län</province>
+    <county>Värmland</county>
+    <municipality>Grums Municipality</municipality>
+		<area city='478.81 km2' />
+		<elevation>12 m</elevation>
+		<population city='5025' metro='9047' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='237' max='290' />
+		<postalcode>664xx</postalcode>	
+		<areacode>(+46) 555</areacode>
+		<url>https://www.grums.se/</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Grums_railway_station_Grums_Sweden.JPG/640px-Grums_railway_station_Grums_Sweden.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Grums</hyperlink>					
+ 	</location>
+  <location name='Gavle'>
+    <name>Gävle</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="3" latitude="60.67452" longitude="17.14174" geobase="geonames" geobaseid="2712414" />
+		<about>
+			Gävle is a city in Sweden, the seat of Gävle Municipality and the capital of Gävleborg County. It had 102 418 inhabitants in 2019,[3] which makes it the 13th most populated city in Sweden.[1] It is the oldest city in the historical Norrland (Sweden's Northern Lands), having received its charter in 1446 from Christopher of Bavaria. However, Gävle is far nearer the greater Stockholm region than it is to the other major settlements in Norrland.
+      <break/>In recent years, the city has received a lot of international attention due to its large Yule Goat figure made of straw - the Gävle Goat. The goat is erected in December each year and is often subsequently vandalised, usually by someone setting it on fire. The goat has now become a symbol for the city and is being used for various marketing purposes. 
+		</about>
+    <climate code='Dfb' system='Köppen climate classification' >
+       Gävle has a similar climate to the rest of central Sweden, with an average temperature of around −10 °C (14 °F) in January and 20 °C (68 °F) in July. Yearly rainfall is around 600 mm (23.62 in). Under the Köppen climate classification Gävle is classified as humid continental, in spite of the significant maritime influence. It is also one of the northernmost cities by significant size in the world with this climate type, since areas north of the 60th parallel for the most part are dominated by various subarctic climate types. Under the 1961-1990 normals, Gävle's fourth warmest month was just around the isotherm of 10 °C (50 °F) to not be classified as subarctic, but temperatures did go up sufficiently to be clear humid continental since. 
+		</climate>
+		<province>Gästrikland</province>
+		<county>Gävleborg County</county>
+		<municipality>Gävle Municipality</municipality>
+		<area city='42.45 km2' metro='1,615.07 km2' />
+ 		<elevation>8 m</elevation>
+		<population city='75,451' urban='96,969' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='17' max='290' />
+		<postalcode>80x xx</postalcode>	
+		<areacode>(+46) 26</areacode>
+		<url>www.gavle.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/2/26/G%C3%A4vle-Gamla_Stan.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/G%C3%A4vle</hyperlink>		
+	</location>
+	<location name='Gothenburg'>
+    <name>Gothenburg</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="10" latitude="57.70716" longitude="11.96679" geobase="geonames" geobaseid="2711537" />
+		<about>
+		The city was named Göteborg in the city's charter in 1621[11] and simultaneously given the German and English name Gothenburg. The Swedish name was given after the Göta älv, called Göta River in English and other cities ending in -borg.
+    <break/>Both the Swedish and German/English names were in use before 1621 and had already been used for the previous city founded in 1604 and burned down in 1611.[17] Gothenburg is one of few Swedish cities to still have an official and widely used exonym. Another example is the province of Scania in southern Sweden. 
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Gothenburg has a warm-summer humid continental climate using the 0 °C isotherm (Köppen Dfb) and an oceanic climate using the -3 °C isotherm (Köppen Cfb) according to the Köppen climate classification. Despite its northern latitude, temperatures are quite mild throughout the year and warmer than places in similar latitude, for example, Stockholm, or even somewhat further south, mainly because of the moderating influence of the warm Gulf Stream.[39] During the summer, daylight extends 18 hours and 5 minutes, but lasts 6 hours and 32 minutes in late December. The climate has become significantly milder in later decades, particularly in summer and winter; July temperatures used to be below Stockholm's 1961–1990 averages, but have since been warmer than that benchmark.
+    <break/>Summers are warm and pleasant with average high temperatures of 19 to 20 °C (66 to 68 °F) and lows of 10 to 12 °C (50 to 54 °F), but temperatures of 25–30 °C (77–86 °F) occur on many days during the summer. Winters are cold and windy with temperatures of around −3 to 3 °C (27 to 37 °F), though it rarely drops below −20 °C (−4 °F). Precipitation is regular but generally moderate throughout the year. Snow mainly occurs from December to March, but is not unusual in November and April and can sometimes occur even in October and May, in extreme cases even in September.[45] 		
+		</climate>
+		<province>Västergötland and Bohuslän</province>
+    <county>Västra Götaland County</county>
+    <municipality>Gothenburg Municipality</municipality>
+		<charter>1621</charter>
+		<area city='447.76 km2' metro='3,694.86 km2' />
+		<elevation>12 m</elevation>
+		<population city='579,281' urban='599,011' metro='1,025,355' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='2' max='290' />
+		<postalcode>40xxx – 41xxx – 421xx – 427xx</postalcode>	
+		<areacode>(+46) 31</areacode>
+		<url>goteborg.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/2/26/G%C3%A4vle-Gamla_Stan.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Gothenburg</hyperlink>				
+  </location>
+  <location name='Halmstad'>
+    <name>Halmstad</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="11" latitude="56.67446" longitude="12.85676" geobase="geonames" geobaseid="2708365" />
+		<about>
+    Halmstad, at the time part of the Kingdom of Denmark, received its first city charter in 1307, and the city celebrated its 700th anniversary in 2007. The oldest remains of that first town are to be found at "Övraby" upstream on Nissan, just south of and quite close to the present day regiment buildings. The remains of the church can still be seen today between a defunct brick industry and a former landfill.
+    <break/>
+    In the 1320s the town moved to the present day town centre. At this time there were two monasteries in the town and during the 15th century the St. Nikolai church was built. Halland was the object of numerous battles, sieges and occupations by Swedish troops. 
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Halmstad has the south Scandinavian variety of the relatively wet humid continental climate (Dfb) with warm summers and cold winters, closely bordering on an oceanic climate (Cfb). 
+		</climate>
+		<province>Halland</province>
+    <county>Halland County</county>
+    <municipality>Halmstad Municipality</municipality>
+		<charter>1307</charter>
+		<area city='34.13 km2' metro='1,018.46 km2' />
+		<elevation>11 m</elevation>
+		<population city='66,124'  metro='95,537' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='18' max='290' />
+		<postalcode>30x xx</postalcode>	
+		<areacode>(+46) 35</areacode>
+		<url>www.halmstad.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Halmstad_Nissan01.JPG/640px-Halmstad_Nissan01.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Halmstad</hyperlink>						
+  </location>	
+  <location name='Havanna'>
+    <name>Havana</name>
+    <type>Capital</type>
+    <country>Cuba</country>
+    <timezone id="America/Havana" utcoffsetMinutes="-240" />
+    <golocation altitude="41" latitude="23.13302" longitude="-82.38304" geobase="geonames" geobaseid="3553478" />
+		<about>
+    Havana is the capital city, largest city, province, major port, and leading commercial center of Cuba. The city has a population of 2.1 million inhabitants, and it spans a total of making it the largest city by area, the most populous city, and the fourth largest metropolitan area in the Caribbean region.
+    <break/>
+    The city of Havana was founded by the Spanish in the 16th century and due to its strategic location it served as a springboard for the Spanish conquest of the Americas, becoming a stopping point for treasure-laden Spanish galleons returning to Spain
+		</about>
+		<climate code='Aw' system='Köppen climate classification' >
+    Havana, like much of Cuba, has a tropical climate that is tempered by the island's position in the belt of the trade winds and by the warm offshore currents. 
+    <break/>Under the Köppen climate classification, Havana has a tropical savanna climate that closely borders on a tropical monsoon climate. Average temperatures range from 22 °C (72 °F) in January and February to 28 °C (82 °F) in August. The temperature seldom drops below 10 °C (50 °F). The lowest temperature was 1 °C (34 °F) in Santiago de Las Vegas, Boyeros
+		</climate>
+		<province>La Habana</province>
+    <county>-</county>
+    <municipality>La Habana</municipality>
+		<charter>1519</charter>
+		<area city='781.58 km2' />
+		<elevation>12 m</elevation>
+		<population city='1,025,355' urban='599,011' metro='2,131,480' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='-' max='290' />		
+		<postalcode>10xxx–19xxx</postalcode>	
+		<areacode>(+53) 07</areacode>
+		<url>www.lahabana.gob.cu</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Havana_Cathedral_crop.jpg/547px-Havana_Cathedral_crop.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Havana</hyperlink>		 	
+	</location>	
+  <location name='Helsingborg'>
+    <name>Helsingborg</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="13" latitude="56.04673" longitude="12.69437" geobase="geonames" geobaseid="2706767" />
+		<about>
+    Helsingborg (spelled Hälsingborg between 1912 and 1970) is a town and the seat of Helsingborg Municipality, Scania, Sweden. It had 108,334 inhabitants in 2017.
+	  <break/>Helsingborg is the centre of the northern part of western Scania and Swedens closest point to Denmark: the Danish city Helsingør is clearly visible about 4 km (2 mi) to the west on the other side of the Øresund. The HH Ferry route across the sound has more than 70 car ferry departures from each harbour every day.
+		</about>
+		<climate code='Cfb' system='Köppen climate classification' >
+    Helsingborg has an oceanic climate typical of southern Sweden, although its winters are very mild for a location at such a high latitude. Although the temperature differences between seasons are significant, Helsingborg often lacks a meteorological winter with both January and February averaging just above the freezing point in terms of mean temperatures. 
+		</climate>
+		<province>Scania</province>
+    <county>Skåne County</county>
+    <municipality>Helsingborg Municipality</municipality>
+		<charter>1085</charter>
+		<area city='38.41 km2' metro='423.08 km2'/>
+		<elevation>12 m</elevation>
+		<population city='112,496' metro='147,734' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='8' max='290' />		
+		<postalcode>25X XX </postalcode>	
+		<areacode>(+46) 42</areacode>
+		<url>www.helsingborg.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Fredriksdals_stadskvarter_B%C3%85n.JPG/640px-Fredriksdals_stadskvarter_B%C3%85n.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Helsingborg</hyperlink>		
+	</location>	
+  <location name='Hudiksvall'>
+    <name>Hudiksvall</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="2" latitude="61.72897" longitude="17.10358" geobase="geonames" geobaseid="2704613" />
+		<about>
+    Hudiksvall is a city and the seat of Hudiksvall Municipality, in Hälsingland, Gävleborg County, Sweden with 15,015 inhabitants in 2010. Hudiksvall is also known as Glada Hudik (English: Happy Hudik), a term that originated in the 19th century as word spread of its friendly hospitality and its lively social life.
+	  <break/>The city is located along the E4, on the east coast of Sweden deep inside the bay Hudiksvallsfjärden, about 80 km south of Sundsvall and about 130 km north of Gävle. 
+		<break/>Hudiksvall is Sweden's 76th largest urban area and also the largest urban area in Hälsingland. 
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Hudiksvall has a humid continental climate with a significant maritime influence. In the 1961-1990 reference period it was just above subarctic, but that border region has since moved somewhat further north. 
+		<break/>Considering how far north it is, the climate is comparatively mild, with warm summers and moderated winters with daytime highs often hovering around the freezing point.
+		<break/>Hudiksvall has a relatively wet climate with an annual precipitation rate averaging 646 millimetres (25.4 in) sometimes resulting in heavy snowfall during winters. 
+		</climate>
+		<province>Hälsingland</province>
+    <county>VGävleborg County</county>
+    <municipality>Hudiksvall Municipality</municipality>
+		<charter>1582</charter>
+		<area city='10.08 km2' metro='4 524,18 km2' />
+		<elevation>2 m</elevation>
+		<population city='16,569 ' metro='37,607' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='70' max='290' />		
+		<postalcode>824xx</postalcode>	
+		<areacode>(+46) 650</areacode>
+		<url>hudiksvall.se/</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hudiksvall2010b.JPG/640px-Hudiksvall2010b.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Hudiksvall</hyperlink>		  
+	</location>	
+  <location name='Jokkmokk'>
+    <name>Jokkmokk</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="251" latitude="66.60665" longitude="19.82324" geobase="geonames" geobaseid="2702997" />
+  	<about>
+    Jokkmokk is a locality and the seat of Jokkmokk Municipality in Norrbotten County, province of Lapland, Sweden, with 2,786 inhabitants in 2010.
+    <break/>The Sámi name of the place due to the meandering river that runs through it. It is just north of the Arctic Circle. Talvatissjön is located at the southern part of Jokkmokk.
+    <break/>Jokkmokk is an important locality for Sámi people and the location of several institutions related to them, including an education centre, the Ájtte museum, and an office of the Sámi Parliament of Sweden.
+		</about>
+		<climate code='Dfc' system='Köppen climate classification' >
+    Influenced by its inland and northerly position, Jokkmokk's variety of a subarctic climate is very cold even by Swedish standards. Summers are normally relatively mild in spite of the day-round light and the dark winters are long and cold. 
+		</climate>
+		<province>Lapland</province>
+    <county>Norrbotten</county>
+    <municipality>Jokkmokk Municipality</municipality>
+		<charter>1611</charter>
+		<area city='3.59 km2' metro='19 334,08 km2' />
+		<elevation>257 m</elevation>
+		<population city='2,759' metro='4,923' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='275' max='290' />				
+		<postalcode>962xx</postalcode>	
+		<areacode>(+46) 971</areacode>
+		<url>www.jokkmokk.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/J%C3%A4rnv%C3%A4gsstation-Jokkmokk.JPG/640px-J%C3%A4rnv%C3%A4gsstation-Jokkmokk.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Jokkmokk</hyperlink>		
+	</location>
+  <location name='Jonkoping'>
+    <name>Jönköping</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="100" latitude="57.78145" longitude="14.15618" geobase="geonames" geobaseid="2702979" />
+  	<about>
+    Jönköping is a city in southern Sweden with 93,797 inhabitants (2015). Jönköping is situated at the southern end of Sweden's second largest lake, Vättern, in the province of Småland.
+    <break/>The city is the seat of Jönköping Municipality, which has a population of 141 081 and is Småland's most populous municipality.
+		<break/>Jönköping is also the seat of Jönköping County which has a population of 363 599. Jönköping is the seat of a district court and a court of appeal as well as the Swedish National Courts Administration. It is the seat of the Swedish Board of Agriculture.
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Jönköping's climate was humid continental (Köppen Dfb) with long, cold winters and short, warm summers during the 1961–1990 period. However, the window between subarctic and oceanic is very small in this marine-influenced climate type, and in recent years the climate has more resembled very cold oceanic.
+		<break/>However, figures are slightly skewed due to the weather station being located at the airport which is at an elevation of 228 metres (748 ft), whereas the city centre is at 100 metres (330 ft). This likely renders up to between half a degree to a full degree milder temperatures in the urban centre. 
+		</climate>
+		<province>Småland</province>
+    <county>Jönköping County</county>
+    <municipality>Jönköping Municipality</municipality>
+		<charter>1284</charter>
+		<area city='44.82 km2' metro='1924,97 km2' />
+		<elevation>104 m</elevation>
+		<population city='99,373' metro='141,081' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='10' max='290' />				
+		<postalcode>55xxx - 561xx - 562xx</postalcode>	
+		<areacode>(+46) 36</areacode>
+		<url>jonkoping.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/J%C3%B6nk%C3%B6pings_r%C3%A5dhus%2C_2018.jpg/640px-J%C3%B6nk%C3%B6pings_r%C3%A5dhus%2C_2018.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6ping</hyperlink>		
+	</location>	
+  <location name='Kalmar'>
+    <name>Kalmar</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="7" latitude="56.66157" longitude="16.36163" geobase="geonames" geobaseid="2702261" />
+		<about>
+    Kalmar is a city in the southeast of Sweden, situated by the Baltic Sea. It had 36,392 inhabitants in 2010 and is the seat of Kalmar Municipality. It is also the capital of Kalmar County, which comprises 12 municipalities with a total of 236,399 inhabitants (2015).
+    <break/>
+    From the thirteenth to the seventeenth centuries, Kalmar was one of Sweden's most important cities. Between 1602 and 1913 it was the episcopal see of Kalmar Diocese, with a bishop, and the Kalmar Cathedral from 1702 is still a fine example of classicistic architecture.		
+		</about>
+		<climate code='Cwc' system='Köppen climate classification' >
+    Kalmar has a cold oceanic climate. It is somewhat continental with warm summers and cold winters which normally averages just above the freezing point during days and goes somewhat below it at night. 
+		<break/>It has some of the hottest temperatures recorded by Swedish cities for most months, with an all-time record of 35.2 °C (95.4 °F).[7] The average summer temperatures however are quite normal for southern Sweden. 			
+		</climate>
+		<province>Småland</province>
+    <county>Kalmar County</county>
+    <municipality>Kalmar Municipality</municipality>
+		<charter>1100</charter>
+		<area city='19.50 km2' metro='1 250,98 km2' />
+		<elevation>8 m</elevation>
+		<population city='36,392' metro='61,533' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='33' max='290' />				
+		<postalcode>39X XX </postalcode>	
+		<areacode>(+46) 480</areacode>
+		<url>kalmar.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kalmar_cathedral_Kalmar_Sweden_001.JPG/640px-Kalmar_cathedral_Kalmar_Sweden_001.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Kalmar</hyperlink>		  
+	</location>	
+  <location name='Karlskrona'>
+    <name>Karlskrona</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="18" latitude="56.16156" longitude="15.58661" geobase="geonames" geobaseid="2701713" />
+		<about>
+    Karlskrona is a locality and the seat of Karlskrona Municipality, Blekinge County, Sweden with 66,675 inhabitants in 2018.
+		<break/>It is also the capital of Blekinge County. Karlskrona is known as Sweden's only baroque city and is host to Sweden's only remaining naval base and the headquarters of the Swedish Coast Guard. 		
+		</about>
+		<climate code='Cfb' system='Köppen climate classification'>>
+    The climate is damp, warm and temperate. The rainfall in Karlskrona is significant, with precipitation even during the driest month. 
+    <break/>The climate is classified as Cfb by the Köppen-Geiger system. The average annual temperature is 7.8 °C | 46.0 °F in Karlskrona. About 556 mm | 21.9 inch of precipitation falls annually. 		
+		</climate>
+		<province>Blekinge</province>
+    <county>Blekinge County</county>
+    <municipality>Karlskrona Municipality</municipality>
+		<charter>1680</charter>
+		<area city='21.72 km2' metro='3 344,74 km2' />
+		<elevation>16 m</elevation>
+		<population city='37 166' metro='66,622' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='35' max='290' />				
+		<postalcode>371 XX</postalcode>	
+		<areacode>(+46) 455</areacode>
+		<url>karlskrona.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Amiralitetskyrkan._s.w.JPG/640px-Amiralitetskyrkan._s.w.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Karlskrona</hyperlink>		  
+	</location>	
+  <location name='Karlstad'>
+    <name>Karlstad</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="58" latitude="59.3793" longitude="13.50357" geobase="geonames" geobaseid="2701680" />
+  	<about>
+    Karlstad is a city, the seat of Karlstad Municipality, the capital of Värmland County, and the largest city in the province Värmland in Sweden. The city had 61,492 inhabitants in 2015 with 90,882 inhabitants in the wider municipality in 2017, and is the 21st biggest municipality in Sweden. Karlstad has a university and a cathedral.
+    <break/>Karlstad is built on the river delta where Sweden's longest river, Klarälven, runs into Sweden's largest lake, Vänern. It has the second largest lake port in the country after Västerås.
+    <break/>Karlstad is often associated with sunshine and the symbol for Karlstad is a smiling sun. Karlstad is reputed to be one of the sunniest towns in Sweden and a local waitress, known as "Sola i Karlstad" (the Sun in Karlstad) for her sunny disposition, is also commemorated with a statue. 			
+		</about>
+		<climate code='Dfb' system='Köppen climate classification'>
+    Karlstad has a humid continental climate (Dfb) with influence from the surrounding waters of Vänern and the inflow from the Atlantic Ocean.
+		<break/>It has large differences between seasons and is moderately influenced by both marine and land airflows. The highest recorded temperature since 1901 is 34.0°C (93.2°F) in July 1933 and the lowest is -36.0°C (-32.8°F) from February 1966. 			
+		</climate>
+		<province>Värmland</province>
+    <county>Värmland County</county>
+    <municipality>Karlstad Municipality</municipality>
+		<charter>1584</charter>
+		<area city='30.31 km2' metro='1 517,74 km2' />
+		<elevation>64 m</elevation>
+		<population city='65,273' metro='93,898' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='22' max='290' />				
+		<postalcode>65X XX </postalcode>	
+		<areacode>(+46) 54</areacode>
+		<url>karlstad.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Jvstn_Karlstad.jpg/640px-Jvstn_Karlstad.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Karlstad</hyperlink>		
+	</location>	
+  <location name='Kiruna'>
+    <name>Kiruna</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="579" latitude="67.85572" longitude="20.22513" geobase="geonames" geobaseid="605155" />
+  	<about>
+    Kiruna is the northernmost town in Sweden, situated in the province of Lapland. It had 17,002 inhabitants in 2016 and is the seat of Kiruna Municipality (population: 23,167 in 2016) in Norrbotten County.
+    <break/>Esrange Space Center was established in Kiruna in the 1960s.Also in Kiruna are the Institute of Space Physics and Luleå University of Technology's Department of Space Science.			
+		</about>
+		<climate code='Dfc' system='Köppen climate classification' >
+    Being located 145 km (90 miles) north of the Arctic Circle, Kiruna has a subarctic (Dfc) climate with short, cool summers and long, cold winters, although the city itself can be considerably milder than the surrounding forest. Snow cover generally lasts from late September to mid-May, but snowfall can occur year-round. 
+	  <break/>The sun does not set between 28 May and 16 July (50 days), and white nights lasts from early May to early August. The period that the sun does not rise lasts from 11 December to 1 January (22 days), the exact boundaries depending on local topography. 
+		<break/>Even though Kiruna's winters are very cold by Swedish standards, they are still much less severe than winters on similar latitudes in North America and Siberia, and even more southerly areas in other parts of the world due to some maritime influence.
+		<break/>Similar winter temperatures go as far south as below the 45th parallel in the Russian Far East. Kiruna however, has cooler summers than such areas, but still warm enough to stay above polar climate and below the northern tree line.
+		<break/>Winter temperatures however are significantly colder than areas immediately affected by the Gulf Stream such, where in fact the regular lows of Kiruna during January and February are colder than or similar to Tromsø's all-time record low. 			
+		</climate>
+		<province>Lapland</province>
+    <county>Norrbotten County</county>
+    <municipality>Kiruna Municipality</municipality>
+		<charter>1948</charter>
+		<area city='16.53 km2' metro='20 553,28 km2' />
+		<elevation>550 m</elevation>
+		<population city='16,661' metro='22,867' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='113' max='290' />				
+		<postalcode>981xx</postalcode>	
+		<areacode>(+46) 980</areacode>
+		<url>kiruna.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Church_of_Kiruna_2011.jpg/640px-Church_of_Kiruna_2011.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Kiruna</hyperlink>		
+	</location>
+  <location name='Kristianstad'>
+    <name>Kristianstad</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="8" latitude="56.03129" longitude="14.15242" geobase="geonames" geobaseid="2699310" />
+  	<about>
+		Kristianstad older spelling Christianstad is a city and the seat of Kristianstad Municipality, Skåne County, Sweden with 40,145 inhabitants in 2016.
+		<break/>During the last 15 years, it has gone from a garrison town to a developed commercial city, today attracting visitors in the summertime mainly from Germany, Denmark and The Netherlands. 
+		</about>
+		<climate code='Cwa' system='Köppen climate classification' >
+		Kristianstad has a humid continental climate but with the updated mean annual temperature can qualify for a humid subtropical climate which is very unusual for a city this far north.
+		<break/>The city being lowest point in Sweden might explain the hot climate. Summers are warm and comparatively long by Swedish standards. 
+		</climate>
+		<province>Scania</province>
+    <county>Skåne County</county>
+    <municipality>Kristianstad Municipality</municipality>
+		<charter>1614</charter>
+		<area city='21.4 km2' metro='1 820,76 km2' />
+		<elevation>-2,4 m</elevation>
+		<population city='41,300' metro='85,747' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='25' max='290' />		
+		<postalcode>291 XX</postalcode>	
+		<areacode>(+46) 44</areacode>
+		<url>kristianstad.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/f/f0/Kristianstad_070628-4.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Kristianstad</hyperlink>		
+	</location>	
+  <location name='Lulea'>
+    <name>Luleå</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="17" latitude="65.58415" longitude="22.15465" geobase="geonames" geobaseid="604490" />
+		<about>
+    Luleå is a city on the coast of northern Sweden, and the capital of Norrbotten County, the northernmost county in Sweden. Luleå has 48,728 inhabitants in its urban core (2018) and is the seat of Luleå Municipality (with a total population of 76,770).
+    <break/>Luleå has the seventh biggest harbor in Sweden for shipping goods. It has a large steel industry and is a center for extensive research. Luleå University of Technology is one of Sweden's three technology universities (the other two are KTH and Chalmers) and the northernmost university in Sweden. 		
+		</about>
+		<climate code='Dfc' system='Köppen climate classification' >
+    Luleå has a subarctic climate (Köppen: Dfc), which borders on a continental climate (Köppen: Dfb) with short, mild to warm summers and long, cold, snowy winters. 
+    <break/>Due to the Gulf Stream, Luleå has a warmer climate than other cities on the same latitude and even some that are further south in Canada, Alaska, Northeast China and Siberia. During the summer in June and July the temperature in Luleå can some days rise to around +30 degrees Celsius. 
+		<break/>Summers are very bright, with marginal twillight being the only exception during the summer solstice. 
+		</climate>
+		<province>Norrbotten</province>
+    <county>Norrbotten County</county>
+    <municipality>Luleå Municipality</municipality>
+		<charter>1621</charter>
+		<area city='29.09 km2' metro='4 911,97 km2' />
+		<elevation>6 m</elevation>
+		<population city='48,749' metro='78.105' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='28' max='290' />				
+		<postalcode>97X XX </postalcode>	
+		<areacode>(+46) 920</areacode>
+		<url>www.lulea.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/6/6b/Karlskrona_Trefaldighetskyrkan.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Luleå</hyperlink>		
+	</location>	
+  <location name='Malmo'>
+    <name>Malmö</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="10" latitude="55.60587" longitude="13.00073" geobase="geonames" geobaseid="2692969" />
+ 		<about>
+    Malmö is the largest city in the Swedish county (län) of Skåne (Scania). It is the third-largest city in Sweden, after Stockholm and Gothenburg, and the sixth-largest city in Scandinavia, with a population of 316,588 (municipal total 338,230 in 2018).
+    <break/>The Malmö Metropolitan Region is home to over 700,000 people, and the Øresund Region, which includes Malmö, is home to 4 million people.
+    <break/>Malmö was one of the earliest and most industrialized towns in Scandinavia, but it struggled to adapt to post-industrialism. 			
+		</about>
+		<climate code='Cfb' system='Köppen climate classification'>
+    Malmö, like the rest of southern Sweden, has an oceanic climate. Despite its northern location, the climate is mild compared to other locations at similar latitudes, mainly because of the influence of the Gulf Stream and also its westerly position on the Eurasian landmass. Owing to its northern latitude, daylight lasts 17 hours in midsummer, but only around seven hours in midwinter. According to data from 2002–2014 Falsterbo, to the south of the city, received an annual average of 1,895 hours of sunshine while Lund, to the north, received 1,803 hours. The sunshine data in the weather box is based on the data for Falsterbo.[14]
+    <break/>Summers are mild with average high temperatures of 20 to 23 °C (68 to 73 °F) and lows of around 11 to 13 °C (52 to 55 °F). Heat waves during the summer arise occasionally. Winters are fairly cold and windy, with temperatures steady between −3 to 4 °C (27 to 39 °F), but it rarely drops below −10 °C (14 °F).
+    <break/>Rainfall is light to moderate throughout the year with 169 wet days. Snowfall occurs mainly in December through March, but snow covers do not remain for a long time,[15] and some winters are virtually free of snow. 			
+		</climate>
+		<province>Scania</province>
+    <county>Skåne County</county>
+    <municipality>Malmö Municipality</municipality>
+		<charter>1275</charter>
+		<area city='332.6 km2' metro='2,522 km2' />
+		<elevation>12 m</elevation>
+		<population city='316,588' metro='728,293' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='3' max='290' />				
+		<postalcode>2xxxx</postalcode>	
+		<areacode>(+46) 40</areacode>
+		<url>www.malmo.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Vattentornet_vid_Pildammarna.jpg/640px-Vattentornet_vid_Pildammarna.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Malmö</hyperlink>		
+	</location>	
+  <location name='Oslo'>
+    <name>Oslo</name>
+    <type>Capital</type>
+    <country>Norway</country>
+    <timezone id="Europe/Oslo" utcoffsetMinutes="120" />
+    <golocation altitude="10" latitude="59.912726542422" longitude="10.7460923576733" geobase="ssr" geobaseid="72837" />
+		<about>
+    Oslo is the capital and most populous city of Norway. It constitutes both a county and a municipality. During the Viking Age the area was part of Viken, the northernmost Danish province. 
+		<break/>Oslo was founded as a city at the end of the Viking Age in the year 1040 under the name Ánslo, and established as a kaupstad or trading place in 1048 by Harald Hardrada.			
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Oslo has a humid continental climate (Köppen climate classification Dfb) with warm summers and cold winters. Due to oceanic influences, winters are less cold than more continental areas at same latitude. With −3 °C (27 °F) isotherm, it is also reasonable for Oslo to be classified as a borderline oceanic climate. 
+		<break/>Oslo has a significant amount of rainfall during the year. This is true even for the driest month. Because of the city's northern latitude, daylight varies greatly, from more than 18 hours in midsummer, when it never gets completely dark at night (no darker than nautical twilight), to around 6 hours in midwinter. Oslo sits right on the border between hardiness zones 7a and 7b. 			
+		</climate>
+		<province>Østlandet</province>
+    <county>Oslo County</county>
+    <municipality>Oslo Municipality</municipality>
+		<charter>1048</charter>
+		<area city='265,29 km2' metro='6 919,51 km2' />
+		<elevation>12 m</elevation>
+		<population city='690 335' urban='1 019 513' metro='1 546 706' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='-' max='290' />				
+		<postalcode>0001 – 1299</postalcode>	
+		<areacode>(+47) 2</areacode>
+		<url>www.oslo.kommune.no</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Astrup_Fearnley_009.JPG/640px-Astrup_Fearnley_009.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Oslo</hyperlink>				
+	  </location>	
+  <location name='Stockholm'>
+    <name>Stockholm</name>
+    <type>Capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="28" latitude="59.33258" longitude="18.0649" geobase="geonames" geobaseid="2673730" />
+		<about>
+    Stockholm is the capital and most populous urban area of Sweden as well as in Scandinavia. 972,647 people live in the municipality, approximately 1.6 million in the urban area, and 2.4 million in the metropolitan area. 
+    <break/>The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. Outside the city to the east, and along the coast, is the island chain of the Stockholm archipelago. 
+		<break/>The area has been settled since the Stone Age, in the 6th millennium BC, and was founded as a city in 1252 by Swedish statesman Birger Jarl. It is also the county seat of Stockholm County.
+    <break/>Stockholm is the cultural, media, political, and economic centre of Sweden. The Stockholm region alone accounts for over a third of the country's GDP,[11] and is among the top 10 regions in Europe by GDP per capita		
+		</about>
+		<climate code='Cfb' system='Köppen climate classification' >
+    Stockholm has an oceanic climate in the 0 °C isotherm (Köppen: Cfb)[38][39] and a humid continental climate (Dfb) in the -3 °C isotherm. Although winters are cold, average temperatures generally remain above 0 °C for much of the year. 
+		<break/>Summers are mild, and precipitation occurs throughout the year. Due to the city's high northerly latitude, the length of the day varies widely from more than 18 hours around midsummer to only around 6 hours in late December. 
+    <break/>The nights from late May until mid-July are bright even when cloudy. Stockholm has relatively mild weather compared to other locations at a similar latitude, or even farther south. 
+		<break/>With an average of just over 1800 hours of sunshine per year, it is also one of the sunniest cities in Northern Europe, receiving more sunshine than Paris, London and a few other major European cities of a more southerly latitude.		
+		</climate>
+		<province>Södermanland and Uppland</province>
+    <county>Stockholm County</county>
+    <municipality>Stockholm Municipality</municipality>
+		<charter>1252</charter>
+		<area city='381.63 km2' metro='6,519 km2' />
+		<elevation>28 m</elevation>
+		<population city='974,073' urban='1,605,030' metro='2,377,081' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='1' max='290' />		
+		<postalcode>100 00--199 99</postalcode>	
+		<areacode>(+46) 8</areacode>
+		<url>www.stockholm.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sse_north_side.jpg/640px-Sse_north_side.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Gothenburg</hyperlink>				
+ 	</location>
+  <location name='Sundsvall'>
+    <name>Sundsvall</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="26" latitude="62.39129" longitude="17.3063" geobase="geonames" geobaseid="2670781" />
+		<about>
+			Sundsvall is a city and the seat of Sundsvall Municipality in Västernorrland County, Sweden. It has a population of 51,354 as of 2010; more than 95,000 live in the municipal area.
+			<break/>The city has burned down and been rebuilt four times. The first time, in 1721, it was set on fire by the Russian army during the Russian Pillage of 1719-1721. 
+		</about>
+		<climate code='Dfc' system='Köppen climate classification' >
+    Sundsvall has a climate which is on the border between subarctic and cold continental, leaning towards the latter in recent years. Temperatures are made significantly milder and regulated by the influence from the Gulf Stream. 
+		<break/>The weather station is located 20 kilometres (12 mi) to the north and somewhat further inland, which renders that Sundsvall's urban centre is likely milder in terms of low temperatures by some degree. 		
+		</climate>
+		<province>Medelpad</province>
+    <county>Västernorrland County</county>
+    <municipality>Sundsvall Municipality</municipality>
+		<charter>1621</charter>
+		<area city='27.46 km2' metro='4 445,86 km2' />
+		<elevation>241 m</elevation>
+		<population city='58,955' metro='99,449' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='19' max='290' />				
+		<postalcode>85xxx</postalcode>	
+		<areacode>(+46) 60</areacode>
+		<url>sundsvall.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gustav_Adolfs_kyrka_Sundsvall.jpg/640px-Gustav_Adolfs_kyrka_Sundsvall.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Sundsvall</hyperlink>				
+	</location>
+  <location name='Uddevalla'>
+    <name>Uddevalla</name>
+    <type>Administration centre</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="13" latitude="58.34784" longitude="11.9424" geobase="geonames" geobaseid="2666670" />
+		<about>
+    Uddevalla is a town and the seat of Uddevalla Municipality in Västra Götaland County, Sweden. In 2010, it had a population of 31,212.
+    <break/>It is located at a bay of the south-eastern part of Skagerrak. The beaches of Uddevalla are filled with seashells and Uddevalla has one of the largest shell-banks in the world.
+    <break/>Uddevalla has a port and it once had a large shipyard, the Uddevallavarvet, which was the largest employer in Bohuslän during the 1960s. The 1970s recession, that affected the Swedish shipyard industry severely, led to the closing of the wharf in 1985. 			
+		</about>
+		<climate code='Cfb' system='Köppen climate classification' >
+    Uddevalla lies on 21m above sea level The climate here is mild, and generally warm and temperate. Uddevalla is a city with a significant rainfall. Even in the driest month there is a lot of rain. 
+		<break/>The Köppen-Geiger climate classification is Cfb. The temperature here averages 7.0 °C. The annual rainfall is 750 mm.
+		</climate>
+		<province>Bohuslän</province>
+    <county>Västra Götaland County</county>
+    <municipality>Uddevalla Municipality</municipality>
+		<charter>1498</charter>
+		<area city='16.92 km2' metro='732,1 km2' />
+		<elevation>12 m</elevation>
+		<population city='579,281' urban='599,011' metro='1,025,355' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='43' max='290' />		
+		<postalcode>451 XX</postalcode>	
+		<areacode>(+46) 522</areacode>
+		<url>uddevalla.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Uddevalla-badhus.jpg/640px-Uddevalla-badhus.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Uddevalla</hyperlink>				  
+	</location>	
+  <location name='Umea'>
+    <name>Umeå</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="24" latitude="63.82842" longitude="20.25972" geobase="geonames" geobaseid="602150" />
+		<about>
+    Umeå is a city in northeast Sweden. It is the seat of Umeå Municipality and the capital of Västerbotten County.
+    <break/>Situated on the Ume River, Umeå is the largest locality in Norrland and the thirteenth largest in Sweden, with 84,761 inhabitants in 2016.The municipality had 123,382 inhabitants as of 2017.
+		<break/>When Umeå University was established in 1965, growth accelerated, and the amount of housing has doubled in the last 30 years. 
+    <break/>Umeå is a university town and centre of education, technical and medical research in northern Sweden, with two universities and over enrolled 39,000 students. Umeå was the European Capital of Culture during 2014, along with Riga in Latvia. 
+		</about>
+		<climate code='Dfc' system='Köppen climate classification' >
+    The climate of Umeå is bordering on a humid continental and a subarctic climate, with short and fairly warm summers. Winters are lengthy and freezing but usually milder than in areas at the same latitude with a more continental climate.
+    <break/>Average January temperature is about −7 °C (19 °F), July is 16 °C (61 °F). Considering its proximity to a major water body and its latitude, summers are warmer than would be expected. 
+    <break/>The record high of 32.2 °C (90.0 °F) was recorded on 23 July 2014, during a very warm summer in Sweden. The record low of −38.2 °C (−36.8 °F) was recorded on 15 February 1978. 
+		</climate>
+		<province>Västerbotten</province>
+    <county>Västerbotten County</county>
+    <municipality>Umeå Municipality</municipality>
+		<charter>1622</charter>
+		<area city='32.2 km2' metro='5 277,25 km2' />
+		<elevation>12 m</elevation>
+		<population city='89 607' metro='128 901' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='11' max='290' />		
+		<postalcode>900 01 - 908 50</postalcode>	
+		<areacode>(+46) 90</areacode>
+		<url>umea.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Umea_radhus_from_south.jpg/640px-Umea_radhus_from_south.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Ume%C3%A5</hyperlink>				
+	</location>	
+  <location name='Uppsala'>
+    <name>Uppsala</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="20" latitude="59.85882" longitude="17.63889" geobase="geonames" geobaseid="2666199" />
+		<about>
+    Uppsala is the capital of Uppsala County and the fourth-largest city in Sweden, after Stockholm, Gothenburg, and Malmö. It had 168,096 inhabitants in 2017.
+    <break/>Located 71 km north of the capital Stockholm it is also the seat of Uppsala Municipality. Since 1164, Uppsala has been the ecclesiastical centre of Sweden, being the seat of the Archbishop of the Church of Sweden. 
+		<break/>Uppsala is home to Scandinavia's largest cathedral – Uppsala Cathedral.[7] Founded in 1477, Uppsala University is the oldest centre of higher education in Scandinavia. Among many achievements, the Celsius scale for temperature was invented there. 
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Uppsala lies immediately south of the 60th parallel north and has a humid continental climate, with cold winters and warm summers. Due to its northerly location, Uppsala experiences over 18 hours of visible sunshine during the summer solstice, and under 6 hours of sunshine during the winter solstice. 
+		<break/>Despite Uppsala's northerly location, the winter is not as cold as other cities at similar latitudes, mainly due to the Gulf Stream. For example, in January Uppsala has a daily mean of −2.7 °C. In Canada, at the same latitude, Fort Smith experiences a daily mean of −22.4 °C. 
+		<break/>With respect to record temperatures, the difference between the highest and lowest is relatively large. Uppsala’s highest recorded temperature was 37.4 °C (99.3 °F), recorded in July 1933. On the same day Ultuna, which lies a few kilometres south of the centre of Uppsala, recorded a temperature of 38 °C. 
+		<break/>This is the highest temperature ever recorded in the Scandinavian Peninsula, although the same temperature was recorded in Målilla, Sweden, 14 years later. 
+		</climate>
+		<province>Uppland</province>
+    <county>Uppsalay</county>
+    <municipality>Uppsala Municipality</municipality>
+		<charter>980</charter>
+		<area city='48.77 km2' metro='2,234.34 km2' />
+		<elevation>40 m</elevation>
+		<population city='164,535' metro='230,767' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='4' max='290' />
+		<postalcode>74X XX - 75X XX </postalcode>	
+		<areacode>(+46) 18</areacode>
+		<url>uppsala.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Uppsala_centralstation.jpg/640px-Uppsala_centralstation.jpg</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/Uppsala</hyperlink>	  
+	</location>	
+  <location name='Orebro'>
+    <name>Örebro</name>
+    <type>Regional capital</type>
+    <country>Sweden</country>
+    <timezone id="Europe/Stockholm" utcoffsetMinutes="120" />
+    <golocation altitude="35" latitude="59.27412" longitude="15.2066" geobase="geonames" geobaseid="2686657" />
+  	<about>
+    Örebro is a city with 124,027 inhabitants, the seat of Örebro Municipality and the capital of Örebro County in Sweden. 
+    <break/>It is the sixth largest city in Sweden and one of the largest inland hubs of the country. It is located near the lake of Hjälmaren, although a few kilometres inland along the small river Svartån.
+    <break/>Örebro is home to Örebro University, a major university hospital, a medieval castle, the water park Gustavsvik as well as several large shopping malls and the Oset-Rynningeviken nature reserve at the lakefront. 			
+		</about>
+		<climate code='Dfb' system='Köppen climate classification' >
+    Örebro, like the rest of the area close to Mälardalen, has a humid continental climate (Köppen Dfb) that is made milder by the proximity to water and the Gulf Stream which makes it interchangeable with oceanic climates. 
+		<break/>Summer temperatures occasionally exceed 30 °C (86 °F) albeit not yearly, and temperatures above 5 °C (41 °F) are rare in winter, although frost-free nights sometimes occur. 
+		<break/>July high temperatures range from 20 °C (68 °F) to 26 °C (79 °F) depending on weather patterns, with a 2002–2014 mean high of around 23.4 °C (74.1 °F). During cold winters, Örebro receives plenty of snowfall. 
+		<break/>Örebro is far more prone than coastal areas to really harsh frosts with temperatures approaching or below −20 °C (−4 °F) happening almost every winter according to SMHI statistics.		
+		</climate>
+		<province>Närke</province>
+    <county>Örebro County</county>
+    <municipality>Örebro Municipality</municipality>
+		<charter>1404</charter>
+		<area city='50,6355 km2' metro='1 620,61 km2' />
+		<elevation>34 m</elevation>
+		<population city='124,027' metro='196,304' />
+		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='6' max='290' />				
+		<postalcode>701 xx -- 702 xx -- 703 xx</postalcode>	
+		<areacode>(+46) 19</areacode>
+		<url>www.orebro.se</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Orebro_slott_2010.JPG/640px-Orebro_slott_2010.JPG</imgurl>
+		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
+		<hyperlink>https://en.wikipedia.org/wiki/%C3%96rebro</hyperlink>				
+	</location>	
+</locations>

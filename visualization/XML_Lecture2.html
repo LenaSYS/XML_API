@@ -14,27 +14,37 @@
 //------------------------------------=======############==========----------------------------------------
 	
 var sequence=[
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:311.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:2, itemid:''},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-	
-	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:311.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:1, itemid:''},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-	
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:0, slidetype:0},
-		
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
-		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:311.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:0, itemid:''},	
-		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
-	
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:1, slidetype:1},
-		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:2, slidetype:1},
+	// Intro slide
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:5.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:0, slidetype:0},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:43.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:1, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:43.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:2, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:43.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:3, slidetype:1},	
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:43.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:4, slidetype:1},		
 
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:40.0,fadein:1.0,fadeout:1.0, startupEvent:setupCode, codeno:0, itemid:''},	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
+
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:5, slidetype:1},	
+	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:40.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:1, itemid:''},	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},
+	
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:3.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:6, slidetype:1},	
+	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
+		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:40.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:2, itemid:''},	
+		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Dark"},	
+
+
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:43.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:7, slidetype:1}	
 ];
 
 /*
+
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:1, slidetype:1},
+		{func:drawit,easein:easeOutQuad,easeout:easeOutQuad,duration:20.0,fadein:1.0,fadeout:1.0, startupEvent:setupSlide, slideno:2, slidetype:1},
 
 		{func:wipe,easein:easeOutQuad,easeout:easeOutQuad,duration:0.1,fadein:0.5,fadeout:0.1, startupEvent:setupSlide, kind:"Light"},
 		{func:drawcode,easein:easeOutQuad,easeout:easeOutQuad,duration:11.0,fadein:2.0,fadeout:2.0, startupEvent:setupCode, codeno:3, itemid:'d'},	
@@ -296,6 +306,7 @@ function advanceStep()
 								}else if(statement.statement=="ifarr"){
 										// Compare variable
 										lastvar=arr[statement.level][statement.pos];
+										oldrow=row;
 										if(lastvar==data[statement.vararr][statement.varpos]){
 												row=statement.row;
 										}else{
@@ -304,11 +315,13 @@ function advanceStep()
 								}else if(statement.statement=="ifvar"){
 										// Compare variable
 										lastvar=data[statement.arr][statement.pos];
-										if(lastvar!=statement.comp){
+										oldrow=row;								
+										if(lastvar==statement.comp){
 												row=statement.row;
 										}else{
 												row=statement.else
-										}									
+										}
+										lastvar="v"+lastvar;
 								}else if(statement.statement=="else"){
 										// skip if we reach
 										row=statement.else									
@@ -325,15 +338,17 @@ function advanceStep()
 										// increase variable and reset lower level
 										varr[statement.level]++;
 										varr[statement.level+1]=0;
-										if(varr[statement.level]<arr[statement.level].length){
-												row=statement.row;
-												if(statement.level==1){
+										if(statement.level==1){		
+												if(varr[statement.level]<arr[statement.level-1].length){
+														row=statement.row;
 														arr[0]=data[statement.arr];
 														arr[statement.level]=arr[statement.level-1][varr[statement.level]];
-												}else{
+												}
+										}else{
+												if(varr[statement.level]<arr[statement.level-1][statement.pos].length){
+														row=statement.row;
 														arr[statement.level]=arr[statement.level-1][statement.pos][varr[statement.level]];
 												}
-
 										}
 								}
 						}
@@ -343,6 +358,7 @@ function advanceStep()
 		str+="</table>";
 		document.getElementById('output').innerHTML=str;
 	
+		// console.log(row,oldrow);
 		var therow=document.getElementById(itemid+"row"+oldrow);
 		if(therow!=null){
 				var thepointer=document.getElementById("pointer");
@@ -563,13 +579,13 @@ function drawit(fadein,fadeout)
 								c.fill();
 								yk+=(midsize*1.60);							
 						}if(slideitem.style=="Code"){
-								c.font = "normal "+(midsize*0.8)+"px Lucida Console";		
+								c.font = "normal "+(midsize*0.6)+"px Lucida Console";		
 								xk=120;							
 								c.fillStyle = colarr[4];								
 								c.beginPath();
 								c.fillText(slideitem.text,xk,yk);
 								c.fill();
-								yk+=(midsize*1.0);							
+								yk+=(midsize*0.8);							
 						}
 				}		
 		}

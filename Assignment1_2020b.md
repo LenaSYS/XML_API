@@ -1,3 +1,5 @@
+## There are two variants of this test! You need to be logged in to see which version of the test that applies to you
+
 # Assignment 1 - PHP Table Rendering
 The goal of the first assignment is to present the data from an array in a html table.
 
@@ -13,7 +15,7 @@ Code must be mostly correctly indented according to the K&R indentation format (
 1. Present the array data from the code below using html in a table. All data in the array should be shown.
 2. Use a **Column Layout** for each vehicle.
 3. The background color for each vehicle must change depending on the country of the vehicle producer. Any producer in the belarus should have a yellow background, and any other producers should have a light blue background. Any CSS must be defined in the document head. (No external css files, see conditional code example)
-4. Add styling to the rest of the elements to make the table  (use inline or css in head element, no external css files are allowed)
+4. Add styling (use inline or css in head element, no external css files are allowed) to the rest of the elements to make the table look better than the default e.g. make headings stand out clearly.
 5. No further styling is necessary, the default browser styling is sufficient.
 
 ### Report Requirements
@@ -21,6 +23,7 @@ Code must be mostly correctly indented according to the K&R indentation format (
 * Reports with no code will be failed
 * Reports with code and no or very little text describing the code will be failed
 * Paste the (sparsely commented) code that you have written into the document and write a short paragraph of text (a few lines of text) that describes the idea behind the code
+* The report should contain at least one screenshot of your application
 
 ### The given application code
 
@@ -79,7 +82,7 @@ Code is given below that iterates over the list of trucks.
 	);
 
 	foreach($truck as $truck){
-			echo $truck."<br>";
+			print_r($truck)."<br>";
 	}	
 
 ?>
