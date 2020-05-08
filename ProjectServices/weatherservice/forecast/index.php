@@ -8,12 +8,12 @@ header("Content-type: text/xml");
 	if(isset($_GET['start'])){
 			$start=$_GET['start'];
 	}else{
-			$start="start";
+			$start="UNK";
 	}
 	if(isset($_GET['end'])){
 			$end=$_GET['end'];
 	}else{
-			$end="end";
+			$end="UNK";
 	}	
 	if(isset($_GET['id'])){
 		  $id=$_GET['id'];
@@ -74,7 +74,11 @@ header("Content-type: text/xml");
 						$output=$output." >\n";
 			}
 
-			if(($attrs['FROM']>$start)&&($attrs['FROM']<$end)&&($entityname=='TIME')){
+			if($start=="UNK"&&$end!="UNK"){
+					if(($attrs['FROM']<$end)&&($entityname=='TIME')){
+							echo $output;					
+					}
+			}else if(($attrs['FROM']>$start)&&($attrs['FROM']<$end)&&($entityname=='TIME')){
 					echo $output;
 			}
 
@@ -95,15 +99,27 @@ header("Content-type: text/xml");
    xml_set_element_handler($parser, "startElement", "endElement");
    xml_set_character_data_handler($parser, "charData");
   
-   $file = 'Gothenburg.xml';
-   $data = file_get_contents($file);
-  
-   if(!xml_parse($parser, $data, true)){
-      printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
-   }else{
-      // print "<br>Parsing Complete!</br>";
-   }
-  
-   xml_parser_free($parser);
+	 $towns=Array("Arjeplog","Barcelona","Gavle","Gothenburg","Grums","Halmstad","Havanna","Helsingborg","Hudikvsvall","Jokkmokk","Jonkoping","Kalmar",
+								"Karlskrona","Karlstad","Kiruna","Kristianstad","Lulea","Malmo","Orebro","Oslo","Stockholm","Sundsvall","Uddevalla","Umea","Uppsala"
+							 );
+	 if(array_search($id,$towns)){
+				if(isset($_GET['start'])||isset($_GET['end'])){
+						$file = $id.'.xml';
+						$data = file_get_contents($file);
+
+						if(!xml_parse($parser, $data, true)){
+							printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
+						}else{
+							// print "<br>Parsing Complete!</br>";
+						}
+
+						xml_parser_free($parser);
+				}else{
+						echo "ERROR: Either start, end or both must be set ";				
+				}
+	 }else{
+	 		echo "ERROR: Unknown ID ".$id;
+	 }
+	
 ?>
 </forecast>
