@@ -5,8 +5,8 @@ header("Content-type: text/xml");
 <?php
 	
 	// Check if paper is set otherwise set to default
-	if(isset($_GET['name'])){
-			$filename=$_GET['name'];
+	if(isset($_GET['namesearch'])){
+			$filename=$_GET['namesearch'];
 	}else{
 			$filename="UNK";
 	}
@@ -14,7 +14,12 @@ header("Content-type: text/xml");
 		  $id=$_GET['id'];
 	}else{
 			$id="UNK";
-	}		  
+	}		
+	if(isset($_GET['dept'])){
+		  $dept=$_GET['dept'];
+	}else{
+			$dept="UNK";
+	}			
 	
 	$output="";
 	$outputsection="";
@@ -59,6 +64,7 @@ header("Content-type: text/xml");
 			global $login;
 			global $filename;
 			global $id;
+			global $dept;
 			if($entityname=="PROGRAMS"){
 			
 			}else{
@@ -66,19 +72,14 @@ header("Content-type: text/xml");
 						$output=$output.$entityname;
 						$output=$output." >\n";
 			}
-			/*
-			if((($id==$attrs['ID'])||($id="ALL"))&&$entityname=='BOOK'){
-					echo $output;
-			}
-			if((strpos($attrs['TITLE'],$titlesearch)!=false)&&$entityname=='BOOK'){
-					echo $output;
-			}	*/
-			//echo $attrs['FULLNAME'];
-		  //echo strtoupper($attrs['FULLNAME'])." ".strtoupper($filename)."\n";
+		
 			if(((strpos(strtoupper($attrs['NAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='PROGRAM')){
 					echo $output;
 			}
 			if(((strpos(strtoupper($attrs['ID']),strtoupper($id))!==false))&&($entityname=='PROGRAM')){
+					echo $output;
+			}		
+			if(($attrs['DEPARTMENT']==$dept)&&($entityname=='PROGRAM')){
 					echo $output;
 			}		
 	}
@@ -94,19 +95,23 @@ header("Content-type: text/xml");
 		 	$output=$output.$chardata;	 
 	 }
   
-   $parser = xml_parser_create();
-   xml_set_element_handler($parser, "startElement", "endElement");
-   xml_set_character_data_handler($parser, "charData");
-  
-   $file = 'schedule_programs.xml';
-   $data = file_get_contents($file);
-  
-   if(!xml_parse($parser, $data, true)){
-      printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
-   }else{
-      // print "<br>Parsing Complete!</br>";
-   }
-  
-   xml_parser_free($parser);
+		if(isset($_GET['namesearch'])||isset($_GET['id'])||isset($_GET['dept'])){	
+				$parser = xml_parser_create();
+				xml_set_element_handler($parser, "startElement", "endElement");
+				xml_set_character_data_handler($parser, "charData");
+
+				$file = 'schedule_programs.xml';
+				$data = file_get_contents($file);
+
+				if(!xml_parse($parser, $data, true)){
+					printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
+				}else{
+					// print "<br>Parsing Complete!</br>";
+				}
+
+				xml_parser_free($parser);
+		}else{
+				echo "ERROR: Either program namesearch/id/dept must be set ";
+		}
 ?>
 </PROGRAMS>

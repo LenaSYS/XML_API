@@ -14,7 +14,12 @@ header("Content-type: text/xml");
 		  $id=$_GET['id'];
 	}else{
 			$id="UNK";
-	}		  
+	}	
+	if(isset($_GET['dept'])){
+		  $dept=$_GET['dept'];
+	}else{
+			$dept="UNK";
+	}	
 	
 	$output="";
 	$outputsection="";
@@ -59,6 +64,7 @@ header("Content-type: text/xml");
 			global $login;
 			global $filename;
 			global $id;
+			global $dept;
 			if($entityname=="COURSES"){
 			
 			}else{
@@ -71,7 +77,10 @@ header("Content-type: text/xml");
 					echo $output;
 			}
 			if((strpos($attrs['ID'],$id)!==false)&&($entityname=='COURSE')){
-					echo $output;			
+					echo $output;	
+			}
+			if(($attrs['DEPARTMENT']==$dept)&&($entityname=='COURSE')){
+					echo $output;					
 			}
 	}
   
@@ -86,19 +95,24 @@ header("Content-type: text/xml");
 		 	$output=$output.$chardata;	 
 	 }
   
-   $parser = xml_parser_create();
-   xml_set_element_handler($parser, "startElement", "endElement");
-   xml_set_character_data_handler($parser, "charData");
-  
-   $file = 'schedule_courses.xml';
-   $data = file_get_contents($file);
-  
-   if(!xml_parse($parser, $data, true)){
-      printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
-   }else{
-      // print "<br>Parsing Complete!</br>";
-   }
-  
-   xml_parser_free($parser);
+		if(isset($_GET['coursename'])||isset($_GET['id'])||isset($_GET['dept'])){
+				 $parser = xml_parser_create();
+				 xml_set_element_handler($parser, "startElement", "endElement");
+				 xml_set_character_data_handler($parser, "charData");
+
+				 $file = 'schedule_courses.xml';
+				 $data = file_get_contents($file);
+
+				 if(!xml_parse($parser, $data, true)){
+						printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
+				 }else{
+						// print "<br>Parsing Complete!</br>";
+				 }
+
+				 xml_parser_free($parser);
+		}else{
+				echo "ERROR: Either coursename/id/dept must be set ";				
+		}	
+
 ?>
 </COURSES>

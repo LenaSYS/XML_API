@@ -8,3 +8,10 @@ visualization/roboto-condensed.light.ttf
 ProjectServices/.DS_Store
 .DS_Store
 ProjectServices/weatherservice/.DS_Store
+ProjectServices/schedule/courses/schedule_courses_old.xml
+ProjectServices/schedule/courses/schedule_courses_older.xml
+ProjectServices/schedule/entries/schedule_entries_old.xml
+ProjectServices/schedule/programs/schedule_programs_old.xml
+ProjectServices/schedule/staff/schedule_staff_old.xml
+ProjectServices/schedule/.DS_Store
+ProjectServices/.DS_Store

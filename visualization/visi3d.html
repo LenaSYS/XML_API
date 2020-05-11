@@ -1,0 +1,96 @@
+<html>
+	<head>
+	<script>
+	
+colarr=[[0,39,65],[1,89,127],[11,136,161],[128,191,183],[211,236,213],[235,255,245],[235,255,245],[211,236,213],[128,191,183],[11,136,161],[1,89,127],[0,39,65]];	
+colars=["RGB(0,39,65)","RGB(1,89,127)","RGB(11,136,161)","RGB(128,191,183)","RGB(211,236,213)","RGB(235,255,245)","RGB(235,255,245)","RGB(211,236,213)","RGB(128,191,183)","RGB(11,136,161)","RGB(1,89,127)","RGB(0,39,65)"];	
+//------------------------------------=======############==========----------------------------------------
+//                                 Canvas Slide Constants and Variables
+//------------------------------------=======############==========----------------------------------------
+
+var c;
+var arrpnt=[];
+var delay=30;		
+
+var xmax=1430;
+var ymax=780;
+
+var mx,my,mb;
+
+function drawCirc(x,y,r,fill)
+{
+	c.beginPath();
+	c.arc(x, y, r, 0, 2 * 3.1415, false);
+	if(fill==true){
+			c.fill();	
+	}else{
+			c.stroke();	
+	}
+
+}
+	
+function drawLine(x1,y1,x2,y2)
+{
+		c.beginPath();
+		c.moveTo(x1,y1);
+		c.lineTo(x2,y2);
+		c.stroke();
+}
+	
+function drawDotted(x1,y1,x2,y2)
+{
+		c.setLineDash([3,3]);	
+		c.beginPath();
+		c.moveTo(x1,y1);
+		c.lineTo(x2,y2);
+		c.stroke();
+		c.setLineDash([]);	
+}
+	
+function setupSlides()
+{
+		canvas = document.getElementById("mycanvas");
+		c = canvas.getContext("2d");
+
+		/*
+		for(j=0;j<boxcnty;j++){
+				arrpnt[j]=[];
+				for(i=0;i<boxcntx;i++){
+						col=randRand(0,i+2)+((i/5)*(i/5));
+						col=5.0*(col/boxcntx);
+						arrpnt[j][i]=col;		
+				}
+		}
+		*/
+
+		setTimeout(drawHead,delay);
+}
+		
+function drawHead()
+{
+		c.globalAlpha=1.0;
+		c.clearRect(0,0,xmax,ymax);
+
+		c.fillStyle = "RGB(0,59,85)";	
+		//c.fillRect(0,0,xmax,ymax);
+	
+		c.beginPath();
+		c.moveTo(10,10);
+		c.lineTo(40,100);
+		c.stroke();
+		
+		drawCirc(40,100,5,true);
+}
+		
+function mousemove(event)
+{
+
+}
+
+	</script>
+	</head>
+	<body onload="setupSlides();">
+	<canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;' onmousemove='mousemove(event);' ></canvas>	
+	</body>
+
+</html>

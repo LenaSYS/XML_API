@@ -3,7 +3,7 @@
   <forecast name='Helsingborg'>
     <time from='2020-01-01 00:00:00' to='2020-01-01 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='2.3' altunit='fahrenheit' altvalue='36.14' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='266' code='SW' name='Southwest'/>
      <windSpeed mps='0.9' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -35,7 +35,7 @@
     </time>
     <time from='2020-01-02 00:00:00' to='2020-01-02 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='2.7' altunit='fahrenheit' altvalue='36.86' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='257' code='WSW' name='West-southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -235,7 +235,7 @@
     </time>
     <time from='2020-01-08 06:00:00' to='2020-01-08 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='5' altunit='fahrenheit' altvalue='41' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='142' code='SE' name='Southeast'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -298,7 +298,7 @@
     </time>
     <time from='2020-01-10 06:00:00' to='2020-01-10 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='4.1' altunit='fahrenheit' altvalue='39.38' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='94' code='E' name='East'/>     <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='942' />
@@ -321,7 +321,7 @@
     </time>
     <time from='2020-01-11 00:00:00' to='2020-01-11 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.9' altunit='fahrenheit' altvalue='33.62' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='50' code='NNE' name='North-northeast'/>
      <windSpeed mps='17.2' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -329,7 +329,7 @@
     </time>
     <time from='2020-01-11 06:00:00' to='2020-01-11 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.9' altunit='fahrenheit' altvalue='37.22' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='55' code='ENE' name='East-northeast'/>
      <windSpeed mps='1.8' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -337,7 +337,7 @@
     </time>
     <time from='2020-01-11 12:00:00' to='2020-01-11 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.1' altunit='fahrenheit' altvalue='26.42' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='55' code='NNE' name='North-northeast'/>
      <windSpeed mps='18.4' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -353,7 +353,7 @@
     </time>
     <time from='2020-01-12 00:00:00' to='2020-01-12 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.1' altunit='fahrenheit' altvalue='31.82' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='30' code='N' name='North'/>
      <windSpeed mps='23.1' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -369,7 +369,7 @@
     </time>
     <time from='2020-01-12 12:00:00' to='2020-01-12 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-2.1' altunit='fahrenheit' altvalue='28.22' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='23' code='NE' name='Northeast' />
      <windSpeed mps='23.8' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -385,7 +385,7 @@
     </time>
     <time from='2020-01-13 00:00:00' to='2020-01-13 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.1' altunit='fahrenheit' altvalue='31.82' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='9' code='N' name='North'/>
      <windSpeed mps='23.8' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -393,7 +393,7 @@
     </time>
     <time from='2020-01-13 06:00:00' to='2020-01-13 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='3.9' altunit='fahrenheit' altvalue='39.02' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.5' />
       <windDirection deg='11' code='N' name='North'/>
      <windSpeed mps='8.1' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -401,7 +401,7 @@
     </time>
     <time from='2020-01-13 12:00:00' to='2020-01-13 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.1' altunit='fahrenheit' altvalue='26.42' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='8' code='N' name='North'/>
      <windSpeed mps='22.1' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -481,7 +481,7 @@
     </time>
     <time from='2020-01-16 00:00:00' to='2020-01-16 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.9' altunit='fahrenheit' altvalue='33.62' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-19' code='N' name='North'/>
      <windSpeed mps='12.6' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -489,7 +489,7 @@
     </time>
     <time from='2020-01-16 06:00:00' to='2020-01-16 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.9' altunit='fahrenheit' altvalue='37.22' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.5' />
       <windDirection deg='-23' code='N' name='North'/>
      <windSpeed mps='12.5' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -497,7 +497,7 @@
     </time>
     <time from='2020-01-16 12:00:00' to='2020-01-16 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.1' altunit='fahrenheit' altvalue='26.42' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-20' code='N' name='North'/>
      <windSpeed mps='5.9' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -513,7 +513,7 @@
     </time>
     <time from='2020-01-17 00:00:00' to='2020-01-17 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.6' altunit='fahrenheit' altvalue='33.08' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='-15' code='N' name='North'/>
      <windSpeed mps='3.6' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -521,7 +521,7 @@
     </time>
     <time from='2020-01-17 06:00:00' to='2020-01-17 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.6' altunit='fahrenheit' altvalue='36.68' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-9' code='N' name='North'/>
      <windSpeed mps='2.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -529,7 +529,7 @@
     </time>
     <time from='2020-01-17 12:00:00' to='2020-01-17 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-2.4' altunit='fahrenheit' altvalue='27.68' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-4' code='N' name='North'/>
      <windSpeed mps='13.4' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -537,7 +537,7 @@
     </time>
     <time from='2020-01-17 18:00:00' to='2020-01-17 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.4' altunit='fahrenheit' altvalue='22.28' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-2' code='N' name='North'/>
      <windSpeed mps='11' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -545,7 +545,7 @@
     </time>
     <time from='2020-01-18 00:00:00' to='2020-01-18 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.4' altunit='fahrenheit' altvalue='32.72' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='-19' code='N' name='North'/>
      <windSpeed mps='12.9' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -569,7 +569,7 @@
     </time>
     <time from='2020-01-18 18:00:00' to='2020-01-18 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.7' altunit='fahrenheit' altvalue='23.54' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='-18' code='N' name='North'/>
      <windSpeed mps='21.9' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -585,7 +585,7 @@
     </time>
     <time from='2020-01-19 06:00:00' to='2020-01-19 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='3.4' altunit='fahrenheit' altvalue='38.12' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='16' code='N' name='North'/>
      <windSpeed mps='5' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -601,7 +601,7 @@
     </time>
     <time from='2020-01-19 18:00:00' to='2020-01-19 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.7' altunit='fahrenheit' altvalue='23.54' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='5' code='N' name='North'/>
      <windSpeed mps='8.2' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -609,7 +609,7 @@
     </time>
     <time from='2020-01-20 00:00:00' to='2020-01-20 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.4' altunit='fahrenheit' altvalue='32.72' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.6' />
       <windDirection deg='3' code='NNE' name='North-northeast'/>
      <windSpeed mps='1.8' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -617,7 +617,7 @@
     </time>
     <time from='2020-01-20 06:00:00' to='2020-01-20 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.4' altunit='fahrenheit' altvalue='34.52' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.8' />
       <windDirection deg='21' code='NNE' name='North-northeast'/>
      <windSpeed mps='7.6' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -625,7 +625,7 @@
     </time>
     <time from='2020-01-20 12:00:00' to='2020-01-20 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.7' altunit='fahrenheit' altvalue='25.34' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='6' code='NNE' name='North-northeast'/>
      <windSpeed mps='20.7' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -633,7 +633,7 @@
     </time>
     <time from='2020-01-20 18:00:00' to='2020-01-20 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.7' altunit='fahrenheit' altvalue='21.74' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='13' code='NNE' name='North-northeast'/>
      <windSpeed mps='27.3' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -641,7 +641,7 @@
     </time>
     <time from='2020-01-21 00:00:00' to='2020-01-21 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.4' altunit='fahrenheit' altvalue='31.28' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='36' code='NE' name='Northeast' />
      <windSpeed mps='7.6' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -649,7 +649,7 @@
     </time>
     <time from='2020-01-21 06:00:00' to='2020-01-21 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.6' altunit='fahrenheit' altvalue='34.88' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='34' code='NNE' name='North-northeast'/>
      <windSpeed mps='3.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -657,7 +657,7 @@
     </time>
     <time from='2020-01-21 12:00:00' to='2020-01-21 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.4' altunit='fahrenheit' altvalue='25.88' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='44' code='NE' name='Northeast' />
      <windSpeed mps='18.5' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -665,7 +665,7 @@
     </time>
     <time from='2020-01-21 18:00:00' to='2020-01-21 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.4' altunit='fahrenheit' altvalue='24.08' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='42' code='NE' name='Northeast' />
      <windSpeed mps='4.5' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -782,7 +782,7 @@
     </time>
     <time from='2020-01-25 12:00:00' to='2020-01-25 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='1.3' altunit='fahrenheit' altvalue='34.34' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='155' code='SE' name='Southeast'/>
      <windSpeed mps='1.2' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -862,7 +862,7 @@
     </time>
     <time from='2020-01-28 00:00:00' to='2020-01-28 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='4.5' altunit='fahrenheit' altvalue='40.1' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='216' code='SSW' name='South-southwest'/>
      <windSpeed mps='1' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -1344,7 +1344,7 @@
     </time>
     <time from='2020-02-12 06:00:00' to='2020-02-12 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.5' altunit='fahrenheit' altvalue='36.5' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='53' code='NNE' name='North-northeast'/>
      <windSpeed mps='4.2' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -1352,7 +1352,7 @@
     </time>
     <time from='2020-02-12 12:00:00' to='2020-02-12 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-1.5' altunit='fahrenheit' altvalue='29.3' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='59' code='NE' name='Northeast' />
      <windSpeed mps='22.6' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -1360,7 +1360,7 @@
     </time>
     <time from='2020-02-12 18:00:00' to='2020-02-12 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.5' altunit='fahrenheit' altvalue='23.9' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='64' code='ENE' name='East-northeast'/>
      <windSpeed mps='2.3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -1368,7 +1368,7 @@
     </time>
     <time from='2020-02-13 00:00:00' to='2020-02-13 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.2' altunit='fahrenheit' altvalue='32.36' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='24' code='N' name='North'/>
      <windSpeed mps='3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -1376,7 +1376,7 @@
     </time>
     <time from='2020-02-13 06:00:00' to='2020-02-13 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='0.2' altunit='fahrenheit' altvalue='32.36' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='34' code='NE' name='Northeast' />
      <windSpeed mps='3.7' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -1384,7 +1384,7 @@
     </time>
     <time from='2020-02-13 12:00:00' to='2020-02-13 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.8' altunit='fahrenheit' altvalue='23.36' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='34' code='NE' name='Northeast' />
      <windSpeed mps='11.6' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -1392,7 +1392,7 @@
     </time>
     <time from='2020-02-13 18:00:00' to='2020-02-13 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-6.8' altunit='fahrenheit' altvalue='19.76' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='37' code='NNE' name='North-northeast'/>
      <windSpeed mps='13.3' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -1400,7 +1400,7 @@
     </time>
     <time from='2020-02-14 00:00:00' to='2020-02-14 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-1.9' altunit='fahrenheit' altvalue='28.58' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='0' code='NNE' name='North-northeast'/>
      <windSpeed mps='8' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1408,7 +1408,7 @@
     </time>
     <time from='2020-02-14 06:00:00' to='2020-02-14 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='4.1' altunit='fahrenheit' altvalue='39.38' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='21' code='NNE' name='North-northeast'/>
      <windSpeed mps='21.4' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -1424,7 +1424,7 @@
     </time>
     <time from='2020-02-14 18:00:00' to='2020-02-14 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-3.9' altunit='fahrenheit' altvalue='24.98' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='12' code='N' name='North'/>
      <windSpeed mps='17.8' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -1432,7 +1432,7 @@
     </time>
     <time from='2020-02-15 00:00:00' to='2020-02-15 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='2.1' altunit='fahrenheit' altvalue='35.78' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-11' code='N' name='North'/>
      <windSpeed mps='7.2' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -1440,7 +1440,7 @@
     </time>
     <time from='2020-02-15 06:00:00' to='2020-02-15 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.1' altunit='fahrenheit' altvalue='33.98' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-18' code='N' name='North'/>
      <windSpeed mps='2.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -1448,7 +1448,7 @@
     </time>
     <time from='2020-02-15 12:00:00' to='2020-02-15 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-2.9' altunit='fahrenheit' altvalue='26.78' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='-11' code='N' name='North'/>
      <windSpeed mps='8.9' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1456,7 +1456,7 @@
     </time>
     <time from='2020-02-15 18:00:00' to='2020-02-15 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-8.9' altunit='fahrenheit' altvalue='15.98' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-15' code='N' name='North'/>
      <windSpeed mps='13.4' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -1472,7 +1472,7 @@
     </time>
     <time from='2020-02-16 06:00:00' to='2020-02-16 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='4.4' altunit='fahrenheit' altvalue='39.92' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='-15' code='N' name='North'/>
      <windSpeed mps='10.6' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1480,7 +1480,7 @@
     </time>
     <time from='2020-02-16 12:00:00' to='2020-02-16 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-1.6' altunit='fahrenheit' altvalue='29.12' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='-8' code='N' name='North'/>
      <windSpeed mps='10.6' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1504,7 +1504,7 @@
     </time>
     <time from='2020-02-17 06:00:00' to='2020-02-17 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='0.4' altunit='fahrenheit' altvalue='32.72' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-13' code='N' name='North'/>
      <windSpeed mps='2.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -1512,7 +1512,7 @@
     </time>
     <time from='2020-02-17 12:00:00' to='2020-02-17 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-6.6' altunit='fahrenheit' altvalue='20.12' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-14' code='N' name='North'/>
      <windSpeed mps='14.4' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -1520,7 +1520,7 @@
     </time>
     <time from='2020-02-17 18:00:00' to='2020-02-17 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-8.6' altunit='fahrenheit' altvalue='16.52' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='-22' code='N' name='North'/>
      <windSpeed mps='4.5' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -1536,7 +1536,7 @@
     </time>
     <time from='2020-02-18 06:00:00' to='2020-02-18 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='-1.2' altunit='fahrenheit' altvalue='29.84' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='-23' code='N' name='North'/>
      <windSpeed mps='12.4' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -1544,7 +1544,7 @@
     </time>
     <time from='2020-02-18 12:00:00' to='2020-02-18 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-5.2' altunit='fahrenheit' altvalue='22.64' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-22' code='N' name='North'/>
      <windSpeed mps='8.4' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1560,7 +1560,7 @@
     </time>
     <time from='2020-02-19 00:00:00' to='2020-02-19 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.8' altunit='fahrenheit' altvalue='33.44' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='11' code='NNE' name='North-northeast'/>
      <windSpeed mps='7.2' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -1576,7 +1576,7 @@
     </time>
     <time from='2020-02-19 12:00:00' to='2020-02-19 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-1.2' altunit='fahrenheit' altvalue='29.84' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='8' code='NNE' name='North-northeast'/>
      <windSpeed mps='5.8' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -1584,7 +1584,7 @@
     </time>
     <time from='2020-02-19 18:00:00' to='2020-02-19 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-2.2' altunit='fahrenheit' altvalue='28.04' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='15' code='N' name='North'/>
      <windSpeed mps='10.6' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1592,7 +1592,7 @@
     </time>
     <time from='2020-02-20 00:00:00' to='2020-02-20 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='1.9' altunit='fahrenheit' altvalue='35.42' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='11' code='NNE' name='North-northeast'/>
      <windSpeed mps='15.6' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -1608,7 +1608,7 @@
     </time>
     <time from='2020-02-20 12:00:00' to='2020-02-20 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-1.1' altunit='fahrenheit' altvalue='30.02' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='18' code='N' name='North'/>
      <windSpeed mps='17.4' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -1616,7 +1616,7 @@
     </time>
     <time from='2020-02-20 18:00:00' to='2020-02-20 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-7.1' altunit='fahrenheit' altvalue='19.22' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='0' code='NNE' name='North-northeast'/>
      <windSpeed mps='9' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -1624,7 +1624,7 @@
     </time>
     <time from='2020-02-21 00:00:00' to='2020-02-21 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-3.3' altunit='fahrenheit' altvalue='26.06' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='29' code='N' name='North'/>
      <windSpeed mps='26.1' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -1632,7 +1632,7 @@
     </time>
     <time from='2020-02-21 06:00:00' to='2020-02-21 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.7' altunit='fahrenheit' altvalue='36.86' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='28' code='N' name='North'/>
      <windSpeed mps='7.4' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -1648,7 +1648,7 @@
     </time>
     <time from='2020-02-21 18:00:00' to='2020-02-21 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='29' code='NNE' name='North-northeast'/>
      <windSpeed mps='20.3' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -1656,7 +1656,7 @@
     </time>
     <time from='2020-02-22 00:00:00' to='2020-02-22 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.3' altunit='fahrenheit' altvalue='31.46' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='47' code='NE' name='Northeast' />
      <windSpeed mps='5.2' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -1664,7 +1664,7 @@
     </time>
     <time from='2020-02-22 06:00:00' to='2020-02-22 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='-0.3' altunit='fahrenheit' altvalue='31.46' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='55' code='NNE' name='North-northeast'/>
      <windSpeed mps='3.8' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -1672,7 +1672,7 @@
     </time>
     <time from='2020-02-22 12:00:00' to='2020-02-22 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='55' code='NNE' name='North-northeast'/>
      <windSpeed mps='16.7' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -1680,7 +1680,7 @@
     </time>
     <time from='2020-02-22 18:00:00' to='2020-02-22 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-7.3' altunit='fahrenheit' altvalue='18.86' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='54' code='NNE' name='North-northeast'/>
      <windSpeed mps='18.8' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -1688,7 +1688,7 @@
     </time>
     <time from='2020-02-23 00:00:00' to='2020-02-23 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='2' altunit='fahrenheit' altvalue='35.6' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='76' code='E' name='East'/>     <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='908' />
@@ -1814,7 +1814,7 @@
     </time>
     <time from='2020-02-27 00:00:00' to='2020-02-27 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='5.9' altunit='fahrenheit' altvalue='42.62' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='198' code='SSE' name='South-southeast'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -1918,7 +1918,7 @@
     </time>
     <time from='2020-03-01 06:00:00' to='2020-03-01 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='7.6' altunit='fahrenheit' altvalue='45.68' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='233' code='SW' name='Southwest'/>
      <windSpeed mps='1.1' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -1958,7 +1958,7 @@
     </time>
     <time from='2020-03-02 12:00:00' to='2020-03-02 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='3.8' altunit='fahrenheit' altvalue='38.84' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='252' code='SW' name='Southwest'/>
      <windSpeed mps='2.3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2006,7 +2006,7 @@
     </time>
     <time from='2020-03-04 00:00:00' to='2020-03-04 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='3.1' altunit='fahrenheit' altvalue='37.58' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='259' code='SW' name='Southwest'/>
      <windSpeed mps='1.5' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -2014,7 +2014,7 @@
     </time>
     <time from='2020-03-04 06:00:00' to='2020-03-04 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='6.1' altunit='fahrenheit' altvalue='42.98' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='262' code='WSW' name='West-southwest'/>
      <windSpeed mps='1.8' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2078,7 +2078,7 @@
     </time>
     <time from='2020-03-06 06:00:00' to='2020-03-06 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='7.4' altunit='fahrenheit' altvalue='45.32' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='245' code='SW' name='Southwest'/>
      <windSpeed mps='1.7' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2102,7 +2102,7 @@
     </time>
     <time from='2020-03-07 00:00:00' to='2020-03-07 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='3.2' altunit='fahrenheit' altvalue='37.76' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='225' code='SW' name='Southwest'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -2142,7 +2142,7 @@
     </time>
     <time from='2020-03-08 06:00:00' to='2020-03-08 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='5' altunit='fahrenheit' altvalue='41' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='205' code='S' name='South'/>
      <windSpeed mps='0.6' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -2150,7 +2150,7 @@
     </time>
     <time from='2020-03-08 12:00:00' to='2020-03-08 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='2' altunit='fahrenheit' altvalue='35.6' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='203' code='SW' name='Southwest'/>
      <windSpeed mps='1.4' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -2238,7 +2238,7 @@
     </time>
     <time from='2020-03-11 06:00:00' to='2020-03-11 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='7.1' altunit='fahrenheit' altvalue='44.78' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='120' code='SE' name='Southeast'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -2356,7 +2356,7 @@
     </time>
     <time from='2020-03-15 00:00:00' to='2020-03-15 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='1.6' altunit='fahrenheit' altvalue='34.88' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='27' code='N' name='North'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -2388,7 +2388,7 @@
     </time>
     <time from='2020-03-16 00:00:00' to='2020-03-16 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-1.3' altunit='fahrenheit' altvalue='29.66' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='20' code='NNE' name='North-northeast'/>
      <windSpeed mps='1.7' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2396,7 +2396,7 @@
     </time>
     <time from='2020-03-16 06:00:00' to='2020-03-16 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.7' altunit='fahrenheit' altvalue='35.06' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='19' code='N' name='North'/>
      <windSpeed mps='28.1' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -2404,7 +2404,7 @@
     </time>
     <time from='2020-03-16 12:00:00' to='2020-03-16 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.3' altunit='fahrenheit' altvalue='26.06' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='18' code='N' name='North'/>
      <windSpeed mps='17.2' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -2412,7 +2412,7 @@
     </time>
     <time from='2020-03-16 18:00:00' to='2020-03-16 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='19' code='N' name='North'/>
      <windSpeed mps='2.4' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2420,7 +2420,7 @@
     </time>
     <time from='2020-03-17 00:00:00' to='2020-03-17 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-1.7' altunit='fahrenheit' altvalue='28.94' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='0' code='N' name='North'/>
      <windSpeed mps='25.5' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -2428,7 +2428,7 @@
     </time>
     <time from='2020-03-17 06:00:00' to='2020-03-17 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.3' altunit='fahrenheit' altvalue='34.34' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-18' code='N' name='North'/>
      <windSpeed mps='26.4' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -2436,7 +2436,7 @@
     </time>
     <time from='2020-03-17 12:00:00' to='2020-03-17 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-1.7' altunit='fahrenheit' altvalue='28.94' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-3' code='N' name='North'/>
      <windSpeed mps='20.6' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -2444,7 +2444,7 @@
     </time>
     <time from='2020-03-17 18:00:00' to='2020-03-17 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.7' altunit='fahrenheit' altvalue='23.54' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-4' code='N' name='North'/>
      <windSpeed mps='10.1' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -2452,7 +2452,7 @@
     </time>
     <time from='2020-03-18 00:00:00' to='2020-03-18 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.9' altunit='fahrenheit' altvalue='30.38' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='0' code='N' name='North'/>
      <windSpeed mps='2.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2460,7 +2460,7 @@
     </time>
     <time from='2020-03-18 06:00:00' to='2020-03-18 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.1' altunit='fahrenheit' altvalue='33.98' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-21' code='N' name='North'/>
      <windSpeed mps='11.6' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -2468,7 +2468,7 @@
     </time>
     <time from='2020-03-18 12:00:00' to='2020-03-18 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-1.9' altunit='fahrenheit' altvalue='28.58' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-7' code='N' name='North'/>
      <windSpeed mps='6.1' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -2476,7 +2476,7 @@
     </time>
     <time from='2020-03-18 18:00:00' to='2020-03-18 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.9' altunit='fahrenheit' altvalue='23.18' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.6' />
       <windDirection deg='-22' code='N' name='North'/>
      <windSpeed mps='19.5' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -2484,7 +2484,7 @@
     </time>
     <time from='2020-03-19 00:00:00' to='2020-03-19 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-1.5' altunit='fahrenheit' altvalue='29.3' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='-3' code='N' name='North'/>
      <windSpeed mps='2.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2492,7 +2492,7 @@
     </time>
     <time from='2020-03-19 06:00:00' to='2020-03-19 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='3.5' altunit='fahrenheit' altvalue='38.3' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='-16' code='N' name='North'/>
      <windSpeed mps='7.2' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -2500,7 +2500,7 @@
     </time>
     <time from='2020-03-19 12:00:00' to='2020-03-19 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-2.5' altunit='fahrenheit' altvalue='27.5' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='-18' code='N' name='North'/>
      <windSpeed mps='3.3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2508,7 +2508,7 @@
     </time>
     <time from='2020-03-19 18:00:00' to='2020-03-19 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.5' altunit='fahrenheit' altvalue='22.1' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-23' code='N' name='North'/>
      <windSpeed mps='23.4' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -2652,7 +2652,7 @@
     </time>
     <time from='2020-03-24 06:00:00' to='2020-03-24 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='6.5' altunit='fahrenheit' altvalue='43.7' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='47' code='NNE' name='North-northeast'/>
      <windSpeed mps='1.4' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -2676,7 +2676,7 @@
     </time>
     <time from='2020-03-25 00:00:00' to='2020-03-25 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='3.9' altunit='fahrenheit' altvalue='39.02' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='81' code='E' name='East'/>     <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='915' />
@@ -2743,7 +2743,7 @@
     </time>
     <time from='2020-03-27 06:00:00' to='2020-03-27 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='7.4' altunit='fahrenheit' altvalue='45.32' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='123' code='SE' name='Southeast'/>
      <windSpeed mps='3.3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -2781,7 +2781,7 @@
     </time>
     <time from='2020-03-28 12:00:00' to='2020-03-28 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='4.2' altunit='fahrenheit' altvalue='39.56' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='163' code='SE' name='Southeast'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3149,7 +3149,7 @@
     </time>
     <time from='2020-04-09 00:00:00' to='2020-04-09 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='10.1' altunit='fahrenheit' altvalue='50.18' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='200' code='SSW' name='South-southwest'/>
      <windSpeed mps='1.3' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -3157,7 +3157,7 @@
     </time>
     <time from='2020-04-09 06:00:00' to='2020-04-09 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='14.1' altunit='fahrenheit' altvalue='57.38' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='190' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3181,7 +3181,7 @@
     </time>
     <time from='2020-04-10 00:00:00' to='2020-04-10 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='6.9' altunit='fahrenheit' altvalue='44.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.1' />
       <windDirection deg='170' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3189,7 +3189,7 @@
     </time>
     <time from='2020-04-10 06:00:00' to='2020-04-10 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='13.9' altunit='fahrenheit' altvalue='57.02' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='157' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3237,7 +3237,7 @@
     </time>
     <time from='2020-04-11 18:00:00' to='2020-04-11 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='5.6' altunit='fahrenheit' altvalue='42.08' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='133' code='E' name='East'/>     <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='998' />
@@ -3275,7 +3275,7 @@
     </time>
     <time from='2020-04-13 00:00:00' to='2020-04-13 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='6.9' altunit='fahrenheit' altvalue='44.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='88' code='NE' name='Northeast' />
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3378,7 +3378,7 @@
     </time>
     <time from='2020-04-16 06:00:00' to='2020-04-16 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='11.8' altunit='fahrenheit' altvalue='53.24' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='9' code='NNE' name='North-northeast'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3466,7 +3466,7 @@
     </time>
     <time from='2020-04-19 00:00:00' to='2020-04-19 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='4.4' altunit='fahrenheit' altvalue='39.92' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='-5' code='N' name='North'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3514,7 +3514,7 @@
     </time>
     <time from='2020-04-20 12:00:00' to='2020-04-20 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='2.5' altunit='fahrenheit' altvalue='36.5' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='-23' code='N' name='North'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3634,7 +3634,7 @@
     </time>
     <time from='2020-04-24 06:00:00' to='2020-04-24 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='13.9' altunit='fahrenheit' altvalue='57.02' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.1' />
       <windDirection deg='47' code='NE' name='Northeast' />
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -3697,7 +3697,7 @@
     </time>
     <time from='2020-04-26 06:00:00' to='2020-04-26 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='15.9' altunit='fahrenheit' altvalue='60.62' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='92' code='ESE' name='East-southeast'/>
      <windSpeed mps='1.9' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -3705,7 +3705,7 @@
     </time>
     <time from='2020-04-26 12:00:00' to='2020-04-26 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='11.9' altunit='fahrenheit' altvalue='53.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='102' code='E' name='East'/>     <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='971' />
@@ -3757,7 +3757,7 @@
     </time>
     <time from='2020-04-28 06:00:00' to='2020-04-28 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='19.1' altunit='fahrenheit' altvalue='66.38' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='141' code='SE' name='Southeast'/>
      <windSpeed mps='2.9' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -3805,7 +3805,7 @@
     </time>
     <time from='2020-04-29 18:00:00' to='2020-04-29 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='10.2' altunit='fahrenheit' altvalue='50.36' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='203' code='S' name='South'/>
      <windSpeed mps='1.1' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -4274,7 +4274,7 @@
     </time>
     <time from='2020-05-14 12:00:00' to='2020-05-14 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='10.1' altunit='fahrenheit' altvalue='50.18' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='88' code='NE' name='Northeast' />
      <windSpeed mps='1.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -4306,7 +4306,7 @@
     </time>
     <time from='2020-05-15 12:00:00' to='2020-05-15 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='9.8' altunit='fahrenheit' altvalue='49.64' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='55' code='NNE' name='North-northeast'/>
      <windSpeed mps='3.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -4346,7 +4346,7 @@
     </time>
     <time from='2020-05-16 18:00:00' to='2020-05-16 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='9.4' altunit='fahrenheit' altvalue='48.92' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.1' />
       <windDirection deg='27' code='N' name='North'/>
      <windSpeed mps='1.4' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -4442,7 +4442,7 @@
     </time>
     <time from='2020-05-19 18:00:00' to='2020-05-19 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='9.4' altunit='fahrenheit' altvalue='48.92' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='-3' code='N' name='North'/>
      <windSpeed mps='3.3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -4498,7 +4498,7 @@
     </time>
     <time from='2020-05-21 12:00:00' to='2020-05-21 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='13.9' altunit='fahrenheit' altvalue='57.02' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='-19' code='N' name='North'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -4712,7 +4712,7 @@
     </time>
     <time from='2020-05-28 06:00:00' to='2020-05-28 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='22.5' altunit='fahrenheit' altvalue='72.5' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='131' code='SE' name='Southeast'/>
      <windSpeed mps='2.9' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -4776,7 +4776,7 @@
     </time>
     <time from='2020-05-30 06:00:00' to='2020-05-30 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='20.9' altunit='fahrenheit' altvalue='69.62' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='173' code='S' name='South'/>
      <windSpeed mps='2.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -4816,7 +4816,7 @@
     </time>
     <time from='2020-05-31 12:00:00' to='2020-05-31 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='14.4' altunit='fahrenheit' altvalue='57.92' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.1' />
       <windDirection deg='200' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -4872,7 +4872,7 @@
     </time>
     <time from='2020-06-02 06:00:00' to='2020-06-02 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='23.6' altunit='fahrenheit' altvalue='74.48' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='239' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -4928,7 +4928,7 @@
     </time>
     <time from='2020-06-04 00:00:00' to='2020-06-04 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='19.9' altunit='fahrenheit' altvalue='67.82' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='263' code='WSW' name='West-southwest'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -4960,7 +4960,7 @@
     </time>
     <time from='2020-06-05 00:00:00' to='2020-06-05 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='15' altunit='fahrenheit' altvalue='59' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='253' code='WSW' name='West-southwest'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -4968,7 +4968,7 @@
     </time>
     <time from='2020-06-05 06:00:00' to='2020-06-05 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='25' altunit='fahrenheit' altvalue='77' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='250' code='W' name='West'/>
      <windSpeed mps='0.5' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -4984,7 +4984,7 @@
     </time>
     <time from='2020-06-05 18:00:00' to='2020-06-05 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='13' altunit='fahrenheit' altvalue='55.4' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='261' code='WSW' name='West-southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5016,7 +5016,7 @@
     </time>
     <time from='2020-06-06 18:00:00' to='2020-06-06 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='12.1' altunit='fahrenheit' altvalue='53.78' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='260' code='W' name='West'/>
      <windSpeed mps='0.8' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -5056,7 +5056,7 @@
     </time>
     <time from='2020-06-08 00:00:00' to='2020-06-08 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='18.6' altunit='fahrenheit' altvalue='65.48' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='230' code='WSW' name='West-southwest'/>
      <windSpeed mps='1.3' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -5072,7 +5072,7 @@
     </time>
     <time from='2020-06-08 12:00:00' to='2020-06-08 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='18.6' altunit='fahrenheit' altvalue='65.48' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='244' code='SSW' name='South-southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5144,7 +5144,7 @@
     </time>
     <time from='2020-06-10 18:00:00' to='2020-06-10 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='11.7' altunit='fahrenheit' altvalue='53.06' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='198' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5168,7 +5168,7 @@
     </time>
     <time from='2020-06-11 12:00:00' to='2020-06-11 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='19.9' altunit='fahrenheit' altvalue='67.82' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='158' code='SE' name='Southeast'/>
      <windSpeed mps='2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -5200,7 +5200,7 @@
     </time>
     <time from='2020-06-12 12:00:00' to='2020-06-12 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='14.8' altunit='fahrenheit' altvalue='58.64' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='140' code='SE' name='Southeast'/>
      <windSpeed mps='1.2' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -5231,7 +5231,7 @@
     </time>
     <time from='2020-06-13 12:00:00' to='2020-06-13 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='15.6' altunit='fahrenheit' altvalue='60.08' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='112' code='SE' name='Southeast'/>
      <windSpeed mps='1.6' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -5495,7 +5495,7 @@
     </time>
     <time from='2020-06-21 18:00:00' to='2020-06-21 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='8.2' altunit='fahrenheit' altvalue='46.76' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='-12' code='N' name='North'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5559,7 +5559,7 @@
     </time>
     <time from='2020-06-23 18:00:00' to='2020-06-23 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='8.7' altunit='fahrenheit' altvalue='47.66' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='21' code='NNE' name='North-northeast'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5591,7 +5591,7 @@
     </time>
     <time from='2020-06-24 18:00:00' to='2020-06-24 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='12.2' altunit='fahrenheit' altvalue='53.96' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='29' code='NE' name='Northeast' />
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5663,7 +5663,7 @@
     </time>
     <time from='2020-06-27 00:00:00' to='2020-06-27 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='13.2' altunit='fahrenheit' altvalue='55.76' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='92' code='ENE' name='East-northeast'/>
      <windSpeed mps='2.9' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -5702,7 +5702,7 @@
     </time>
     <time from='2020-06-28 06:00:00' to='2020-06-28 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='26.1' altunit='fahrenheit' altvalue='78.98' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='123' code='ESE' name='East-southeast'/>
      <windSpeed mps='0.5' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -5846,7 +5846,7 @@
     </time>
     <time from='2020-07-02 18:00:00' to='2020-07-02 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='18.8' altunit='fahrenheit' altvalue='65.84' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='211' code='S' name='South'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5990,7 +5990,7 @@
     </time>
     <time from='2020-07-07 06:00:00' to='2020-07-07 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='30.8' altunit='fahrenheit' altvalue='87.44' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='255' code='WSW' name='West-southwest'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -5998,7 +5998,7 @@
     </time>
     <time from='2020-07-07 12:00:00' to='2020-07-07 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='25.8' altunit='fahrenheit' altvalue='78.44' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='253' code='SW' name='Southwest'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6046,7 +6046,7 @@
     </time>
     <time from='2020-07-09 00:00:00' to='2020-07-09 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='21.8' altunit='fahrenheit' altvalue='71.24' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='239' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6062,7 +6062,7 @@
     </time>
     <time from='2020-07-09 12:00:00' to='2020-07-09 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='19.8' altunit='fahrenheit' altvalue='67.64' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='245' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6086,7 +6086,7 @@
     </time>
     <time from='2020-07-10 06:00:00' to='2020-07-10 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='30.8' altunit='fahrenheit' altvalue='87.44' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='207' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6142,7 +6142,7 @@
     </time>
     <time from='2020-07-12 00:00:00' to='2020-07-12 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='21.8' altunit='fahrenheit' altvalue='71.24' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='164' code='S' name='South'/>
      <windSpeed mps='0.7' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -6158,7 +6158,7 @@
     </time>
     <time from='2020-07-12 12:00:00' to='2020-07-12 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='21.8' altunit='fahrenheit' altvalue='71.24' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='180' code='S' name='South'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6284,7 +6284,7 @@
     </time>
     <time from='2020-07-16 12:00:00' to='2020-07-16 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='21.7' altunit='fahrenheit' altvalue='71.06' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='63' code='NE' name='Northeast' />
      <windSpeed mps='1.8' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -6332,7 +6332,7 @@
     </time>
     <time from='2020-07-18 00:00:00' to='2020-07-18 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='17.2' altunit='fahrenheit' altvalue='62.96' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='-1' code='NNE' name='North-northeast'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6380,7 +6380,7 @@
     </time>
     <time from='2020-07-19 12:00:00' to='2020-07-19 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='13.3' altunit='fahrenheit' altvalue='55.94' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='23' code='NNE' name='North-northeast'/>
      <windSpeed mps='2.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -6404,7 +6404,7 @@
     </time>
     <time from='2020-07-20 06:00:00' to='2020-07-20 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='24.9' altunit='fahrenheit' altvalue='76.82' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='-3' code='N' name='North'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6484,7 +6484,7 @@
     </time>
     <time from='2020-07-22 18:00:00' to='2020-07-22 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='10.3' altunit='fahrenheit' altvalue='50.54' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='-19' code='N' name='North'/>
      <windSpeed mps='1' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -6492,7 +6492,7 @@
     </time>
     <time from='2020-07-23 00:00:00' to='2020-07-23 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='14.2' altunit='fahrenheit' altvalue='57.56' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='-10' code='N' name='North'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6564,7 +6564,7 @@
     </time>
     <time from='2020-07-25 06:00:00' to='2020-07-25 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='24.7' altunit='fahrenheit' altvalue='76.46' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='4' code='N' name='North'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6572,7 +6572,7 @@
     </time>
     <time from='2020-07-25 12:00:00' to='2020-07-25 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='15.7' altunit='fahrenheit' altvalue='60.26' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='22' code='N' name='North'/>
      <windSpeed mps='2.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -6612,7 +6612,7 @@
     </time>
     <time from='2020-07-26 18:00:00' to='2020-07-26 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='13.1' altunit='fahrenheit' altvalue='55.58' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='39' code='NE' name='Northeast' />
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6728,7 +6728,7 @@
     </time>
     <time from='2020-07-30 12:00:00' to='2020-07-30 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='22.4' altunit='fahrenheit' altvalue='72.32' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='144' code='SSE' name='South-southeast'/>
      <windSpeed mps='1.2' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -6760,7 +6760,7 @@
     </time>
     <time from='2020-07-31 12:00:00' to='2020-07-31 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='21.9' altunit='fahrenheit' altvalue='71.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='179' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6800,7 +6800,7 @@
     </time>
     <time from='2020-08-01 18:00:00' to='2020-08-01 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='17.3' altunit='fahrenheit' altvalue='63.14' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='198' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -6824,7 +6824,7 @@
     </time>
     <time from='2020-08-02 12:00:00' to='2020-08-02 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='22' altunit='fahrenheit' altvalue='71.6' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='207' code='SSW' name='South-southwest'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7096,7 +7096,7 @@
     </time>
     <time from='2020-08-11 00:00:00' to='2020-08-11 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='16.6' altunit='fahrenheit' altvalue='61.88' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='190' code='S' name='South'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7168,7 +7168,7 @@
     </time>
     <time from='2020-08-13 06:00:00' to='2020-08-13 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='23.7' altunit='fahrenheit' altvalue='74.66' />
-      <symbol number='9' numberEx='11' name='Thunder' />
+      <symbol number='9' wsymb3number='11' name='Thunder' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='147' code='SE' name='Southeast'/>
      <windSpeed mps='1.2' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -7387,7 +7387,7 @@
     </time>
     <time from='2020-08-20 06:00:00' to='2020-08-20 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='17.2' altunit='fahrenheit' altvalue='62.96' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='-7' code='N' name='North'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7403,7 +7403,7 @@
     </time>
     <time from='2020-08-20 18:00:00' to='2020-08-20 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='10.2' altunit='fahrenheit' altvalue='50.36' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='-5' code='N' name='North'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7595,7 +7595,7 @@
     </time>
     <time from='2020-08-26 18:00:00' to='2020-08-26 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='10.7' altunit='fahrenheit' altvalue='51.26' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.2' />
       <windDirection deg='29' code='N' name='North'/>
      <windSpeed mps='2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -7753,7 +7753,7 @@
     </time>
     <time from='2020-08-31 18:00:00' to='2020-08-31 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='10.2' altunit='fahrenheit' altvalue='50.36' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='162' code='S' name='South'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7761,7 +7761,7 @@
     </time>
     <time from='2020-09-01 00:00:00' to='2020-09-01 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='12.1' altunit='fahrenheit' altvalue='53.78' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='187' code='S' name='South'/>
      <windSpeed mps='1.2' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -7881,7 +7881,7 @@
     </time>
     <time from='2020-09-04 18:00:00' to='2020-09-04 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='10.1' altunit='fahrenheit' altvalue='50.18' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='246' code='SSW' name='South-southwest'/>
      <windSpeed mps='1.6' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -7889,7 +7889,7 @@
     </time>
     <time from='2020-09-05 00:00:00' to='2020-09-05 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='13.7' altunit='fahrenheit' altvalue='56.66' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='267' code='SW' name='Southwest'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7921,7 +7921,7 @@
     </time>
     <time from='2020-09-06 00:00:00' to='2020-09-06 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='14.8' altunit='fahrenheit' altvalue='58.64' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='258' code='SW' name='Southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -7929,7 +7929,7 @@
     </time>
     <time from='2020-09-06 06:00:00' to='2020-09-06 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='19.8' altunit='fahrenheit' altvalue='67.64' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='263' code='SW' name='Southwest'/>
      <windSpeed mps='0.9' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -8033,7 +8033,7 @@
     </time>
     <time from='2020-09-09 12:00:00' to='2020-09-09 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='13' altunit='fahrenheit' altvalue='55.4' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='228' code='SW' name='Southwest'/>
      <windSpeed mps='0.8' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -8184,14 +8184,14 @@
     </time>
     <time from='2020-09-14 06:00:00' to='2020-09-14 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='13.4' altunit='fahrenheit' altvalue='56.12' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='126' code='E' name='East'/>     <windSpeed mps='2.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
       <pressure  unit='hPa' value='1002' />
     </time>
     <time from='2020-09-14 12:00:00' to='2020-09-14 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='8.4' altunit='fahrenheit' altvalue='47.12' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='133' code='ESE' name='East-southeast'/>
      <windSpeed mps='2.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -8214,7 +8214,7 @@
     </time>
     <time from='2020-09-15 06:00:00' to='2020-09-15 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='13.3' altunit='fahrenheit' altvalue='55.94' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='95' code='ESE' name='East-southeast'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8277,7 +8277,7 @@
     </time>
     <time from='2020-09-17 06:00:00' to='2020-09-17 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='11.8' altunit='fahrenheit' altvalue='53.24' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='66' code='NNE' name='North-northeast'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8341,7 +8341,7 @@
     </time>
     <time from='2020-09-19 06:00:00' to='2020-09-19 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='12.5' altunit='fahrenheit' altvalue='54.5' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='-0' code='N' name='North'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8429,7 +8429,7 @@
     </time>
     <time from='2020-09-22 00:00:00' to='2020-09-22 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='7.2' altunit='fahrenheit' altvalue='44.96' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='-23' code='N' name='North'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8461,7 +8461,7 @@
     </time>
     <time from='2020-09-23 00:00:00' to='2020-09-23 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='6.8' altunit='fahrenheit' altvalue='44.24' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='-1' code='N' name='North'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8557,7 +8557,7 @@
     </time>
     <time from='2020-09-26 00:00:00' to='2020-09-26 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='5.4' altunit='fahrenheit' altvalue='41.72' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='41' code='NE' name='Northeast' />
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8573,7 +8573,7 @@
     </time>
     <time from='2020-09-26 12:00:00' to='2020-09-26 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='5.4' altunit='fahrenheit' altvalue='41.72' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='40' code='NNE' name='North-northeast'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8667,7 +8667,7 @@
     </time>
     <time from='2020-09-29 12:00:00' to='2020-09-29 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='7.8' altunit='fahrenheit' altvalue='46.04' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='107' code='ENE' name='East-northeast'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8675,7 +8675,7 @@
     </time>
     <time from='2020-09-29 18:00:00' to='2020-09-29 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='7.8' altunit='fahrenheit' altvalue='46.04' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='97' code='ENE' name='East-northeast'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8683,7 +8683,7 @@
     </time>
     <time from='2020-09-30 00:00:00' to='2020-09-30 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='8.5' altunit='fahrenheit' altvalue='47.3' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='135' code='E' name='East'/>     <windSpeed mps='0.9' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
       <pressure  unit='hPa' value='1030' />
@@ -8704,7 +8704,7 @@
     </time>
     <time from='2020-09-30 18:00:00' to='2020-09-30 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='8.5' altunit='fahrenheit' altvalue='47.3' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='114' code='ESE' name='East-southeast'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8736,7 +8736,7 @@
     </time>
     <time from='2020-10-01 18:00:00' to='2020-10-01 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='8.5' altunit='fahrenheit' altvalue='47.3' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='178' code='SE' name='Southeast'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8800,7 +8800,7 @@
     </time>
     <time from='2020-10-03 18:00:00' to='2020-10-03 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='8' altunit='fahrenheit' altvalue='46.4' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='205' code='SW' name='Southwest'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8840,7 +8840,7 @@
     </time>
     <time from='2020-10-05 00:00:00' to='2020-10-05 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='11' altunit='fahrenheit' altvalue='51.8' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='232' code='SW' name='Southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8904,7 +8904,7 @@
     </time>
     <time from='2020-10-07 00:00:00' to='2020-10-07 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='9.4' altunit='fahrenheit' altvalue='48.92' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='260' code='SW' name='Southwest'/>
      <windSpeed mps='2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -8936,7 +8936,7 @@
     </time>
     <time from='2020-10-08 00:00:00' to='2020-10-08 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='9.5' altunit='fahrenheit' altvalue='49.1' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='254' code='WSW' name='West-southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -8944,7 +8944,7 @@
     </time>
     <time from='2020-10-08 06:00:00' to='2020-10-08 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='13.5' altunit='fahrenheit' altvalue='56.3' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='254' code='W' name='West'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9048,7 +9048,7 @@
     </time>
     <time from='2020-10-11 12:00:00' to='2020-10-11 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='9.6' altunit='fahrenheit' altvalue='49.28' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='226' code='SSW' name='South-southwest'/>
      <windSpeed mps='1.6' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -9096,7 +9096,7 @@
     </time>
     <time from='2020-10-13 00:00:00' to='2020-10-13 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='9' altunit='fahrenheit' altvalue='48.2' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='200' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9136,7 +9136,7 @@
     </time>
     <time from='2020-10-14 06:00:00' to='2020-10-14 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='13.3' altunit='fahrenheit' altvalue='55.94' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='176' code='SSE' name='South-southeast'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9144,7 +9144,7 @@
     </time>
     <time from='2020-10-14 12:00:00' to='2020-10-14 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='7.3' altunit='fahrenheit' altvalue='45.14' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='178' code='S' name='South'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9198,14 +9198,14 @@
     </time>
     <time from='2020-10-16 06:00:00' to='2020-10-16 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='10.8' altunit='fahrenheit' altvalue='51.44' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='98' code='E' name='East'/>     <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='934' />
     </time>
     <time from='2020-10-16 12:00:00' to='2020-10-16 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='4.8' altunit='fahrenheit' altvalue='40.64' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='92' code='ESE' name='East-southeast'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9228,7 +9228,7 @@
     </time>
     <time from='2020-10-17 06:00:00' to='2020-10-17 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='10.9' altunit='fahrenheit' altvalue='51.62' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='84' code='E' name='East'/>     <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
       <pressure  unit='hPa' value='902' />
@@ -9338,7 +9338,7 @@
     </time>
     <time from='2020-10-20 18:00:00' to='2020-10-20 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='3.2' altunit='fahrenheit' altvalue='37.76' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='6' code='N' name='North'/>
      <windSpeed mps='2.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -9370,7 +9370,7 @@
     </time>
     <time from='2020-10-21 18:00:00' to='2020-10-21 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='1.1' altunit='fahrenheit' altvalue='33.98' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='11' code='N' name='North'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9466,7 +9466,7 @@
     </time>
     <time from='2020-10-24 18:00:00' to='2020-10-24 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='2.5' altunit='fahrenheit' altvalue='36.5' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='-20' code='N' name='North'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9490,7 +9490,7 @@
     </time>
     <time from='2020-10-25 12:00:00' to='2020-10-25 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='2.5' altunit='fahrenheit' altvalue='36.5' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.3' />
       <windDirection deg='-4' code='N' name='North'/>
      <windSpeed mps='1.9' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -9554,7 +9554,7 @@
     </time>
     <time from='2020-10-27 12:00:00' to='2020-10-27 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='2.3' altunit='fahrenheit' altvalue='36.14' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='28' code='NNE' name='North-northeast'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9570,7 +9570,7 @@
     </time>
     <time from='2020-10-28 00:00:00' to='2020-10-28 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='5.2' altunit='fahrenheit' altvalue='41.36' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='58' code='NNE' name='North-northeast'/>
      <windSpeed mps='2.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -9610,7 +9610,7 @@
     </time>
     <time from='2020-10-29 06:00:00' to='2020-10-29 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='9.1' altunit='fahrenheit' altvalue='48.38' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='85' code='ENE' name='East-northeast'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9712,7 +9712,7 @@
     </time>
     <time from='2020-11-01 12:00:00' to='2020-11-01 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='1.9' altunit='fahrenheit' altvalue='35.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='155' code='SSE' name='South-southeast'/>
      <windSpeed mps='3.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -9760,7 +9760,7 @@
     </time>
     <time from='2020-11-03 00:00:00' to='2020-11-03 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='6.9' altunit='fahrenheit' altvalue='44.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='214' code='S' name='South'/>
      <windSpeed mps='0.3' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9776,7 +9776,7 @@
     </time>
     <time from='2020-11-03 12:00:00' to='2020-11-03 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='3.9' altunit='fahrenheit' altvalue='39.02' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='221' code='S' name='South'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9800,7 +9800,7 @@
     </time>
     <time from='2020-11-04 06:00:00' to='2020-11-04 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='8.2' altunit='fahrenheit' altvalue='46.76' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='212' code='SSW' name='South-southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9840,7 +9840,7 @@
     </time>
     <time from='2020-11-05 12:00:00' to='2020-11-05 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='5.3' altunit='fahrenheit' altvalue='41.54' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='229' code='SSW' name='South-southwest'/>
      <windSpeed mps='3.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -9864,7 +9864,7 @@
     </time>
     <time from='2020-11-06 06:00:00' to='2020-11-06 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='7.2' altunit='fahrenheit' altvalue='44.96' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.7' />
       <windDirection deg='264' code='W' name='West'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9888,7 +9888,7 @@
     </time>
     <time from='2020-11-07 00:00:00' to='2020-11-07 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='6.9' altunit='fahrenheit' altvalue='44.42' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='248' code='W' name='West'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9928,7 +9928,7 @@
     </time>
     <time from='2020-11-08 06:00:00' to='2020-11-08 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='8.6' altunit='fahrenheit' altvalue='47.48' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='266' code='SW' name='Southwest'/>
      <windSpeed mps='0.5' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -9960,7 +9960,7 @@
     </time>
     <time from='2020-11-09 06:00:00' to='2020-11-09 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='9.2' altunit='fahrenheit' altvalue='48.56' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='261' code='WSW' name='West-southwest'/>
      <windSpeed mps='0.9' name='Light Air' def='Direction of wind shown by smoke drift, not by wind vanes. Little if any movement with flags. Wind barely moves tree leaves.' />
@@ -10000,7 +10000,7 @@
     </time>
     <time from='2020-11-10 12:00:00' to='2020-11-10 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='3.7' altunit='fahrenheit' altvalue='38.66' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='243' code='SW' name='Southwest'/>
      <windSpeed mps='3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -10032,7 +10032,7 @@
     </time>
     <time from='2020-11-11 12:00:00' to='2020-11-11 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='4.2' altunit='fahrenheit' altvalue='39.56' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='230' code='WSW' name='West-southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -10080,7 +10080,7 @@
     </time>
     <time from='2020-11-13 00:00:00' to='2020-11-13 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='3.8' altunit='fahrenheit' altvalue='38.84' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.8' />
       <windDirection deg='202' code='S' name='South'/>
      <windSpeed mps='1.7' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -10144,7 +10144,7 @@
     </time>
     <time from='2020-11-15 00:00:00' to='2020-11-15 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='5.2' altunit='fahrenheit' altvalue='41.36' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.4' />
       <windDirection deg='141' code='SE' name='Southeast'/>
      <windSpeed mps='0.1' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -10374,7 +10374,7 @@
     </time>
     <time from='2020-11-22 06:00:00' to='2020-11-22 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='3.9' altunit='fahrenheit' altvalue='39.02' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-13' code='N' name='North'/>
      <windSpeed mps='2.3' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -10390,7 +10390,7 @@
     </time>
     <time from='2020-11-22 18:00:00' to='2020-11-22 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-2.1' altunit='fahrenheit' altvalue='28.22' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='-14' code='N' name='North'/>
      <windSpeed mps='14.2' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -10398,7 +10398,7 @@
     </time>
     <time from='2020-11-23 00:00:00' to='2020-11-23 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.4' altunit='fahrenheit' altvalue='31.28' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.6' />
       <windDirection deg='1' code='N' name='North'/>
      <windSpeed mps='24.3' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -10406,7 +10406,7 @@
     </time>
     <time from='2020-11-23 06:00:00' to='2020-11-23 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.6' altunit='fahrenheit' altvalue='36.68' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-16' code='N' name='North'/>
      <windSpeed mps='4.3' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -10430,7 +10430,7 @@
     </time>
     <time from='2020-11-24 00:00:00' to='2020-11-24 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.7' altunit='fahrenheit' altvalue='33.26' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-5' code='N' name='North'/>
      <windSpeed mps='20.9' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -10438,7 +10438,7 @@
     </time>
     <time from='2020-11-24 06:00:00' to='2020-11-24 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='1.7' altunit='fahrenheit' altvalue='35.06' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.5' />
       <windDirection deg='-10' code='N' name='North'/>
      <windSpeed mps='8.7' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -10446,7 +10446,7 @@
     </time>
     <time from='2020-11-24 12:00:00' to='2020-11-24 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-0' code='N' name='North'/>
      <windSpeed mps='15.1' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -10454,7 +10454,7 @@
     </time>
     <time from='2020-11-24 18:00:00' to='2020-11-24 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.3' altunit='fahrenheit' altvalue='22.46' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='-18' code='N' name='North'/>
      <windSpeed mps='1.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -10725,7 +10725,7 @@
     </time>
     <time from='2020-12-03 06:00:00' to='2020-12-03 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='3.3' altunit='fahrenheit' altvalue='37.94' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='160' code='S' name='South'/>
      <windSpeed mps='0.2' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -10757,7 +10757,7 @@
     </time>
     <time from='2020-12-04 06:00:00' to='2020-12-04 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='5.5' altunit='fahrenheit' altvalue='41.9' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.6' />
       <windDirection deg='181' code='S' name='South'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -10821,7 +10821,7 @@
     </time>
     <time from='2020-12-06 06:00:00' to='2020-12-06 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.5' altunit='fahrenheit' altvalue='36.5' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.5' />
       <windDirection deg='236' code='SW' name='Southwest'/>
      <windSpeed mps='0.4' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -11005,7 +11005,7 @@
     </time>
     <time from='2020-12-12 00:00:00' to='2020-12-12 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='2.2' altunit='fahrenheit' altvalue='35.96' />
-      <symbol number='8' numberEx='10' name='Heavy rain' />
+      <symbol number='8' wsymb3number='10' name='Heavy rain' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='237' code='SW' name='Southwest'/>
      <windSpeed mps='0' name='Calm' def='Smoke rises vertically with little if any drift.' />
@@ -11195,7 +11195,7 @@
     </time>
     <time from='2020-12-18 00:00:00' to='2020-12-18 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.1' altunit='fahrenheit' altvalue='31.82' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='74' code='ENE' name='East-northeast'/>
      <windSpeed mps='1.5' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -11203,14 +11203,14 @@
     </time>
     <time from='2020-12-18 06:00:00' to='2020-12-18 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='3.9' altunit='fahrenheit' altvalue='39.02' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='78' code='E' name='East'/>     <windSpeed mps='22.7' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
       <pressure  unit='hPa' value='907' />
     </time>
     <time from='2020-12-18 12:00:00' to='2020-12-18 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-5.1' altunit='fahrenheit' altvalue='22.82' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='84' code='ENE' name='East-northeast'/>
      <windSpeed mps='26.7' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11218,14 +11218,14 @@
     </time>
     <time from='2020-12-18 18:00:00' to='2020-12-18 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4.1' altunit='fahrenheit' altvalue='24.62' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='90' code='E' name='East'/>     <windSpeed mps='2.2' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
       <pressure  unit='hPa' value='947' />
     </time>
     <time from='2020-12-19 00:00:00' to='2020-12-19 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='1.8' altunit='fahrenheit' altvalue='35.24' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.5' />
       <windDirection deg='59' code='ENE' name='East-northeast'/>
      <windSpeed mps='7.8' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11241,7 +11241,7 @@
     </time>
     <time from='2020-12-19 12:00:00' to='2020-12-19 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-5.2' altunit='fahrenheit' altvalue='22.64' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='50' code='NE' name='Northeast' />
      <windSpeed mps='2.6' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -11249,7 +11249,7 @@
     </time>
     <time from='2020-12-19 18:00:00' to='2020-12-19 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.2' altunit='fahrenheit' altvalue='22.64' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='67' code='NNE' name='North-northeast'/>
      <windSpeed mps='16.6' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -11257,7 +11257,7 @@
     </time>
     <time from='2020-12-20 00:00:00' to='2020-12-20 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-1.4' altunit='fahrenheit' altvalue='29.48' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='29' code='NNE' name='North-northeast'/>
      <windSpeed mps='13' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -11273,7 +11273,7 @@
     </time>
     <time from='2020-12-20 12:00:00' to='2020-12-20 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-2.4' altunit='fahrenheit' altvalue='27.68' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.8' />
       <windDirection deg='25' code='N' name='North'/>
      <windSpeed mps='26.9' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11281,7 +11281,7 @@
     </time>
     <time from='2020-12-20 18:00:00' to='2020-12-20 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-6.4' altunit='fahrenheit' altvalue='20.48' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='26' code='N' name='North'/>
      <windSpeed mps='12.9' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -11289,7 +11289,7 @@
     </time>
     <time from='2020-12-21 00:00:00' to='2020-12-21 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.3' altunit='fahrenheit' altvalue='32.54' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='-1' code='N' name='North'/>
      <windSpeed mps='4.8' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -11305,7 +11305,7 @@
     </time>
     <time from='2020-12-21 12:00:00' to='2020-12-21 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.7' altunit='fahrenheit' altvalue='25.34' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='23' code='N' name='North'/>
      <windSpeed mps='7' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11321,7 +11321,7 @@
     </time>
     <time from='2020-12-22 00:00:00' to='2020-12-22 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-2.2' altunit='fahrenheit' altvalue='28.04' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.9' />
       <windDirection deg='9' code='N' name='North'/>
      <windSpeed mps='15.1' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -11337,7 +11337,7 @@
     </time>
     <time from='2020-12-22 12:00:00' to='2020-12-22 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-3.2' altunit='fahrenheit' altvalue='26.24' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='19' code='NNE' name='North-northeast'/>
      <windSpeed mps='14.8' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -11345,7 +11345,7 @@
     </time>
     <time from='2020-12-22 18:00:00' to='2020-12-22 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-3.2' altunit='fahrenheit' altvalue='26.24' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='9' code='NNE' name='North-northeast'/>
      <windSpeed mps='17.2' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -11353,7 +11353,7 @@
     </time>
     <time from='2020-12-23 00:00:00' to='2020-12-23 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-3.8' altunit='fahrenheit' altvalue='25.16' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='-1' code='N' name='North'/>
      <windSpeed mps='10.6' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -11361,7 +11361,7 @@
     </time>
     <time from='2020-12-23 06:00:00' to='2020-12-23 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.2' altunit='fahrenheit' altvalue='35.96' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-11' code='N' name='North'/>
      <windSpeed mps='2.1' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -11369,7 +11369,7 @@
     </time>
     <time from='2020-12-23 12:00:00' to='2020-12-23 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.8' altunit='fahrenheit' altvalue='23.36' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='-7' code='N' name='North'/>
      <windSpeed mps='6.3' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11377,7 +11377,7 @@
     </time>
     <time from='2020-12-23 18:00:00' to='2020-12-23 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-7.8' altunit='fahrenheit' altvalue='17.96' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='-5' code='N' name='North'/>
      <windSpeed mps='7.2' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11385,7 +11385,7 @@
     </time>
     <time from='2020-12-24 00:00:00' to='2020-12-24 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-3' altunit='fahrenheit' altvalue='26.6' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-7' code='N' name='North'/>
      <windSpeed mps='18.7' name='Gale' def='Wind breaks twigs and small branches. Wind generally impedes walking.' />
@@ -11393,7 +11393,7 @@
     </time>
     <time from='2020-12-24 06:00:00' to='2020-12-24 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='-2' altunit='fahrenheit' altvalue='28.4' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1' />
       <windDirection deg='-18' code='N' name='North'/>
      <windSpeed mps='11' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -11401,7 +11401,7 @@
     </time>
     <time from='2020-12-24 12:00:00' to='2020-12-24 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-5' altunit='fahrenheit' altvalue='23' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='-11' code='N' name='North'/>
      <windSpeed mps='25.2' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11409,7 +11409,7 @@
     </time>
     <time from='2020-12-24 18:00:00' to='2020-12-24 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-4' altunit='fahrenheit' altvalue='24.8' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.2' />
       <windDirection deg='-1' code='N' name='North'/>
      <windSpeed mps='6.2' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11417,7 +11417,7 @@
     </time>
     <time from='2020-12-25 00:00:00' to='2020-12-25 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-21' code='N' name='North'/>
      <windSpeed mps='28.2' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11425,7 +11425,7 @@
     </time>
     <time from='2020-12-25 06:00:00' to='2020-12-25 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='-2.3' altunit='fahrenheit' altvalue='27.86' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='-17' code='N' name='North'/>
      <windSpeed mps='3.4' name='Gentle Breeze' def='Leaves and small twigs in constant motion. Wind blows up dry leaves from the ground. Flags are extended out.' />
@@ -11433,7 +11433,7 @@
     </time>
     <time from='2020-12-25 12:00:00' to='2020-12-25 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.6' />
       <windDirection deg='-2' code='N' name='North'/>
      <windSpeed mps='11.3' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -11441,7 +11441,7 @@
     </time>
     <time from='2020-12-25 18:00:00' to='2020-12-25 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.3' altunit='fahrenheit' altvalue='22.46' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-10' code='N' name='North'/>
      <windSpeed mps='2.4' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -11449,7 +11449,7 @@
     </time>
     <time from='2020-12-26 00:00:00' to='2020-12-26 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.1' altunit='fahrenheit' altvalue='31.82' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='-3' code='N' name='North'/>
      <windSpeed mps='2.4' name='Light Breeze' def='Wind felt on face. Leaves rustle and small twigs move. Ordinary wind vanes move.' />
@@ -11457,7 +11457,7 @@
     </time>
     <time from='2020-12-26 06:00:00' to='2020-12-26 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='-0.1' altunit='fahrenheit' altvalue='31.82' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='-23' code='N' name='North'/>
      <windSpeed mps='12.4' name='Strong Breeze' def='Large branches in continuous motion. Whistling sounds heard in overhead or nearby power and telephone lines. Umbrellas used with difficulty.' />
@@ -11465,7 +11465,7 @@
     </time>
     <time from='2020-12-26 12:00:00' to='2020-12-26 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-5.1' altunit='fahrenheit' altvalue='22.82' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='-16' code='N' name='North'/>
      <windSpeed mps='27' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11473,7 +11473,7 @@
     </time>
     <time from='2020-12-26 18:00:00' to='2020-12-26 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-5.1' altunit='fahrenheit' altvalue='22.82' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.7' />
       <windDirection deg='-14' code='N' name='North'/>
      <windSpeed mps='24.3' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -11481,7 +11481,7 @@
     </time>
     <time from='2020-12-27 00:00:00' to='2020-12-27 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-3' altunit='fahrenheit' altvalue='26.6' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.8' />
       <windDirection deg='20' code='N' name='North'/>
      <windSpeed mps='16.7' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -11497,7 +11497,7 @@
     </time>
     <time from='2020-12-27 12:00:00' to='2020-12-27 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-6' altunit='fahrenheit' altvalue='21.2' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='1.6' />
       <windDirection deg='11' code='N' name='North'/>
      <windSpeed mps='6' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11505,7 +11505,7 @@
     </time>
     <time from='2020-12-27 18:00:00' to='2020-12-27 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-6' altunit='fahrenheit' altvalue='21.2' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='20' code='N' name='North'/>
      <windSpeed mps='24.3' name='Strong Gale' def='Structural damage occurs, such as chimney covers, roofing tiles blown off, and television antennas damaged. Ground is littered with many small twigs and broken branches.' />
@@ -11513,7 +11513,7 @@
     </time>
     <time from='2020-12-28 00:00:00' to='2020-12-28 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='0.7' altunit='fahrenheit' altvalue='33.26' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='0.9' />
       <windDirection deg='23' code='NE' name='Northeast' />
      <windSpeed mps='24.4' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11521,7 +11521,7 @@
     </time>
     <time from='2020-12-28 06:00:00' to='2020-12-28 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='2.7' altunit='fahrenheit' altvalue='36.86' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='42' code='N' name='North'/>
      <windSpeed mps='6' name='Moderate Breeze' def='Wind moves small branches. Wind raises dust and loose paper from the ground and drives them along.' />
@@ -11529,7 +11529,7 @@
     </time>
     <time from='2020-12-28 12:00:00' to='2020-12-28 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.3' altunit='fahrenheit' altvalue='24.26' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.6' />
       <windDirection deg='28' code='NNE' name='North-northeast'/>
      <windSpeed mps='9.7' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -11537,7 +11537,7 @@
     </time>
     <time from='2020-12-28 18:00:00' to='2020-12-28 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-7.3' altunit='fahrenheit' altvalue='18.86' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='33' code='NE' name='Northeast' />
      <windSpeed mps='8.3' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -11545,7 +11545,7 @@
     </time>
     <time from='2020-12-29 00:00:00' to='2020-12-29 06:00:00' period='0' name='Night'>
       <temperature  unit='celsius' value='-0.7' altunit='fahrenheit' altvalue='30.74' />
-      <symbol number='10' numberEx='23' name='Sleet' />
+      <symbol number='10' wsymb3number='23' name='Sleet' />
       <precipitation unit='mm' value='1.1' />
       <windDirection deg='39' code='N' name='North'/>
      <windSpeed mps='14.6' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />
@@ -11553,7 +11553,7 @@
     </time>
     <time from='2020-12-29 06:00:00' to='2020-12-29 12:00:00' period='1' name='Morning' >
       <temperature  unit='celsius' value='0.3' altunit='fahrenheit' altvalue='32.54' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.4' />
       <windDirection deg='38' code='N' name='North'/>
      <windSpeed mps='26.1' name='Whole Gale' def='Considerable structural damage occurs, especially on roofs. Small trees may be blown over and uprooted.' />
@@ -11561,7 +11561,7 @@
     </time>
     <time from='2020-12-29 12:00:00' to='2020-12-29 18:00:00' period='2' name='Day' >
       <temperature  unit='celsius' value='-4.7' altunit='fahrenheit' altvalue='23.54' />
-      <symbol number='12' numberEx='27' name='Snow' />
+      <symbol number='12' wsymb3number='27' name='Snow' />
       <precipitation unit='mm' value='0' />
       <windDirection deg='43' code='N' name='North'/>
      <windSpeed mps='10.6' name='Fresh Breeze' def='Large branches and small trees in leaf begin to sway. Crested wavelets form on inland lakes and large rivers.' />
@@ -11569,7 +11569,7 @@
     </time>
     <time from='2020-12-29 18:00:00' to='2020-12-29 00:00:00' period='3' name='Evening' >
       <temperature  unit='celsius' value='-3.7' altunit='fahrenheit' altvalue='25.34' />
-      <symbol number='11' numberEx='25' name='Light snow'  />
+      <symbol number='11' wsymb3number='25' name='Light snow'  />
       <precipitation unit='mm' value='1.3' />
       <windDirection deg='45' code='N' name='North'/>
      <windSpeed mps='16.5' name='Near Gale' def='Whole trees in motion. Inconvenience felt when walking against the wind.' />

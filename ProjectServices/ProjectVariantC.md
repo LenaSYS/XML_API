@@ -15,6 +15,7 @@ Kom tillbaka till denna sidan ofta då informationen uppdateras fortlöpande (ex
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?coursename=Introduktion
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?coursename=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?id=IT125G
+https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?dept=IT
 
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/staff?fname=Charlotta
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/staff?login=TOLO

@@ -20,7 +20,6 @@ https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/locations/?name=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/climatecode/?name=medi
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/climatecode/?name=medi
 
-https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/forecast/?start=2020-03-03&end=2020-03-06&location=Gothenburg
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/forecast/?id=Grums&end=2020-01-09&start=2020-01-07
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/forecast/?id=Grums&end=2020-01-09
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/forecast/?id=Grums&start=2020-01-09
