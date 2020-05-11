@@ -21,9 +21,16 @@ https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/staff?fname=Charlotta
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/staff?login=TOLO
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/staff?login=ALL
 
-https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/programs?name=neuro
+obs: vi ändrade från name till namesearch efftersom det är en sökning på namnet
+
+https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/programs?namesearch=neuro
+https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/programs?dept=IT
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/programs?id=KONE20
 
+obs: ny endpoint (tillåtet att använda men ej nödvändigt eftersom denna endpoint tillkommit)
+
+https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/entries/?dept=IT
+https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/entries/?id=IT427G
 
 # Krav på Applikationen
 

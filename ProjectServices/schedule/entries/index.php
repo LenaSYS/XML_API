@@ -1,20 +1,20 @@
 <?php
 header("Content-type: text/xml");
 ?>
-<FILES>
+<entries>
 <?php
 	
 	// Check if paper is set otherwise set to default
-	if(isset($_GET['filename'])){
-			$filename=$_GET['filename'];
+	if(isset($_GET['id'])){
+		  $id=$_GET['id'];
 	}else{
-			$filename="UNK";
-	}
-	if(isset($_GET['login'])){
-		  $login=$_GET['login'];
+			$id="UNK";
+	}	
+	if(isset($_GET['dept'])){
+		  $dept=$_GET['dept'];
 	}else{
-			$login="UNK";
-	}		  
+			$dept="UNK";
+	}	 
 	
 	$output="";
 	$outputsection="";
@@ -29,12 +29,12 @@ header("Content-type: text/xml");
 			global $outputsection;
 			global $attrs;
 			global $lname;
-			if($entityname=="FILE"){
+			if($entityname=="COURSE"){
 					$output='';
 					$attrs=$attributes;
 					$outputsection="";
 			}
-			if($entityname=="FILES"){
+			if($entityname=="ENTRIES"){
 			}else{
 					$output=$output."<";
 					$output=$output.$entityname;
@@ -58,23 +58,17 @@ header("Content-type: text/xml");
 			global $lname;
 			global $login;
 			global $filename;
-			if($entityname=="FILES"){
+			global $id;
+			global $dept;
+			if($entityname=="ENTRIES"){
 			
 			}else{
 						$output=$output."</";
 						$output=$output.$entityname;
 						$output=$output." >\n";
 			}
-			/*
-			if((($id==$attrs['ID'])||($id="ALL"))&&$entityname=='BOOK'){
-					echo $output;
-			}
-			if((strpos($attrs['TITLE'],$titlesearch)!=false)&&$entityname=='BOOK'){
-					echo $output;
-			}	*/
-			//echo $attrs['FULLNAME'];
-		  //echo strtoupper($attrs['FULLNAME'])." ".strtoupper($filename)."\n";
-			if(((strpos(strtoupper($attrs['FULLNAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='FILE')){
+
+			if((($attrs['ID']==$id)||($attrs['DEPARTMENT']==$dept))&&($entityname=='COURSE')){
 					echo $output;
 			}
 	}
@@ -90,19 +84,25 @@ header("Content-type: text/xml");
 		 	$output=$output.$chardata;	 
 	 }
   
-   $parser = xml_parser_create();
-   xml_set_element_handler($parser, "startElement", "endElement");
-   xml_set_character_data_handler($parser, "charData");
-  
-   $file = 'schedule_entries.xml';
-   $data = file_get_contents($file);
-  
-   if(!xml_parse($parser, $data, true)){
-      printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
-   }else{
-      // print "<br>Parsing Complete!</br>";
-   }
-  
-   xml_parser_free($parser);
+		if(isset($_GET['id'])||isset($_GET['dept'])){
+			 $parser = xml_parser_create();
+			 xml_set_element_handler($parser, "startElement", "endElement");
+			 xml_set_character_data_handler($parser, "charData");
+
+			 $file = 'schedule_entries.xml';
+			 $data = file_get_contents($file);
+
+			 if(!xml_parse($parser, $data, true)){
+					printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
+			 }else{
+					// print "<br>Parsing Complete!</br>";
+			 }
+
+			 xml_parser_free($parser);
+		}else{
+				echo "ERROR: Either coursename/id/dept must be set ";				
+		}	
+	
+
 ?>
-</FILES>
+</entries>
