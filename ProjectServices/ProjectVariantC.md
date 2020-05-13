@@ -12,6 +12,8 @@ Kom tillbaka till denna sidan ofta då informationen uppdateras fortlöpande (ex
 
 # Endpoints
 
+courses/program är nu sorterade på department
+
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?coursename=Introduktion
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?coursename=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/scheduleservice/courses?id=IT125G

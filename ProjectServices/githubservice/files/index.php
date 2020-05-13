@@ -15,6 +15,11 @@ header("Content-type: text/xml");
 	}else{
 			$login="UNK";
 	}		  
+	if(isset($_GET['repo'])){
+		  $repo=$_GET['repo'];
+	}else{
+			$repo="UNK";
+	}		
 	
 	$output="";
 	$outputsection="";
@@ -58,6 +63,7 @@ header("Content-type: text/xml");
 			global $lname;
 			global $login;
 			global $filename;
+			global $repo;
 			if($entityname=="FILES"){
 			
 			}else{
@@ -65,18 +71,12 @@ header("Content-type: text/xml");
 						$output=$output.$entityname;
 						$output=$output." >\n";
 			}
-			/*
-			if((($id==$attrs['ID'])||($id="ALL"))&&$entityname=='BOOK'){
-					echo $output;
-			}
-			if((strpos($attrs['TITLE'],$titlesearch)!=false)&&$entityname=='BOOK'){
-					echo $output;
-			}	*/
-			//echo $attrs['FULLNAME'];
-		  //echo strtoupper($attrs['FULLNAME'])." ".strtoupper($filename)."\n";
+
 			if(((strpos(strtoupper($attrs['FULLNAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='FILE')){
 					echo $output;
-			}
+			}else if(($attrs['REPO']==$repo)&&($entityname=='FILE')){
+					echo $output;
+			}		
 	}
   
    function charData($parser, $chardata) {
@@ -90,19 +90,22 @@ header("Content-type: text/xml");
 		 	$output=$output.$chardata;	 
 	 }
   
-   $parser = xml_parser_create();
-   xml_set_element_handler($parser, "startElement", "endElement");
-   xml_set_character_data_handler($parser, "charData");
-  
-   $file = 'github_blamefiles.xml';
-   $data = file_get_contents($file);
-  
-   if(!xml_parse($parser, $data, true)){
-      printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
-   }else{
-      // print "<br>Parsing Complete!</br>";
-   }
-  
-   xml_parser_free($parser);
+		if(isset($_GET['filename'])||isset($_GET['login'])||isset($_GET['repo'])){
+				 $parser = xml_parser_create();
+				 xml_set_element_handler($parser, "startElement", "endElement");
+				 xml_set_character_data_handler($parser, "charData");
+
+				 $file = 'github_blamefiles.xml';
+				 $data = file_get_contents($file);
+
+				 if(!xml_parse($parser, $data, true)){
+						printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
+				 }else{
+						// print "<br>Parsing Complete!</br>";
+				 }
+				 xml_parser_free($parser);
+		}else{
+				echo "ERROR: Either filename/login/repo must be set ";				
+		}		
 ?>
 </FILES>

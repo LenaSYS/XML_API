@@ -14,11 +14,12 @@ Kom tillbaka till denna sidan ofta då informationen uppdateras fortlöpande (ex
 
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/locations/?name=Arjeplog
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/locations/?name=ALL
-
-
+https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/locations/?climate=Dfc
+(added climate endpoint filter for locations)
 
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/climatecode/?name=medi
-https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/climatecode/?name=medi
+https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/climatecode/?id=Dfc
+(added climate endpoint filter for climate codes)
 
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/forecast/?id=Grums&end=2020-01-09&start=2020-01-07
 https://wwwlab.iit.his.se/gush/XMLAPI/weatherservice/forecast/?id=Grums&end=2020-01-09

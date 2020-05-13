@@ -70,6 +70,9 @@ header("Content-type: text/xml");
 			if(((strpos(strtoupper($attrs['NAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='CODE')){
 					echo $output;
 			}
+			if(($attrs['CODE']==$id)&&($entityname=='CODE')){
+					echo $output;
+			}
 
 	}
   

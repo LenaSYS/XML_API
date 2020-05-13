@@ -66,6 +66,24 @@ function setupSlides()
 		setTimeout(drawHead,delay);
 }
 		
+//----------------------------------------------------------------------------------
+// toSpherical - Returns xyz for spherical coordinate for 2d point coordinate
+//----------------------------------------------------------------------------------
+		
+const mapxmax=400;
+const mapymax=200;
+const radius=100;
+		
+toSpherical(x,y)
+{
+		// x and y coordinate in radians
+		var xk=(xk/mapxmax)*6.2831;
+		var yk=(yk/mapymax)*6.2831;
+	
+		// We determine Y coordinate and radius 
+		
+}
+
 function drawHead()
 {
 		c.globalAlpha=1.0;

@@ -15,26 +15,33 @@ header("Content-type: text/xml");
 	}else{
 			$time="UNK";
 	}		  
-	
-	//print_r($_GET);
-
+	if(isset($_GET['id'])){
+		  $id=$_GET['id'];
+	}else{
+			$id="UNK";
+	}		  
+	if(isset($_GET['repo'])){
+		  $repo=$_GET['repo'];
+	}else{
+			$repo="UNK";
+	}	
 	
 	$output="";
 	$lname="";
 	$attrs=null;
 	$log="UNK";
-	
-	echo $time;
-	
+		
 	function startElement($parser, $entityname, $attributes) {
 			global $output;
 			global $attrs;
 			global $lname;
+			global $reponame;
 			if($entityname=="COMMIT"){
 					$output='';
 					$attrs=$attributes;
 			}
 			if($entityname=="COMMITS"){
+					$reponame=$attrs['repo'];
 			}else{
 					$output=$output."<";
 					$output=$output.$entityname;
@@ -58,6 +65,8 @@ header("Content-type: text/xml");
 			global $login;
 			global $time;
 			global $log;
+			global $id;
+			global $reponame;
 
 		if($entityname=="COMMITS"){
 			
@@ -68,12 +77,14 @@ header("Content-type: text/xml");
 			}
 			
 			if((($log==$login)||($login=="ALL"))&&$entityname=='COMMIT'){
-					echo $output;
-			}
-
-			echo substr($attrs['TIMESTAMP'],0,10)==$time;
-		
-			if((substr($attrs['TIMESTAMP'],0,10)==$time)&&$entityname=='COMMIT'){
+					if(($repo=="UNK")||($repo==$reponame)){
+							echo $output;
+					}
+			}else if((substr($attrs['TIMESTAMP'],0,10)==$time)&&$entityname=='COMMIT'){
+					if(($repo=="UNK")||($repo==$reponame)){
+							echo $output;
+					}
+			}else if(($attrs['ID']==$id)&&($entityname=='COMMIT')){
 					echo $output;
 			}		
 	}
@@ -91,19 +102,24 @@ header("Content-type: text/xml");
 		 	$output=$output.$chardata;	 
 	 }
   
-   $parser = xml_parser_create();
-   xml_set_element_handler($parser, "startElement", "endElement");
-   xml_set_character_data_handler($parser, "charData");
-  
-   $file = 'github_commits.xml';
-   $data = file_get_contents($file);
-  
-   if(!xml_parse($parser, $data, true)){
-      printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
-   }else{
-      // print "<br>Parsing Complete!</br>";
-   }
-  
-   xml_parser_free($parser);
+		if(isset($_GET['login'])||isset($_GET['time'])||isset($_GET['id'])||isset($_GET['repo'])){
+			 $parser = xml_parser_create();
+			 xml_set_element_handler($parser, "startElement", "endElement");
+			 xml_set_character_data_handler($parser, "charData");
+
+			 $file = 'github_commits.xml';
+			 $data = file_get_contents($file);
+
+			 if(!xml_parse($parser, $data, true)){
+					printf("<P> Error %s at line %d</P>", xml_error_string(xml_get_error_code($parser)),xml_get_current_line_number($parser));
+			 }else{
+					// print "<br>Parsing Complete!</br>";
+			 }
+
+			 xml_parser_free($parser);
+		}else{
+				echo "ERROR: Either id/login/time must be set ";				
+		}			
+
 ?>
 </COMMITS>

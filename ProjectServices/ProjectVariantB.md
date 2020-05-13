@@ -13,11 +13,15 @@ Kom tillbaka till denna sidan ofta då informationen uppdateras fortlöpande (ex
 # Endpoints
 
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?time=2017-11-23
-https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits/?login=ALL
-https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits/?login=a97marbr
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?login=ALL
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?login=a97marbr
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?login=a97marbr&repo=shaker.js
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?repo=shaker.js
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?id=d4f918da
 
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files?filename=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files?filename=shaker
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files?repo=shaker.js
 
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/repos/?reponame=Shaker.js
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/repos/?reponame=ALL
