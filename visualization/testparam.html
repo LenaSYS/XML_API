@@ -775,140 +775,22 @@ function drawHead()
 		c.fillStyle = "RGB(0,59,85)";	
 		c.strokeStyle="#bbb";
 	
-		vertices=[];
-		triangles=[];
-		for(let i=0;i<linedata.length;i++){
-				items=linedata[i];
-				if(items.length==8){
-						i1=makevertex(items[0],items[1]);
-						i2=makevertex(items[2],items[3]);					
-						i3=makevertex(items[4],items[5]);
-						vertices[i1].cnt++;
-						vertices[i2].cnt++;
-						vertices[i3].cnt++;
-						triangles.push({p1:i1,p2:i2,p3:i3,p1e:false,p2e:false,p3e:false,cull:false});
-				}
-		}
+		siz=20;
+
+		param1=document.getElementById("param1").value;
+		param2=document.getElementById("param2").value;
+		param3=document.getElementById("param3").value;
+		param4=document.getElementById("param4").value;
 	
-		for(let i=0;i<vertices.length;i++){
-				var coord=toSpherical(vertices[i].x,vertices[i].y);
-				vertices[i].sx=coord.x;
-				vertices[i].sy=coord.y;
-				vertices[i].sz=coord.z;		
-		}	
-	
-		// We loop ovr all triangles and look for shared edges
-		for(let i=0;i<triangles.length;i++){
-				var triangle=triangles[i];
-				if(findEdge(triangle.p1,triangle.p2,i)){
-						triangle.p1e=true;
-						vertices[triangle.p1].edge=true;
-						vertices[triangle.p2].edge=true;					
-				}
-				if(findEdge(triangle.p2,triangle.p3,i)){
-						triangle.p2e=true;
-						vertices[triangle.p2].edge=true;
-						vertices[triangle.p3].edge=true;					
-				}
-				if(findEdge(triangle.p3,triangle.p1,i)){
-						triangle.p3e=true;
-						vertices[triangle.p3].edge=true;
-						vertices[triangle.p1].edge=true;					
-				}
-				if((cull(vertices[triangle.p1].sx,vertices[triangle.p1].sy,vertices[triangle.p2].sx,vertices[triangle.p2].sy,vertices[triangle.p3].sx,vertices[triangle.p3].sy,1))>0){
-					  triangle.cull=true;
-						vertices[triangle.p1].cull=true;
-						vertices[triangle.p2].cull=true;
-						vertices[triangle.p3].cull=true;								
-				}
-		}
-
-	
-		for(let i=0;i<triangles.length;i++){
-				if(triangles[i].cull){
-						if(triangles[i].p1e){
-								c.beginPath();
-								c.moveTo(300+vertices[triangles[i].p1].sx,300+vertices[triangles[i].p1].sy);
-								c.lineTo(300+vertices[triangles[i].p2].sx,300+vertices[triangles[i].p2].sy);					
-								c.stroke();
-						}
-						if(triangles[i].p2e){
-								c.beginPath();
-								c.moveTo(300+vertices[triangles[i].p2].sx,300+vertices[triangles[i].p2].sy);
-								c.lineTo(300+vertices[triangles[i].p3].sx,300+vertices[triangles[i].p3].sy);					
-								c.stroke();
-						}
-						if(triangles[i].p3e){
-								c.beginPath();
-								c.moveTo(300+vertices[triangles[i].p3].sx,300+vertices[triangles[i].p3].sy);
-								c.lineTo(300+vertices[triangles[i].p1].sx,300+vertices[triangles[i].p1].sy);					
-								c.stroke();
-						}
-				}
-				/*
-				if(pointInTriangle(mx,my,vertices[triangles[i].p1].x,vertices[triangles[i].p1].y,vertices[triangles[i].p2].x,vertices[triangles[i].p2].y,vertices[triangles[i].p3].x,vertices[triangles[i].p3].y)){
-						c.beginPath();
-						c.moveTo(vertices[triangles[i].p1].x,vertices[triangles[i].p1].y);
-						c.lineTo(vertices[triangles[i].p2].x,vertices[triangles[i].p2].y);					
-						c.lineTo(vertices[triangles[i].p3].x,vertices[triangles[i].p3].y);
-						c.closePath();
-						c.fill();
-				}
-				*/
-		}
-
-	/*
-		for(let i=0;i<vertices.length;i++){
-				if(vertices[i].cull&&vertices[i].edge){
-						drawCirc(300+vertices[i].sx,300+vertices[i].sy,3,true);
-				}
-		}
-		*/
-
-/*	
-		var siz=8;
-		for(var i=-12;i<12;i++){
-				for(var j=-12;j<12;j++){
-						var found=false;
-						for(var k=0;k<triangles.length;k++){
-								triangle=triangles[k];
-								if(triangle.cull){
-										if(pointInTriangle((i*siz*3)+(siz*1.5),(j*siz*2)+siz,vertices[triangle.p1].sx,vertices[triangle.p1].sy,vertices[triangle.p2].sx,vertices[triangle.p2].sy,vertices[triangle.p3].sx,vertices[triangle.p3].sy)){
-												found=true;
-												break;
-										}
-								}
-						}
-						if(found){
-								//c.fillRect(300+(i*20),300+(j*20),20,20);
-								if((j%2)==0){
-										drawHex(300+(i*(siz*4.5)),300+(j*siz*2),siz);								
-								}else{
-										drawHex(300+(i*(siz*4.5))+(siz*1.5),300+(j*siz*2),siz);																
-								}
-
+		for(var i=0;i<30;i++){
+				for(var j=0;j<30;j++){
+						if((j%2)==0){
+								drawHex(i*param1*siz,j*param2*siz,siz*param3)
+						}else{
+								drawHex((i*param1*siz)+(param4*siz),j*param2*siz,siz*param3)
 						}
 				}
 		}
-*/	
-
-	
-	
-/*	
-
-*/	
-		//drawTriangles("#406","#203",1.0,-1);
-		//drawTriangles("#604","none",1.0,1);	
-	
-	/*
-		c.fillStyle="#840";
-		for(let i=0;i<vertices.length;i++){
-				if((vertices[i].cnt>4)&&(vertices[i].cull)){
-						drawCirc(300+vertices[i].sx,300+vertices[i].sy,3,true);				
-				}
-		}
-		*/
-		offs+=0.01;
 		
 		setTimeout(function(){drawHead();}, 30);
 }
@@ -923,6 +805,12 @@ function mousemove(e)
 	</script>
 	</head>
 	<body onload="setupSlides();">
+	
+	<input type="range" id="param1" min="0" max="8" step="0.1" value="4">
+	<input type="range" id="param2" min="0" max="8" step="0.1" value="4">
+	<input type="range" id="param3" min="0" max="8" step="0.1" value="4">	
+	<input type="range" id="param4" min="0" max="8" step="0.1" value="4">		
+	
 	<canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;' onmousemove='mousemove(event);' ></canvas>	
 	</body>
 

@@ -8,12 +8,12 @@ header("Content-type: text/xml");
 	if(isset($_GET['firstname'])){
 			$firstname=$_GET['firstname'];
 	}else{
-			$firstname="UNK";
+			$firstname="ALL";
 	}
 	if(isset($_GET['lastname'])){
 			$lastname=$_GET['lastname'];
 	}else{
-			$lastname="UNK";
+			$lastname="ALL";
 	}	
 	if(isset($_GET['role'])){
 		  $role=$_GET['role'];
@@ -40,11 +40,15 @@ header("Content-type: text/xml");
 			global $output;
 			global $firstname;
 			global $lastname;
+			global $ffirstname;
+			global $flastname;		
 			global $attrs;
 			global $lname;
+			global $found;
 			if($entityname=="AUTHOR"){
 					$output='';
 					$attrs=$attributes;
+					$found=false;
 			}
 			if($entityname=="AUTHORS"){
 			}else{
@@ -60,6 +64,7 @@ header("Content-type: text/xml");
 					}
 					$output=$output.'>';
 			}
+		
 			$lname=$entityname;
 	}
   
@@ -73,6 +78,7 @@ header("Content-type: text/xml");
 			global $attrs;
 			global $role;
 			global $about;
+			global $found;
 			if($entityname=="AUTHORS"){
 			
 			}else{
@@ -81,7 +87,13 @@ header("Content-type: text/xml");
 						$output=$output." >\n";
 			}
 			
-			if(($ffirstname==$firstname)&&($flastname==$lastname)&&$entityname=='AUTHOR'){
+			// echo $firstname." ".$ffirstname." ".$entityname." ".$found;
+
+			if(((($ffirstname==$firstname)&&($flastname==$lastname))||(($ffirstname==$firstname)&&($lastname=="ALL"))||(($firstname=="ALL")&&($flastname==$lastname)))&&($entityname=='LASTNAME')){		
+					$found=true;
+			}
+		
+			if(($found==true)&&($entityname=='AUTHOR')){
 					echo $output;
 			}else if(($attrs['ROLE']==$role||$role=="ALL")&&$entityname=='AUTHOR'){
 					echo $output;

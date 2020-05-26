@@ -1,0 +1,124 @@
+<html>
+	<head>
+	<script>
+
+//------------------------------------=======############==========----------------------------------------
+//                                 Canvas Slide Constants and Variables
+//------------------------------------=======############==========----------------------------------------
+
+var c;
+var arrpnt=[];
+var delay=30;		
+
+var xmax=1430;
+var ymax=780;
+
+var mx,my,mb;
+
+var grd1;
+		
+function drawCirc(x,y,r,fill)
+{
+	c.beginPath();
+	c.arc(x, y, r, 0, 2 * 3.1415, false);
+	if(fill==true){
+			c.fill();	
+	}else{
+			c.stroke();	
+	}
+
+}
+	
+function setupSlides()
+{
+		canvas = document.getElementById("mycanvas");
+		c = canvas.getContext("2d");
+	
+		grd1 = c.createRadialGradient(200,200, 0,200,200, 250);
+		grd1.addColorStop(0, "#E2F4FD");
+		grd1.addColorStop(0.08, "#E3F3F2");
+		grd1.addColorStop(0.12, "#E5EFC8");
+		grd1.addColorStop(0.15, "#E6ECA2");
+		grd1.addColorStop(0.18, "#E6EA81");
+		grd1.addColorStop(0.21, "#E7E862");
+		grd1.addColorStop(0.27, "#E7E62C");
+		grd1.addColorStop(0.34, "#E7E614");
+		grd1.addColorStop(0.74, "#ED683C");
+		grd1.addColorStop(0.95, "#B12D29");
+
+		/*
+		for(j=0;j<boxcnty;j++){
+				arrpnt[j]=[];
+				for(i=0;i<boxcntx;i++){
+						col=randRand(0,i+2)+((i/5)*(i/5));
+						col=5.0*(col/boxcntx);
+						arrpnt[j][i]=col;		
+				}
+		}
+		*/
+
+		setTimeout(drawHead,delay);
+}
+		
+//----------------------------------------------------------------------------------
+// toSpherical - Returns xyz for spherical coordinate for 2d point coordinate
+//----------------------------------------------------------------------------------
+		
+const radius=220;
+var offs=0;
+		
+
+function drawHead()
+{
+		c.globalAlpha=1.0;
+		c.clearRect(0,0,xmax,ymax);
+	
+		c.fillStyle = "RGB(0,59,85)";	
+		c.strokeStyle="#bbb";
+
+		var thearr=[];
+	
+		thearr.push({xk:600,yk:600,len:100,ang:Math.PI,width:10,gen:0});
+	
+		do{
+					var line=thearr.pop();
+			
+					var dx=(Math.sin(line.ang)*line.len);
+					var dy=(Math.cos(line.ang)*line.len);
+					var len=line.len*0.9;
+					var ang=line.ang+((Math.random()*0.4)-0.2);
+					var width=line.width*0.9;
+					var gen=line.gen+1;
+					
+					var bpos=Math.random();
+					var bang=line.ang+((Math.random()*1.6)-0.8);
+			
+					if(gen<8){
+							thearr.push({xk:(line.xk+dx),yk:(line.yk+dy),len:len,ang:ang,width:width,gen:gen});
+							thearr.push({xk:(line.xk+(dx*bpos)),yk:(line.yk+(dy*bpos)),len:len,ang:bang,width:width,gen:(gen+1)});
+					}
+			
+					c.beginPath();
+					c.moveTo(line.xk,line.yk);
+					c.lineTo(line.xk+dx,line.yk+dy);
+					c.stroke();
+		
+		}while(thearr.length>0)	
+	
+		// setTimeout(function(){drawHead();}, 30);
+}
+		
+function mousemove(e)
+{
+		var rect = e.target.getBoundingClientRect();
+		mx = e.clientX - rect.left; //x position within the element.
+		my = e.clientY - rect.top;  //y position within the element.				
+}
+
+	</script>
+	</head>
+	<body onload="setupSlides();">
+	<canvas id='mycanvas' width=1430 height=780 style='border:1px solid red;' onmousemove='mousemove(event);' ></canvas>	
+	</body>
+
+</html>

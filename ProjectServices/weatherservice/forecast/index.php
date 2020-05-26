@@ -102,7 +102,7 @@ header("Content-type: text/xml");
 	 $towns=Array("Arjeplog","Barcelona","Gavle","Gothenburg","Grums","Halmstad","Havanna","Helsingborg","Hudikvsvall","Jokkmokk","Jonkoping","Kalmar",
 								"Karlskrona","Karlstad","Kiruna","Kristianstad","Lulea","Malmo","Orebro","Oslo","Stockholm","Sundsvall","Uddevalla","Umea","Uppsala"
 							 );
-	 if(array_search($id,$towns)){
+	 if(array_search($id,$towns)!==false){
 				if(isset($_GET['start'])||isset($_GET['end'])){
 						$file = $id.'.xml';
 						$data = file_get_contents($file);

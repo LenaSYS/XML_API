@@ -18,6 +18,8 @@ https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/category/?categorysearch=Myst
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?id=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?id=7243
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?titlesearch=Times
+https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?titlesearch=Patty&category=Family
+https://wwwlab.iit.his.se/gush/XMLAPI/bookservice?category=Family
 
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/authors?role=Author
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/authors?role=ALL
@@ -44,19 +46,18 @@ Alla element och Alla attribut behöver inte visas upp i applikationen men huvud
 
 # Teorifrågor
 
-Börja med att för hand i webbläsaren med URL anropa endpoints ovan för att se hur de fungerar. Skriv dokumentation för respektive Endpoint och för respektive XML-dokument.
+Börja med att för hand i webbläsaren med URL anropa endpoints ovan för att se hur de fungerar. Skriv i rapporten dokumentation för respektive Endpoint (vad den gör och vilken information man erhåller) och för respektive XML-dokument. Beskriv vad du tror datan representerar och vad en applikation som använder dessa endpoints skulle kunna användas till.
 
 Läs böran av forskningsartikeln "A semi-automatic solution for XML query response enrichment using a terminological domain ontology"
 Diskutera om den webbtjänst du fått att arbeta med är data centric eller document centric.
 https://dl.acm.org/doi/10.1145/3129186.3131941
 
 Diskutera fördelar/nackdelar med respektive API för att processa datan i webbtjänsten. Diskutera vilket eller vilka API (SAX / DOM / XSLT) du tycker är mest lämplig för att bygga din applikation. 
-(Det är tillåtet att använda olika API på olika delar av applikationen)
+(Det är tillåtet att använda olika API på olika delar av applikationen). Diskussion skall ske med hjälp av screenshots och programkod från din projektapplikation (och vid behov från tidigare uppgifter) för att illustrera diskussionen.
 
-Diskutera och kontrastera för vilka delar av applikationen som formulär-svars-sidor är lämpligast samt för vilka delar själv-refererande-formulär är lämpligast.
+Diskutera och kontrastera för vilka delar av applikationen som formulär-svars-sidor är lämpligast samt för vilka delar själv-refererande-formulär är lämpligast. Diskussion skall ske med hjälp av screenshots och programkod från din projektapplikation (och vid behov från tidigare uppgifter) för att illustrera diskussionen.
 
-Diskutera och kontrastera användandet av radlayout eller kolumnlayout för datan (man måste inte använda och det är tillåtet att använda båda på olika ställen).
+Diskutera och kontrastera användandet av radlayout eller kolumnlayout för datan (man måste inte använda och det är tillåtet att använda båda på olika ställen). Diskussion skall ske med hjälp av screenshots och programkod från din projektapplikation (och vid behov från tidigare uppgifter) för att illustrera diskussionen.
 
-Diskutera fördelar och nackdelar med att arbeta med XML-datan jämfört med om du hade haft samma data men i stället representerad som arrayer.
-
+Diskutera fördelar och nackdelar med att arbeta med XML-datan jämfört med om du hade haft samma data men i stället representerad som arrayer. Diskussion skall ske med hjälp av screenshots och programkod från din projektapplikation (och vid behov från tidigare uppgifter) för att illustrera diskussionen.
 

@@ -61,7 +61,7 @@ header("Content-type: text/xml");
 						$output=$output." >\n";
 			}
 			
-			if(((strpos(strtoupper($cat),strtoupper($categorysearch))!=false)||($categorysearch=="ALL"))&&$entityname=='CATEGORY'){
+			if(((strpos(strtoupper($cat),strtoupper($categorysearch))!==false)||($categorysearch=="ALL"))&&$entityname=='CATEGORY'){
 					echo $output;
 			}		
 	}

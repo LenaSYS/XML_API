@@ -41,11 +41,13 @@ header("Content-type: text/xml");
 					$attrs=$attributes;
 			}
 			if($entityname=="COMMITS"){
-					$reponame=$attrs['repo'];
+					$reponame=$attributes['REPO'];
 			}else{
 					$output=$output."<";
 					$output=$output.$entityname;
 					$output=$output." ";
+				
+					if(isset($reponame)&&$entityname=="COMMIT") $output.="repo='".$reponame."' ";
 				
 					foreach($attributes as $name=>$value){
 							$output=$output.$name;
@@ -67,6 +69,7 @@ header("Content-type: text/xml");
 			global $log;
 			global $id;
 			global $reponame;
+			global $repo;
 
 		if($entityname=="COMMITS"){
 			
@@ -75,6 +78,8 @@ header("Content-type: text/xml");
 						$output=$output.$entityname;
 						$output=$output." >\n";
 			}
+				
+//			echo $repo." ".$reponame."##";
 			
 			if((($log==$login)||($login=="ALL"))&&$entityname=='COMMIT'){
 					if(($repo=="UNK")||($repo==$reponame)){

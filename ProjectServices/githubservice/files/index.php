@@ -13,12 +13,12 @@ header("Content-type: text/xml");
 	if(isset($_GET['login'])){
 		  $login=$_GET['login'];
 	}else{
-			$login="UNK";
+			$login="ALL";
 	}		  
 	if(isset($_GET['repo'])){
 		  $repo=$_GET['repo'];
 	}else{
-			$repo="UNK";
+			$repo="ALL";
 	}		
 	
 	$output="";
@@ -74,8 +74,10 @@ header("Content-type: text/xml");
 
 			if(((strpos(strtoupper($attrs['FULLNAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='FILE')){
 					echo $output;
-			}else if(($attrs['REPO']==$repo)&&($entityname=='FILE')){
-					echo $output;
+			}else if((($attrs['REPO']==$repo)||($repo=="ALL"))&&($entityname=='FILE')){
+					if($attrs['AUTHOR']=="ALL"||strpos($attrs['AUTHOR'],$login)!==false){
+							echo $output;					
+					}
 			}		
 	}
   
