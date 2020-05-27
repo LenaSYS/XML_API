@@ -18,10 +18,15 @@ https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?login=a97marbr
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?login=a97marbr&repo=shaker.js
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?repo=shaker.js
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?id=d4f918da
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?timeval=3&login=a97marbr
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?timeval=3&repo=shaker.js
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/commits?spaceval=3&repo=shaker.js
 
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files?filename=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files?filename=shaker
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files?repo=shaker.js
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files/?repo=shaker.js&login=HGustavs
+https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/files/?login=HGustavs
 
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/repos/?reponame=Shaker.js
 https://wwwlab.iit.his.se/gush/XMLAPI/githubservice/repos/?reponame=ALL

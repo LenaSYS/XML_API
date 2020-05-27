@@ -24,72 +24,90 @@ header("Content-type: text/xml");
 	$output="";
 	$outputsection="";
 	$lname="";
-	$ffirstname="";
-	$flastname="";
 	$attrs=null;
-	$fabout="";
+	$lauthor="Greger";
 	
 	function startElement($parser, $entityname, $attributes) {
 			global $output;
-			global $outputsection;
 			global $attrs;
 			global $lname;
+			global $lauthor;
+			global $login;
 			if($entityname=="FILE"){
 					$output='';
 					$attrs=$attributes;
 					$outputsection="";
 			}
+		
 			if($entityname=="FILES"){
 			}else{
-					$output=$output."<";
-					$output=$output.$entityname;
-					$output=$output." ";
+					if($entityname=="SECTION") $lauthor=$attributes['AUTHOR'];
 				
-					foreach($attributes as $name=>$value){
-							$output=$output.$name;
-							$output=$output."='";
-							$output=$output.$value;
-							$output=$output."' ";
+					if((($entityname=="SECTION"||$entityname=="LINE")&&(($lauthor==$login)||($login=='ALL')))||($entityname=='FILE')){
+							$output=$output."<";
+							$output=$output.$entityname;
+							$output=$output." ";
+
+							foreach($attributes as $name=>$value){
+									$output=$output.$name;
+									$output=$output."='";
+									$output=$output.$value;
+									$output=$output."' ";
+							}
+							$output=$output.'>';
 					}
-					$output=$output.'>';
 			}
-			$lname=$entityname;
+			if($entityname!="LINE"){
+					$lname=$entityname;
+			}
 	}
   
 	function endElement($parser, $entityname) {
 			global $output;
-			global $outputsection;
 			global $attrs;
 			global $lname;
 			global $login;
 			global $filename;
 			global $repo;
+			global $lauthor;
+		
 			if($entityname=="FILES"){
 			
 			}else{
-						$output=$output."</";
-						$output=$output.$entityname;
-						$output=$output." >\n";
+						if($login=="ALL"){
+									$output=$output."</";
+									$output=$output.$entityname;
+									$output=$output." >\n";
+						}else if((($lname=="SECTION"&&$lauthor!=$login)&&$entityname!="FILE")){
+									// Ignore antything below!
+						}else{
+									$output=$output."</";
+									$output=$output.$entityname;
+									$output=$output." >\n";
+						}
 			}
 
 			if(((strpos(strtoupper($attrs['FULLNAME']),strtoupper($filename))!==false)||$filename=="ALL")&&($entityname=='FILE')){
 					echo $output;
-			}else if((($attrs['REPO']==$repo)||($repo=="ALL"))&&($entityname=='FILE')){
-					if($attrs['AUTHOR']=="ALL"||strpos($attrs['AUTHOR'],$login)!==false){
+			}else if((($attrs['REPO']==$repo)||($repo=="ALL")||($repo=="ALL"))&&($entityname=='FILE')){
 							echo $output;					
-					}
-			}		
+			}
 	}
   
    function charData($parser, $chardata) {
 		 	global $output;
-		 	global $outputsection;
 		 	global $lname;
+		 	global $lauthor;
+		 	global $login;
 
 			$chardata=trim($chardata);
    		if($chardata=="") return;
 		 
-		 	$output=$output.$chardata;	 
+			if(($lname=="SECTION"&&($lauthor!=$login&&$login!="ALL"))){
+					// Ignore!
+			}else{
+					$output=$output.$chardata;
+			}
 	 }
   
 		if(isset($_GET['filename'])||isset($_GET['login'])||isset($_GET['repo'])){

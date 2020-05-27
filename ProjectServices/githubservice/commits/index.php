@@ -10,11 +10,23 @@ header("Content-type: text/xml");
 	}else{
 			$login="UNK";
 	}
+
 	if(isset($_GET['time'])){
 		  $time=$_GET['time'];
 	}else{
 			$time="UNK";
-	}		  
+	}		
+	if(isset($_GET['timeval'])){
+		  $timeval=$_GET['timeval'];
+	}else{
+			$timeval="UNK";
+	}		
+	if(isset($_GET['spaceval'])){
+		  $spaceval=$_GET['spaceval'];
+	}else{
+			$spaceval="UNK";
+	}			
+
 	if(isset($_GET['id'])){
 		  $id=$_GET['id'];
 	}else{
@@ -70,6 +82,8 @@ header("Content-type: text/xml");
 			global $id;
 			global $reponame;
 			global $repo;
+			global $timeval;
+			global $spaceval;
 
 		if($entityname=="COMMITS"){
 			
@@ -81,17 +95,31 @@ header("Content-type: text/xml");
 				
 //			echo $repo." ".$reponame."##";
 			
-			if((($log==$login)||($login=="ALL"))&&$entityname=='COMMIT'){
-					if(($repo=="UNK")||($repo==$reponame)){
-							echo $output;
+			//echo $attrs['SPACE']." ".$spaceval."(".($attrs['SPACE']==$spaceval).")";
+		
+			if(($spaceval!="UNK"||$timeval!="UNK"||$spaceval!="UNK")&&$entityname=='COMMIT'){
+					if(substr($attrs['TIMESTAMP'],0,10)==$time||$attrs['TIME']==$timeval||$attrs['SPACE']==$spaceval){
+							if($login=="UNK"&&$repo=="UNK"){
+									echo $output;					
+							}else if(($login=="ALL")||($repo=="ALL")||($repo==$reponame)||($log==$login)){
+									echo $output;
+							}
 					}
-			}else if((substr($attrs['TIMESTAMP'],0,10)==$time)&&$entityname=='COMMIT'){
+			}else if((($log==$login)||($login=="ALL"))&&$entityname=='COMMIT'){
 					if(($repo=="UNK")||($repo==$reponame)){
 							echo $output;
 					}
 			}else if(($attrs['ID']==$id)&&($entityname=='COMMIT')){
 					echo $output;
-			}		
+			}else if(($repo==$reponame)&&($entityname=='COMMIT')){
+					if($login!="UNK"){
+							if(($login=="ALL")||($log==$login)){
+									echo $output;			
+							}
+					}else{
+							echo $output;
+					}
+			}
 	}
   
    function charData($parser, $chardata) {
@@ -107,7 +135,7 @@ header("Content-type: text/xml");
 		 	$output=$output.$chardata;	 
 	 }
   
-		if(isset($_GET['login'])||isset($_GET['time'])||isset($_GET['id'])||isset($_GET['repo'])){
+		if(isset($_GET['login'])||isset($_GET['time'])||isset($_GET['id'])||isset($_GET['repo'])||isset($_GET['spaceval'])||isset($_GET['timeval'])){
 			 $parser = xml_parser_create();
 			 xml_set_element_handler($parser, "startElement", "endElement");
 			 xml_set_character_data_handler($parser, "charData");

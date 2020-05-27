@@ -19,7 +19,8 @@ https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?id=ALL
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?id=7243
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?titlesearch=Times
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?titlesearch=Patty&category=Family
-https://wwwlab.iit.his.se/gush/XMLAPI/bookservice?category=Family
+https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?category=Family
+https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/books/?author=James%20Cook
 
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/authors?role=Author
 https://wwwlab.iit.his.se/gush/XMLAPI/bookservice/authors?role=ALL
