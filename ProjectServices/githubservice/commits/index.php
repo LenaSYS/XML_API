@@ -97,7 +97,7 @@ header("Content-type: text/xml");
 			
 			//echo $attrs['SPACE']." ".$spaceval."(".($attrs['SPACE']==$spaceval).")";
 		
-			if(($spaceval!="UNK"||$timeval!="UNK"||$spaceval!="UNK")&&$entityname=='COMMIT'){
+			if(($time!="UNK"||$timeval!="UNK"||$spaceval!="UNK")&&$entityname=='COMMIT'){
 					if(substr($attrs['TIMESTAMP'],0,10)==$time||$attrs['TIME']==$timeval||$attrs['SPACE']==$spaceval){
 							if($login=="UNK"&&$repo=="UNK"){
 									echo $output;					
