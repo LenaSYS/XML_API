@@ -98,7 +98,7 @@ header("Content-type: text/xml");
 			//echo $attrs['SPACE']." ".$spaceval."(".($attrs['SPACE']==$spaceval).")";
 		
 			if(($time!="UNK"||$timeval!="UNK"||$spaceval!="UNK")&&$entityname=='COMMIT'){
-					if(substr($attrs['TIMESTAMP'],0,10)==$time||$attrs['TIME']==$timeval||$attrs['SPACE']==$spaceval){
+					if(substr($attrs['TIMESTAMP'],0,10)==$time||$attrs['TIME']==$timeval||$attrs['SPACE']==$spaceval||$time=="ALL"){
 							if($login=="UNK"&&$repo=="UNK"){
 									echo $output;					
 							}else if(($login=="ALL")||($repo=="ALL")||($repo==$reponame)||($log==$login)){
@@ -111,7 +111,7 @@ header("Content-type: text/xml");
 					}
 			}else if(($attrs['ID']==$id)&&($entityname=='COMMIT')){
 					echo $output;
-			}else if(($repo==$reponame)&&($entityname=='COMMIT')){
+			}else if(($repo==$reponame||$repo=="ALL")&&($entityname=='COMMIT')){
 					if($login!="UNK"){
 							if(($login=="ALL")||($log==$login)){
 									echo $output;			
