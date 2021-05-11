@@ -45,10 +45,12 @@ header("Content-type: text/xml");
 			global $attrs;
 			global $lname;
 			global $found;
+      global $fabout;
 			if($entityname=="AUTHOR"){
 					$output='';
 					$attrs=$attributes;
 					$found=false;
+          $fabout="UNK";
 			}
 			if($entityname=="AUTHORS"){
 			}else{
@@ -97,9 +99,9 @@ header("Content-type: text/xml");
 					echo $output;
 			}else if(($attrs['ROLE']==$role||$role=="ALL")&&$entityname=='AUTHOR'){
 					echo $output;
-			}else if((strpos(strtoupper($fabout),strtoupper($about))!==false)&&($entityname=='AUTHOR')){
-					echo $output;			
-			}
+			}else if((strpos(strtoupper($fabout),strtoupper($about))>0)&&($entityname=='AUTHOR')){	
+          echo $output;
+      }
 	}
   
    function charData($parser, $chardata) {
@@ -117,7 +119,7 @@ header("Content-type: text/xml");
    
 		 	if($lname=="FIRSTNAME") $ffirstname=$chardata;
 		 	if($lname=="LASTNAME") $flastname=$chardata;
-		 	if($lname=="ABOUT") $fabout=$chardata;		 
+		 	if($lname=="ABOUT") $fabout.=$chardata;		 
 	 }
   
    $parser = xml_parser_create();
