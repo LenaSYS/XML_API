@@ -8,21 +8,27 @@
 		}
 
 		if($manufacturer=="Ukraine"){
-				$data=Array(Array(Array("KrAZ-65055","6x6","330Hp"),Array("KrAZ-6130C4","6x6","330Hp"),Array("KrAZ-5133H2","4x2","330Hp"),Array("KrAZ-7140H6","8x6","400Hp")));
+				$data=Array(Array(Array("KrAZ-65055","6x4","330Hp","1997-2022","KrAZ65055.png"),Array("KrAZ-255","6x6","265Hp","1967-1993","KrAZ255.png"),
+				                  Array("KrAZ-260","6x6","330Hp","1979-1993","KrAZ260.png"),Array("KrAZ-5233","2x4","330Hp","2008-2022","KrAZ65055.png")));
 		}else if($manufacturer=="Greece"){
-				$data=array(Array(Array("EBIAM MVM","4x4","86Hp")));		
+				$data=array(Array(Array("EBIAM MVM","4x4","86Hp","1979-1984","EBIAM.png")));		
 		}else if($manufacturer=="Tatarstan"){
-				$data=array(Array(Array("KAMAZ 54115","6x4","240Hp"),Array("KAMAZ 6560","8x8","400Hp"),Array("KAMAZ 5460","8x8","340Hp")));		
+				$data=array(Array(Array("KAMAZ 43101","6x6","240Hp","1981-1995","КамАZ43101.png"),Array("KAMAZ 53501","6x6","250Hp","2003-2022","KamAZ53501.png"),
+				                  Array("KAMAZ 54115","6×4","250Hp","1995–2011","KamAZ54115.png")));		
 		}else if($manufacturer=="Czechoslovakia"){
-				$data=array(Array(Array("LIAZ 706 RT","2x4","160Hp"),Array("Tatra T 813","4x4","266Hp"),Array("Tatra T 815","10x10","436Hp")));		
+				$data=array(Array(Array("LIAZ 706 MT","2x4","160Hp","1969—1990","LIAZMT.png"),Array("Tatra T 813","8x8","266Hp","1967-1982","Tatra813.png"),
+				                  Array("Tatra T 815","6x6","436Hp","1983-2022","Tatra815.png")));		
 		}else if($manufacturer=="Romania"){
-				$data=array(Array(Array("TAF 690","2x4","90Hp")));		
+				$data=array(Array(Array("Roman 81350","2x4","90Hp","1967-1990","Roman81350.png")));		
 		}else if($manufacturer=="Belarus"){
 				$data=array(
-					Array(Array("MAZ 535","8x8","375Hp"),Array("MAZ 7310","8x8","525Hp"),Array("MAZ 7907","4x12","1250Hp"),Array("MAZ 6317","6x6","425Hp"),Array("MAZ 6430","6x6","360Hp"),Array("MAZ 5551","4x2","160Hp")),
-					Array(Array("Belaz 75600","4x4","3400Hp")));	
+					Array(Array("MAZ 5335","2x4","375Hp","1977-1990","MAZ5335.png"),Array("MAZ 537","8x8","525Hp","1959-1990","MAZ537.png"),
+					Array("MAZ 7907","24x24","1250Hp","1985-1990","MAZ7907.png"),Array("MAZ 6317","6x6","330Hp","1990-2022","MAZ6317.png"),
+					Array("MAZ 5551","4x2","160Hp","1985-2022","MAZ5551.png")),
+					Array(Array("BelAZ-548","4x4","150Hp","1969-1983","BelAZ548.png")));	
 		}else if($manufacturer=="USA"){
-				$data=array(Array(Array("Oshkosh P-15","8x8","840Hp"),Array("Oshkosh MK-36","6x6","425Hp")));
+				$data=array(Array(Array("Oshkosh M1078","6x6","330Hp","1997-2022","OSHKOSHM1078.png"),
+				            Array("Oshkosh M1074A1","10x10","600Hp","1993-2022","OSHKOSHM1074A1.png")));
 		}else{
 				$data=array();
 		}
