@@ -25,8 +25,8 @@
 					"EBIAM",
 					Array(
 						Array("EBIAM MVM","4x4","86Hp","1979-1984","EBIAM.png")
-					);
-				);
+					)
+				)
 			);
 		}else if($manufacturer=="Tatarstan"){
 			$data=Array(
@@ -50,29 +50,49 @@
 			  ),
 				Array(
 					"LIAZ",
-				Array(
-					Array("LIAZ 706 MT","2x4","160Hp","1969—1990","LIAZMT.png")
-			  )
+					Array(
+						Array("LIAZ 706 MT","2x4","160Hp","1969—1990","LIAZMT.png")
+			  	)
+				)
 			);				
 		}else if($manufacturer=="Romania"){
-				$data=array(
-						"Roman",
-						Array(Array("Roman 81350","2x4","90Hp","1967-1990","Roman81350.png")));		
+			$data=Array(
+				Array(
+					"Roman",
+					Array(			
+						Array("Roman 81350","2x4","90Hp","1967-1990","Roman81350.png")
+					)
+				)
+			);		
 		}else if($manufacturer=="Belarus"){
-				$data=
-				array(
+			$data=Array(
+				Array(
 					"MAZ",
-					Array(Array("MAZ 5335","2x4","375Hp","1977-1990","MAZ5335.png"),Array("MAZ 537","8x8","525Hp","1959-1990","MAZ537.png"),
-					Array("MAZ 7907","24x24","1250Hp","1985-1990","MAZ7907.png"),Array("MAZ 6317","6x6","330Hp","1990-2022","MAZ6317.png"),
-					Array("MAZ 5551","4x2","160Hp","1985-2022","MAZ5551.png")
+					Array(	
+						Array("MAZ 5335","2x4","375Hp","1977-1990","MAZ5335.png"),
+						Array("MAZ 537","8x8","525Hp","1959-1990","MAZ537.png"),
+						Array("MAZ 7907","24x24","1250Hp","1985-1990","MAZ9707.png"),
+						Array("MAZ 6317","6x6","330Hp","1990-2022","MAZ6317.png"),
+						Array("MAZ 5551","4x2","160Hp","1985-2022","MAZ5551.png")
+					)
 				),
 				Array(
-					"BelAZ"
-					Array("BelAZ-548","4x4","150Hp","1969-1983","BelAZ548.png")
-				));	
+					"BelAZ",
+					Array(
+						Array("BelAZ-548","4x4","150Hp","1969-1983","BelAZ548.png")
+					)
+				)
+			);
 		}else if($manufacturer=="USA"){
-				$data=array(Array(Array("Oshkosh M1078","6x6","330Hp","1997-2022","OSHKOSHM1078.png"),
-				            Array("Oshkosh M1074A1","10x10","600Hp","1993-2022","OSHKOSHM1074A1.png")));
+			$data=Array(
+				Array(
+					"Oshkosh",
+					Array(
+						Array("Oshkosh M1078","6x6","330Hp","1997-2022","OSHKOSHM1078.png"),
+				    Array("Oshkosh M1074A1","10x10","600Hp","1993-2022","OSHKOSHM1074A1.png")
+					)
+				)
+			);
 		}else{
 				$data=array();
 		}
