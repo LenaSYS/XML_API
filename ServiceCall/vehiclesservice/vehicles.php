@@ -15,7 +15,7 @@
 						Array("KrAZ-65055","6x4","330Hp","1997-2022","KrAZ65055.png"),
 						Array("KrAZ-255","6x6","265Hp","1967-1993","KrAZ255.png"),
 				  	Array("KrAZ-260","6x6","330Hp","1979-1993","KrAZ260.png"),
-						Array("KrAZ-5233","2x4","330Hp","2008-2022","KrAZ65055.png")
+						Array("KrAZ-5233","4x2","330Hp","2008-2022","KrAZ65055.png")
 					)
 				)
 			);
@@ -51,7 +51,7 @@
 				Array(
 					"LIAZ",
 					Array(
-						Array("LIAZ 706 MT","2x4","160Hp","1969—1990","LIAZMT.png")
+						Array("LIAZ 706 MT","4x2","160Hp","1969—1990","LIAZMT.png")
 			  	)
 				)
 			);				
@@ -60,7 +60,7 @@
 				Array(
 					"Roman",
 					Array(			
-						Array("Roman 81350","2x4","90Hp","1967-1990","Roman81350.png")
+						Array("Roman 81350","4x2","90Hp","1967-1990","Roman81350.png")
 					)
 				)
 			);		
@@ -69,7 +69,7 @@
 				Array(
 					"MAZ",
 					Array(	
-						Array("MAZ 5335","2x4","375Hp","1977-1990","MAZ5335.png"),
+						Array("MAZ 5335","4x2","375Hp","1977-1990","MAZ5335.png"),
 						Array("MAZ 537","8x8","525Hp","1959-1990","MAZ537.png"),
 						Array("MAZ 7907","24x24","1250Hp","1985-1990","MAZ9707.png"),
 						Array("MAZ 6317","6x6","330Hp","1990-2022","MAZ6317.png"),
