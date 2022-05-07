@@ -1,513 +1,757 @@
-<COURSES>
-<COURSE ID='IT427G' NAME='Design av Spelprogrammering' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT753G' NAME='Hållbar Spelprogrammering' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT469A' NAME='Hur man undviker Systemvetenskap' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT447G' NAME='Databassystem' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT325G' NAME='Extrem Systemvetenskap' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT618A' NAME='Teoretisk Databassystem' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT601G' NAME='Systemvetenskap' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='4' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT472G' NAME='Klinisk Databassystem' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT733G' NAME='Informationssäkerhet' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='DASC20' NAME='Data Science - magisterprogram' STUDENTCOUNT='24' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT872G' NAME='Speldesign och Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='DASC20' NAME='Data Science - magisterprogram' STUDENTCOUNT='24' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='WEPR20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT861G' NAME='Informationssäkerhet och Speldesign' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT352G' NAME='Examensarbete i Cybernetik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT494G' NAME='Informationssäkerhet och Databassystem' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT119G' NAME='Aktuella Trender i Informationssäkerhet' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT191F' NAME='Teoretisk Cybernetik' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='1' ></PERIOD >
-<PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT627A' NAME='Grunder i Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT441G' NAME='Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='IT973F' NAME='Projekt i Speldesign' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT688G' NAME='Teoretisk Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT622F' NAME='Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT499F' NAME='Grunder i Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ></PERIOD >
-<PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='IT974F' NAME='Grunder i Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT557F' NAME='Ohållbar Cybernetik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='IT207A' NAME='Hållbar Cybernetik' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT553F' NAME='Avancerad Informationssäkerhet' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT245G' NAME='Databassystem och Spelprogrammering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT276G' NAME='Introduktion till Algoritmer' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT660A' NAME='Introduktion till Spelprogrammering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT496G' NAME='Klinisk Systemvetenskap' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT175F' NAME='Aktuella Trender i Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT568F' NAME='Praktisk Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT396G' NAME='Speldesign och Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT893G' NAME='Ohållbar Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='WEPR20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT773F' NAME='Ohållbar Spelprogrammering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT201F' NAME='Teoretisk Spelprogrammering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT138G' NAME='Spelprogrammering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT805A' NAME='Hur man undviker Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT586G' NAME='Hållbar Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT741G' NAME='Hur man undviker Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT590G' NAME='Algoritmer' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='DASC20' NAME='Data Science - magisterprogram' STUDENTCOUNT='24' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='IT273G' NAME='Introduktion till Virtualisering' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT526G' NAME='Algoritmer och Informationssäkerhet' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ></PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='DASC20' NAME='Data Science - magisterprogram' STUDENTCOUNT='24' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT757F' NAME='Klinisk Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='1' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT551G' NAME='Hur man undviker Databassystem' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT105A' NAME='Teoretisk Systemvetenskap' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='WEPR20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT202G' NAME='Hållbar Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ></PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='DASC20' NAME='Data Science - magisterprogram' STUDENTCOUNT='24' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT902F' NAME='Introduktion till Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT616G' NAME='Extrem Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='WEPR20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT772G' NAME='Examensarbete i Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='DSDE20' NAME='Dataspelsutveckling - design' STUDENTCOUNT='27' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DSPR20' NAME='Dataspelsutveckling - programmering' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT720G' NAME='Praktisk Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT607A' NAME='Ohållbar Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT363G' NAME='Hållbar Databassystem' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='5' ><PROGRAM ID='DASC20' NAME='Data Science - magisterprogram' STUDENTCOUNT='24' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='WEPR20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT719G' NAME='Examensarbete i Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT770F' NAME='Design av Cybernetik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT287G' NAME='Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT362A' NAME='Design av Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT444G' NAME='Extrem Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ></PERIOD >
-<PERIOD NUMBER='5' ><PROGRAM ID='DASY20' NAME='Datavetenskap - inriktning systemutveckling' STUDENTCOUNT='12' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT111G' NAME='Cybernetik' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='INIS20' NAME='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' STUDENTCOUNT='39' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT957F' NAME='Hur man undviker Datorgrafik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT396G' NAME='Praktisk Cybernetik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ><PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT447F' NAME='Praktisk Databassystem' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT447G' NAME='Extrem Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='IT380A' NAME='Teoretisk Virtualisering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='NASY20' NAME='Nätverk och systemadministration' STUDENTCOUNT='21' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT164F' NAME='Projekt i Spelprogrammering' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT643G' NAME='Introduktion till Databassystem' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='IT682F' NAME='Datorgrafik och Algoritmer' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='IFBI20' NAME='Informationsteknologi - Business Intelligence' STUDENTCOUNT='28' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT381G' NAME='Aktuella Trender i Speldesign' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='SYVE20' NAME='Systemvetenskap' STUDENTCOUNT='10' DEPARTMENT='IT' ></PROGRAM >
-<PROGRAM ID='USEX20' NAME='User Experience Design' STUDENTCOUNT='14' DEPARTMENT='IT' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='IT334G' NAME='Hur man undviker Cybernetik' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='2' ></PERIOD >
-</COURSE >
-<COURSE ID='IT508G' NAME='Grunder i Informationssäkerhet' HP='7.5' DEPARTMENT='IT' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='IT997G' NAME='Projekt i Virtualisering' HP='15' DEPARTMENT='IT' ><PERIOD NUMBER='4' ><PROGRAM ID='WEPR20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSES>
-<COURSE ID='TE193A' NAME='Produktionsflöden och Produktionsflöden' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='AUTE20' NAME='Automatiseringstekniker' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE872G' NAME='Aktuella Trender i Computer Aided Design' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='TE301G' NAME='Examensarbete i Utveckling för Ingenjörer' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE622A' NAME='Projekt i Computer Aided Design' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='TE848G' NAME='Extrem Maskinteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='2' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE712G' NAME='Avancerad Styrteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE504G' NAME='Hållbar Konstruktionsteknik' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='AUTE20' NAME='Automatiseringstekniker' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE401G' NAME='Extrem Utveckling för Ingenjörer' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='4' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE323G' NAME='Utveckling för Ingenjörer  och Produktionsflöden' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='2' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='AUTE20' NAME='Automatiseringstekniker' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE102G' NAME='Aktuella Trender i Utveckling för Ingenjörer' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='TE103A' NAME='Projekt i Konstruktionsteknik' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='4' ><PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='VIER20' NAME='Virtuell ergonomi och design - masterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='AUTE20' NAME='Automatiseringstekniker' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE625G' NAME='Klinisk Tillverkning' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='TE388G' NAME='Projekt i Utveckling för Ingenjörer' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='VIER20' NAME='Virtuell ergonomi och design - masterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE853G' NAME='Konstruktionsteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='2' ><PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE661G' NAME='Produktionsflöden och Konstruktionsteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='2' ><PROGRAM ID='VIER20' NAME='Virtuell ergonomi och design - masterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='AUTE20' NAME='Automatiseringstekniker' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE461G' NAME='Extrem Reglerteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='TE504F' NAME='Konstruktionsteknik och Computer Aided Design' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='TE603G' NAME='Ohållbar Styrteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='4' ><PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE941F' NAME='Extrem Tillverkning' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-<PERIOD NUMBER='1' ><PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE593G' NAME='Utveckling för Ingenjörer' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE374G' NAME='Klinisk Konstruktionsteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='TE432G' NAME='Avancerad Produktionsflöden' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE318G' NAME='Examensarbete i Reglerteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE535F' NAME='Tillverkning' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='4' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE546A' NAME='Praktisk Tillverkning' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='AUTE20' NAME='Automatiseringstekniker' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='VIER20' NAME='Virtuell ergonomi och design - masterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE474A' NAME='Aktuella Trender i Maskinteknik' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='TE704G' NAME='Produktionsflöden' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='2' ><PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE770G' NAME='Reglerteknik' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='TE466F' NAME='Maskinteknik och Reglerteknik' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='VIER20' NAME='Virtuell ergonomi och design - masterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE222G' NAME='Teoretisk Konstruktionsteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='MAIN20' NAME='Maskiningenjör' STUDENTCOUNT='12' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE959G' NAME='Hur man undviker Tillverkning' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ><PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE576G' NAME='Computer Aided Design' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='VIER20' NAME='Virtuell ergonomi och design - masterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='DEIN20' NAME='Designingenjör' STUDENTCOUNT='20' DEPARTMENT='Teknik' ></PROGRAM >
-<PROGRAM ID='INAU20' NAME='Intelligent automation - masterprogram' STUDENTCOUNT='18' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE617G' NAME='Styrteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ><PROGRAM ID='PRIN20' NAME='Produktionsingenjör' STUDENTCOUNT='11' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE366A' NAME='Grunder i Computer Aided Design' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='TE228G' NAME='Examensarbete i Produktionsflöden' HP='15' DEPARTMENT='Teknik' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSE ID='TE915G' NAME='Projekt i Maskinteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='2' ><PROGRAM ID='MARO20' NAME='Människa-robotinteraktion - magisterprogram' STUDENTCOUNT='30' DEPARTMENT='Teknik' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='TE945G' NAME='Praktisk Konstruktionsteknik' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='TE729G' NAME='Produktionsflöden och Tillverkning' HP='7.5' DEPARTMENT='Teknik' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSES>
-<COURSE ID='HU968G' NAME='Klinisk Stencilkopiering' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='5' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='SOPS20' NAME='Socialpsykologiskt program' STUDENTCOUNT='35' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU257F' NAME='Aktuella Trender i Bristol Scale' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ><PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU726G' NAME='Extrem Filosofi' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='HU284G' NAME='Stencilkopiering' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ><PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU640A' NAME='Kognition' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='4' ><PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU920G' NAME='Grunder i Filosofi' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='5' ></PERIOD >
-</COURSE >
-<COURSE ID='HU321F' NAME='Filosofi och Kognition' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='4' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU293A' NAME='Bristol Scale och Filosofi' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='HU148G' NAME='Rättspatos' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='2' ><PROGRAM ID='SOPS20' NAME='Socialpsykologiskt program' STUDENTCOUNT='35' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='BIRE20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU211F' NAME='Vetenskapsteori' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='4' ><PROGRAM ID='BIRE20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU963G' NAME='Extrem Medvetandestudier' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ><PROGRAM ID='SOPS20' NAME='Socialpsykologiskt program' STUDENTCOUNT='35' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='BIRE20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU976G' NAME='Klinisk Vetenskapsteori' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='4' ><PROGRAM ID='SOPS20' NAME='Socialpsykologiskt program' STUDENTCOUNT='35' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU950F' NAME='Praktisk Vetenskapsteori' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU662G' NAME='Introduktion till Bristol Scale' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ><PROGRAM ID='SOPS20' NAME='Socialpsykologiskt program' STUDENTCOUNT='35' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='BIRE20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU470G' NAME='Grunder i Neuropsykologi' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ></PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU325F' NAME='Extrem Neuropsykologi' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='4' ><PROGRAM ID='SOPS20' NAME='Socialpsykologiskt program' STUDENTCOUNT='35' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-<PERIOD NUMBER='5' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='BIRE20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU698G' NAME='Hur man undviker Neuropsykologi' HP='15' DEPARTMENT='Humaniora' ><PERIOD NUMBER='5' ><PROGRAM ID='KOME20' NAME='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' STUDENTCOUNT='30' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU655G' NAME='Aktuella Trender i Stencilkopiering' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='1' ><PROGRAM ID='KONE20' NAME='Kognitiv neurovetenskap' STUDENTCOUNT='14' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU382G' NAME='Klinisk Filosofi' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='2' ><PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU794G' NAME='Design av Vetenskapsteori' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='5' ><PROGRAM ID='HASK20' NAME='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' STUDENTCOUNT='23' DEPARTMENT='Humaniora' ></PROGRAM >
-<PROGRAM ID='BIRE20' NAME='Biovetenskap - biologiska resurser och hållbar utveckling' STUDENTCOUNT='24' DEPARTMENT='Humaniora' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='HU226G' NAME='Introduktion till Filosofi' HP='7.5' DEPARTMENT='Humaniora' ><PERIOD NUMBER='4' ></PERIOD >
-</COURSE >
-<COURSES>
-<COURSE ID='EK682A' NAME='Avancerad Nationalekonomi' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='4' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK604G' NAME='Extrem Företagsekonomi' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='4' ></PERIOD >
-<PERIOD NUMBER='2' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK199G' NAME='Projekt i Redovisning' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='1' ><PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK138G' NAME='Praktisk Statistik' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='1' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK499A' NAME='Redovisning och Statistik' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='5' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK308F' NAME='Nationalekonomi och Statistik' HP='15' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='1' ></PERIOD >
-</COURSE >
-<COURSE ID='EK262A' NAME='Management' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='2' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK423G' NAME='Design av Statistik' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='5' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='HAEK20' NAME='Handelsekonomiprogrammet' STUDENTCOUNT='18' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK716F' NAME='Hur man undviker Statistik' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='1' ><PROGRAM ID='PEOR20' NAME='Personal, organisation och ledarskap' STUDENTCOUNT='19' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='LEVE20' NAME='Ledarskap och verksamhetsutveckling - magisterprogram' STUDENTCOUNT='21' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKRE20' NAME='Ekonomprogrammet - redovisning och revision' STUDENTCOUNT='14' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK592G' NAME='Hållbar Logistik' HP='15' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='4' ><PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKHA20' NAME='Ekonomprogrammet - ekonomi och hållbarhet' STUDENTCOUNT='20' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-<COURSE ID='EK682F' NAME='Grunder i Riskhantering' HP='7.5' DEPARTMENT='Ekonomi' ><PERIOD NUMBER='1' ><PROGRAM ID='EKLE20' NAME='Ekonomprogrammet - ledarskap och verksamhetsutveckling' STUDENTCOUNT='39' DEPARTMENT='Ekonomi' ></PROGRAM >
-<PROGRAM ID='EKPR20' NAME='Ekonomprogrammet' STUDENTCOUNT='36' DEPARTMENT='Ekonomi' ></PROGRAM >
-</PERIOD >
-</COURSE >
-</COURSES>
+<courses>
+    <course id='TE193A' name='Produktionsflöden och Produktionsflöden' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+            <program id='AUTE20' name='Automatiseringstekniker' studentcount='12' department='Teknik' />
+        </period>
+    </course>
+    <course id='TE872G' name='Aktuella Trender i Computer Aided Design' hp='7.5' department='Teknik' >
+        <period number='5' ></period>
+    </course>
+    <course id='IT427G' name='Design av Spelprogrammering' hp='15' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='TE301G' name='Examensarbete i Utveckling för Ingenjörer' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT753G' name='Hållbar Spelprogrammering' hp='15' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='IT469A' name='Hur man undviker Systemvetenskap' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+        </period>
+    </course>
+    <course id='TE622A' name='Projekt i Computer Aided Design' hp='7.5' department='Teknik' >
+        <period number='1' ></period>
+    </course>
+    <course id='HU968G' name='Klinisk Stencilkopiering' hp='7.5' department='Humaniora' >
+        <period number='5' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+            <program id='SOPS20' name='Socialpsykologiskt program' studentcount='35' department='Humaniora' />
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT447G' name='Databassystem' hp='7.5' department='IT' >
+        <period number='5' >
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT325G' name='Extrem Systemvetenskap' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+        </period>
+    </course>
+    <course id='IT618A' name='Teoretisk Databassystem' hp='7.5' department='IT' >
+        <period number='5' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+        </period>
+    </course>
+    <course id='TE848G' name='Extrem Maskinteknik' hp='7.5' department='Teknik' >
+        <period number='2' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+        </period>
+    </course>
+    <course id='HU257F' name='Aktuella Trender i Bristol Scale' hp='7.5' department='Humaniora' >
+        <period number='1' >
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+        </period>
+    </course>
+    <course id='HU726G' name='Extrem Filosofi' hp='15' department='Humaniora' >
+        <period number='1' ></period>
+    </course>
+    <course id='IT601G' name='Systemvetenskap' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+        </period>
+        <period number='4' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+        </period>
+    </course>
+    <course id='HU284G' name='Stencilkopiering' hp='7.5' department='Humaniora' >
+        <period number='1' >
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+        </period>
+    </course>
+    <course id='EK682A' name='Avancerad Nationalekonomi' hp='7.5' department='Ekonomi' >
+        <period number='4' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='HU640A' name='Kognition' hp='7.5' department='Humaniora' >
+        <period number='4' >
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+        </period>
+    </course>
+    <course id='HU920G' name='Grunder i Filosofi' hp='15' department='Humaniora' >
+        <period number='5' ></period>
+    </course>
+    <course id='IT472G' name='Klinisk Databassystem' hp='7.5' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='IT733G' name='Informationssäkerhet' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='DASC20' name='Data Science - magisterprogram' studentcount='24' department='IT' />
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+        </period>
+        <period number='2' ></period>
+    </course>
+    <course id='IT872G' name='Speldesign och Datorgrafik' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='DASC20' name='Data Science - magisterprogram' studentcount='24' department='IT' />
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+            <program id='WEPR20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+        <period number='2' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+        </period>
+    </course>
+    <course id='IT861G' name='Informationssäkerhet och Speldesign' hp='15' department='IT' >
+        <period number='4' >
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='EK604G' name='Extrem Företagsekonomi' hp='7.5' department='Ekonomi' >
+        <period number='4' ></period>
+        <period number='2' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='IT352G' name='Examensarbete i Cybernetik' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='HU321F' name='Filosofi och Kognition' hp='15' department='Humaniora' >
+        <period number='4' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT494G' name='Informationssäkerhet och Databassystem' hp='15' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT119G' name='Aktuella Trender i Informationssäkerhet' hp='7.5' department='IT' >
+        <period number='5' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+        </period>
+    </course>
+    <course id='HU293A' name='Bristol Scale och Filosofi' hp='15' department='Humaniora' >
+        <period number='1' ></period>
+    </course>
+    <course id='IT191F' name='Teoretisk Cybernetik' hp='15' department='IT' >
+        <period number='1' ></period>
+        <period number='2' ></period>
+    </course>
+    <course id='IT627A' name='Grunder i Algoritmer' hp='7.5' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='TE712G' name='Avancerad Styrteknik' hp='7.5' department='Teknik' >
+        <period number='1' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+        </period>
+    </course>
+    <course id='HU148G' name='Rättspatos' hp='15' department='Humaniora' >
+        <period number='2' >
+            <program id='SOPS20' name='Socialpsykologiskt program' studentcount='35' department='Humaniora' />
+            <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='TE504G' name='Hållbar Konstruktionsteknik' hp='15' department='Teknik' >
+        <period number='1' >
+            <program id='AUTE20' name='Automatiseringstekniker' studentcount='12' department='Teknik' />
+        </period>
+    </course>
+    <course id='HU211F' name='Vetenskapsteori' hp='15' department='Humaniora' >
+        <period number='4' >
+            <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='EK199G' name='Projekt i Redovisning' hp='7.5' department='Ekonomi' >
+        <period number='1' >
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='EK138G' name='Praktisk Statistik' hp='7.5' department='Ekonomi' >
+        <period number='1' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='IT441G' name='Datorgrafik' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+        </period>
+        <period number='1' ></period>
+    </course>
+    <course id='TE401G' name='Extrem Utveckling för Ingenjörer' hp='7.5' department='Teknik' >
+        <period number='4' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT973F' name='Projekt i Speldesign' hp='15' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT688G' name='Teoretisk Speldesign' hp='7.5' department='IT' >
+        <period number='5' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+        </period>
+    </course>
+    <course id='IT622F' name='Speldesign' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT499F' name='Grunder i Virtualisering' hp='7.5' department='IT' >
+        <period number='5' ></period>
+        <period number='1' ></period>
+    </course>
+    <course id='EK499A' name='Redovisning och Statistik' hp='7.5' department='Ekonomi' >
+        <period number='5' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='TE323G' name='Utveckling för Ingenjörer  och Produktionsflöden' hp='7.5' department='Teknik' >
+        <period number='2' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+            <program id='AUTE20' name='Automatiseringstekniker' studentcount='12' department='Teknik' />
+        </period>
+    </course>
+    <course id='TE102G' name='Aktuella Trender i Utveckling för Ingenjörer' hp='7.5' department='Teknik' >
+        <period number='1' ></period>
+    </course>
+    <course id='TE103A' name='Projekt i Konstruktionsteknik' hp='15' department='Teknik' >
+        <period number='4' >
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+            <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' studentcount='30' department='Teknik' />
+            <program id='AUTE20' name='Automatiseringstekniker' studentcount='12' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT974F' name='Grunder i Datorgrafik' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+        </period>
+    </course>
+    <course id='EK308F' name='Nationalekonomi och Statistik' hp='15' department='Ekonomi' >
+        <period number='1' ></period>
+    </course>
+    <course id='TE625G' name='Klinisk Tillverkning' hp='7.5' department='Teknik' >
+        <period number='5' ></period>
+    </course>
+    <course id='IT557F' name='Ohållbar Cybernetik' hp='7.5' department='IT' >
+        <period number='1' ></period>
+    </course>
+    <course id='TE388G' name='Projekt i Utveckling för Ingenjörer' hp='7.5' department='Teknik' >
+        <period number='1' >
+            <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' studentcount='30' department='Teknik' />
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='HU963G' name='Extrem Medvetandestudier' hp='7.5' department='Humaniora' >
+        <period number='1' >
+            <program id='SOPS20' name='Socialpsykologiskt program' studentcount='35' department='Humaniora' />
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+            <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='TE853G' name='Konstruktionsteknik' hp='7.5' department='Teknik' >
+        <period number='2' >
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT207A' name='Hållbar Cybernetik' hp='15' department='IT' >
+        <period number='5' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+        </period>
+    </course>
+    <course id='IT553F' name='Avancerad Informationssäkerhet' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT245G' name='Databassystem och Spelprogrammering' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT276G' name='Introduktion till Algoritmer' hp='15' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT660A' name='Introduktion till Spelprogrammering' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='HU976G' name='Klinisk Vetenskapsteori' hp='7.5' department='Humaniora' >
+        <period number='4' >
+            <program id='SOPS20' name='Socialpsykologiskt program' studentcount='35' department='Humaniora' />
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+        </period>
+        <period number='2' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT496G' name='Klinisk Systemvetenskap' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+        <period number='2' >
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='TE661G' name='Produktionsflöden och Konstruktionsteknik' hp='7.5' department='Teknik' >
+        <period number='2' >
+            <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' studentcount='30' department='Teknik' />
+            <program id='AUTE20' name='Automatiseringstekniker' studentcount='12' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT175F' name='Aktuella Trender i Datorgrafik' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+        </period>
+    </course>
+    <course id='EK262A' name='Management' hp='7.5' department='Ekonomi' >
+        <period number='2' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='TE461G' name='Extrem Reglerteknik' hp='7.5' department='Teknik' >
+        <period number='5' ></period>
+    </course>
+    <course id='TE504F' name='Konstruktionsteknik och Computer Aided Design' hp='7.5' department='Teknik' >
+        <period number='5' ></period>
+    </course>
+    <course id='IT568F' name='Praktisk Algoritmer' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT396G' name='Speldesign och Algoritmer' hp='7.5' department='IT' >
+        <period number='5' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='EK423G' name='Design av Statistik' hp='7.5' department='Ekonomi' >
+        <period number='5' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='HAEK20' name='Handelsekonomiprogrammet' studentcount='18' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='IT893G' name='Ohållbar Speldesign' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='WEPR20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='HU950F' name='Praktisk Vetenskapsteori' hp='7.5' department='Humaniora' >
+        <period number='1' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+        </period>
+    </course>
+    <course id='TE603G' name='Ohållbar Styrteknik' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+        </period>
+        <period number='4' >
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='EK716F' name='Hur man undviker Statistik' hp='7.5' department='Ekonomi' >
+        <period number='1' >
+            <program id='PEOR20' name='Personal, organisation och ledarskap' studentcount='19' department='Ekonomi' />
+            <program id='LEVE20' name='Ledarskap och verksamhetsutveckling - magisterprogram' studentcount='21' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+            <program id='EKRE20' name='Ekonomprogrammet - redovisning och revision' studentcount='14' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='TE941F' name='Extrem Tillverkning' hp='7.5' department='Teknik' >
+        <period number='5' ></period>
+        <period number='1' >
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+        </period>
+    </course>
+    <course id='TE593G' name='Utveckling för Ingenjörer' hp='7.5' department='Teknik' >
+        <period number='1' >
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT773F' name='Ohållbar Spelprogrammering' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='HU662G' name='Introduktion till Bristol Scale' hp='7.5' department='Humaniora' >
+        <period number='1' >
+            <program id='SOPS20' name='Socialpsykologiskt program' studentcount='35' department='Humaniora' />
+            <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+        <period number='2' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT201F' name='Teoretisk Spelprogrammering' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT138G' name='Spelprogrammering' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+        </period>
+    </course>
+    <course id='IT805A' name='Hur man undviker Speldesign' hp='7.5' department='IT' >
+        <period number='5' >
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+        </period>
+    </course>
+    <course id='TE374G' name='Klinisk Konstruktionsteknik' hp='7.5' department='Teknik' >
+        <period number='1' ></period>
+    </course>
+    <course id='TE432G' name='Avancerad Produktionsflöden' hp='7.5' department='Teknik' >
+        <period number='1' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT586G' name='Hållbar Algoritmer' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='TE318G' name='Examensarbete i Reglerteknik' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT741G' name='Hur man undviker Algoritmer' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+        </period>
+    </course>
+    <course id='IT590G' name='Algoritmer' hp='15' department='IT' >
+        <period number='4' >
+            <program id='DASC20' name='Data Science - magisterprogram' studentcount='24' department='IT' />
+        </period>
+        <period number='5' ></period>
+    </course>
+    <course id='TE535F' name='Tillverkning' hp='7.5' department='Teknik' >
+        <period number='4' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT273G' name='Introduktion till Virtualisering' hp='15' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='IT526G' name='Algoritmer och Informationssäkerhet' hp='7.5' department='IT' >
+        <period number='1' ></period>
+        <period number='2' >
+            <program id='DASC20' name='Data Science - magisterprogram' studentcount='24' department='IT' />
+        </period>
+    </course>
+    <course id='TE546A' name='Praktisk Tillverkning' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='AUTE20' name='Automatiseringstekniker' studentcount='12' department='Teknik' />
+        </period>
+        <period number='2' >
+            <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' studentcount='30' department='Teknik' />
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT757F' name='Klinisk Datorgrafik' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+        </period>
+        <period number='1' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+        </period>
+    </course>
+    <course id='HU470G' name='Grunder i Neuropsykologi' hp='7.5' department='Humaniora' >
+        <period number='1' ></period>
+        <period number='2' >
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT551G' name='Hur man undviker Databassystem' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+        </period>
+    </course>
+    <course id='IT105A' name='Teoretisk Systemvetenskap' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+            <program id='WEPR20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT202G' name='Hållbar Virtualisering' hp='7.5' department='IT' >
+        <period number='1' ></period>
+        <period number='2' >
+            <program id='DASC20' name='Data Science - magisterprogram' studentcount='24' department='IT' />
+        </period>
+    </course>
+    <course id='IT902F' name='Introduktion till Datorgrafik' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT616G' name='Extrem Virtualisering' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+            <program id='WEPR20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='EK592G' name='Hållbar Logistik' hp='15' department='Ekonomi' >
+        <period number='4' >
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='EKHA20' name='Ekonomprogrammet - ekonomi och hållbarhet' studentcount='20' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='IT772G' name='Examensarbete i Virtualisering' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='DSDE20' name='Dataspelsutveckling - design' studentcount='27' department='IT' />
+            <program id='DSPR20' name='Dataspelsutveckling - programmering' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT720G' name='Praktisk Virtualisering' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT607A' name='Ohållbar Datorgrafik' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+        </period>
+        <period number='2' ></period>
+    </course>
+    <course id='HU325F' name='Extrem Neuropsykologi' hp='7.5' department='Humaniora' >
+        <period number='4' >
+            <program id='SOPS20' name='Socialpsykologiskt program' studentcount='35' department='Humaniora' />
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+        </period>
+        <period number='5' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+            <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='TE474A' name='Aktuella Trender i Maskinteknik' hp='15' department='Teknik' >
+        <period number='5' ></period>
+    </course>
+    <course id='TE704G' name='Produktionsflöden' hp='15' department='Teknik' >
+        <period number='2' >
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='HU698G' name='Hur man undviker Neuropsykologi' hp='15' department='Humaniora' >
+        <period number='5' >
+            <program id='KOME20' name='Kognitiv neurovetenskap - neuropsykologi och medvetandestudier' studentcount='30' department='Humaniora' />
+        </period>
+    </course>
+    <course id='TE770G' name='Reglerteknik' hp='15' department='Teknik' >
+        <period number='4' ></period>
+    </course>
+    <course id='TE466F' name='Maskinteknik och Reglerteknik' hp='15' department='Teknik' >
+        <period number='5' >
+            <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' studentcount='30' department='Teknik' />
+        </period>
+    </course>
+    <course id='TE222G' name='Teoretisk Konstruktionsteknik' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='MAIN20' name='Maskiningenjör' studentcount='12' department='Teknik' />
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='HU655G' name='Aktuella Trender i Stencilkopiering' hp='7.5' department='Humaniora' >
+        <period number='1' >
+            <program id='KONE20' name='Kognitiv neurovetenskap' studentcount='14' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT363G' name='Hållbar Databassystem' hp='15' department='IT' >
+        <period number='5' >
+            <program id='DASC20' name='Data Science - magisterprogram' studentcount='24' department='IT' />
+            <program id='WEPR20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT719G' name='Examensarbete i Speldesign' hp='7.5' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='IT770F' name='Design av Cybernetik' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='TE959G' name='Hur man undviker Tillverkning' hp='7.5' department='Teknik' >
+        <period number='5' >
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT287G' name='Virtualisering' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='TE576G' name='Computer Aided Design' hp='7.5' department='Teknik' >
+        <period number='1' >
+            <program id='VIER20' name='Virtuell ergonomi och design - masterprogram' studentcount='30' department='Teknik' />
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+            <program id='DEIN20' name='Designingenjör' studentcount='20' department='Teknik' />
+            <program id='INAU20' name='Intelligent automation - masterprogram' studentcount='18' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT362A' name='Design av Datorgrafik' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='IT444G' name='Extrem Algoritmer' hp='7.5' department='IT' >
+        <period number='1' ></period>
+        <period number='5' >
+            <program id='DASY20' name='Datavetenskap - inriktning systemutveckling' studentcount='12' department='IT' />
+        </period>
+    </course>
+    <course id='IT111G' name='Cybernetik' hp='15' department='IT' >
+        <period number='2' >
+            <program id='INIS20' name='Integritet, informationssäkerhet och cybersäkerhet - magisterprogram' studentcount='39' department='IT' />
+        </period>
+    </course>
+    <course id='IT957F' name='Hur man undviker Datorgrafik' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+        </period>
+    </course>
+    <course id='TE617G' name='Styrteknik' hp='7.5' department='Teknik' >
+        <period number='1' >
+            <program id='PRIN20' name='Produktionsingenjör' studentcount='11' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT396G' name='Praktisk Cybernetik' hp='7.5' department='IT' >
+        <period number='1' >
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+        </period>
+    </course>
+    <course id='TE366A' name='Grunder i Computer Aided Design' hp='7.5' department='Teknik' >
+        <period number='5' ></period>
+    </course>
+    <course id='IT447F' name='Praktisk Databassystem' hp='15' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='TE228G' name='Examensarbete i Produktionsflöden' hp='15' department='Teknik' >
+        <period number='4' ></period>
+    </course>
+    <course id='IT447G' name='Extrem Speldesign' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+        </period>
+        <period number='5' ></period>
+    </course>
+    <course id='TE915G' name='Projekt i Maskinteknik' hp='7.5' department='Teknik' >
+        <period number='2' >
+            <program id='MARO20' name='Människa-robotinteraktion - magisterprogram' studentcount='30' department='Teknik' />
+        </period>
+    </course>
+    <course id='IT380A' name='Teoretisk Virtualisering' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='NASY20' name='Nätverk och systemadministration' studentcount='21' department='IT' />
+        </period>
+    </course>
+    <course id='TE945G' name='Praktisk Konstruktionsteknik' hp='7.5' department='Teknik' >
+        <period number='1' ></period>
+    </course>
+    <course id='IT164F' name='Projekt i Spelprogrammering' hp='7.5' department='IT' >
+        <period number='2' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+        </period>
+    </course>
+    <course id='HU382G' name='Klinisk Filosofi' hp='7.5' department='Humaniora' >
+        <period number='2' >
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+        </period>
+    </course>
+    <course id='HU794G' name='Design av Vetenskapsteori' hp='7.5' department='Humaniora' >
+        <period number='5' >
+            <program id='HASK20' name='Hållbar skötsel och nyttjande av biologiska resurser - magisterprogram' studentcount='23' department='Humaniora' />
+            <program id='BIRE20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+    <course id='IT643G' name='Introduktion till Databassystem' hp='7.5' department='IT' >
+        <period number='1' ></period>
+    </course>
+    <course id='IT682F' name='Datorgrafik och Algoritmer' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='IFBI20' name='Informationsteknologi - Business Intelligence' studentcount='28' department='IT' />
+        </period>
+    </course>
+    <course id='IT381G' name='Aktuella Trender i Speldesign' hp='7.5' department='IT' >
+        <period number='4' >
+            <program id='SYVE20' name='Systemvetenskap' studentcount='10' department='IT' />
+            <program id='USEX20' name='User Experience Design' studentcount='14' department='IT' />
+        </period>
+    </course>
+    <course id='HU226G' name='Introduktion till Filosofi' hp='7.5' department='Humaniora' >
+        <period number='4' ></period>
+    </course>
+    <course id='EK682F' name='Grunder i Riskhantering' hp='7.5' department='Ekonomi' >
+        <period number='1' >
+            <program id='EKLE20' name='Ekonomprogrammet - ledarskap och verksamhetsutveckling' studentcount='39' department='Ekonomi' />
+            <program id='EKPR20' name='Ekonomprogrammet' studentcount='36' department='Ekonomi' />
+        </period>
+    </course>
+    <course id='IT334G' name='Hur man undviker Cybernetik' hp='7.5' department='IT' >
+        <period number='2' ></period>
+    </course>
+    <course id='TE729G' name='Produktionsflöden och Tillverkning' hp='7.5' department='Teknik' >
+        <period number='1' ></period>
+    </course>
+    <course id='IT508G' name='Grunder i Informationssäkerhet' hp='7.5' department='IT' >
+        <period number='4' ></period>
+    </course>
+    <course id='IT997G' name='Projekt i Virtualisering' hp='15' department='IT' >
+        <period number='4' >
+            <program id='WEPR20' name='Biovetenskap - biologiska resurser och hållbar utveckling' studentcount='24' department='Humaniora' />
+        </period>
+    </course>
+</courses>

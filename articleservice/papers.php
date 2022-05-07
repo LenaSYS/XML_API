@@ -3,7 +3,7 @@ header("Content-type: text/xml");
 ?>
 <NEWSPAPERS>
 <?php
-  
+
 	$output=false;
 	
 	function startElement($parser, $entityname, $attributes) {
@@ -48,5 +48,6 @@ header("Content-type: text/xml");
    }
   
    xml_parser_free($parser);
-?>
+
+	 ?>
 </NEWSPAPERS>

@@ -14,14 +14,18 @@
 	      Arjeplog has a subarctic climate typical of northern Sweden. Its winters are somewhat moderated by the mild maritime North Atlantic air to the west, although they are still very cold, long and snowy. Summers are short but can occasionally be warm and they also very bright due to Arjeplog's position close to the Arctic Circle. Daylight is sparse in winter, but during summer midnight sun is present for three weeks.[5] For an even longer period than that it does not get dark in Arjeplog. The presence of the midnight sun is in spite of Arjeplog being below the Arctic Circle, and is caused by the sun's trajectory not quite dropping below 0° in angle. As it is below the line Arjeplog does not experience complete lack of daylight during the winter solstice, but it is limited to less than three hours.
 			  <break/>Arjeplog is located on the lake of Hornavan, that freezes over every winter due to the cold temperatures, whereas the lake temperatures remain cool also in summer. 			
 		</climate>
-		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Arjeplog_kyrka-2006-07-2006.JPG/640px-Arjeplog_kyrka-2006-07-2006.JPG</imgurl>
 		<province>Lapland</province>
 		<county>Norrbotten County</county>
 		<municipality>Arjeplog Municipality</municipality>
-		<area>2.29 km2</area>
-		<population>1,977</population>
+		<charter>-</charter>
+		<area city='2.29 km2' metro='2.29 km2' />
+		<elevation>-</elevation>		 
+		<population city='1,977' urban='1,977' metro='1,977' />
 		<rank source='https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning' no='287' />
- 		<density>863/km2</density>
+		<postalcode>-</postalcode>	
+		<areacode>-</areacode>		 
+		<url>-</url>	
+		<imgurl>https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Arjeplog_kyrka-2006-07-2006.JPG/640px-Arjeplog_kyrka-2006-07-2006.JPG</imgurl>
 		<license>https://creativecommons.org/licenses/by-sa/3.0/</license>
 		<hyperlink>https://en.wikipedia.org/wiki/Arjeplog</hyperlink>
   </location>
@@ -70,6 +74,7 @@
 		<province>Värmlands Län</province>
     <county>Värmland</county>
     <municipality>Grums Municipality</municipality>
+		<charter>-</charter>		
 		<area city='478.81 km2' />
 		<elevation>12 m</elevation>
 		<population city='5025' metro='9047' />
@@ -97,6 +102,7 @@
 		<province>Gästrikland</province>
 		<county>Gävleborg County</county>
 		<municipality>Gävle Municipality</municipality>
+		<charter>-</charter>		
 		<area city='42.45 km2' metro='1,615.07 km2' />
  		<elevation>8 m</elevation>
 		<population city='75,451' urban='96,969' />
@@ -354,7 +360,7 @@
     Karlskrona is a locality and the seat of Karlskrona Municipality, Blekinge County, Sweden with 66,675 inhabitants in 2018.
 		<break/>It is also the capital of Blekinge County. Karlskrona is known as Sweden's only baroque city and is host to Sweden's only remaining naval base and the headquarters of the Swedish Coast Guard. 		
 		</about>
-		<climate code='Cfb' system='Köppen climate classification'>>
+		<climate code='Cfb' system='Köppen climate classification'>
     The climate is damp, warm and temperate. The rainfall in Karlskrona is significant, with precipitation even during the driest month. 
     <break/>The climate is classified as Cfb by the Köppen-Geiger system. The average annual temperature is 7.8 °C | 46.0 °F in Karlskrona. About 556 mm | 21.9 inch of precipitation falls annually. 		
 		</climate>
