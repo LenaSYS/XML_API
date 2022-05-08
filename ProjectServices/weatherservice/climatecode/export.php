@@ -4,35 +4,29 @@
 <?php
 	$output=Array();
 	$name="";
-  $place="";
 	
 	function startElement($parser, $entityname, $attributes) {
 			global $output;
 			global $name;
-      global $place;
 
 			$name=$entityname;
 
-			if($name=="TIME") $output=Array();
-
-      if($name=="FORECAST") $place=$attributes['NAME'];
-
-			foreach($attributes as $name=>$value){
-					if(trim($value)!="") $output[strtolower($name)]=$value;
-			}
+			if($name=="CODE"){
+					$output=Array();
+					foreach($attributes as $name=>$value){
+							if(trim($value)!="") $output[strtolower($name)]=$value;
+					}
+			} 
 	}
   
 	function endElement($parser, $entityname) {
 			global $output;
-      global $place;
 
-			if($entityname=="TIME"){
+			if($entityname=="CODE"){
 					// print_r($output);
 
 					$cols="";
 					$values="";
-
-          $output['place']=$place;
 
 					foreach($output as $name=>$value){
 							if($cols!="") $cols.=",";

@@ -11,7 +11,7 @@ function makeJson($rows,$jsonattrs)
 			foreach($row as $nam=>$val){
           if(in_array($nam,$jsonattrs)){
               if($i++>0) echo ",";	
-              echo '"'.$nam.'":'.str_replace('__','"',$val);
+              echo '"'.$nam.'":"'.str_replace('__','"',$val).'"';
           }else{
               if($i++>0) echo ",";	
               echo '"'.$nam.'":"'.$val.'"';
@@ -115,16 +115,4 @@ try {
     echo $e->getMessage();
 }
 
-/*
-if(!$query->execute()) {
-	$rows = $query->fetchAll();
-	foreach($rows as $row){
-			echo "<pre>";
-			print_r($row);
-			echo "</pre>";
-	}
-}else{
-		print_r($log_db->errorInfo());
-}
-*/
 ?>

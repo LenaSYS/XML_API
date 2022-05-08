@@ -70,7 +70,7 @@
 					$cols="";
 					$values="";
 
-          $output['periods']=$outputstr;
+          $output['periods']=str_replace('"',"__",$outputstr);
 
 					foreach($output as $name=>$value){
 							if($cols!="") $cols.=",";
