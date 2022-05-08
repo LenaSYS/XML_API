@@ -6,7 +6,7 @@ include '../../formatData.php';
 if(isset($_GET['mode'])){
 		$mode=$_GET['mode'];
 }else{
-		$mode="json";
+		$mode="xml";
 }
 
 try {
@@ -18,7 +18,7 @@ try {
 	if($mode=="json"){
 			makeJson($rows,["authors","categories","preface"]);
 	}else{
-			makeXml("books","book",$rows,["authors"],["title","id","role"],["url","name"]);
+			makeXml("books","book",$rows,["authors","preface"],["title","id","role"],["url","name"]);
 	}
 	
 }catch (PDOException $e){

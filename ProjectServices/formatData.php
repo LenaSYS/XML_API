@@ -25,18 +25,25 @@ function makeJson($rows,$jsonattrs)
 function formatXml($data,$attname,$attrs,$elements)
 {
     foreach($data as $item){
-        foreach ($item as $key => $value) {
-            echo "<$attname ";         
-					  if(in_array($key,$attrs)){
-              echo $key."='".$value."' ";
+        if(gettype($item)=="string"){
+             echo "<p>";
+             echo $item;
+             echo "</p>";
+        }else{
+            foreach ($item as $key => $value) {
+                echo "<$attname ";         
+    					  if(in_array($key,$attrs)){
+                  echo $key."='".$value."' ";
+                }
+                echo ">";
+    					  if(in_array($key,$elements)){
+    							echo "<$key>".$value."</$key>";
+                }
+                echo "</$attname>";
+                // print "$key => $value\n";
             }
-            echo ">";
-					  if(in_array($key,$elements)){
-							echo "<$key>".$value."</$key>";
-            }
-            echo "</$attname>";
-            // print "$key => $value\n";
         }
+
     }
 }
 
@@ -71,6 +78,23 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
 		}		
 
 		echo "</$rootnode>";
+}
+
+function makeSimpleXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
+{
+		header("Content-type: text/xml");
+
+    echo "<$rootnode>";
+		foreach($rows as $no=>$row){
+        echo "<$rowelement>";
+        foreach($row as $nam=>$val){
+					if(in_array($nam,$elements)){
+							echo $val;
+					}
+			  }
+        echo "</$rowelement>";
+    }
+    echo "</$rootnode>";
 }
 
 ?>
