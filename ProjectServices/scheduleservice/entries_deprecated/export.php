@@ -35,9 +35,11 @@
         if (substr($outputstr, -1)=="}") $outputstr.=",";
         $outputstr.="{";
         $i=0;
+        //if(!isset($attributes['GROUP'])) $attributes['GROUP']="none";
+        //print_r($attributes);
         foreach($attributes as $name=>$value){
           if($i++>0) $outputstr.=",";
-          if(trim($value)!="") $outputstr.='"'.strtolower($name).'":"'.$value.'"';
+          $outputstr.='"'.strtolower($name).'":"'.$value.'"';
         }
         $outputstr.="}";
     }    
@@ -75,7 +77,7 @@
 					}*/
 
 
-					echo 'UPDATE COURSE SET period="'.str_replace('"',"__",$outputstr).'" WHERE id="'.$output['id'].'";'."\n";
+					echo 'UPDATE COURSE SET periods="'.str_replace('"',"__",$outputstr).'" WHERE id="'.$output['id'].'";'."\n";
 			}			
 	}
   

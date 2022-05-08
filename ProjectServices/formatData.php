@@ -22,33 +22,41 @@ function makeJson($rows,$jsonattrs)
 		echo "]";
 }
 
-function formatXml($data,$attname,$attrs,$elements,$convert)
+function formatXml($data,$attname,$jsonattrs,$attrs,$elements,$convert)
 {
+    if($data==null){
 
-    foreach($data as $item){
+    }else{
+      foreach($data as $item){
         if(gettype($item)=="string"){
              $convertedname=$convert[$attname];
              echo "<$convertedname>";
              echo $item;
              echo "</$convertedname>";
         }else if(gettype($item)=="object"){
+            if(isset($convert[$attname])){
+                $attname=$convert[$attname];
+            }
             echo "<$attname ";  
             foreach ($item as $key => $value) {       
-      					  if(in_array($key,$attrs)){
+                  if(in_array($key,$attrs)){
                     echo $key."='".$value."' ";
                   }
             }
             echo ">";
-            foreach ($item as $key => $value) {       
-                if(in_array($key,$elements)){
-        			      echo "<$key>".$value."</$key>";
+            foreach ($item as $key => $value) {   
+              if(in_array($key,$elements)){
+                    echo "<$key>".$value."</$key>";
+                }
+                if(in_array($key,$jsonattrs)){
+                    formatXml($value,$key,$jsonattrs,$attrs,$elements,$convert);
                 }
             }
             echo "</$attname>";
-                // print "$key => $value\n";
         }else{
-            echo gettype($item);
+            echo "Other".gettype($item);
         }
+      }
     }
 }
 
@@ -74,7 +82,7 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements,$conver
 							echo "<$nam>".$val."</$nam>";
 					}else if(in_array($nam,$jsonattrs)){
             echo "<$nam>";
-            formatXml(json_decode(str_replace('__','"',$val)),$nam,$attrs,$elements,$convert);
+            formatXml(json_decode(str_replace('__','"',$val)),$nam,$jsonattrs,$attrs,$elements,$convert);
             echo "</$nam>";    
           }
 			}			

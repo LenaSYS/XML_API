@@ -11,15 +11,14 @@ if(isset($_GET['mode'])){
 
 try {
 	$log_db = new PDO('sqlite:../scheduleservice.db');
-	$query = $log_db->prepare('select * from room;');
+	$query = $log_db->prepare('select * from program;');
 	$query->execute();
 	$rows = $query->fetchAll(PDO::FETCH_ASSOC);
 
 	if($mode=="json"){
-			makeJson($rows,["entries"]);
+			makeJson($rows,["periods"]);
 	}else{
-			makeXml("rooms","room",$rows,["entries"],["number","courseid","coursename","starttime","endtime","sign","comment","group","type"],[],Array("entries"=>"entry"));
-			
+			makeXml("programs","program",$rows,["periods","entries"],["number","id","name","level","hp","area","department","studentcount"],[],Array("periods"=>"period","period"=>"course"));
 	}
 	
 }catch (PDOException $e){

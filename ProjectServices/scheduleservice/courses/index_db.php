@@ -11,17 +11,16 @@ if(isset($_GET['mode'])){
 
 try {
 	$log_db = new PDO('sqlite:../scheduleservice.db');
-	$query = $log_db->prepare('select * from room;');
+	$query = $log_db->prepare('select * from course;');
 	$query->execute();
 	$rows = $query->fetchAll(PDO::FETCH_ASSOC);
 
 	if($mode=="json"){
-			makeJson($rows,["entries"]);
+			makeJson($rows,["periods","programs"]);
 	}else{
-			makeXml("rooms","room",$rows,["entries"],["number","courseid","coursename","starttime","endtime","sign","comment","group","type"],[],Array("entries"=>"entry"));
-			
-	}
-	
+			makeXml("courses","course",$rows,["programs","periods","entries"],["periodnumber","number","id","name","level","hp","area","department","studentcount","starttime","endtime","sign","comment","room","group","type"],[],Array("programs"=>"period","periods"=>"period"));
+  }
+
 }catch (PDOException $e){
     echo $e->getMessage();
 }
