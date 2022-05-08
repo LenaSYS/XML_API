@@ -22,32 +22,37 @@ function makeJson($rows,$jsonattrs)
 		echo "]";
 }
 
-function formatXml($data,$attname,$attrs,$elements)
+function formatXml($data,$attname,$attrs,$elements,$convert)
 {
+
     foreach($data as $item){
         if(gettype($item)=="string"){
-             echo "<p>";
+             $convertedname=$convert[$attname];
+             echo "<$convertedname>";
              echo $item;
-             echo "</p>";
-        }else{
-            foreach ($item as $key => $value) {
-                echo "<$attname ";         
-    					  if(in_array($key,$attrs)){
-                  echo $key."='".$value."' ";
-                }
-                echo ">";
-    					  if(in_array($key,$elements)){
-    							echo "<$key>".$value."</$key>";
-                }
-                echo "</$attname>";
-                // print "$key => $value\n";
+             echo "</$convertedname>";
+        }else if(gettype($item)=="object"){
+            echo "<$attname ";  
+            foreach ($item as $key => $value) {       
+      					  if(in_array($key,$attrs)){
+                    echo $key."='".$value."' ";
+                  }
             }
+            echo ">";
+            foreach ($item as $key => $value) {       
+                if(in_array($key,$elements)){
+        			      echo "<$key>".$value."</$key>";
+                }
+            }
+            echo "</$attname>";
+                // print "$key => $value\n";
+        }else{
+            echo gettype($item);
         }
-
     }
 }
 
-function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
+function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements,$convert)
 {
 		header("Content-type: text/xml");
 		
@@ -69,7 +74,7 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
 							echo "<$nam>".$val."</$nam>";
 					}else if(in_array($nam,$jsonattrs)){
             echo "<$nam>";
-            formatXml(json_decode(str_replace('__','"',$val)),substr($nam,0,-1),$attrs,$elements);
+            formatXml(json_decode(str_replace('__','"',$val)),$nam,$attrs,$elements,$convert);
             echo "</$nam>";    
           }
 			}			

@@ -18,7 +18,7 @@ try {
 	if($mode=="json"){
 			makeJson($rows,[]);
 	}else{
-			makeXml("authors","author",$rows,[],["role"],["about","lastname","firstname","birthyear","deathyear","imgurl","signature"]);
+			makeXml("authors","author",$rows,[],["role"],["about","lastname","firstname","birthyear","deathyear","imgurl","signature"],[]);
 	}
 	
 }catch (PDOException $e){

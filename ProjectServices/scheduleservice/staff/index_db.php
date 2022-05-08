@@ -6,7 +6,7 @@ include '../../formatData.php';
 if(isset($_GET['mode'])){
 		$mode=$_GET['mode'];
 }else{
-		$mode="json";
+		$mode="xml";
 }
 
 try {
