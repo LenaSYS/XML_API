@@ -5,12 +5,13 @@
 	$output=Array();
 	$name="";
   $outputstr="";
+  $rooms=Array();
 	
-
 	function startElement($parser, $entityname, $attributes) {
 			global $output;
 			global $name;
       global $outputstr;
+      global $rooms;
 
 			$name=$entityname;
 
@@ -19,61 +20,61 @@
           foreach($attributes as $name=>$value){
             if(trim($value)!="") $output[strtolower($name)]=$value;
           }
-          $outputstr="[";
     }else if($name=="PERIOD"){
-        // if last character of output is [ we do not output comma outherwise we do before each file
-        if (substr($outputstr, -1)=="}") $outputstr.=",";
-        $outputstr.="{";
-        $i=0;
-        foreach($attributes as $name=>$value){
-          if($i++>0) $outputstr.=",";
-          if(trim($value)!="") $outputstr.='"'.strtolower($name).'":"'.$value.'"';
-        }
-        $outputstr.=',"entries":[';
-        // $outputstr.=',"subdirectory":[';
-    }else if($name=="ENTRY"){
-        if (substr($outputstr, -1)=="}") $outputstr.=",";
-        $outputstr.="{";
-        $i=0;
-        foreach($attributes as $name=>$value){
-          if($i++>0) $outputstr.=",";
-          if(trim($value)!="") $outputstr.='"'.strtolower($name).'":"'.$value.'"';
-        }
-        $outputstr.="}";
-    }    
 
+    }else if($name=="ENTRY"){
+        $entry=Array();
+
+        $entry['courseid']=$output['id'];
+        $entry['coursename']=$output['name'];
+
+        foreach($attributes as $name=>$value){
+            $entry[strtolower($name)]=$value;
+        }
+        $roomNo=$entry['room'];
+        if(!isset($rooms[$roomNo])){
+          $rooms[$roomNo]=Array();
+        }
+
+//        if(!isset($entry['group'])) $entry['group']="none";
+        if($entry['group']=="") $entry['group']="none";
+        array_push($rooms[$roomNo],$entry);
+    }    
 	}
   
 	function endElement($parser, $entityname) {
 			global $output;
       global $outputstr;
+      global $rooms;
 
 			if($entityname=="PERIOD"){
-          $outputstr.="]";
-          $outputstr.="}";
+
       }
-         
 			if($entityname=="COURSE"){
-					// print_r($output);
+      
+      }
+			if($entityname=="ENTRIES"){
+          foreach($rooms as $rname=>$room){
 
-          $outputstr.="]";
+              $values="[";
+              foreach($room as $name=>$entry){
+                  if (substr($values, -1)=="}") $values.=",";
+                  $values.="{";
+                  $i=0;
+                  foreach($entry as $ename=>$value){
+                    if($ename!="room"){
+                        if (substr($values, -1)!="{") $values.=",";
+                        $values.='"'.strtolower($ename).'":"'.$value.'"';
+                    }
+                  }                  
+                  $values.="}";
+  					  }
+              $values.="]";
 
-
-					$cols="";
-					$values="";
-
-          $output['period']=str_replace('"',"__",$outputstr);
-
-					foreach($output as $name=>$value){
-							if($cols!="") $cols.=",";
-							$cols.=$name;
-							if($values!="") $values.=",";
-							$values.='"'.$value.'"';
-
-					}
-					echo "INSERT INTO COURSEITEM(".$cols.") VALUES(".$values.");\n";
-			}			
-	}
+              echo 'INSERT INTO ROOM(number,entries) VALUES("'.$rname.'","'.str_replace('"','__',$values).'");'."\n";
+          }
+      }
+ 	}
   
    function charData($parser, $chardata) {
 		 	global $output;

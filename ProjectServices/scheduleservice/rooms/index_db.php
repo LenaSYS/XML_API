@@ -9,13 +9,20 @@ function makeJson($rows,$jsonattrs)
 			echo "{";
 			$i=0;
 			foreach($row as $nam=>$val){
-					if($i++>0) echo ",";	
-					echo '"'.$nam.'":"'.$val.'"';
+					if(in_array($nam,$jsonattrs)){
+						if($i++>0) echo ",";	
+						echo '"'.$nam.'":'.str_replace('__','"',$val);
+					}else{
+						if($i++>0) echo ",";	
+						echo '"'.$nam.'":"'.$val.'"';
+					}
 			}
 			echo "}";
 		}
 		echo "]";
 }
+
+
 
 function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
 {
@@ -46,10 +53,6 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
 		echo "</$rootnode>";
 }
 
-// header("Content-type: text/xml");
-// 
-// echo json_encode($data);
-
 // Check if paper is set otherwise set to default
 if(isset($_GET['mode'])){
 		$mode=$_GET['mode'];
@@ -60,15 +63,15 @@ if(isset($_GET['mode'])){
 //$coursename=getOP('coursename');
 
 try {
-	$log_db = new PDO('sqlite:../books.db');
-	$query = $log_db->prepare('select * from author;');
+	$log_db = new PDO('sqlite:../scheduleservice.db');
+	$query = $log_db->prepare('select * from room;');
 	$query->execute();
 	$rows = $query->fetchAll(PDO::FETCH_ASSOC);
 
 	if($mode=="json"){
-			makeJson($rows,[]);
+			makeJson($rows,["entries"]);
 	}else{
-			makeXml("authors","author",$rows,[],["role"],["about","lastname","firstname","birthyear","deathyear","imgurl","signature"]);
+			makeXml("rooms","room",$rows,[],["courseid","coursname","starttime","endtime","sign","comment","group","type"],[]);
 	}
 	
 }catch (PDOException $e){

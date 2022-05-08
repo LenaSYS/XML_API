@@ -46,10 +46,6 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
 		echo "</$rootnode>";
 }
 
-// header("Content-type: text/xml");
-// 
-// echo json_encode($data);
-
 // Check if paper is set otherwise set to default
 if(isset($_GET['mode'])){
 		$mode=$_GET['mode'];
@@ -60,15 +56,15 @@ if(isset($_GET['mode'])){
 //$coursename=getOP('coursename');
 
 try {
-	$log_db = new PDO('sqlite:../books.db');
-	$query = $log_db->prepare('select * from author;');
+	$log_db = new PDO('sqlite:../scheduleservice.db');
+	$query = $log_db->prepare('select * from staff;');
 	$query->execute();
 	$rows = $query->fetchAll(PDO::FETCH_ASSOC);
 
 	if($mode=="json"){
 			makeJson($rows,[]);
 	}else{
-			makeXml("authors","author",$rows,[],["role"],["about","lastname","firstname","birthyear","deathyear","imgurl","signature"]);
+			makeXml("stafflist","staff",$rows,[],["id","fname","lname","title","department","birthyear","telnr"],[]);
 	}
 	
 }catch (PDOException $e){

@@ -26,13 +26,12 @@
         $outputstr.="{";
         $i=0;
         foreach($attributes as $name=>$value){
-          if($name=="NUMBER") $name="PERIODNUMBER";
           if($i++>0) $outputstr.=",";
           if(trim($value)!="") $outputstr.='"'.strtolower($name).'":"'.$value.'"';
         }
-        $outputstr.=',"programs":[';
+        $outputstr.=',"entries":[';
         // $outputstr.=',"subdirectory":[';
-    }else if($name=="PROGRAM"){
+    }else if($name=="ENTRY"){
         if (substr($outputstr, -1)=="}") $outputstr.=",";
         $outputstr.="{";
         $i=0;
@@ -63,16 +62,20 @@
 					$cols="";
 					$values="";
 
-          $output['programs']=str_replace('"',"__",$outputstr);
+          $output['period']=str_replace('"',"__",$outputstr);
 
+          // Skip course attributes, attributes already present.
+          /*
 					foreach($output as $name=>$value){
 							if($cols!="") $cols.=",";
 							$cols.=$name;
 							if($values!="") $values.=",";
 							$values.='"'.$value.'"';
 
-					}
-					echo "INSERT INTO ".$entityname."(".$cols.") VALUES(".$values.");\n";
+					}*/
+
+
+					echo 'UPDATE COURSE SET period="'.str_replace('"',"__",$outputstr).'" WHERE id="'.$output['id'].'";'."\n";
 			}			
 	}
   
@@ -93,7 +96,7 @@
    xml_set_element_handler($parser, "startElement", "endElement");
    xml_set_character_data_handler($parser, "charData");
   
-   $file = 'schedule_courses.xml';
+   $file = 'schedule_entries.xml';
    $data = file_get_contents($file);
   
    if(!xml_parse($parser, $data, true)){
