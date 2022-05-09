@@ -10,15 +10,15 @@ if(isset($_GET['mode'])){
 }
 
 try {
-	$log_db = new PDO('sqlite:../books.db');
-	$query = $log_db->prepare('select * from category;');
+	$log_db = new PDO('sqlite:../weatherservice.db');
+	$query = $log_db->prepare('select * from code;');
 	$query->execute();
 	$rows = $query->fetchAll(PDO::FETCH_ASSOC);
 
 	if($mode=="json"){
 			makeJson($rows,[]);
 	}else{
-			makeSimpleXml("categories","category",$rows,[],[],["category"]);
+			makeXml("climatecodes","code",$rows,[],["code","name","color"],[],[]);
 	}
 	
 }catch (PDOException $e){

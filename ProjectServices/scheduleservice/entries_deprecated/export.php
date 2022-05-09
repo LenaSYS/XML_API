@@ -66,17 +66,6 @@
 
           $output['period']=str_replace('"',"__",$outputstr);
 
-          // Skip course attributes, attributes already present.
-          /*
-					foreach($output as $name=>$value){
-							if($cols!="") $cols.=",";
-							$cols.=$name;
-							if($values!="") $values.=",";
-							$values.='"'.$value.'"';
-
-					}*/
-
-
 					echo 'UPDATE COURSE SET periods="'.str_replace('"',"__",$outputstr).'" WHERE id="'.$output['id'].'";'."\n";
 			}			
 	}

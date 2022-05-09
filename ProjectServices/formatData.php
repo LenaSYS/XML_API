@@ -27,9 +27,14 @@ function formatXml($data,$attname,$jsonattrs,$attrs,$elements,$convert)
     if($data==null){
 
     }else{
-      foreach($data as $item){
+      foreach($data as $itemname=>$item){
         if(gettype($item)=="string"){
-             $convertedname=$convert[$attname];
+             if(isset($convert[$attname])){
+                $convertedname=$convert[$attname];
+             }else{
+                $convertedname=$attname;
+             }
+             if(!is_numeric($itemname)) $convertedname=strtolower($itemname);
              echo "<$convertedname>";
              echo $item;
              echo "</$convertedname>";
@@ -53,6 +58,11 @@ function formatXml($data,$attname,$jsonattrs,$attrs,$elements,$convert)
                 }
             }
             echo "</$attname>";
+        }else if(gettype($item)=="array"){
+          $nam="p";
+          foreach ($item as $ikey => $ivalue) {
+            echo "<$nam>".$ivalue."</$nam>";
+          }     
         }else{
             echo "Other".gettype($item);
         }
