@@ -51,7 +51,6 @@
       }else if($entityname=="COMMITS"){
 					// print_r($output);
 
-
 					foreach($output as $arr){
             $cols="";
             $values="";
@@ -59,7 +58,7 @@
                   if($cols!="") $cols.=",";
     							$cols.=$aname;
     							if($values!="") $values.=",";
-    							$values.='"'.$value.'"';
+    							$values.='"'.str_replace("'","",$value).'"';
               }
               echo "INSERT INTO ".$entityname."(".$cols.") VALUES(".$values.");\n";
             }

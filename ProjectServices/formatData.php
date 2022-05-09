@@ -1,5 +1,14 @@
 <?php
 
+function getParam($param,$default)
+{
+    if(isset($_GET[$param])){
+    		return($_GET[$param]);
+    }else{
+    		return($default);
+    }  
+}
+
 function makeJson($rows,$jsonattrs)
 {
 		header('Content-Type: application/json; charset=utf-8');		
@@ -42,7 +51,7 @@ function formatXml($data,$attname,$jsonattrs,$attrs,$elements,$convert)
             if(isset($convert[$attname])){
                 $attname=$convert[$attname];
             }
-            $attname=$itemname;
+            if(!is_numeric($itemname)) $attname=$itemname;
             echo "<$attname ";  
             foreach ($item as $key => $value) {       
                   if(in_array($key,$attrs)){
@@ -91,7 +100,7 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements,$conver
 			echo ">";
 			foreach($row as $nam=>$val){
 					if(in_array($nam,$elements)){
-							echo "<$nam>".$val."</$nam>";
+							echo "<$nam>".str_replace("&","%26",$val)."</$nam>";
 					}else if(in_array($nam,$jsonattrs)){
             echo "<$nam>";
             formatXml(json_decode(str_replace('__','"',$val)),$nam,$jsonattrs,$attrs,$elements,$convert);
