@@ -42,15 +42,17 @@ function formatXml($data,$attname,$jsonattrs,$attrs,$elements,$convert)
             if(isset($convert[$attname])){
                 $attname=$convert[$attname];
             }
+            $attname=$itemname;
             echo "<$attname ";  
             foreach ($item as $key => $value) {       
                   if(in_array($key,$attrs)){
-                    echo $key."='".$value."' ";
+                    echo strtolower($key)."='".$value."' ";
                   }
             }
             echo ">";
             foreach ($item as $key => $value) {   
               if(in_array($key,$elements)){
+                    $key=strtolower($key);
                     echo "<$key>".$value."</$key>";
                 }
                 if(in_array($key,$jsonattrs)){

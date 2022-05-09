@@ -89,6 +89,8 @@
 					$values="";
 
 					foreach($output as $name=>$value){
+              if($name=="from") $name="fromtime";
+              if($name=="to") $name="totime";
 							if($cols!="") $cols.=",";
 							$cols.=$name;
 							if($values!="") $values.=",";
@@ -96,7 +98,7 @@
 
 					}
 
-					echo "INSERT INTO ".$entityname."(".$cols.") VALUES(".$values.");\n";
+					echo "INSERT INTO FORECAST(".$cols.") VALUES(".$values.");\n";
 			}			
 	}
   
