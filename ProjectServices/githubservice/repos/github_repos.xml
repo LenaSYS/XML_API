@@ -40,7 +40,7 @@
 	</repo>
 	<repo name='SchedSYS' url='https://github.com/HGustavs/SchedSYS' >
 				<file type='file' fullname='README.md' name='README.md' url='https://raw.githack.com/HGustavs/SchedSYS/master/README.md' />
-				<file type='file' fullname='__config.php__' name='__config.php__' url='https://raw.githack.com/HGustavs/SchedSYS/master/__config.php__' />		
+				<file type='file' fullname='config.php' name='config.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/config.php' />		
 				<file type='file' fullname='admin.php' name='admin.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/admin.php' />
 				<file type='file' fullname='adminlogin.php' name='adminlogin.php' url='https://raw.githack.com/HGustavs/SchedSYS/master/adminlogin.php' />		
 				<file type='file' fullname='canvas.js' name='canvas.js' url='https://raw.githack.com/HGustavs/SchedSYS/master/canvas.js' />	

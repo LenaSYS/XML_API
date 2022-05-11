@@ -29,7 +29,7 @@
           $i=0;
           foreach($attributes as $name=>$value){
             if($i++>0) $outputstr.=",";
-            if(trim($value)!="") $outputstr.='"'.strtolower($name).'":"'.$value.'"';
+            if(trim($value)!="") $outputstr.='"'.strtolower($name).'":"'.str_replace('"',"",$value).'"';
           }
           $outputstr.=',"subdirectory":[';
       }

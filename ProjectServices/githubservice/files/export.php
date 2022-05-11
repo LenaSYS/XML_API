@@ -8,6 +8,7 @@
 
   $name="";
   $fname="";
+  $repo="";
   $file=Array();
   $section=Array();
   $lines=Array();
@@ -22,6 +23,7 @@
       global $section;
       global $lines;
       global $line;
+      global $repo;
 
 			$name=$entityname;
 
@@ -36,12 +38,14 @@
     					if(trim($value)!="") $file[strtolower($aname)]=$value;
     		}
         $fname=$attributes['FULLNAME'];
+        $repo=$attributes['REPO'];
       }
       if($name=="SECTION"){
         $section=Array();
         $lines=Array();
         $section['filename']=$fname;
         foreach($attributes as $aname=>$value){
+              if($aname=="COMMIT") $aname="commitid";
     					if(trim($value)!="") $section[strtolower($aname)]=str_replace('"',"",$value);
     		}
       }  
@@ -62,6 +66,7 @@
       global $section;
       global $lines;
       global $line;
+      global $repo;
 
 			if($entityname=="LINE"){
           array_push($lines,$line);
@@ -70,24 +75,14 @@
           array_push($output,$file);
       }
 			if($entityname=="SECTION"){
+        $section['fullname']=$fname;
+        $section['repo']=$repo;        
         $section['lines']=str_replace('"',"__",json_encode($lines));
         array_push($soutput,$section);
       }
 			if($entityname=="FILES"){
           //print_r($soutput);
           //print_r($output);
-
-          foreach($output as $file){
-            $cols="";
-            $values="";
-            foreach($file as $name=>$value){
-  							if($cols!="") $cols.=",";
-  							$cols.=$name;
-  							if($values!="") $values.=",";
-  							$values.='"'.$value.'"';
-  					}
-  					echo "INSERT INTO FILE(".$cols.") VALUES(".$values.");\n";
-          }
 
           foreach($soutput as $section){
             $cols="";
@@ -110,7 +105,7 @@
       global $line;
 
       if($name=="LINE"){
-          $line['code']=$chardata;
+          $line['code']=stripslashes(str_replace('"',"",str_replace('__',"",$chardata)));
       }
 
       if($name=="SECTION"){

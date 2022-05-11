@@ -1,0 +1,384 @@
+De olika webbtjänsterna som respektive student skall arbeta med är nu upplagda på den nya webbservern. Länkarna finns nedan.
+
+Alla de olika tjänsterna har tre endpoints utom schema-tjänsten som har 4. Om man inte vill använda alla 4 så får man välja tre av dem och arbeta med dem
+men det är även tillåtet att arbeta med alla fyra tjänsterna.
+
+Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har några av tjänsterna har något mindre mångd data än önskvärt. Vi fyller på med mera data under kursens gång.
+
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <style>
+          body{
+              font-family:Arial Narrow;
+          }
+
+          .spacer{
+              width:32px;
+          }
+
+          .main a{
+              padding-left:25px;
+          }
+
+          table.main {
+              border-collapse: collapse;
+              border:3px solid darkslateblue;
+          }
+
+          .main tr{
+            border-top:2px solid darkslateblue;
+            border-bottom: 2px solid darkslateblue;
+          }
+
+          .mainexample{
+              padding-top:14px;
+              padding-bottom:14px;
+
+          }
+
+          /* Alternating direct descendents of main */
+          .main>tbody>tr:nth-child(odd){
+            background-color: #EEE;
+
+          }
+          .main>tbody>tr:nth-child(even){
+            background-color: #FFF;
+
+          }
+
+          /* Second level descendents of main */
+          .main tr tr {
+
+          }    
+          
+          .mainexample a {
+              font-weight: bold;
+              padding-left:0px;
+          }
+
+          .main>tbody>tr>th{
+                text-align:center;
+                background:navy;
+                color:white;
+          }
+
+          .main>tbody>tr>th>a{
+              color:white;
+          }
+
+          .service{
+                border-right:2px solid darkslateblue;
+                padding-right:8px;
+                color:white;
+                background:navy;
+          }
+
+</style>
+  </head>
+  <body>
+
+
+  <table class="main">
+    <tr>
+      <th colspan="2">
+      <h3>Bookservice</h3><a href="https://wwwlab.webug.se/examples/XML/bookservice/">https://wwwlab.webug.se/examples/XML/bookservice/</a>
+      </tr>
+    <tr>
+      <td class='service'>BOOKS</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/bookservice/books?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/bookservice/books?sort=(id/title)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/bookservice/books?(id/title)=(Matching Term) 
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://wwwlab.webug.se/examples/XML/bookservice/books?id=70">wwwlab.webug.se/examples/XML/bookservice/books?id=70</a>
+              </td>
+            </tr>          
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/bookservice/books?titlesearch=(searchterm)
+              </td>
+            </tr>    
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?titlesearch=News'>wwwlab.webug.se/examples/XML/bookservice/books?titlesearch=News</a>
+              </td>
+            </tr>  
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/books?prefacesearch=(searchterm)
+              </td>
+            </tr>  
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?prefacesearch=slow'>https://wwwlab.webug.se/examples/XML/bookservice/books?prefacesearch=slow</a>
+              </td>
+            </tr>   
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/books?authorsearch=(searchterm)
+              </td>
+            </tr>  
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?authorsearch=Mark'>wwwlab.webug.se/examples/XML/bookservice/books?authorsearch=Mark</a>
+              </td>
+            </tr> 
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=(searchterm)
+              </td>
+            </tr>  
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=English'>wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=English</a>
+              </td>
+            </tr>
+            <tr> 
+              <td class='mainexample'>           
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=Ghost&sort=title&mode=json'>wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=Ghost&sort=title&mode=json</a>
+              </td>
+            </tr>                                                                                                
+          </table>
+      </td>
+    </tr>
+    <tr>
+      <td class='service'>CATEGORY</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/category?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/bookservice/books?sort=(category)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=(searchterm)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst'>wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst</a>
+              </td>
+            </tr>
+            <tr>
+              <td class='mainexample'>           
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst&sort=category&mode=json'>wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst&sort=category&mode=json</a>
+              </td>
+            </tr>                                        
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class='service'>AUTHORS</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/bookservice/authors?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/authors?sort=(role/firstname/lastname/birthyear/deathyear)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/authors?(firstname/lastname/role/birthyear/deathyear)=(Matching Term)
+              </td>
+            </tr>   
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?birthyear=1866'>wwwlab.webug.se/examples/XML/bookservice/authors?birthyear=1866</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?firstname=Mark&lastname=Twain'>wwwlab.webug.se/examples/XML/bookservice/authors?firstname=Mark&lastname=Twain</a>
+              </td>
+            </tr>                                 
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/authors?aboutsearch=(searchterm)
+              </td>
+            </tr>            
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?aboutsearch=Club'>wwwlab.webug.se/examples/XML/bookservice/authors?aboutsearch=Club</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/bookservice/authors?namesearch=(searchterm)
+              </td>
+            </tr>             
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?namesearch=ark'>wwwlab.webug.se/examples/XML/bookservice/authors?namesearch=ark</a>
+              </td>
+            </tr>                                        
+            <tr>
+              <td class='mainexample'> 
+                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors/?sort=birthyear&birthyear=1835&mode=json'>wwwlab.webug.se/examples/XML/bookservice/authors/?sort=birthyear&birthyear=1835&mode=json</a>
+              </td>
+            </tr>                                        
+          </table>
+      </td>
+    </tr>  
+    
+  </table>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+Githubservice https://wwwlab.webug.se/examples/XML/githubservice
+
+
+---------------------------------------------------------------------------------------
+
+REPOS:
+
+https://wwwlab.webug.se/examples/XML/githubservice/repos?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/githubservice/repos?sort=(id/title)
+https://wwwlab.webug.se/examples/XML/githubservice/repos?(name/url)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/githubservice/repos?name=ContextFreeLib 
+https://wwwlab.webug.se/examples/XML/githubservice/repos?filesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/githubservice/repos?filesearch=svg
+
+Example:
+https://wwwlab.webug.se/examples/XML/githubservice/repos?filesearch=svg&sort=name&mode=xml
+
+FILES:
+https://wwwlab.webug.se/examples/XML/githubservice/files?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/githubservice/files?sort=(filename/author/commitid/timestamp/fullname/repo)
+https://wwwlab.webug.se/examples/XML/githubservice/files?filename/author/commitid/timestamp/fullname/repo=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/githubservice/files?linesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/githubservice/files?linesearch=svg
+https://wwwlab.webug.se/examples/XML/githubservice/files?messagesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/githubservice/files?messagesearch=svg
+Example:
+https://wwwlab.webug.se/examples/XML/githubservice/files?linesearch=param&sort=author&mode=xml
+COMMITS:
+https://wwwlab.webug.se/examples/XML/githubservice/commits?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/githubservice/commits?sort=(id/title)
+https://wwwlab.webug.se/examples/XML/githubservice/commits?(repo/id/space/time/timestamp/author/login)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/githubservice/commits?author=a97marbr 
+https://wwwlab.webug.se/examples/XML/githubservice/commits?messagesearch=(searchterm)
+// Example:
+https://wwwlab.webug.se/examples/XML//commits?messagesearch=Update&sort=timestamp&mode=json
+
+---------------------------------------------------------------------------------------
+Scheduleservice https://wwwlab.webug.se/examples/XML/scheduleservice
+---------------------------------------------------------------------------------------
+
+ROOMS:
+https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?sort=(number)
+https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?(number)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?number=E304 
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=Biolog
+Example:
+https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?programsearch=Kognition&sort=number&mode=json
+
+STAFF:
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?sort=(id/name/hp/department)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?(id/name/hp/department)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?department=Teknik 
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=Avancerad
+Example:
+https://wwwlab.webug.se/examples/XML/scheduleservice/staff?namesearch=erd&sort=name&mode=xml
+PROGRAMS:
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs?sort=(id/name/hp/level/department/studentcount)
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs?(id/name/hp/level/department/studentcount)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs?department=Teknik 
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System
+Example:
+https://wwwlab.webug.se/examples/XML/scheduleservice/programs/index_db.php?namesearch=System&sort=studentcount&mode=json
+COURSES:
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?sort=(id/name/hp/department)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?(id/name/hp/department)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?department=Teknik 
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=Klinisk
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=Biolog
+Example:
+https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=erd&sort=name&mode=xml
+
+---------------------------------------------------------------------------------------
+Weatherservice https://wwwlab.webug.se/examples/XML/weatherservice
+---------------------------------------------------------------------------------------
+
+CLIMATECODE:
+https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?sort=(code/color/name)
+https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?(code/color)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?country=Sweden 
+https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?namesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/weatheerservice/climatecode?namesearch=trop
+
+
+Example:
+https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?namesearch=tropic&sort=color&mode=xml
+
+
+FORECAST:
+https://wwwlab.webug.se/examples/XML/weatherservice/forecast?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/weatherservice/forecast?sort=(place/fromtime/totime/period/name)
+https://wwwlab.webug.se/examples/XML/weatherservice/forecast?(place/fromtime/totime/period/name)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/weatherservice/forecast?place=Grums 
+https://wwwlab.webug.se/examples/XML/weatherservice/forecast?timesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/weatheerservice/forecast?timesearch=2020-01-01
+
+
+Example:
+https://wwwlab.webug.se/examples/XML/weatherservice/forecast/index_db.php?timesearch=2020-01-01&place=Arjeplog
+
+
+LOCATIONS:
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?mode=(json/xml)
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?sort=(name/type/country/province/county/municipality/charter/elevation/postalcode/areacode)
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?(name/type/country/province/county/municipality/charter/elevation/postalcode/areacode)=(Matching Term) 
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?country=Sweden 
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?namesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/weatheerservice/locations?namesearch=ums
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?climatesearch=(searchterm)
+https://wwwlab.webug.se/examples/XML/weatheerservice/locations?climatesearch=Tropic
+
+
+Example:
+https://wwwlab.webug.se/examples/XML/weatherservice/locations?namesearch=ona&sort=name&mode=xml
+

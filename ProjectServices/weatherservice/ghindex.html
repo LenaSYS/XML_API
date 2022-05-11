@@ -1,0 +1,225 @@
+De olika webbtjänsterna som respektive student skall arbeta med är nu upplagda på den nya webbservern. Länkarna finns nedan.
+
+Alla de olika tjänsterna har tre endpoints utom schema-tjänsten som har 4. Om man inte vill använda alla 4 så får man välja tre av dem och arbeta med dem
+men det är även tillåtet att arbeta med alla fyra tjänsterna.
+
+Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har några av tjänsterna har något mindre mångd data än önskvärt. Vi fyller på med mera data under kursens gång.
+
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <style>
+        body{
+            font-family:Arial Narrow;
+        }
+
+        .spacer{
+            width:32px;
+        }
+
+        .main a{
+            padding-left:25px;
+        }
+
+        table.main {
+            border-collapse: collapse;
+            border:3px solid #4E342E;
+            box-shadow:2px 2px 6px RGBA(0,0,0,0.3);
+        }
+
+        .main tr{
+          border-top:2px solid #4E342E;
+          border-bottom: 2px solid #4E342E;
+        }
+
+        .mainexample{
+            padding-top:14px;
+            padding-bottom:14px;
+
+        }
+
+        /* Alternating direct descendents of main */
+        .main>tbody>tr:nth-child(odd){
+          background-color: #EEE;
+
+        }
+        .main>tbody>tr:nth-child(even){
+          background-color: #FFF;
+
+        }
+
+        /* Second level descendents of main */
+        .main tr tr {
+
+        }    
+        
+        .mainexample a {
+            font-weight: bold;
+            padding-left:0px;
+        }
+
+        .main>tbody>tr>th{
+              text-align:center;
+              background:#4E342E;
+              color:white;
+        }
+
+        .main>tbody>tr>th>a{
+            color:white;
+        }
+
+        .service{
+              border-right:2px solid #4E342E;
+              padding-right:8px;
+              color:white;
+              background:#4E342E;
+        }
+
+</style>
+  </head>
+  <body>
+  <table class="main">
+    <tr>
+      <th colspan="2">
+      <h3>Weatherservice</h3><a href="https://wwwlab.webug.se/examples/XML/weatherservice/">wwwlab.webug.se/examples/XML/weatherservice/</a>
+      </th>
+      </tr>
+    <tr>
+      <td class='service'>CLIMATECODE</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/weatherservice/climatecode?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/climatecode?sort=(code/color/name)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/climatecode?(code/color)=(Matching Term)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?code=Af">wwwlab.webug.se/examples/XML/weatherservice/climatecode?code=Af</a>
+              </td>
+            </tr>          
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/climatecode?namesearch=(searchterm)
+              </td>
+            </tr>    
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/weatheerservice/climatecode?namesearch=trop'>wwwlab.webug.se/examples/XML/weatheerservice/climatecode?namesearch=trop</a>
+              </td>
+            </tr>  
+            <tr> 
+              <td class='mainexample'>           
+                <a href='https://wwwlab.webug.se/examples/XML/weatherservice/climatecode?namesearch=tropic&sort=color&mode=xml'>wwwlab.webug.se/examples/XML/weatherservice/climatecode?namesearch=tropic&sort=color&mode=xml</a>
+              </td>
+            </tr>                                                                                                
+          </table>
+      </td>
+    </tr>
+    <tr>
+      <td class='service'>FORECAST</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/weatherservice/forecast?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/forecast?sort=(place/fromtime/totime/period/name)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/forecast?(place/fromtime/totime/period/name)=(Matching Term)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/weatherservice/forecast?place=Grums'>wwwlab.webug.se/examples/XML/weatherservice/forecast?place=Grums</a>
+              </td>
+            </tr> 
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/forecast?timesearch=(searchterm)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/weatheerservice/forecast?timesearch=2020-01-01'>wwwlab.webug.se/examples/XML/weatheerservice/forecast?timesearch=2020-01-01</a>
+              </td>
+            </tr>                        
+            <tr>
+              <td class='mainexample'>           
+                <a href='https://wwwlab.webug.se/examples/XML/weatherservice/forecast/index_db.php?timesearch=2020-01-01&place=Arjeplog'>wwwlab.webug.se/examples/XML/weatherservice/forecast/index_db.php?timesearch=2020-01-01&place=Arjeplog</a>
+              </td>
+            </tr>                                        
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class='service'>LOCATIONS</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/weatherservice/locations?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/locations?sort=(name/type/country/province/county/municipality/charter/elevation/postalcode/areacode)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/locations?(name/type/country/province/county/municipality/charter/elevation/postalcode/areacode)=(Matching Term)
+              </td>
+            </tr>   
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/weatherservice/locations?country=Sweden'>wwwlab.webug.se/examples/XML/weatherservice/locations?country=Sweden</a>
+              </td>
+            </tr>                               
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/locations?namesearch=(searchterm)
+              </td>
+            </tr>            
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/weatheerservice/locations?namesearch=ums'>wwwlab.webug.se/examples/XML/weatheerservice/locations?namesearch=ums</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/weatherservice/locations?climatesearch=(searchterm)
+              </td>
+            </tr>            
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/weatheerservice/locations?climatesearch=Tropic'>wwwlab.webug.se/examples/XML/weatheerservice/locations?climatesearch=Tropic</a>
+              </td>
+            </tr>            
+            <tr>
+              <td class='mainexample'> 
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System&sort=name&mode=json'>wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System&sort=name&mode=json</a>
+              </td>
+            </tr>                                        
+          </table>
+      </td>
+    </tr>  
+  </table>
+  </body>
+</html>

@@ -1,5 +1,21 @@
 <?php
 
+function makeMatches($terms){
+  // Matching Terms if no search term sig given
+  $param="";
+  foreach($terms as $term){
+      if(isset($_GET[$term])){
+          if($param!=""){
+            $param.=" AND ";
+          }else{
+            $param.="WHERE ";
+          }
+          $param.=$term."='".urldecode($_GET[$term])."' ";
+      }
+  }
+  return $param;
+}
+
 function getParam($param,$default)
 {
     if(isset($_GET[$param])){
@@ -100,7 +116,8 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements,$conver
 			echo ">";
 			foreach($row as $nam=>$val){
 					if(in_array($nam,$elements)){
-							echo "<$nam>".str_replace("&","%26",$val)."</$nam>";
+              if($val!=null) $val=str_replace("&","%26",$val);
+							echo "<$nam>".$val."</$nam>";
 					}else if(in_array($nam,$jsonattrs)){
             echo "<$nam>";
             formatXml(json_decode(str_replace('__','"',$val)),$nam,$jsonattrs,$attrs,$elements,$convert);
@@ -116,7 +133,7 @@ function makeXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements,$conver
 
 function makeSimpleXml($rootnode,$rowelement,$rows,$jsonattrs,$attrs,$elements)
 {
-		header("Content-type: text/xml");
+		header("Content-type: text/xml; charset=utf-8");
 
     echo "<$rootnode>";
 		foreach($rows as $no=>$row){

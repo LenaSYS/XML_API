@@ -1,0 +1,267 @@
+De olika webbtjänsterna som respektive student skall arbeta med är nu upplagda på den nya webbservern. Länkarna finns nedan.
+
+Alla de olika tjänsterna har tre endpoints utom schema-tjänsten som har 4. Om man inte vill använda alla 4 så får man välja tre av dem och arbeta med dem
+men det är även tillåtet att arbeta med alla fyra tjänsterna.
+
+Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har några av tjänsterna har något mindre mångd data än önskvärt. Vi fyller på med mera data under kursens gång.
+
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <style>
+        body{
+            font-family:Arial Narrow;
+        }
+
+        .spacer{
+            width:32px;
+        }
+
+        .main a{
+            padding-left:25px;
+        }
+
+        table.main {
+            border-collapse: collapse;
+            border:3px solid #4E342E;
+            box-shadow:2px 2px 6px RGBA(0,0,0,0.3);
+        }
+
+        .main tr{
+          border-top:2px solid #4E342E;
+          border-bottom: 2px solid #4E342E;
+        }
+
+        .mainexample{
+            padding-top:14px;
+            padding-bottom:14px;
+
+        }
+
+        /* Alternating direct descendents of main */
+        .main>tbody>tr:nth-child(odd){
+          background-color: #EEE;
+
+        }
+        .main>tbody>tr:nth-child(even){
+          background-color: #FFF;
+
+        }
+
+        /* Second level descendents of main */
+        .main tr tr {
+
+        }    
+        
+        .mainexample a {
+            font-weight: bold;
+            padding-left:0px;
+        }
+
+        .main>tbody>tr>th{
+              text-align:center;
+              background:#4E342E;
+              color:white;
+        }
+
+        .main>tbody>tr>th>a{
+            color:white;
+        }
+
+        .service{
+              border-right:2px solid #4E342E;
+              padding-right:8px;
+              color:white;
+              background:#4E342E;
+        }
+
+</style>
+  </head>
+  <body>
+
+  <table class="main">
+    <tr>
+      <th colspan="2">
+      <h3>Scheduleservice</h3><a href="https://wwwlab.webug.se/examples/XML/scheduleservice/">https://wwwlab.webug.se/examples/XML/scheduleservice/</a>
+      </tr>
+    <tr>
+      <td class='service'>ROOMS</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/scheduleservice/rooms?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/rooms?sort=(number)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/rooms?(number)=(Matching Term) 
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?number=E304">wwwlab.webug.se/examples/XML/scheduleservice/rooms?number=E304</a>
+              </td>
+            </tr>          
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/rooms?programsearch=(searchterm)
+              </td>
+            </tr>    
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?programsearch=Biolog'>wwwlab.webug.se/examples/XML/scheduleservice/rooms?programsearch=Biolog</a>
+              </td>
+            </tr>  
+            <tr> 
+              <td class='mainexample'>           
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/rooms?programsearch=Kognition&sort=number&mode=json'>wwwlab.webug.se/examples/XML/scheduleservice/rooms?programsearch=Kognition&sort=number&mode=json</a>
+              </td>
+            </tr>                                                                                                
+          </table>
+      </td>
+    </tr>
+    <tr>
+      <td class='service'>STAFF</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/scheduleservice/course?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?sort=(id/name/hp/department)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?(id/name/hp/department)=(Matching Term)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/course?department=Teknik'>wwwlab.webug.se/examples/XML/scheduleservice/course?department=Teknik</a>
+              </td>
+            </tr> 
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=(searchterm)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=Avancerad'>wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=Avancerad</a>
+              </td>
+            </tr>                        
+            <tr>
+              <td class='mainexample'>           
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/staff?namesearch=erd&sort=name&mode=xml'>wwwlab.webug.se/examples/XML/githubservice/files?linesearch=param&sort=author&mode=xml</a>
+              </td>
+            </tr>                                        
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class='service'>PROGRAMS</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/scheduleservice/programs?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/programs?sort=(id/name/hp/level/department/studentcount)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/programs?(id/name/hp/level/department/studentcount)=(Matching Term)
+              </td>
+            </tr>   
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/programs?department=Teknik'>wwwlab.webug.se/examples/XML/scheduleservice/programs?department=Teknik</a>
+              </td>
+            </tr>                               
+            <tr>
+              <td>
+                https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=(searchterm)
+              </td>
+            </tr>            
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System'>https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System</a>
+              </td>
+            </tr>
+            <tr>
+              <td class='mainexample'> 
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System&sort=name&mode=json'>https://wwwlab.webug.se/examples/XML/scheduleservice/programs?namesearch=System&sort=name&mode=json</a>
+              </td>
+            </tr>                                        
+          </table>
+      </td>
+    </tr>  
+    <tr>
+      <td class='service'>COURSES</td>
+      <td>
+          <table>
+            <tr>
+                <td>
+                  wwwlab.webug.se/examples/XML/scheduleservice/course?mode=(json/xml)
+                </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?sort=(id/name/hp/department)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?(id/name/hp/department)=(Matching Term) 
+              </td>
+            </tr>   
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/course?department=Teknik'>wwwlab.webug.se/examples/XML/scheduleservice/course?department=Teknik </a>
+              </td>
+            </tr>                               
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=(searchterm)
+              </td>
+            </tr>            
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=Klinisk'>wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=Klinisk</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=(searchterm)
+              </td>
+            </tr>            
+            <tr>
+              <td>
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=Biolog'>wwwlab.webug.se/examples/XML/scheduleservice/course?programsearch=Biolog</a>
+              </td>
+            </tr>            
+            <tr>
+              <td class='mainexample'> 
+                <a href='https://wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=erd&sort=name&mode=xml '>wwwlab.webug.se/examples/XML/scheduleservice/course?namesearch=erd&sort=name&mode=xml</a>
+              </td>
+            </tr>                                        
+          </table>
+      </td>
+    </tr>  
+  </table>
+  </body>
+</html>
