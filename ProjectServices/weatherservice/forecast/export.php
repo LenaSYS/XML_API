@@ -119,7 +119,7 @@
    xml_set_element_handler($parser, "startElement", "endElement");
    xml_set_character_data_handler($parser, "charData");
   
-   $file = 'Arjeplog.xml';
+   $file = 'Consolidated.xml';
    $data = file_get_contents($file);
   
    if(!xml_parse($parser, $data, true)){
