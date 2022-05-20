@@ -7,18 +7,18 @@ include '../../formatData.php';
 // scheduleservice/rooms?sort=(number)
 // scheduleservice/rooms?(number)=(Matching Term) 
 //     scheduleservice/rooms?number=E304  
-// scheduleservice/course?programsearch=(searchterm)
-//     scheduleservice/course?programsearch=Biolog
+// scheduleservice/course?coursesearch=(searchterm)
+//     scheduleservice/course?coursesearch=Biolog
 //
 // Example:
-// scheduleservice/rooms?programsearch=Kognition&sort=number&mode=json
+// scheduleservice/rooms?coursesearch=Kognition&sort=number&mode=json
 
 $mode=getParam("mode","xml");
 $sort=urlencode(getParam("sort","none"));
 if(!in_array($sort,Array("number"))) $sort="none";
 
 $param="";
-$search=getParam("programsearch","none");
+$search=getParam("coursesearch","none");
 if($search!="none") $param=" WHERE entries like '%".$search."%' ";
 
 if($param=="") $param=makeMatches(Array("number"));
