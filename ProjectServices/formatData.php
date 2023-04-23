@@ -73,6 +73,16 @@ function formatXml($data,$attname,$jsonattrs,$attrs,$elements,$convert)
              echo "<$convertedname>";
              echo $item;
              echo "</$convertedname>";
+        }else if(gettype($item)=="double"){
+             if(isset($convert[$attname])){
+                $convertedname=$convert[$attname];
+             }else{
+                $convertedname=$attname;
+             }
+             if(!is_numeric($itemname)) $convertedname=strtolower($itemname);
+             echo "<$convertedname>";
+             echo $item;
+             echo "</$convertedname>";
         }else if(gettype($item)=="object"){
             if(isset($convert[$attname])){
                 $attname=$convert[$attname];
