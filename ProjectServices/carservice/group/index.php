@@ -16,10 +16,8 @@ $sort=urlencode(getParam("sort","none"));
 if(!in_array($sort,Array("groupid"))) $sort="none";
 
 $param="";
-$search=getParam("timezonesearch","none");
-if($search!="none") $param=" WHERE timezone like '%".$search."%' ";
-$search=getParam("namesearch","none");
-if($search!="none") $param=" WHERE name like '%".$search."%' ";
+$search=getParam("brandsearch","none");
+if($search!="none") $param=" WHERE members like '%".$search."%' ";
 
 if($param=="") $param=makeMatches(Array("groupid"));
 
