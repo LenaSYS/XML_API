@@ -1328,6 +1328,195 @@
         <line row='731' >}</line>
     </section>
 	</file>
+  <file repo='SortableTableLibrary' fullname='db_service.php' >
+    <section author='a97marbr' commit='3a96b66'  message='Added an AJAX example and an initial update cell version' timestamp='2018-02-09T13:01:57Z' >
+      <line row='1' >/*    &lt;&quest;php</line>
+    </section>
+    <section author='a97marbr' commit='8a2a350'  message=' Now the database example shows rows and have working sorting.' timestamp='2018-05-29T21:03:17Z' >
+      <line row='2' >$db = new PDO('sqlite:free_shavocado.sqlite3');</line>
+    </section>
+    <section author='a97marbr' commit='3037849'  message='Merging students code' timestamp='2018-05-29T21:07:28Z' >
+      <line row='3' >    if (isset($_GET['command'])) {</line>
+      <line row='4' >      $command = $_GET['command'];</line> 
+      <line row='5' >  } else {</line>
+      <line row='6' >      $command = "UNK";</line>
+      <line row='7' >  }</line>
+      <line row='8' ></line>
+      <line row='9' >  if (isset($_GET['dbarr'])) {</line>
+      <line row='10' >      $dbarr = json_decode($_GET['dbarr']);</line>    
+      <line row='11' >  } else {</line>
+      <line row='12' >      $dbarr = "UNK";</line>  
+      <line row='13' >  }</line>
+      <line row='14' ></line>
+      <line row='15' >  if (isset($_GET['updatecol'])) {</line>
+      <line row='16' >      $updatecol = $_GET['updatecol'];</line>    
+      <line row='17' >  } else {</line>
+      <line row='18' >      $updatecol = "UNK";</line>  
+      <line row='19' >  }</line>
+      <line row='20' ></line>
+      <line row='21' >  if (isset($_GET['updatetable'])) {</line>
+      <line row='22' >      $updatetable = $_GET['updatetable'];</line>    
+      <line row='23' >  } else {</line>
+      <line row='24' >      $updatetable = "UNK";</line>  
+      <line row='25' >  }</line>
+      <line row='26' ></line>
+      <line row='27' >  if (isset($_GET['updatevalue'])) {</line>
+      <line row='28' >      $updatevalue = $_GET['updatevalue'];</line>    
+      <line row='29' >  } else {</line>
+      <line row='30' >      $updatevalue = "UNK";</line>  
+      <line row='31' >  }</line>
+      <line row='32' ></line>
+      <line row='33' >  if (isset($_GET['updateid'])) {</line>
+      <line row='34' >      $updateid = $_GET['updateid'];</line>    
+      <line row='35' >  } else {</line>
+      <line row='36' >      $updateid = "UNK";</line>  
+      <line row='37' >  }</line>
+    </section>
+    <section author='a97marbr' commit='3a96b66'  message='Added an AJAX example and an initial update cell version' timestamp='2018-02-09T13:01:57Z' >
+      <line row='38' ></line>
+    </section>
+    <section author='a97marbr' commit='3037849'  message='Merging students code' timestamp='2018-05-29T21:07:28Z' >
+      <line row='39' >  function genData() {</line>
+      <line row='40' >      $possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";</line>
+      <line row='41' >      $tblbody = array();  		</line>
+      <line row='42' >      for ($i = 0; $i < 200; $i++) {</line>
+      <line row='43' >      		$wordcnt = rand(1,5);</line>
+      <line row='44' >      		$str = "";</line>
+      <line row='45' >      		$str2 = "";</line>
+      <line row='46' >      		$str3 = "";</line>
+      <line row='47' >      		for ($j = 0; $j < $wordcnt; $j++) {</line>
+      <line row='48' >      				$charcnt = rand(1,10);</line>
+      <line row='49' >      				for ($k = 0; $k < $charcnt; $k++) {</line>
+      <line row='50' >     						$str .= substr($possible,rand(0,(strlen($possible) - 1)),1);</line>
+      <line row='51' >                  $str2 .= substr($possible,rand(0,(strlen($possible) - 1)),1);</line>
+      <line row='52' >                  $str3 .= substr($possible,rand(0,(strlen($possible) - 1)),1);</line>
+      <line row='53' >      				}</line>
+      <line row='54' >              $str .= " ";</line>
+      <line row='55' >              $str2 .= " ";</line>
+      <line row='56' >              $str3 .= " ";</line>
+      <line row='57' >     		}</line>
+      <line row='58' >      		array_push($tblbody, array($i,$str,lcg_value() * 5000,rand(1,20), $str2, $str3, array("xk" => rand(1000,3000), "yk" => rand(1,500), "col" => "Free Shevacadoo")));</line>
+      <line row='59' >      }</line>  
+      <line row='60' >      return $tblbody;</line>
+      <line row='61' >  }</line>
+      <line row='62' ></line>
+      <line row='63' >  if ($command === "gendata" && $dbarr !== "UNK") {    </line>
+      <line row='64' >      foreach ($dbarr as $database) {</line>
+      <line row='65' >          $db->exec("DROP TABLE IF EXISTS " . $database);</line>
+      <line row='66' >          //"id","First/Last","Pnr","Num","Foo","Holk","Trumma"</line>
+      <line row='67' >          $db->exec(</line>
+      <line row='68' >              "CREATE TABLE IF NOT EXISTS " . $database . " (</line>
+      <line row='69' >              id INTEGER PRIMARY KEY, </line>
+      <line row='70' >              firstlast TEXT, </line>
+      <line row='71' >              pnr REAL,</line>
+      <line row='72' >              num INTEGER,</line>
+      <line row='73' >              foo TEXT,</line>
+      <line row='74' >              holk TEXT,</line>
+      <line row='75' >              trumma TEXT)"</line>
+      <line row='76' >          );</line>
+      <line row='77' ></line>
+      <line row='78' >          // Prepare INSERT statement </line>
+      <line row='79' >          $insert = "INSERT INTO " . $database . " (id,firstlast,pnr,num,foo,holk,trumma) VALUES (:id,:firstlast,:pnr,:num,:foo,:holk,:trumma)";</line>
+      <line row='80' >          $stmt = $db->prepare($insert);</line>
+      <line row='81' ></line>
+      <line row='82' >          // Bind parameters to statement variables</line>
+      <line row='83' >          $stmt->bindParam(':id', $id);</line>
+      <line row='84' >          $stmt->bindParam(':firstlast', $first_last);</line>
+      <line row='85' >          $stmt->bindParam(':pnr', $pnr);</line>
+      <line row='86' >          $stmt->bindParam(':num', $num);</line>
+      <line row='87' >          $stmt->bindParam(':foo', $foo);</line>
+      <line row='88' >          $stmt->bindParam(':holk', $holk);</line>
+      <line row='89' >          $stmt->bindParam(':trumma', $trumma);</line>
+      <line row='90' ></line>
+      <line row='91' >          // Insert all of the items in the array</line>
+      <line row='92' >          foreach (genData() as $item) {</line>
+      <line row='93' >              $id = intval($item[0]);</line>
+      <line row='94' >              $first_last = $item[1];</line>
+      <line row='95' >              $pnr = floatval($item[2]);</line>
+      <line row='96' >              $num = intval($item[3]);</line>
+      <line row='97' >              $foo = $item[4];</line>
+      <line row='98' >              $holk = $item[5];</line>
+      <line row='99' >              $trumma = json_encode($item[6]);</line>
+      <line row='100' ></line>
+      <line row='101' >              try {    </line>
+      <line row='102' >                 $stmt->execute();</line>
+      <line row='103' >              } catch (PDOException $e) {</line>
+      <line row='104' >                  echo $e->getMessage();</line>
+      <line row='105' >              }</line>
+      <line row='106' >          }</line>        
+      <line row='107' >      }</line>
+      <line row='108' >  }</line>
+      <line row='109' ></line>
+      <line row='110' >  if ($command === "update" && $updatetable !== "UNK" && $updateid !== "UNK" && $updatevalue !== "UNK") {</line>
+    </section>
+    <section author='a97marbr' commit='f82a570'  message='partly working db store' timestamp='2018-06-01T04:13:48Z' >
+      <line row='111' >      try {  </line>
+      <line row='112' >          // Upsert</line>
+      <line row='113' >          // Select </line>
+      <line row='114' >          $current="SELECT id,firstlast,pnr,num,foo,holk,trumma FROM ".$updatetable." WHERE id=:id;";</line>
+      <line row='115' >          $stmt = $db->prepare($current);</line>
+      <line row='116' >          $stmt->bindParam(':id', $updateid);  </line>
+      <line row='117' >          $results = $stmt->execute();</line>
+      <line row='118' >          // Update OR Insert</line>
+      <line row='119' >          if ($result = $stmt->fetch(PDO::FETCH_ASSOC)) {</line>
+      <line row='120' >              $firstlast=$result['firstlast'];</line>
+      <line row='121' >              $pnr=floatval($result['pnr']);</line>
+      <line row='122' >              $num=intval($result['num']);</line>
+      <line row='123' >             $foo=$result['foo'];</line>
+      <line row='124' >              $holk=$result['holk'];</line>
+      <line row='125' >              $trumma=json_decode($result['trumma']);</line>
+      <line row='126' ></line>
+    </section>
+    <section author='a97marbr' commit='9354415'  message='Fix currentTable and backward compataible sqlite update statement ' timestamp='2018-06-04T09:22:12Z' >
+      <line row='127' >$update = "UPDATE " . $updatetable . " SET firstlast=:firstlast,pnr=:pnr,num=:num,foo=:foo,holk=:holk,trumma=:trumma WHERE id = :id";</line>
+    </section>
+    <section author='a97marbr' commit='f82a570'  message='partly working db store' timestamp='2018-06-01T04:13:48Z' >
+      <line row='128' >              $stmt = $db->prepare($update);</line>
+      <line row='129' >              $stmt->bindParam(':id', $updateid);</line>              
+      <line row='130' ></line>
+      <line row='131' >             if($updatecol=="firstlast"){</line>
+      <line row='132' >                  $stmt->bindParam(':firstlast', $updatevalue);     </line>             
+      <line row='133' >              }else{</line>
+      <line row='134' >                 $stmt->bindParam(':firstlast', $firstlast);</line>
+      <line row='135' >              }</line>
+      <line row='136' >              if($updatecol=="pnr"){</line>
+      <line row='137' >                  $stmt->bindParam(':pnr', $updatevalue);</line>                  
+      <line row='138' >             }else{</line>
+      <line row='139' >                  $stmt->bindParam(':pnr', $pnr);</line>
+      <line row='140' >              }</line>
+      <line row='141' >              if($updatecol=="num"){</line>
+      <line row='142' >                  $stmt->bindParam(':num', $updatevalue); </line>                 
+      <line row='143' >              }else{</line>
+      <line row='144' >                  $stmt->bindParam(':num', $num);</line>
+      <line row='145' >              }</line>
+      <line row='146' >              if($updatecol=="foo"){</line>
+      <line row='147' >                  $stmt->bindParam(':foo', $updatevalue); </line>                 
+      <line row='148' >              }else{</line>
+      <line row='149' >                  $stmt->bindParam(':foo', $foo);</line>
+      <line row='150' >              }</line>
+      <line row='151' >              if($updatecol=="holk"){</line>
+      <line row='152' >                  $stmt->bindParam(':holk', $updatevalue);   </line>               
+      <line row='153' >              }else{</line>
+      <line row='154' >                  $stmt->bindParam(':holk', $holk);</line>
+      <line row='155' >              }</line>
+      <line row='156' >              if($updatecol=="trumma"){</line>
+    </section>
+    <section author='a97marbr' commit='17aa32d'  message='Bug fix for storing JSON in DB as text' timestamp='2018-06-05T11:34:51Z' >             
+      <line row='157' >               $stmt->bindParam(':trumma', $updatevalue);  </line>
+    </section>
+    <section author='a97marbr' commit='13b0c58'  message='partly working db store' timestamp='2018-06-01T04:13:48Z' >
+      <line row='158' >               }else{</line>
+    </section>
+    <section author='a97marbr' commit='13b0c58'  message='bug fix db example' timestamp='2018-05-01T06:17:48Z' >
+      <line row='159' >                  $trumma=json_encode($trumma);
+      <line row='160' >                  $stmt->bindParam(':trumma', $trumma);
+    </section>    
+  </file>
+	<file repo='SortableTableLibrary' fullname='shake_examples/shake_example1.html' >
+    <section author='mbrohede' commit='109f751e'  message='Added two examples where shake is used.' timestamp='2015-05-06T13:01:57Z' >
+
+    </section>
+	</file>
 	<file repo='shaker.js' fullname='shaker.js' >
     <section author='HGustavs' commit='40f8698c'  message='Create shaker.js' timestamp='2015-04-27T09:09:46Z' >
         <line row='1' >/*    </line>
