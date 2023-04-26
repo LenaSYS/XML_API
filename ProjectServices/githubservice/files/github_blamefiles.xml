@@ -1510,7 +1510,49 @@
     <section author='a97marbr' commit='13b0c58'  message='bug fix db example' timestamp='2018-05-01T06:17:48Z' >
       <line row='159' >                  $trumma=json_encode($trumma);
       <line row='160' >                  $stmt->bindParam(':trumma', $trumma);
-    </section>    
+    </section>
+    <section author='a97marbr' commit='13b0c58'  message='partly working db store' timestamp='2018-06-01T04:13:48Z' >
+      <line row='161' >              }</line>
+      <line row='162' >              $stmt->execute();</line>
+      <line row='163' >         } else {</line>
+      <line row='164' >              $update = "INSERT" . $updatetable . " (id,firstlast,pnr,num,foo,holk,trumma) VALUES(:id,:firstlast,:pnr,:num,:foo,:holk,:trumma)";</line>
+      <line row='165' >              $stmt = $db->prepare($update);</line>
+      <line row='166' >              $stmt->bindParam(':id', $updateid);</line>
+      <line row='167' >              if($updatecol=="firstlast"){</line>
+      <line row='168' >                  $stmt->bindParam(':firstlast', $updatevalue);</line>
+      <line row='169' >              }else{</line>
+      <line row='170' >                  $stmt->bindParam(':firstlast', "UNK");</line>
+      <line row='172' >              }</line>
+      <line row='172' >              if($updatecol=="pnr"){</line>
+      <line row='173' >                  $stmt->bindParam(':pnr', $updatevalue);</line>          
+      <line row='174' >              }else{</line>
+      <line row='175' >                  $stmt->bindParam(':pnr', -1);</line>
+      <line row='176' >              }</line>
+      <line row='177' >              if($updatecol=="num"){</line>
+      <line row='178' >                  $stmt->bindParam(':num', $updatevalue);</line>        
+      <line row='179' >              }else{</line>
+      <line row='180' >                  $stmt->bindParam(':num', -1);</line>
+      <line row='181' >              }</line>
+      <line row='182' >              if($updatecol=="foo"){</line>
+      <line row='183' >                  $stmt->bindParam(':foo', $updatevalue);  </line>                
+      <line row='184' >              }else{</line>
+      <line row='185' >                  $stmt->bindParam(':foo', "UNK");</line>
+      <line row='186' >              }</line>
+      <line row='187' >              if($updatecol=="holk"){</line>
+      <line row='188' >                  $stmt->bindParam(':holk', $updatevalue);  </line>                
+      <line row='189' >              }else{</line>
+      <line row='190' >                  $stmt->bindParam(':holk', "UNK");</line>
+      <line row='191' >              }</line>
+      <line row='192' >              if($updatecol=="trumma"){</line>
+      <line row='193' >                  $stmt->bindParam(':trumma', $updatevalue);   </line>               
+      <line row='194' >              }else{</line>
+      <line row='195' >                  $stmt->bindParam(':trumma', "{}");</line>
+      <line row='196' >              }</line>
+      <line row='197' >              $stmt->execute();</line>
+      <line row='198' >          }</line>
+      <line row='199' ></line>
+    </section>
+
   </file>
 	<file repo='SortableTableLibrary' fullname='shake_examples/shake_example1.html' >
     <section author='mbrohede' commit='109f751e'  message='Added two examples where shake is used.' timestamp='2015-05-06T13:01:57Z' >
