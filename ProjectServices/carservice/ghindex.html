@@ -83,15 +83,15 @@ Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har nå
   <table class="main">
     <tr>
       <th colspan="2">
-      <h3>Bookservice</h3><a href="https://wwwlab.webug.se/examples/XML/bookservice/">https://wwwlab.webug.se/examples/XML/bookservice/</a>
+      <h3>Carservice</h3><a href="https://wwwlab.webug.se/examples/XML/bookservice/">https://wwwlab.webug.se/examples/XML/bookservice/</a>
       </tr>
     <tr>
-      <td class='service'>BOOKS</td>
+      <td class='service'>BRAND</td>
       <td>
           <table>
             <tr>
                 <td>
-                  wwwlab.webug.se/examples/XML/bookservice/books?mode=(json/xml)
+                  wwwlab.webug.se/examples/XML/carservice/brand?mode=(json/xml)
                 </td>
                 <td>
                 Mode
@@ -99,7 +99,7 @@ Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har nå
             </tr>
             <tr>
               <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?sort=(id/title)
+                wwwlab.webug.se/examples/XML/carservice/brand?sort=(brandid/founded/country/totalsales)
               </td>
               <td>
                 Sort
@@ -107,7 +107,7 @@ Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har nå
             </tr>
             <tr>
               <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?(id/title)=(Matching Term) 
+                wwwlab.webug.se/examples/XML/carservice/brand?(brandid/country)=(Matching Term) 
               </td>
               <td>
                 Match
@@ -115,153 +115,77 @@ Nya endpoints och funktioner kan tillkomma under kursens gång. Dessutom har nå
             </tr>
             <tr>
               <td>
-                <a href="https://wwwlab.webug.se/examples/XML/bookservice/books?id=74">wwwlab.webug.se/examples/XML/bookservice/books?id=70</a>
+                <a href="https://wwwlab.webug.se/examples/XML/carservice/brand?brandid=Volvo">wwwlab.webug.se/examples/XML/carservice/brand?brandid=Volvo</a>
               </td>
             </tr>          
-            <tr>
-              <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?titlesearch=(searchterm)
-              </td>
-              <td>
-                Search
-              </td>
-            </tr>    
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?titlesearch=Prince'>wwwlab.webug.se/examples/XML/bookservice/books?titlesearch=Prince</a>
-              </td>
-            </tr>  
-            <tr>
-              <td>
-                https://wwwlab.webug.se/examples/XML/bookservice/books?prefacesearch=(searchterm)
-              </td>
-              <td>
-                Search
-              </td>              
-            </tr>  
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?prefacesearch=shed'>https://wwwlab.webug.se/examples/XML/bookservice/books?prefacesearch=shed</a>
-              </td>
-            </tr>   
-            <tr>
-              <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?authorsearch=(searchterm)
-              </td>
-              <td>
-                Search
-              </td>              
-            </tr>  
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?authorsearch=Mark'>wwwlab.webug.se/examples/XML/bookservice/books?authorsearch=Mark</a>
-              </td>
-            </tr> 
-            <tr>
-              <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=(searchterm)
-              </td>
-              <td>
-                Search
-              </td>              
-            </tr>  
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=English'>wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=English</a>
-              </td>
-            </tr>
+         
             <tr> 
               <td class='mainexample'>           
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=Ghost&sort=title&mode=json'>wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=Ghost&sort=title&mode=json</a>
+                <a href='https://wwwlab.webug.se/examples/XML/carservice/brand?country=France&sort=totalsales&mode=xml'>wwwlab.webug.se/examples/XML/carservice/brand?country=France&sort=totalsales&mode=xml</a>
               </td>
             </tr>                                                                                                
           </table>
       </td>
     </tr>
     <tr>
-      <td class='service'>CATEGORY</td>
+      <td class='service'>CARSALES</td>
       <td>
           <table>
             <tr>
                 <td>
-                  wwwlab.webug.se/examples/XML/category?mode=(json/xml)
+                  wwwlab.webug.se/examples/XML/carservice/carsales?mode=(json/xml)
                 </td>
             </tr>
             <tr>
               <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?sort=(category)
+                wwwlab.webug.se/examples/XML/carservice/carsales?sort=(groupid/brandid/model/sales/period)
               </td>
             </tr>
             <tr>
               <td>
-                wwwlab.webug.se/examples/XML/bookservice/books?categorysearch=(searchterm)
+                wwwlab.webug.se/examples/XML/carservice/carsales?(groupid/brandid/model/class)=(Matching Term) 
               </td>
             </tr>
             <tr>
               <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst'>wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst</a>
+                <a href='https://wwwlab.webug.se/examples/XML/carservice/carsales?groupid=Stellantis'>wwwlab.webug.se/examples/XML/carservice/carsales?groupid=Stellantis </a>
               </td>
             </tr>
             <tr>
               <td class='mainexample'>           
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst&sort=category&mode=json'>wwwlab.webug.se/examples/XML/bookservice/category?categorysearch=Myst&sort=category&mode=json</a>
+                <a href='https://wwwlab.webug.se/examples/XML/carservice/carsales?brand=Volvo&sort=sales&mode=xml'>wwwlab.webug.se/examples/XML/carservice/carsales?brand=Volvo&sort=sales&mode=xml</a>
               </td>
             </tr>                                        
         </table>
       </td>
     </tr>
     <tr>
-      <td class='service'>AUTHORS</td>
+      <td class='service'>GROUP</td>
       <td>
           <table>
             <tr>
                 <td>
-                  wwwlab.webug.se/examples/XML/bookservice/authors?mode=(json/xml)
+                  wwwlab.webug.se/examples/XML/carservice/group?mode=(json/xml)
                 </td>
             </tr>
             <tr>
               <td>
-                wwwlab.webug.se/examples/XML/bookservice/authors?sort=(role/firstname/lastname/birthyear/deathyear)
+                ### wwwlab.webug.se/examples/XML/carservice/group?sort=(groupid)
               </td>
             </tr>
             <tr>
               <td>
-                wwwlab.webug.se/examples/XML/bookservice/authors?(firstname/lastname/role/birthyear/deathyear)=(Matching Term)
+                wwwlab.webug.se/examples/XML/carservice/group?(groupid)=(Matching Term) 
               </td>
             </tr>   
             <tr>
               <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?birthyear=1866'>wwwlab.webug.se/examples/XML/bookservice/authors?birthyear=1866</a>
+                <a href='https://wwwlab.webug.se/examples/XML/carservice/group?groupid=Stellantis'>wwwlab.webug.se/examples/XML/carservice/group?groupid=Stellantis</a>
               </td>
             </tr>
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?firstname=Mark&lastname=Twain'>wwwlab.webug.se/examples/XML/bookservice/authors?firstname=Mark&lastname=Twain</a>
-              </td>
-            </tr>                                 
-            <tr>
-              <td>
-                wwwlab.webug.se/examples/XML/bookservice/authors?aboutsearch=(searchterm)
-              </td>
-            </tr>            
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?aboutsearch=Club'>wwwlab.webug.se/examples/XML/bookservice/authors?aboutsearch=Club</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                https://wwwlab.webug.se/examples/XML/bookservice/authors?namesearch=(searchterm)
-              </td>
-            </tr>             
-            <tr>
-              <td>
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors?namesearch=ark'>wwwlab.webug.se/examples/XML/bookservice/authors?namesearch=ark</a>
-              </td>
-            </tr>                                        
             <tr>
               <td class='mainexample'> 
-                <a href='https://wwwlab.webug.se/examples/XML/bookservice/authors/?sort=birthyear&birthyear=1835&mode=json'>wwwlab.webug.se/examples/XML/bookservice/authors/?sort=birthyear&birthyear=1835&mode=json</a>
+                <a href='https://wwwlab.webug.se/examples/XML/carservice/group?sort=groupid&mode=json'>wwwlab.webug.se/examples/XML/carservice/group?sort=groupid&mode=json</a>
               </td>
             </tr>                                        
           </table>
