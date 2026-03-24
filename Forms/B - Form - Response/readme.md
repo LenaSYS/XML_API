@@ -7,6 +7,9 @@ The form is declared by adding a form tag. Inside this form tag each input contr
 The link in the form is important since it defines to which page the result is sent. In this case the result is sent to the same page that contains the form i.e. IntroExample7code.php
 
 ## Print of Post
-As can be seen in row 12 the results of the returned page (which is returned as an array) can be shown using the print_r function. The $_POST array is updated automatically with the content of the previous web page and it can be used as any other array. 
+The $_POST array is updated automatically with the content of the previous web page and it can be used as any other array.
+The data from the form can be shown using the print_r function or by using echo directly on each input from the form.
 
-**Please test the application by writing text into the input in the preview pane and pressing the enter key**
+## Screenshot
+
+![Screenshot of generated output](screenshot.png)
