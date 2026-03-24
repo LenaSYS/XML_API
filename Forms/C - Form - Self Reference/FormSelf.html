@@ -1,24 +1,24 @@
-<html>
-<body>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>
   
-<form action='FormSelf.php' method='POST'>
-		<div><label>Textbox:</label><input type='text' name='textbox'></div>
+<form action="FormSelf.php" method="POST">
+		<div><label>Textbox:</label><input type="text" name="textbox"></div>
 		<div>
 				<label>Selectbox:</label>
-				<select name='selectbox'>
-						<option value='AOpt'>First Option</option>
-						<option value='BOpt'>Second Option</option>
-						<option value='COpt'>Third Option</option>				
+				<select name="selectbox">
+						<option value="AOpt" selected="selected">First Option</option>
+						<option value="BOpt">Second Option</option>
+						<option value="COpt">Third Option</option>				
 				</select>
 		</div>
-		<div><button >Skicka!</button></div>
+		<div><button>Skicka!</button></div>
 </form>
 
-<div>In textbox: foo</div>Array
+<div>In selectbox: COpt</div><div style="border:1px solid blue;">In textbox: Hello!</div><pre style="border:1px solid red;">Array
 (
-    [textbox] => foo
-    [selectbox] => BOpt
+    [textbox] =&gt; Hello!
+    [selectbox] =&gt; COpt
 )
-	
-</body>
-</html>
+</pre>	
+
+</body></html>
