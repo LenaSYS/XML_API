@@ -3,7 +3,11 @@
 The page that we want to send the response to is written inside the form tag as the action attribute.
 
 We use "POST" as the metod for non-search applications. We use "GET" as the method for search forms. This way we can copy/paste search results or bookmark a search result, but not for other types of forms.
- 
+
+´´´<form action='FormResp.php' method='POST'>´´´
+
+In this case we send the content of the form to the url FormResp.php
+
 ## Screenshot
 
 ![Screenshot of generated output](screenshot.png)
