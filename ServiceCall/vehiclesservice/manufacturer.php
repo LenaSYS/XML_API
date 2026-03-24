@@ -8,6 +8,7 @@
 								Array("MAZ","Belarus"),
 								Array("BelAz","Belarus"),
 								Array("Oshkosh","USA"),
+                Array("Rokon","USA"),
 								Array("Tatra","Czechoslovakia")
 							 );
 		echo json_encode($data);  
