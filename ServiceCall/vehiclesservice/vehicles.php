@@ -91,6 +91,12 @@
 						Array("Oshkosh M1078","6x6","330Hp","1997-2022","OSHKOSHM1078.png"),
 				    Array("Oshkosh M1074A1","10x10","600Hp","1993-2022","OSHKOSHM1074A1.png")
 					)
+				),
+				Array(
+					"Rokon",
+					Array(
+				    Array("Rokon Trailbreaker","2x2","7Hp","1974-2025","RokonTrailbreaker.png")
+					)
 				)
 			);
 		}else{
