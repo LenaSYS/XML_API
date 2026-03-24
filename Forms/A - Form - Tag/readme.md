@@ -1,4 +1,9 @@
 # Overview
-This example declares an array using key and value pairs. This allows us to rapidly find a value in the array by using the key. This type of array is called an ****associative array****.
 
-## Rendering data with table rows
+The page that we want to send the response to is written inside the form tag as the action attribute.
+
+We use "POST" as the metod for non-search applications. We use "GET" as the method for search forms. This way we can copy/paste search results or bookmark a search result, but not for other types of forms.
+ 
+## Screenshot
+
+![Screenshot of generated output](screenshot.png)
