@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
+<head><title>Form Tag Example</title></head>
 <body>
   
 <form action='FormResp.php' method='POST'>
