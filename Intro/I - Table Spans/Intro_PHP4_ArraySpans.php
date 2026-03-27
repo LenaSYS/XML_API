@@ -30,9 +30,9 @@
 				echo "<td>".$country[1]."</td>";
 				echo "<td>";
 				foreach($country[2] as $city){
-						echo "<div style='margin:3px;border:1px dashed lightblue;' >";
-						echo "<span>".$city[0]."</span>";	
-						echo "<span>".$city[1]."</span>";
+						echo "<div role='table' aria-label='Semantic Elements' style='display:table;margin:3px;border:1px dashed lightblue;' >";
+						echo "<span role='cell' >".$city[0]."</span>";	
+						echo "<span role='cell' >".$city[1]."</span>";
 						echo "</div>";
 				}
 				echo "</td>";

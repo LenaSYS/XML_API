@@ -17,3 +17,7 @@ We can use ARIA tags and table styling in css but the creators of html warns us 
  						echo "</div>";
 				}
 ```
+
+## Screenshot
+
+![Screenshot of generated output](screenshot.png)
