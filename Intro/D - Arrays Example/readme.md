@@ -46,3 +46,7 @@ foreach ($arr as $value) {
 // This function is mostly used for debugging purposes
 print_r($arr);
 ~~~
+
+## Screenshot
+
+![Screenshot of generated output](screenshot.png)

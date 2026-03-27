@@ -14,3 +14,7 @@ The print_r function prints both the value and the key automatically. If the val
 
 ## Indexing using the key
 We can use the key to index an array using array['key'] which then returns the value indexed by the key. The example prints the value that is indexed by the key with the value 'name'. 
+
+## Screenshot
+
+![Screenshot of generated output](screenshot.png)

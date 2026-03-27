@@ -35,3 +35,7 @@ The dot operator . merges (or concatenates) two strings.
 
 ## String Echo
 Printing of variables inside strings. Simple variables can be printed as part of the text in an echo statement. This is slightly more compact than the example from row 27 but does not work with every kind of variable and does not work well with expressions. 
+
+## Screenshot
+
+![Screenshot of generated output](screenshot.png)
