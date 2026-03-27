@@ -22,7 +22,7 @@ Or preferrably with a class attribute to allow shared styling across the project
 				if($country[1]>30){
 						echo "<tr class='bluerow'>";
 				}else{
-						echo "<tr style='redrow'>";				
+						echo "<tr class='redrow'>";				
 				}
 ```
 ## Screenshot
