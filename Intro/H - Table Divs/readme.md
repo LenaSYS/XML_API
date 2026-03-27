@@ -13,7 +13,7 @@ We can use ARIA tags and table styling in css but the creators of html warns us 
 				foreach($country[2] as $city){
 						echo "<div role='table' aria-label='Semantic Elements' style='display:table; margin:3px; border:1px dashed lightblue;' >";
 						echo "<div role='row' style='display:table-row;' >".$city[0]."</div>";	
-						echo "<div role='row' style='display:table-row;' >".$city[0]."</div>";	
+						echo "<div role='row' style='display:table-row;' >".$city[1]."</div>";	
  						echo "</div>";
 				}
 ```
