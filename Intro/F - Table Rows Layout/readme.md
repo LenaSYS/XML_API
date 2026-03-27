@@ -40,7 +40,7 @@ Each city is therefore a __row__ in the inner table.
 						echo "<td>".$city[1]."</td>";
 						echo "</tr>";
 				}
-``
+```
 
 ## Screenshot
 

@@ -35,7 +35,7 @@ Each city is therefore a __column__ in the outer table.
 						echo "</table>";
 						echo "</td>";
 				}
-``
+```
 
 ## Screenshot
 
