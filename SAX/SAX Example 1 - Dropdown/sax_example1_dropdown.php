@@ -4,6 +4,7 @@
     <title>SAX Dropdown Example</title>
   </head>
 	<body>
+    <div>Note: The post links to a non-exixtant file response.php so pushing the button does not work</div>
 		<form method='POST' action='response.php'>
 		<select name='person'>
 <?php
