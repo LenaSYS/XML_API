@@ -1,8 +1,7 @@
 <html>                                                                                                                                                
 <body>                                                                                                                                                
 <?php                                                                                                                                                 
-
-		$url="https://wwwlab.iit.his.se/gush/XMLAPI/citiesservice/countries/";
+		$url="https://wwwlab.webug.se/examples/XML/citiesservice/countries/";
 		$jsontext = file_get_contents($url);
 		$arr = json_decode($jsontext);
 	
@@ -10,7 +9,7 @@
 		foreach($arr as $country){
 				echo "<tr>";
         echo "<td>".$country."</td>";
-        echo "<td><img src='https://wwwlab.iit.his.se/gush/XMLAPI/citiesservice/cityimages/".$country.".png' style='width:100px;'></td>";
+        echo "<td><img src='https://wwwlab.webug.se/examples/XML/cityimages/".$country.".png' style='width:100px;'></td>";
         echo "</tr>";
 		}
 		echo "</table>";

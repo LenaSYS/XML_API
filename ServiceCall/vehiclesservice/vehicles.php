@@ -33,7 +33,7 @@
 				Array(
 					"KAMAZ",
 					Array(
-						Array("KAMAZ 43101","6x6","240Hp","1981-1995","КамАZ43101.png"),
+						Array("KAMAZ 43101","6x6","240Hp","1981-1995","KamAZ43101.png"),
 						Array("KAMAZ 53501","6x6","250Hp","2003-2022","KamAZ53501.png"),
 				  	Array("KAMAZ 54115","6×4","250Hp","1995–2011","KamAZ54115.png")
 					)

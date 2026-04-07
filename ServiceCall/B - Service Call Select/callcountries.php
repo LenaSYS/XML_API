@@ -1,9 +1,10 @@
 <html>                                                                                                                                                
 <body>                                                                                                                                                
-<form method='post' action='callcitiesDynamic.php'>                       
+<form method='post' action='../D - Service Call Dynamic/callcitiesDynamic.php'>   
+<div>Note: Form action link posts information to example D (Dynamic service call)</div>                    
 <?php                                                                                                                                                 
 
-		$url="https://wwwlab.iit.his.se/gush/XMLAPI/citiesservice/countries/";
+		$url="https://wwwlab.webug.se/examples/XML/citiesservice/countries/";
 		$jsontext = file_get_contents($url);
 		$arr = json_decode($jsontext);
 	

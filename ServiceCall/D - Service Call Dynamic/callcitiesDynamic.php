@@ -11,7 +11,7 @@
 		}
 	
 		// Add country to url and proceed normally
-		$url="https://wwwlab.iit.his.se/gush/XMLAPI/citiesservice/city?country=".$country;
+		$url="https://wwwlab.webug.se/examples/XML/citiesservice/city?country=".$country;
 		$jsontext = file_get_contents($url);
 		$arr = json_decode($jsontext);
   		

@@ -3,7 +3,7 @@
 <table border='1'>                                                                                                                                                 
 <?php                                                                                                                                                 
 
-		$url="https://wwwlab.iit.his.se/gush/XMLAPI/citiesservice/city?country=Sweden";
+		$url="https://wwwlab.webug.se/examples/XML/citiesservice/city?country=Sweden";
 		$jsontext = file_get_contents($url);
 		$arr = json_decode($jsontext);
   		
