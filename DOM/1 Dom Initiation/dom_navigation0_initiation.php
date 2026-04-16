@@ -3,7 +3,7 @@
 <pre>
 <?php
  
- 		$xml = file_get_contents('example1.xml');
+ 		$xml = file_get_contents('../example1.xml');
     $dom = new DomDocument;
     $dom->preserveWhiteSpace = FALSE;
     $dom->loadXML($xml);
