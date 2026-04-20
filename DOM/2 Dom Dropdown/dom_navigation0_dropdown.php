@@ -1,6 +1,6 @@
 <html>
 	<body>
-		<form metod='POST' action='response.php'>
+		<form method='POST' action='response.php'>
 		<select name='person'>
 <?php
  
